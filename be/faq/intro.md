@@ -3,8 +3,8 @@ id: faq
 title: FAQ
 sidebar_label: FAQ
 slug: /faq
-description: De meest voorkomende vragen over selectie, configuratie, diagnose en
-  service van apparaten van ELETOR.
+description: Veelgestelde vragen over de keuze, configuratie, diagnose en service
+  van apparaten van ELETOR.
 keywords:
 - ELETOR
 - FAQ
@@ -21,100 +21,100 @@ toc_max_heading_level: 3
 
 # Veelgestelde vragen
 
-Deze FAQ is opgesteld op basis van een geanonimiseerde analyse van werkelijke gesprekken met gebruikers en klanten van ELETOR. De antwoorden zijn gegeneraliseerd zodat ze helpen in typische gevallen en geen gegevens van specifieke personen of installaties bevatten.
+Deze FAQ is opgesteld op basis van een geanonimiseerde analyse van daadwerkelijke gesprekken met gebruikers en klanten van ELETOR. De antwoorden zijn veralgemeniseerd, zodat ze helpen in typische situaties en geen gegevens over specifieke personen of installaties bevatten.
 
 :::note Reikwijdte van de FAQ
 
-De antwoorden hebben betrekking op typische gevallen. Klemmenaanduidingen, functies en aansluitwijze kunnen verschillen tussen modellen en apparaatversies. Gebruik bij twijfel de documentatie die hoort bij het specifieke product.
+De antwoorden hebben betrekking op typische situaties. Klemaanduidingen, functies en aansluitwijzen kunnen verschillen tussen modellen en uitvoeringen van apparaten. Raadpleeg bij twijfel de documentatie van het specifieke product.
 
 :::
 
 :::warning Veiligheid
 
-Voer werkzaamheden aan de elektrische installatie uit volgens de documentatie van het apparaat en de geldende veiligheidsvoorschriften. Werkzaamheden aan netspanning mogen uitsluitend worden uitgevoerd door een persoon met de juiste kwalificaties.
+Voer werkzaamheden aan de elektrische installatie uit volgens de documentatie van het apparaat en de geldende veiligheidsvoorschriften. Werkzaamheden aan netspanning moeten worden uitgevoerd door een persoon met de juiste kwalificaties.
 
 :::
 
-## Selectie van regelaar en vermogen
+## Keuze van regelaar en vermogen
 
 ### Hoe kiest u een regelaar voor ventilatoren?
 
-De basis voor de selectie is vooral de totale stroom van de ventilatoren, en niet uitsluitend hun aantal.
+De keuze is vooral gebaseerd op de totale stroom van de ventilatoren, en niet uitsluitend op hun aantal.
 
-:::tip Bereid gegevens voor vóór de selectie
+:::tip Verzamel gegevens voordat u een keuze maakt
 
-Hoe nauwkeuriger de gegevens over de motoren en de bedrijfswijze van de installatie, hoe zekerder de selectie van de regelaar.
+Hoe nauwkeuriger de gegevens over de motoren en de bedrijfswijze van de installatie, hoe zekerder de keuze van de regelaar.
 
 :::
 
-Voor de selectie is het zinvol om het volgende voor te bereiden:
+Het is raadzaam om vóór de keuze de volgende gegevens te verzamelen:
 
 - het aantal ventilatoren,
 - de voedingsspanning,
-- het nominale vermogen of de nominale stroom van elke ventilator,
-- informatie of alle ventilatoren traploos moeten werken,
-- informatie of de ventilatoren in groepen kunnen worden verdeeld,
-- informatie over extra apparaten, bijvoorbeeld heaters of luchtinlaten.
+- het vermogen of de nominale stroom van elke ventilator,
+- informatie over de vraag of alle ventilatoren traploos moeten worden geregeld,
+- informatie over de vraag of de ventilatoren in groepen kunnen worden verdeeld,
+- informatie over aanvullende apparaten, bijvoorbeeld luchtverwarmers of luchtinlaten.
 
-De regelaar mag niet exact “op de grens” worden geselecteerd. Er moet een passende reserve ten opzichte van de maximale belasting worden aangehouden.
+De regelaar mag niet zo worden gekozen dat deze precies op de grens van zijn capaciteit werkt. Er moet een passende marge ten opzichte van de maximale belasting worden aangehouden.
 
-### Is het voldoende om het vermogen van de ventilatoren in watt op te tellen?
+### Is het voldoende om het vermogen van de ventilatoren in watt bij elkaar op te tellen?
 
-Voor een eerste inschatting kan het vermogen worden gebruikt, maar de definitieve selectie moet gebaseerd zijn op de nominale stroom van de apparaten en het karakter van de belasting.
+Voor een eerste schatting kan het vermogen worden gebruikt, maar de definitieve keuze moet worden gebaseerd op de nominale stroom van de apparaten en de aard van de belasting.
 
-Tijdens het starten kan de motor meer stroom opnemen dan tijdens normaal bedrijf. Daarom zijn twee ventilatorsets met een vergelijkbaar nominaal vermogen niet altijd een gelijkwaardige belasting voor de regelaar.
+Een motor kan tijdens het starten meer stroom opnemen dan tijdens normaal bedrijf. Daarom vormen twee sets ventilatoren met een vergelijkbaar nominaal vermogen niet altijd een gelijkwaardige belasting voor de regelaar.
 
 ### Ik heb enkele kleine ventilatoren. Kan ik deze parallel op één uitgang aansluiten?
 
-Ja, indien:
+Ja, als:
 
-- ze voor deze regelmethode zijn bedoeld,
-- ze samen moeten werken,
+- ze geschikt zijn voor deze aansturingswijze,
+- ze gezamenlijk moeten werken,
 - de som van de belastingen de toegestane uitgangsstroom niet overschrijdt,
 - de aansluitwijze overeenkomt met de documentatie van de regelaar.
 
-Bij een groter aantal ventilatoren is het raadzaam een verdeling in groepen of het gebruik van een vermogensuitbreiding te overwegen.
+Bij een groter aantal ventilatoren is het raadzaam om een verdeling in groepen of het gebruik van een vermogensuitbreiding te overwegen.
 
 ### Wanneer is een vermogensuitbreiding nodig?
 
-Een vermogensuitbreiding wordt toegepast wanneer de belasting de mogelijkheden van de uitgang van de regelaar overschrijdt of wanneer de installatie moet worden uitgebreid met een groter aantal ventilatoren.
+Een vermogensuitbreiding wordt gebruikt wanneer de belasting de capaciteit van de regelaaruitgang overschrijdt of wanneer de installatie met meer ventilatoren moet worden uitgebreid.
 
-De regelaar levert dan het stuursignaal, terwijl de feitelijke belasting door een extra module wordt afgehandeld.
+De regelaar levert dan het stuursignaal, terwijl de daadwerkelijke belasting door een aanvullende module wordt aangestuurd.
 
-### Kan de installatie later worden uitgebreid met extra ventilatoren?
+### Kan de installatie later met extra ventilatoren worden uitgebreid?
 
-In veel installaties wel. Meestal worden toegepast:
+Bij veel installaties is dat mogelijk. Meestal worden de volgende oplossingen toegepast:
 
-- extra vermogensuitbreiding,
-- extra ventilatiegroep,
+- een extra vermogensuitbreiding,
+- een extra ventilatiegroep,
 - een contactor die een volgende groep inschakelt,
-- een frequentieregelaar in het geval van driefasenmotoren.
+- een frequentieregelaar voor driefasenmotoren.
 
-Het is het beste om de geplande uitbreiding al bij de eerste selectie van de regelaar te voorzien.
+Het is het beste om de geplande uitbreiding al bij de eerste keuze van de regelaar mee te nemen.
 
-### Moeten alle ventilatoren traploos werken?
+### Moeten alle ventilatoren traploos worden geregeld?
 
-Nee. Twee gebruikelijke oplossingen zijn:
+Nee. Er zijn twee gebruikelijke oplossingen:
 
-1. alle ventilatoren werken traploos,
-2. de eerste groep werkt traploos, en volgende groepen worden stapsgewijs bijgeschakeld, bijvoorbeeld via contactoren.
+1. alle ventilatoren worden traploos geregeld,
+2. de eerste groep wordt traploos geregeld en de volgende groepen worden stapsgewijs bijgeschakeld, bijvoorbeeld via contactoren.
 
-Met de tweede oplossing kan een grotere installatie worden bediend zonder traploze regeling van elke ventilator.
+Met de tweede oplossing kan een grotere installatie worden aangestuurd zonder elke ventilator traploos te regelen.
 
 ### Ik heb 10 ventilatoren. Heb ik een zeer grote regelaar nodig?
 
-Niet altijd. Er kunnen verschillende regelmethoden worden toegepast:
+Niet altijd. Er kunnen verschillende aansturingswijzen worden toegepast:
 
 - verdeling in groepen,
 - vermogensuitbreidingen,
 - contactoren,
 - een frequentieregelaar.
 
-De definitieve selectie hangt af van de elektrische parameters van de ventilatoren en van de vraag of ze allemaal gelijktijdig van toerental moeten veranderen.
+De definitieve keuze hangt af van de elektrische parameters van de ventilatoren en van de vraag of alle ventilatoren hun toerental gelijktijdig moeten wijzigen.
 
 ### Verschillen de regelaars 6 A en 12 A alleen in de toegestane belasting?
 
-Er mag niet van worden uitgegaan dat de enige verschil de stroomwaarde is. De afzonderlijke versies en generaties van apparaten kunnen verschillen in uitrusting of uitvoering.
+Er mag niet worden aangenomen dat de stroomwaarde het enige verschil is. De afzonderlijke uitvoeringen en generaties van apparaten kunnen verschillen in uitrusting of constructie.
 
 Bij vervanging van een apparaat moeten het exacte model en de actuele documentatie worden gecontroleerd.
 
@@ -123,71 +123,71 @@ Bij vervanging van een apparaat moeten het exacte model en de actuele documentat
 
 ### Regelt de regelaar de ventilatoren traploos?
 
-Bij regelaars die bedoeld zijn voor traploze ventilatieregeling wordt de ventilatorsnelheid aangepast afhankelijk van de vraag, die onder meer voortvloeit uit de temperatuur.
+Bij regelaars die bedoeld zijn voor traploze ventilatieregeling wordt het toerental van de ventilatoren aangepast aan de behoefte, die onder meer door de temperatuur wordt bepaald.
 
-Er moet echter worden gecontroleerd of het betreffende motortype geschikt is voor de toegepaste regelmethode.
+Er moet echter worden gecontroleerd of het betreffende motortype geschikt is voor de gebruikte regelwijze.
 
 ### Wat betekent de ingestelde temperatuur?
 
-De ingestelde temperatuur is de waarde waaraan de regelaar de actuele temperatuurmeting toetst.
+De ingestelde temperatuur is de waarde waarmee de regelaar de actuele temperatuurmeting vergelijkt.
 
-Op basis daarvan verhoogt of verlaagt de regelaar de ventilatie-intensiteit overeenkomstig de overige instellingen, bijvoorbeeld de regelband, het minimum- en maximumniveau.
+Op basis hiervan verhoogt of verlaagt de regelaar de ventilatie-intensiteit volgens de overige instellingen, bijvoorbeeld de regelband en het minimale en maximale niveau.
 
 ### Wat betekent het minimale ventilatieniveau?
 
-Dit is de minimale waarde van de ventilatorregeling tijdens automatische werking.
+Dit is de minimale aansturingswaarde voor de ventilator tijdens automatisch bedrijf.
 
-Deze instelling voorkomt werking onder een niveau waarbij de ventilator instabiel zou kunnen werken of te weinig luchtverversing zou leveren.
+Deze instelling voorkomt bedrijf onder het niveau waarbij de ventilator instabiel zou kunnen werken of te weinig luchtverversing zou kunnen leveren.
 
 ### Wat betekent het maximale ventilatieniveau?
 
-Dit is de bovengrens van de regelwaarde voor de ventilatie.
+Dit is de bovengrens van de aansturingswaarde voor de ventilatie.
 
-Het instellen van een waarde onder 100% kan bijvoorbeeld het maximale ventilatortoerental begrenzen, als de installatie dit vereist.
+Een instelling onder 100% kan bijvoorbeeld het maximale ventilatortoerental beperken als de installatie dit vereist.
 
 ### Wat betekent de ventilatieband?
 
-De ventilatieband bepaalt het temperatuurbereik waarin de regelaar overgaat van het minimale naar het maximale ventilatieniveau.
+De ventilatieband bepaalt het temperatuurbereik waarin de regelaar van het minimale naar het maximale ventilatieniveau overgaat.
 
-Hoe kleiner de band, hoe sneller de regeling met een hogere capaciteit reageert op een temperatuurverandering.
+Hoe smaller de band, hoe sneller de regeling op een temperatuurverandering reageert met een verhoging van de capaciteit.
 
-### Een ventilator gaat na het starten eerst naar 100% en vertraagt pas daarna. Waarom?
+### De ventilator gaat na het starten eerst naar 100% en vertraagt pas daarna. Waarom?
 
-De startfunctie kan actief zijn, met als doel de motor kortstondig met hoger vermogen te starten.
+Mogelijk is een startfunctie actief die de motor kortstondig met een hoger vermogen laat starten.
 
-Afhankelijk van de versie van de regelaar moeten de instellingen worden gecontroleerd die verband houden met:
+Afhankelijk van de uitvoering van de regelaar moeten de instellingen worden gecontroleerd voor:
 
-- de Soft Start-functie,
+- de softstartfunctie,
 - de aanlooptijd,
 - de bedrijfstijd bij 100%,
 - de uitlooptijd.
 
-Als de functie in de betreffende installatie niet nodig is, kunnen de relevante parameters overeenkomstig de handleiding van het apparaat worden gewijzigd.
+Als de functie niet nodig is in de betreffende installatie, kunnen de bijbehorende parameters volgens de handleiding van het apparaat worden aangepast.
 
-### Waarom kan de ventilator bij het starten kortstondig met vol vermogen worden ingeschakeld?
+### Waarom kan een ventilator bij het starten kortstondig op vol vermogen worden ingeschakeld?
 
-Een dergelijke start kan helpen om de ventilator zeker te laten starten, evenals in installaties waarin mechanische onderdelen tijdens de start meer weerstand kunnen bieden.
+Deze startwijze kan helpen om de ventilator betrouwbaar te laten starten en kan nuttig zijn in installaties waarin mechanische onderdelen tijdens het starten meer weerstand kunnen bieden.
 
 Dit is echter niet in elke installatie nodig.
 
 ### Wat betekenen aanlooptijd en uitlooptijd?
 
-**Aanlooptijd** bepaalt hoe de regeling toeneemt tijdens het starten van de ventilator.
+**Aanlooptijd** bepaalt hoe de aansturing tijdens het starten van de ventilator toeneemt.
 
-**Uitlooptijd** bepaalt hoe de snelheid wordt verminderd.
+**Uitlooptijd** bepaalt hoe het toerental afneemt.
 
-Beide parameters maken het mogelijk abrupte veranderingen in toerental en installatiebedrijf te beperken.
+Beide parameters maken het mogelijk om abrupte veranderingen in het toerental en de werking van de installatie te beperken.
 
-### Waarom kunnen twee identieke regelaars de ventilatoren verschillend starten?
+### Waarom kunnen twee identieke regelaars ventilatoren verschillend laten starten?
 
-De meest voorkomende oorzaak zijn verschillende instellingen.
+De meest voorkomende oorzaak is een verschil in instellingen.
 
-Het is raadzaam vooral het volgende te vergelijken:
+Het is raadzaam om vooral de volgende instellingen te vergelijken:
 
 - de ingestelde temperatuur,
 - de ventilatieband,
-- minimum en maximum,
-- de Soft Start-instellingen,
+- het minimum en maximum,
+- de softstartinstellingen,
 - de aanloop- en uitlooptijden,
 - de configuratie van de ventilatiegroepen.
 
@@ -195,139 +195,139 @@ Het is raadzaam vooral het volgende te vergelijken:
 
 Afhankelijk van het model is een functie voor periodieke ventilatie beschikbaar.
 
-Deze kan de ventilatie gedurende een bepaalde tijd met ingestelde intervallen inschakelen, zelfs wanneer de temperatuurregeling geen verhoging van de ventilatie vereist.
+Deze kan de ventilatie gedurende een bepaalde tijd met ingestelde intervallen inschakelen, ook wanneer de temperatuurregeling geen verhoging van de ventilatie vereist.
 
 ### Waarvoor dienen ventilatiegroepen?
 
-Groepen maken een stapsgewijze verhoging van de installatiecapaciteit mogelijk.
+Groepen maken het mogelijk om de capaciteit van de installatie stapsgewijs te verhogen.
 
 Bijvoorbeeld:
 
-- groep 1 werkt traploos,
-- groep 2 schakelt volgende ventilatoren in,
-- de volgende groep wordt ingeschakeld bij een nog grotere vraag.
+- groep 1 wordt traploos geregeld,
+- groep 2 schakelt extra ventilatoren in,
+- de volgende groep wordt ingeschakeld bij een nog grotere behoefte.
 
-Hierdoor kan een groot aantal ventilatoren worden aangestuurd zonder traploze regeling van elk afzonderlijk exemplaar.
+Hierdoor kan een groot aantal ventilatoren worden aangestuurd zonder elke ventilator afzonderlijk traploos te regelen.
 
 ### Kan een extra groep ventilatoren via een contactor worden ingeschakeld?
 
-Ja. De relaisuitgang van de regelaar kan de spoel van een passend geselecteerde contactor aansturen.
+Ja. De relaisuitgang van de regelaar kan de spoel van een correct gekozen contactor aansturen.
 
-De belasting van de ventilatoren mag dan niet rechtstreeks via het kleine stuurcontact worden gevoerd.
+De ventilatorbelasting mag dan niet rechtstreeks via het kleine stuurcontact worden geleid.
 
 ### Wat betekent het ventilatorsymbool of het gele controlelampje op de regelaar?
 
-Afhankelijk van het model geven de indicatielampen informatie over de actuele status van uitgangen en functies.
+Afhankelijk van het model geven de controlelampjes informatie over de actuele toestand van de uitgangen en functies.
 
-Een gele signalering kan een actieve werkfunctie aanduiden, bijvoorbeeld werking van ventilatie, verwarming of een volgende groep.
+Een gele indicatie kan betekenen dat een bedrijfsfunctie actief is, bijvoorbeeld ventilatie, verwarming of een volgende groep.
 
 De exacte betekenis moet in de handleiding van het betreffende model worden gecontroleerd.
 
 ### Wat betekent het symbool voor handmatige modus?
 
-Handmatige modus betekent dat de regelwaarde door de gebruiker is geforceerd en op dat moment niet automatisch op basis van de temperatuur wordt berekend.
+Handmatige modus betekent dat de aansturingswaarde door de gebruiker is opgelegd en op dat moment niet automatisch op basis van de temperatuur wordt berekend.
 
-Na afronding van de tests moet worden gecontroleerd of de regelaar is teruggezet naar de juiste automatische modus.
+Na afloop van de tests moet worden gecontroleerd of de regelaar weer in de juiste automatische modus is gezet.
 
 
 ## Luchtinlaten en actuatoren
 
 ### Kan de regelaar luchtinlaten aansturen?
 
-Ja, geselecteerde regelaars ondersteunen samenwerking met aandrijvingen van luchtinlaten.
+Ja, bepaalde regelaars kunnen samenwerken met aandrijvingen van luchtinlaten.
 
-De aansluitwijze is afhankelijk van het type actuator en de wijze van aansturing.
+De aansluitwijze hangt af van het type actuator en de aansturingswijze.
 
 ### Welke typen actuatoren kunnen voor luchtinlaten worden gebruikt?
 
-In technische gesprekken kwamen het vaakst twee oplossingen voor:
+In de technische gesprekken kwamen vooral twee oplossingen voor:
 
-- een actuator aangestuurd met een analoog signaal 0–10 V of 2–10 V,
-- een omkeerbare open/dicht-actuator met terugkoppelingssignaal, bijvoorbeeld van een potentiometer.
+- een actuator die wordt aangestuurd met een analoog signaal 0–10 V of 2–10 V,
+- een omkeerbare actuator met open/dicht-aansturing en een terugkoppelsignaal, bijvoorbeeld van een potentiometer.
 
-Controleer vóór aankoop de compatibiliteit van het specifieke model met de aanwezige regelaar.
+Vóór aankoop moet worden gecontroleerd of het specifieke model compatibel is met de aanwezige regelaar.
 
 ### Is de voedingsspanning van de actuator 24 V of 230 V van belang voor het signaal 0–10 V?
 
 Het stuursignaal en de voeding van de actuator zijn afzonderlijke parameters.
 
-De actuator kan met een andere spanning worden gevoed dan de spanning van het stuursignaal. Beide parameters moeten overeenkomen met de documentatie van de actuator en de regelaar.
+Een actuator kan worden gevoed met een andere spanning dan de spanning van het stuursignaal. Beide parameters moeten overeenkomen met de documentatie van de actuator en de regelaar.
 
-### Wat betekent regeling 0–10 V?
+### Wat betekent aansturing met 0–10 V?
 
-De regelaar verstuurt een analoog spanningssignaal dat de gevraagde positie of het gevraagde regelniveau vertegenwoordigt.
+De regelaar stuurt een analoog spanningssignaal dat de gewenste positie of het gewenste aansturingsniveau vertegenwoordigt.
 
-In een typische toepassing betekent een lagere waarde een kleinere opening en een hogere waarde een grotere, maar de werkelijke karakteristiek moet in de documentatie van de actuator worden gecontroleerd.
+Bij een typische toepassing betekent een lagere waarde een kleinere opening en een hogere waarde een grotere opening, maar de daadwerkelijke karakteristiek moet in de documentatie van de actuator worden gecontroleerd.
 
 ### Wat is het verschil tussen 0–10 V en 2–10 V?
 
-In beide gevallen wordt de positie opgegeven met een analoog signaal.
+In beide gevallen wordt de positie ingesteld via een analoog signaal.
 
-Bij de standaard 2–10 V is het onderste deel van het bereik verschoven en kan het apparaat mogelijk onderscheid maken tussen een stuursignaal en het ontbreken daarvan.
+Bij de standaard 2–10 V is de ondergrens van het bereik verschoven, waardoor het apparaat mogelijk onderscheid kan maken tussen een stuursignaal en het ontbreken ervan.
 
-De regelaar en de actuator moeten hetzelfde bereik ondersteunen.
+De regelaar en actuator moeten een overeenkomend bereik ondersteunen.
 
 ### Hoe kiest u een actuator op basis van het aantal luchtinlaten?
 
-Een actuator mag niet uitsluitend worden geselecteerd op basis van het aantal kleppen.
+Een actuator mag niet uitsluitend op basis van het aantal kleppen worden gekozen.
 
 Er moet rekening worden gehouden met:
 
 - de vereiste kracht of het vereiste koppel,
-- de lengte en de geleidingswijze van het mechanisme,
+- de lengte en geleiding van het mechanisme,
 - de weerstand van de kleppen,
 - de slaglengte,
-- de werkingssnelheid,
+- de bewegingssnelheid,
 - de voedingsspanning,
-- het type regeling,
+- het type aansturing,
 - de vereiste terugkoppeling.
 
 ### Kan één actuator meerdere kleppen bedienen?
 
-Ja, als de mechanica van de installatie toelaat de kleppen met een gemeenschappelijk systeem te verbinden en het vereiste koppel of de vereiste kracht de mogelijkheden van de actuator niet overschrijdt.
+Ja, als de mechanische constructie van de installatie het mogelijk maakt om de kleppen via een gemeenschappelijk systeem te koppelen en het vereiste koppel of de vereiste kracht de capaciteit van de actuator niet overschrijdt.
 
-In de praktijk wordt de selectie bepaald door de weerstand van het volledige mechanisme, en niet door het aantal kleppen alleen.
+In de praktijk is de weerstand van het volledige mechanisme bepalend voor de keuze, en niet alleen het aantal kleppen.
 
 ### Kunnen meerdere actuatoren parallel worden aangesloten en met één signaal worden aangestuurd?
 
 In sommige systemen is dit mogelijk, maar de documentatie van de actuatoren en de toegestane belasting van de stuuruitgang moeten worden gecontroleerd.
 
-Bij omkeerbare aandrijvingen zonder onafhankelijke terugkoppeling kan bovendien een geleidelijke afwijking in de positie van de afzonderlijke actuatoren optreden.
+Bij omkeerbare aandrijvingen zonder onafhankelijke terugkoppeling kunnen de posities van de afzonderlijke actuatoren ook geleidelijk uiteen gaan lopen.
 
-### Waarom kunnen meerdere actuatoren zich na verloop van tijd in verschillende posities instellen?
+### Waarom kunnen meerdere actuatoren na verloop van tijd verschillende posities innemen?
 
-Zelfs identieke motoren kunnen met een iets verschillende snelheid werken vanwege:
+Zelfs identieke motoren kunnen met enigszins verschillende snelheden werken door:
 
-- verschillende belasting,
+- verschillen in belasting,
 - mechanische weerstand,
-- tolerantie van motorparameters,
-- verschillen in de overbrenging.
+- toleranties in de motorparameters,
+- verschillen in de overbrengingen.
 
-Daarom zijn bij vereiste nauwkeurige synchronisatie een passende terugkoppeling of individuele positieregeling nodig.
+Daarom is bij een vereiste nauwkeurige synchronisatie passende terugkoppeling of individuele positiecontrole nodig.
 
-### Kunnen luchtinlaten proportioneel ten opzichte van de ventilatie worden aangestuurd?
+### Kunnen luchtinlaten evenredig met de ventilatie worden aangestuurd?
 
-Ja. In correct geconfigureerde systemen kan de positie van de luchtinlaten gekoppeld zijn aan het actuele ventilatieniveau.
+Ja. In correct geconfigureerde systemen kan de positie van de luchtinlaten worden gekoppeld aan het actuele ventilatieniveau.
 
-Hierdoor wordt samen met de toename van de ventilatorcapaciteit ook de opening van de luchtinlaten vergroot.
+Daardoor wordt bij een toename van de ventilatorcapaciteit ook de opening van de luchtinlaten vergroot.
 
-### Heeft de actuator 24 V een aparte voeding nodig?
+### Heeft een actuator 24 V een afzonderlijke voedingseenheid nodig?
 
-Als de regelaar niet beschikt over een geschikte voedingsuitgang met het vereiste vermogen, is een aparte voeding nodig.
+Als de regelaar niet beschikt over een geschikte voedingsuitgang met het vereiste vermogen, is een afzonderlijke voedingseenheid nodig.
 
-Het vermogen daarvan moet worden afgestemd op de stroomopname van de actuator en andere apparaten die uit dezelfde bron worden gevoed.
+Het vermogen hiervan moet worden afgestemd op de stroomopname van de actuator en van andere apparaten die door dezelfde bron worden gevoed.
 
-### Kan een actuator van een ander merk worden gebruikt?
+### Kan een actuator van een andere fabrikant worden gebruikt?
 
-Vaak wel, als de elektrische parameters en de regelwijze overeenkomen met de uitgangen van de regelaar.
+Vaak wel, als de elektrische parameters en de aansturingswijze overeenkomen met de uitgangen van de regelaar.
 
-Controleer vóór het aansluiten:
+Vóór aansluiting moet het volgende worden gecontroleerd:
 
 - de spanning,
 - het signaaltype,
-- het aansluitschema,
-- de werkrichtingen,
-- het positieterugmeldsignaal,
+- het bedradingsschema,
+- de bewegingsrichtingen,
+- het positiesignaal,
 - de toegestane belasting.
 
 
@@ -335,38 +335,38 @@ Controleer vóór het aansluiten:
 
 ### Waar moet de temperatuursensor worden aangesloten?
 
-De sensor moet worden aangesloten op de door de fabrikant voorziene sensoringang, de sensoringang die in de documentatie van het betreffende model is aangegeven.
+De sensor moet worden aangesloten op de door de fabrikant voorziene sensoringang, de sensoringang die in de documentatie van het betreffende model wordt vermeld.
 
-Er mag niet van worden uitgegaan dat de klemmenaanduidingen in alle apparaatversies identiek zijn.
+Er mag niet worden aangenomen dat de klemaanduidingen in alle uitvoeringen van de apparaten identiek zijn.
 
-### D e temperatuursensor geeft een andere waarde aan dan een referentiethermometer. Wat moet worden gedaan?
+### De temperatuursensor geeft een andere waarde aan dan de referentiethermometer. Wat moet ik doen?
 
-Als de regelaar een kalibratiefunctie voor de sensor heeft, kan de aanwijzing worden gecorrigeerd na vergelijking met een betrouwbare referentiethermometer.
+Als de regelaar een sensorkalibratiefunctie heeft, kan de meetwaarde worden gecorrigeerd na vergelijking met een betrouwbare referentiethermometer.
 
-Voordat de kalibratie wordt gewijzigd, is het raadzaam te controleren of:
+Voordat de kalibratie wordt gewijzigd, is het raadzaam om te controleren of:
 
 - beide sensoren zich op dezelfde plaats bevinden,
 - de meting is gestabiliseerd,
-- de sensor niet wordt opgewarmd door zonlicht of apparaten,
-- de sensor zich niet rechtstreeks in een stroom koude of warme lucht bevindt.
+- de sensor niet door de zon of apparaten wordt verwarmd,
+- de sensor zich niet rechtstreeks in een koude of warme luchtstroom bevindt.
 
-### D e vochtigheidssensor geeft een onjuiste waarde aan. Kan deze worden gekalibreerd?
+### De vochtigheidssensor geeft een onjuiste waarde aan. Kan deze worden gekalibreerd?
 
-Dat hangt af van de versie van de regelaar, de sensor en de software.
+Dit hangt af van de uitvoering van de regelaar, de sensor en de software.
 
-In sommige oplossingen kan correctie een passende softwarefunctie of een compatibel sensortype vereisen. Als het verschil groot en herhaalbaar is, moeten de apparaatversie worden gecontroleerd en de technische ondersteuning worden geraadpleegd.
+Bij sommige oplossingen kan voor correctie een geschikte softwarefunctie of een compatibel sensortype nodig zijn. Als het verschil groot en herhaalbaar is, moet de uitvoering van het apparaat worden gecontroleerd en contact worden opgenomen met de technische ondersteuning.
 
-### Betekent een foutieve meting altijd een defecte sensor?
+### Betekent een onjuiste meting altijd dat de sensor defect is?
 
 Nee.
 
 De oorzaak kan ook zijn:
 
-- een onjuiste locatie van de sensor,
+- een onjuiste plaatsing van de sensor,
 - de kabel,
 - de elektrische verbinding,
 - de configuratie,
-- een onjuist sensortype,
+- een ongeschikt sensortype,
 - de noodzaak van kalibratie,
 - vocht of corrosie.
 
@@ -375,131 +375,131 @@ De oorzaak kan ook zijn:
 
 ### Kan een sirene rechtstreeks op de alarmuitgang van de regelaar worden aangesloten?
 
-Daar mag niet van worden uitgegaan.
+Dat mag niet worden aangenomen.
 
-De alarmuitgang van de regelaar is meestal een stuuruitgang of een relaiscontact. De sirene kan een aparte voeding en een alarmcentrale vereisen.
+De alarmuitgang van de regelaar is doorgaans een stuuruitgang of een relaiscontact. Een sirene kan een afzonderlijke voeding en een alarmcentrale vereisen.
 
-### Waarom wordt een alarmcentrale toegepast?
+### Waarom wordt een alarmcentrale gebruikt?
 
-Een centrale kan:
+De centrale kan:
 
 - alarmsignalen van regelaars ontvangen,
-- de signaalgever voeden,
-- de werking tijdens stroomuitval in stand houden,
-- alarm signaleren met geluid of licht,
-- GSM-meldingen versturen in versies die over deze functie beschikken.
+- een alarmgever voeden,
+- de werking tijdens een stroomuitval in stand houden,
+- een alarm met geluid of licht aangeven,
+- GSM-meldingen versturen bij uitvoeringen die over deze functie beschikken.
 
-### Kan de centrale alarm geven bij uitval van de voeding van de regelaar?
+### Kan de centrale een alarm geven bij uitval van de voeding van de regelaar?
 
 Ja, als het systeem correct is aangesloten.
 
-De oplossing kan niet alleen een temperatuuroverschrijding detecteren, maar ook verlies van het signaal van de regelaar veroorzaakt door uitval van diens voeding.
+De oplossing kan niet alleen het overschrijden van de temperatuur detecteren, maar ook het wegvallen van het signaal van de regelaar door uitval van de voeding ervan.
 
 ### Waar worden de minimale en maximale alarmtemperatuur ingesteld?
 
-In een typische configuratie worden de alarmdrempels ingesteld in de regelaar die de betreffende kamer of ruimte bedient.
+In een typische configuratie worden de alarmdrempels ingesteld in de regelaar die de betreffende kamer of ruimte regelt.
 
 De alarmcentrale ontvangt vervolgens de informatie dat de regelaar een alarm heeft gemeld.
 
-### Heeft een GSM-centrale een SIM-kaart nodig?
+### Heeft een GSM-centrale een simkaart nodig?
 
-Voor het verzenden van oproepen en berichten via het mobiele netwerk is een actieve SIM-kaart of een andere communicatieve oplossing nodig die in het betreffende model is voorzien.
+Voor het plaatsen van oproepen en het versturen van berichten via het mobiele netwerk is een actieve simkaart nodig, of een andere communicatieoplossing die voor het betreffende model is voorzien.
 
-Zonder actieve verbinding met het mobiele netwerk werken telefonie- en sms-functies niet.
+Zonder een actieve verbinding met het mobiele netwerk werken de telefoon- en sms-functies niet.
 
-### Kan het alarm informatie verzenden over van welke regelaar de gebeurtenis afkomstig is?
+### Kan het alarm informatie versturen over de regelaar waarvan de gebeurtenis afkomstig is?
 
-In een correct geconfigureerd systeem wel.
+In een correct geconfigureerd systeem is dat mogelijk.
 
-De ingangen van de centrale kunnen aan specifieke ruimtes of regelaars worden toegewezen, zodat in het bericht de bron van het alarm kan worden bepaald.
+De ingangen van de centrale kunnen worden toegewezen aan specifieke ruimtes of regelaars, zodat met de melding de bron van het alarm kan worden vastgesteld.
 
 ### Hoeveel regelaars kunnen op één alarmcentrale worden aangesloten?
 
-Dat hangt af van het model van de centrale.
+Dit hangt af van het model van de centrale.
 
-In de transcripties kwamen centrales voor die maximaal acht ingangen ondersteunen, maar vóór uitvoering van de installatie moet de actuele specificatie van het specifieke apparaat worden gecontroleerd.
+In de transcripties kwamen centrales voor die maximaal acht ingangen ondersteunen, maar vóór het aanleggen van de installatie moet de actuele specificatie van het betreffende apparaat worden gecontroleerd.
 
-### Welke accu wordt gebruikt in de alarmcentrale?
+### Welke accu wordt in de alarmcentrale gebruikt?
 
-In een deel van de apparaten die in de gesprekken werden besproken, werd een accu 12 V 7 Ah gebruikt.
+In een deel van de apparaten die in de gesprekken werden besproken, werd een accu van 12 V 7 Ah gebruikt.
 
-Controleer vóór aankoop van een vervangend exemplaar de aanduiding op de bestaande accu en de specificatie van de centrale, omdat andere apparaatversies een andere accu kunnen vereisen.
+Vóór aankoop van een vervangende accu moeten de aanduiding op de bestaande accu en de specificatie van de centrale worden gecontroleerd, omdat andere uitvoeringen van apparaten een andere accu kunnen vereisen.
 
 ### De centrale verstuurt meldingen over lage spanning. Wat moet worden gecontroleerd?
 
-Controleer in de eerste plaats:
+Controleer eerst:
 
-- de staat van de accu,
-- de ouderdom ervan,
+- de toestand van de accu,
+- de leeftijd ervan,
 - de accuaansluitingen,
 - de aanwezigheid van netvoeding,
-- de werking van de lader of voeding van de centrale.
+- de werking van de lader of voedingseenheid van de centrale.
 
-Een versleten accu kan cyclische meldingen over lage spanning veroorzaken.
+Een versleten accu kan terugkerende meldingen over lage spanning veroorzaken.
 
 ### Hoe vaak moet de accu in de alarmcentrale worden vervangen?
 
-Er is geen enkele waarde die voor alle omstandigheden geschikt is.
+Er is geen vaste termijn die voor alle omstandigheden geschikt is.
 
-De accu moet periodiek worden getest, vooral in installaties waarin een alarm bij stroomuitval van kritisch belang is. Met de leeftijd neemt de werkelijke capaciteit af.
+De accu moet periodiek worden getest, vooral in installaties waarin het alarm tijdens een stroomuitval van cruciaal belang is. Naarmate de accu ouder wordt, neemt de daadwerkelijke capaciteit af.
 
-### Is een sirene alleen voldoende als beveiliging?
+### Is alleen een sirene voldoende als beveiliging?
 
-Een sirene werkt alleen wanneer iemand deze kan horen.
+Een sirene is alleen effectief als iemand deze kan horen.
 
-In objecten die tijdelijk zonder toezicht blijven, is het raadzaam ook gebruik te maken van meldingen op afstand en accuback-up.
+In gebouwen die tijdelijk onbeheerd zijn, is het raadzaam om ook meldingen op afstand en accuback-up toe te passen.
 
 
 ## Frequentieregelaars
 
 ### Hoe kiest u een frequentieregelaar voor ventilatoren?
 
-Benodigd zijn:
+De volgende gegevens moeten bekend zijn:
 
 - de voedingsspanning,
 - het aantal fasen,
 - het vermogen en de stroom van alle motoren,
-- de wijze waarop ze zijn aangesloten,
+- de aansluitwijze ervan,
 - de bedrijfsomstandigheden,
-- de vereiste regelwijze.
+- de vereiste aansturingswijze.
 
-De frequentieregelaar moet een passende reserve ten opzichte van de belasting hebben, vooral wanneer meerdere motoren parallel werken.
+De frequentieregelaar moet een passende marge ten opzichte van de belasting hebben, vooral wanneer meerdere motoren parallel werken.
 
-### Moet de frequentieregelaar exact hetzelfde vermogen hebben als de som van de vermogens van de motoren?
+### Moet de frequentieregelaar precies hetzelfde vermogen hebben als de som van de motorvermogens?
 
-Een frequentieregelaar mag niet uitsluitend worden geselecteerd op basis van een eenvoudige optelling van de vermogens en er mag geen apparaat worden gekozen dat exact op de grens van de parameters werkt.
+Een frequentieregelaar mag niet uitsluitend worden gekozen op basis van het eenvoudig optellen van de vermogens, waarbij een apparaat wordt gekozen dat precies op de grens van zijn parameters werkt.
 
-Er moet rekening worden gehouden met de nominale stromen, het karakter van de belasting en de aanbevelingen van de fabrikant van de frequentieregelaar.
+Er moet rekening worden gehouden met de nominale stromen, de aard van de belasting en de aanbevelingen van de fabrikant van de frequentieregelaar.
 
-### D e frequentieregelaar heeft de ventilatoren gestopt en een fout weergegeven. Wat moet worden gedaan?
+### De frequentieregelaar heeft de ventilatoren gestopt en een fout weergegeven. Wat moet ik doen?
 
-Het belangrijkste is om vóór de reset de volledige foutcode te noteren.
+Het belangrijkste is om de volledige foutcode vóór het resetten vast te leggen.
 
 :::tip Maak een foto van het scherm
 
-Als de situatie dit toelaat, maak dan vóór de reset een foto van het display. De volledige foutcode maakt de diagnose aanzienlijk eenvoudiger.
+Maak vóór het resetten een foto van het display als de situatie dit toelaat. De volledige foutcode maakt de diagnose aanzienlijk eenvoudiger.
 
 :::
 
 Alleen het begin van de melding is vaak niet voldoende om de oorzaak vast te stellen. Met de volledige code kan onder meer onderscheid worden gemaakt tussen:
 
-- ochbelasting,
-- stroomoverschrijding,
+- overbelasting,
+- overstroom,
 - oververhitting,
 - onjuiste spanning,
-- andere aandrijffouten.
+- andere aandrijvingsfouten.
 
-### Kan de fout van de frequentieregelaar gewoon worden gereset?
+### Kan een fout van de frequentieregelaar gewoon worden gereset?
 
 Een reset kan de werking herstellen, maar neemt de oorzaak van het alarm niet weg.
 
 Na de gebeurtenis moet de foutcode worden gecontroleerd en de oorzaak worden vastgesteld voordat de installatie opnieuw langdurig in bedrijf wordt genomen.
 
-### D e frequentieregelaar werkt in een stoffige ruimte. Moet deze worden gereinigd?
+### De frequentieregelaar werkt in een stoffige ruimte. Moet deze worden gereinigd?
 
 Ja.
 
-Stof en afzettingen op de koelplaat of de koelventilator kunnen de warmteafvoer verslechteren en leiden tot oververhitting van de frequentieregelaar.
+Stof en afzettingen op het koellichaam of de koelventilator kunnen de warmteafvoer verminderen en oververhitting van de frequentieregelaar veroorzaken.
 
 Reiniging moet worden uitgevoerd volgens de instructies van de fabrikant, nadat de voeding veilig is losgekoppeld.
 
@@ -507,35 +507,35 @@ Reiniging moet worden uitgevoerd volgens de instructies van de fabrikant, nadat 
 
 De meest voorkomende oorzaken zijn:
 
-- vervuilde koelelementen,
-- belemmerde luchtstroom,
-- te hoge omgevingstemperatuur,
-- ochbelasting,
-- defect van de koelventilator,
+- vervuilde koelonderdelen,
+- belemmerde luchtstroming,
+- een te hoge omgevingstemperatuur,
+- overbelasting,
+- een defecte koelventilator,
 - onjuiste montage.
 
-### Kan verhoogde netspanning een alarm van de frequentieregelaar veroorzaken?
+### Kan een verhoogde netspanning een alarm van de frequentieregelaar veroorzaken?
 
 Ja. Frequentieregelaars bewaken de spanning van het voedingscircuit en kunnen een fout melden wanneer het toegestane niveau wordt overschreden.
 
 Als het probleem zich herhaalt, moeten de installatie en de kwaliteit van de voeding worden gecontroleerd.
 
 
-## Storingen en diagnostiek
+## Storingen en diagnose
 
 ### De regelaar werkt, maar het display toont niets. Wat kan de oorzaak zijn?
 
 Mogelijke oorzaken zijn onder meer:
 
 - een defect display,
-- een probleem met de contrastregeling in oudere oplossingen,
+- een probleem met de contrastinstelling bij oudere oplossingen,
 - een defecte verbinding,
 - corrosie,
-- schade aan de hoofdprint.
+- een defecte hoofdprintplaat.
 
-Als het apparaat lange tijd niet is gebruikt of in een vochtige omgeving heeft gewerkt, is het ook raadzaam de staat van de print te controleren.
+Als het apparaat lange tijd niet is gebruikt of in een vochtige omgeving heeft gewerkt, is het ook raadzaam om de toestand van de printplaat te controleren.
 
-### De regelaar heeft na enkele jaren niet-gebruik problemen met het display. Waarom?
+### De regelaar heeft na enkele jaren buiten gebruik een probleem met het display. Waarom?
 
 Langdurige stilstand in een vochtige of agressieve omgeving kan leiden tot:
 
@@ -544,142 +544,142 @@ Langdurige stilstand in een vochtige of agressieve omgeving kan leiden tot:
 - verslechtering van contacten,
 - schade aan elektronische componenten.
 
-In dat geval is het raadzaam een volledige inspectie uit te voeren in plaats van onderdelen zonder voorafgaande diagnose te vervangen.
+In dat geval is het raadzaam om een volledige inspectie uit te voeren en niet zonder voorafgaande diagnose onderdelen te vervangen.
 
-### De regelaar is zwartgeblakerd na een overspanning. Betekent dit dat de print moet worden vervangen?
+### De regelaar is zwartgeblakerd na een overspanning. Betekent dit dat de printplaat moet worden vervangen?
 
 Niet altijd.
 
-Een beveiligingscomponent kan defect raken en veel residu achterlaten, ook al is de rest van de print nog te repareren.
+Een beveiligingscomponent kan defect raken en veel afzetting achterlaten, terwijl de rest van de printplaat nog kan worden gerepareerd.
 
-Als het laminaat echter verkoold, doorgebrand of de printbanen beschadigd zijn, kan reparatie economisch onrendabel of niet duurzaam zijn.
+Als het laminaat echter verkoold of doorgebrand is, of als de printbanen beschadigd zijn, kan reparatie onrendabel zijn of geen duurzame oplossing bieden.
 
-### Wat kan meerdere regelaars tegelijk beschadigen?
+### Wat kan meerdere regelaars gelijktijdig beschadigen?
 
-Als veel apparaten tegelijk defect raken, moet de voedingsinstallatie worden gecontroleerd.
+Als meerdere apparaten tegelijkertijd defect raken, moet de voedingsinstallatie worden gecontroleerd.
 
-Een van de mogelijke oorzaken is een probleem met de nulleider, dat in een driefaseninstallatie kan leiden tot het optreden van onjuiste spanningen op eenfasige verbruikers.
+Een mogelijke oorzaak is een probleem met de nulleider, dat in een driefaseninstallatie kan leiden tot onjuiste spanningen op eenfasige verbruikers.
 
-Ook overspanningen afkomstig van het net of van een aggregaat zijn mogelijk.
+Ook overspanningen vanuit het net of een generator zijn mogelijk.
 
-### Wat moet worden gedaan na een storing die verband houdt met overspanning?
+### Wat moet worden gedaan na een storing door overspanning?
 
 Voordat een gerepareerde of nieuwe regelaar wordt aangesloten, moet de oorzaak van het probleem worden vastgesteld.
 
 :::danger Sluit het apparaat niet opnieuw aan zonder de installatie te controleren
 
-Als de oorzaak van de storing onjuiste spanning, een defecte nulleider of overspanning was, kan de gerepareerde of nieuwe regelaar opnieuw beschadigd raken.
+Als de storing werd veroorzaakt door een onjuiste spanning, een beschadigde nulleider of een overspanning, kan de gerepareerde of nieuwe regelaar opnieuw beschadigd raken.
 
 :::
 
-### Wat is een overspanningsbeveiligingscomponent op de print?
+### Wat is een overspanningsbeveiligingscomponent op de printplaat?
 
-In elektronische apparaten worden componenten toegepast die overspanningen begrenzen, bijvoorbeeld varistors.
+In elektronische apparaten worden componenten gebruikt die overspanningen begrenzen, bijvoorbeeld varistoren.
 
-Hun taak is een deel van de energie van de overspanning op te nemen en de verdere circuits te beschermen. Na een ernstige gebeurtenis kan een dergelijk component blijvend defect raken.
+Hun taak is een deel van de overspanningsenergie op te nemen en de achterliggende circuits te beschermen. Na een zware gebeurtenis kan een dergelijke component blijvend beschadigd raken.
 
-### Kan het apparaat worden ingeschakeld nadat het verbrande beveiligingscomponent is verwijderd?
+### Kan het apparaat worden ingeschakeld nadat een verbrande beveiligingscomponent is verwijderd?
 
 Dit mag niet als een normale reparatie worden beschouwd.
 
-Na verwijdering van de beveiliging kan het apparaat de bescherming tegen een volgende overspanning verliezen. Dergelijke handelingen mogen uitsluitend worden uitgevoerd als bewuste serviceprocedure door een persoon met de juiste kwalificaties en nadat de oorspronkelijke oorzaak van de storing is weggenomen.
+Na het verwijderen van de beveiliging kan het apparaat zijn bescherming tegen een volgende overspanning verliezen. Dergelijke handelingen mogen uitsluitend worden uitgevoerd als een weloverwogen serviceprocedure door een persoon met de juiste kwalificaties en nadat de oorzaak van de oorspronkelijke storing is weggenomen.
 
-### De regelaar is nat geworden of sterk gecorrodeerd. Is reparatie de moeite waard?
+### De regelaar heeft waterschade of is sterk gecorrodeerd. Is reparatie zinvol?
 
-Dat hangt af van de mate van beschadiging.
+Dit hangt af van de omvang van de schade.
 
-Oppervlakkige corrosie en afzonderlijke beschadigingen kunnen vaak worden verholpen. Als de corrosie printbanen, connectoren en veel componenten heeft aangetast, kan reparatie tijdrovend, onzeker en economisch ongerechtvaardigd zijn.
+Oppervlakkige corrosie en afzonderlijke defecten kunnen vaak worden verholpen. Als de corrosie printbanen, connectoren en veel componenten heeft aangetast, kan reparatie tijdrovend, onzeker en economisch niet verantwoord zijn.
 
-### Kan hogedrukreiniging van het apparaat de regelaar beschadigen?
+### Kan reiniging met een hogedrukreiniger de regelaar beschadigen?
 
 Ja.
 
-Elektronica mag niet worden blootgesteld aan direct contact met water of reinigingsmiddel als de behuizing en de wijze van montage daar niet voor bedoeld zijn.
+Elektronica mag niet rechtstreeks aan water of reinigingsmiddel worden blootgesteld als de behuizing en de montagewijze daarvoor niet zijn ontworpen.
 
-Vocht dat naar binnen dringt kan leiden tot corrosie en latere, moeilijk te diagnosticeren storingen.
+Vocht dat binnendringt, kan leiden tot corrosie en latere storingen die moeilijk te diagnosticeren zijn.
 
-### Waarom kunnen storingen na binnendringen van water na reparatie terugkeren?
+### Waarom kunnen storingen na waterschade na reparatie terugkeren?
 
-Corrosie kan ook voortschrijden op plaatsen die tijdens de eerste inspectie niet zichtbaar zijn.
+Corrosie kan ook voortschrijden op plaatsen die tijdens de eerste controle niet zichtbaar waren.
 
-Beschadigde doorgemetalliseerde gaten, printbanen en verbindingen kunnen tijdens de test werken en later opnieuw het contact verliezen.
+Beschadigde doormetalliseringen, printbanen en verbindingen kunnen tijdens de test werken en later opnieuw het contact verliezen.
 
-Daarom kan de service bij een sterk gecorrodeerde print vervanging aanbevelen in plaats van verdere reparaties.
+Daarom kan de servicedienst bij een sterk gecorrodeerde printplaat vervanging aanbevelen in plaats van verdere reparaties.
 
-### Doet het apparaat het soms wel en soms niet. Waar moet worden begonnen?
+### Het apparaat werkt afwisselend wel en niet. Waar moet ik beginnen?
 
-Voor contact met de service is het raadzaam het volgende te verzamelen:
+Het is raadzaam om vóór contact met de servicedienst het volgende te verzamelen:
 
 - het exacte model,
 - een beschrijving van het symptoom,
-- het moment van optreden,
-- de op het scherm weergegeven waarden,
+- het moment waarop het optreedt,
+- de waarden die op het scherm worden weergegeven,
 - de alarm- of foutcode,
-- informatie over recente wijzigingen in de installatie,
-- een foto van de binnenzijde en de klemmen, indien deze veilig kan worden gemaakt.
+- informatie over recente wijzigingen aan de installatie,
+- een foto van het interieur en de aansluitklemmen, als deze veilig kan worden gemaakt.
 
 Hoe nauwkeuriger de beschrijving, hoe eenvoudiger de diagnose.
 
 
 ## Service en reparaties
 
-### Wat moet naar de service worden gestuurd als de regelaar defect is?
+### Wat moet naar de servicedienst worden gestuurd als de regelaar defect is?
 
-Het is het beste een complete set te sturen waarmee het probleem kan worden gereproduceerd.
+Het is het beste om een complete set te sturen waarmee het probleem kan worden gereproduceerd.
 
-Aan de zending moet een korte beschrijving worden toegevoegd:
+Voeg bij de zending een korte beschrijving van:
 
 - wat niet werkt,
 - wanneer het probleem optreedt,
 - of de storing permanent of periodiek is,
-- of vóór de storing overspanning, binnendringen van water of een andere gebeurtenis is opgetreden,
-- de gegevens die nodig zijn voor contact en retourzending van het apparaat.
+- of vóór de storing een overspanning, waterschade of een andere gebeurtenis is opgetreden,
+- de gegevens die nodig zijn voor contact en het retourneren van het apparaat.
 
 :::note Gegevens voor een servicemelding
 
-Geef contact- en verzendgegevens rechtstreeks door aan de service. Publiceer deze niet in open meldingen of openbare materialen.
+Verstrek contact- en verzendgegevens rechtstreeks aan de servicedienst. Publiceer deze niet in openbare meldingen of openbaar materiaal.
 
 :::
 
-### Moet de volledige regelaar worden opgestuurd of alleen de print?
+### Moet de hele regelaar worden opgestuurd of alleen de printplaat?
 
-Dat hangt af van de storing.
+Dit hangt af van de storing.
 
-Bij problemen met het display, knoppen, voeding of onduidelijk gedrag is het het beste de volledige set te sturen die nodig is om het symptoom te reproduceren.
+Bij problemen met het display, de knoppen, de voeding of onduidelijk gedrag is het het beste om de volledige set op te sturen die nodig is om het symptoom te reproduceren.
 
-Bij een vooraf afgestemde reparatie van een specifieke module kan de service alleen om de print vragen.
+Bij een vooraf overeengekomen reparatie van een specifieke module kan de servicedienst vragen om alleen de printplaat op te sturen.
 
 ### Repareert ELETOR regelaars in plaats van ze direct te vervangen?
 
-Uit de transcripties blijkt dat apparaten eerst worden gediagnosticeerd.
+Uit de transcripties blijkt dat de apparaten eerst worden gediagnosticeerd.
 
-Als reparatie mogelijk en zinvol is, worden defecte componenten of modules vervangen. Bij ernstige schade kan de service vervanging van de print of van het volledige apparaat voorstellen.
+Als reparatie mogelijk en zinvol is, worden defecte componenten of modules vervangen. Bij ernstige schade kan de servicedienst voorstellen om de printplaat of het hele apparaat te vervangen.
 
-### Wat gebeurt er als de defecte print niet kan worden gerepareerd?
+### Wat gebeurt er als de defecte printplaat niet kan worden gerepareerd?
 
-Vervanging van de defecte module door een nieuwe is mogelijk, mits het passende onderdeel beschikbaar en compatibel met het apparaat is.
+De defecte module kan door een nieuwe worden vervangen, mits het juiste onderdeel beschikbaar en compatibel met het apparaat is.
 
-Bij oudere apparaten moet de service eerst de versiecompatibiliteit bevestigen.
+Bij oudere apparaten moet de servicedienst eerst bevestigen dat de uitvoeringen compatibel zijn.
 
-### Is het de moeite waard om na een overspanning direct een nieuwe print te kopen?
+### Is het zinvol om na een overspanning direct een nieuwe printplaat te kopen?
 
 Niet altijd.
 
-Als de schade betrekking heeft op een beveiligingscomponent of op een klein deel van het circuit, kan reparatie gerechtvaardigd zijn. Het is raadzaam eerst een diagnose uit te voeren.
+Als de schade beperkt is tot een beveiligingscomponent of een klein deel van de schakeling, kan reparatie gerechtvaardigd zijn. Het is raadzaam om eerst een diagnose uit te voeren.
 
-### Kan de service ook het display en de knoppen controleren?
+### Kan de servicedienst ook het display en de knoppen controleren?
 
-Ja, als deze elementen samen met het apparaat of de module worden aangeleverd.
+Ja, als deze onderdelen samen met het apparaat of de module worden aangeleverd.
 
-Dit is vooral nuttig wanneer niet bekend is of het probleem zich op de hoofdprint of in het gebruikerspaneel bevindt.
+Dit is vooral nuttig wanneer niet duidelijk is of het probleem op de hoofdprintplaat of in het gebruikerspaneel zit.
 
-### Is het altijd de moeite waard een sterk gecorrodeerde regelaar te redden?
+### Is het altijd zinvol om een sterk gecorrodeerde regelaar te redden?
 
 Nee.
 
-Als de kosten van diagnose en reparatie stijgen en de betrouwbaarheid na reparatie onzeker blijft, kan vervanging verstandiger zijn.
+Als de kosten van diagnose en reparatie toenemen en de betrouwbaarheid na reparatie onzeker blijft, kan vervanging verstandiger zijn.
 
-Dit geldt in het bijzonder voor apparaten waarvan de ventilatie van het object afhankelijk is.
+Dit geldt vooral voor apparaten waarvan de ventilatie van het gebouw afhankelijk is.
 
 ### Hoe kan de servicediagnose worden versneld?
 
@@ -687,142 +687,142 @@ Voeg een nauwkeurige beschrijving van het symptoom toe in plaats van alleen de m
 
 Ook nuttig zijn:
 
-- foto’s,
+- foto's,
 - de foutcode,
 - een beschrijving van de installatie,
 - het type aangesloten verbruikers,
 - informatie over overspanning of stroomuitval,
-- informatie over binnendringen van water of reiniging van het apparaat.
+- informatie over waterschade of reiniging van het apparaat.
 
 
 ## Installatie en bekabeling
 
-### Hoe moeten apparaten op de relaisklemmen C en NO worden aangesloten?
+### Hoe worden apparaten aangesloten op de relaisklemmen C en NO?
 
-C en NO zijn typische aanduidingen van een relaiscontact:
+C en NO zijn gebruikelijke aanduidingen voor een relaiscontact:
 
 - C — gemeenschappelijk contact,
 - NO — normaal open contact.
 
-De wijze van gebruik hangt af van het apparaat en het installatieschema. Het contact kan bijvoorbeeld worden gebruikt om de spoel van een contactor aan te sturen, maar de toegestane parameters mogen niet worden overschreden.
+De toepassing hangt af van het apparaat en het installatieschema. Het contact kan bijvoorbeeld worden gebruikt om een contactorspoel aan te sturen, maar de toegestane parameters ervan mogen niet worden overschreden.
 
 :::warning Elektrische werkzaamheden
 
-Aansluitingen op netspanning moeten worden uitgevoerd door een persoon met de juiste kwalificaties, overeenkomstig het schema van het specifieke apparaat.
+Aansluitingen op netspanning moeten worden uitgevoerd door een persoon met de juiste kwalificaties, volgens het schema van het specifieke apparaat.
 
 :::
 
-### Kan een relaisuitgang direct een grote ventilator voeden?
+### Kan een relaisuitgang rechtstreeks een grote ventilator voeden?
 
-Gewoonlijk is dit geen correcte toepassing van een kleine stuuruitgang.
+Dit is doorgaans geen geschikte toepassing voor een kleine stuuruitgang.
 
-Voor grotere belastingen worden een contactor, vermogensrelais of een speciale uitvoermodule gebruikt.
+Voor grotere belastingen wordt een contactor, vermogensrelais of een specifieke uitvoermodule gebruikt.
 
-### Waarvoor dienen de klemmen A1 en A2 van de contactor?
+### Waarvoor dienen de klemmen A1 en A2 van een contactor?
 
-Dit zijn de spoelklemmen van de contactor.
+Dit zijn de klemmen van de contactorspoel.
 
-Na het aanleggen van de juiste spanning op de spoel verandert de contactor de toestand van zijn vermogenscontacten.
+Wanneer de juiste spanning op de spoel wordt aangelegd, verandert de contactor de toestand van zijn vermogenscontacten.
 
-De spoelspanning moet overeenkomen met het ontwerp van de installatie en met de documentatie van de contactor.
+De spoelspanning moet overeenkomen met het installatieontwerp en de documentatie van de contactor.
 
-### Kunnen extra apparaten binnen in de behuizing van de regelaar worden gemonteerd?
+### Kunnen aanvullende componenten in de behuizing van de regelaar worden gemonteerd?
 
-Alleen wanneer de constructie van de specifieke behuizing dit toelaat en dit geen verslechtering veroorzaakt van:
+Alleen als de constructie van de betreffende behuizing dit toelaat en dit geen nadelige gevolgen heeft voor:
 
 - de beschermingsgraad,
 - de isolatie,
 - de koeling,
 - de veiligheid,
-- de servicetoegang.
+- de toegankelijkheid voor onderhoud.
 
-Eventuele nieuwe openingen moeten zodanig worden uitgevoerd dat de vereiste afdichting behouden blijft.
+Alle nieuwe openingen moeten zo worden aangebracht dat de vereiste afdichting behouden blijft.
 
-### Zijn extra schakelaars voor ventilatoren nuttig?
+### Zijn extra ventilatorschakelaars nuttig?
 
-Ze kunnen service vereenvoudigen en onafhankelijke uitschakeling van afzonderlijke ventilatoren mogelijk maken.
+Ze kunnen onderhoud vereenvoudigen en het mogelijk maken om afzonderlijke ventilatoren onafhankelijk los te koppelen.
 
-De uitvoeringswijze moet echter rekening houden met de elektrische beveiligingen en mag geen gevaarlijke toestanden van de regelaar veroorzaken.
+De uitvoering moet echter rekening houden met de elektrische beveiligingen en mag geen gevaarlijke toestanden van de regelaar veroorzaken.
 
-### Kunnen stuurkabels samen met vermogenskabels worden gelegd?
+### Mogen stuurkabels samen met vermogenskabels worden gelegd?
 
-Het moet worden vermeden gevoelige signaalkabels parallel en zeer dicht bij kabels met groot vermogen te leggen, vooral over lange afstanden.
+Het parallel en zeer dicht bij hoogvermogenskabels leggen van gevoelige signaalkabels moet worden vermeden, vooral over lange trajecten.
 
-De eisen hangen af van het type signaal en van de elektromagnetische omgeving.
+De eisen hangen af van het signaaltype en de elektromagnetische omgeving.
 
-### Welke kabel moet worden gebruikt voor netwerkaansluitingen en PoE-apparaten?
+### Welke kabel moet worden gebruikt voor netwerkverbindingen en PoE-apparaten?
 
-In de besproken installaties werd minimaal twisted pair van categorie 5e aanbevolen.
+In de besproken installaties werd twisted-pairkabel van categorie 5e als minimum genoemd.
 
-Als de kabel in een omgeving loopt met een verhoogd storingsniveau of risico op elektrostatische ladingen, kan het gerechtvaardigd zijn een passend afgeschermde kabel en een correct aardingssysteem toe te passen.
+Als de kabel door een omgeving loopt met een verhoogd storingsniveau of risico op elektrostatische ladingen, kan het zinvol zijn om een passend afgeschermde kabel en een correct aardingssysteem te gebruiken.
 
-### Is voor PoE een gekruiste kabel nodig?
+### Is voor PoE een crossoverkabel nodig?
 
 In typische installaties wordt een standaard rechte verbinding gebruikt.
 
-De eisen van het netwerkapparaat en van de toegepaste PoE-voeding moeten echter altijd worden gecontroleerd.
+De eisen van het netwerkapparaat en de gebruikte PoE-voeding moeten echter altijd worden gecontroleerd.
 
 
-## Gebruik en onderhoud
+## Bedrijf en onderhoud
 
-### Hoe kan het risico op storingen van regelaars in agrarische gebouwen worden beperkt?
+### Hoe kan het risico op storingen van regelaars in agrarische bedrijfsgebouwen worden beperkt?
 
-Het belangrijkste is de invloed te beperken van:
+Het belangrijkste is om de invloed te beperken van:
 
 - vocht,
 - ammoniak en een agressieve omgeving,
 - stof,
-- rechtstreeks reinigen met water,
+- rechtstreekse reiniging met water,
 - overspanningen,
 - onjuiste voeding.
 
-Daarnaast is het raadzaam periodiek de staat van kabels, verbindingen en behuizingen te controleren.
+Het is ook raadzaam om de toestand van kabels, verbindingen en behuizingen periodiek te controleren.
 
 ### Moeten elektronische apparaten regelmatig worden gereinigd?
 
-Ja, vooral apparaten die zijn uitgerust met koelplaten, ventilatoren en ventilatieopeningen.
+Ja, vooral apparaten die zijn uitgerust met koellichamen, ventilatoren en ventilatieopeningen.
 
-Opgehoopt stof verslechtert de koeling.
+Opgehoopt stof vermindert de koeling.
 
-Reiniging moet worden uitgevoerd nadat de voeding is losgekoppeld en overeenkomstig de handleiding van het apparaat.
+Reiniging moet worden uitgevoerd nadat de voeding is losgekoppeld en volgens de handleiding van het apparaat.
 
-### Is het zinvol om na enkele jaren bedrijf een inspectie van de regelaar uit te voeren?
+### Is het raadzaam om de regelaar na enkele jaren bedrijf te laten inspecteren?
 
-Ja, vooral onder moeilijke omgevingsomstandigheden.
+Ja, vooral onder zware omgevingsomstandigheden.
 
-Een inspectie kan het volgende omvatten:
+Een inspectie kan omvatten:
 
-- beoordeling van de staat van connectoren,
+- beoordeling van de toestand van connectoren,
 - controle op sporen van vocht en corrosie,
-- controle van koelelementen,
+- controle van koelonderdelen,
 - controle van het paneel en de knoppen,
-- test van sensoren,
-- controle van accu’s in alarmsystemen.
+- een test van de sensoren,
+- controle van de accu's in alarmsystemen.
 
-### Wat is het zinvol vast te leggen nadat een storing is opgetreden?
+### Wat moet worden vastgelegd na een storing?
 
-Het meest nuttig zijn:
+Het nuttigst zijn:
 
 - de volledige melding,
 - de foutcode,
 - het tijdstip van de gebeurtenis,
 - de temperatuur,
-- de ventilatiestatus,
+- de toestand van de ventilatie,
 - informatie over stroomuitval,
-- informatie over bedrijf van het aggregaat,
-- een foto van het scherm of van het apparaat.
+- informatie over de werking van de generator,
+- een foto van het scherm of het apparaat.
 
 Het apparaat mag niet worden gereset voordat de code is vastgelegd, als de situatie dit veilig toelaat.
 
-### Is het zinvol een alarm te hebben dat onafhankelijk is van de ventilatieregelaar?
+### Is een alarm dat onafhankelijk is van de ventilatieregelaar zinvol?
 
 Ja, vooral waar een ventilatiestoring snel tot gevaarlijke omstandigheden kan leiden.
 
-Een onafhankelijke centrale met eigen accu en meldingen op afstand biedt een extra beveiligingslaag.
+Een onafhankelijke centrale met een eigen accu en meldingen op afstand biedt een extra beveiligingslaag.
 
-### Welke informatie moet worden voorbereid vóór contact met de technische ondersteuning?
+### Welke informatie moet worden voorbereid voordat contact wordt opgenomen met de technische ondersteuning?
 
-Het beste is om het volgende voor te bereiden:
+Het is het beste om het volgende voor te bereiden:
 
 1. het exacte model van het apparaat,
 2. een beschrijving van de installatie,
@@ -830,27 +830,27 @@ Het beste is om het volgende voor te bereiden:
 4. de huidige instellingen die verband houden met het probleem,
 5. het exacte symptoom,
 6. de volledige fout- of alarmcode,
-7. foto’s van het apparaat en van de typeplaatjes,
-8. informatie over recente wijzigingen in de installatie.
+7. foto's van het apparaat en de typeplaatjes,
+8. informatie over recente wijzigingen aan de installatie.
 
-Hierdoor kan de diagnosetijd aanzienlijk worden verkort.
+Hiermee kan de diagnosetijd aanzienlijk worden verkort.
 
 
 ## Belangrijke opmerking over oudere apparaten
 
-Benamingen, klemmenaanduidingen en beschikbare functies kunnen verschillen tussen apparaatversies die in verschillende jaren zijn geproduceerd.
+Namen, klemaanduidingen en beschikbare functies kunnen verschillen tussen uitvoeringen van apparaten die in verschillende jaren zijn geproduceerd.
 
-Als het apparaat enkele of meerdere jaren oud is, moet vóór gebruik van de instructie van een nieuwer model het volgende worden bevestigd:
+Als het apparaat enkele jaren of meer dan tien jaar oud is, moet vóór toepassing van de handleiding van een nieuwer model het volgende worden bevestigd:
 
-- de exacte apparaataanduiding,
-- de printversie,
+- de exacte aanduiding van het apparaat,
+- de printplaatversie,
 - het type display,
 - de softwareversie,
 - het klemmenschema.
 
-:::warning Oudere apparaatversies
+:::warning Oudere uitvoeringen van apparaten
 
-Ga niet uit van volledige compatibiliteit alleen op basis van een vergelijkbaar uiterlijk van de behuizing. Bevestig vóór gebruik van een schema of handleiding het exacte model en de versie van het apparaat.
+Ga niet uit van volledige compatibiliteit uitsluitend op basis van een vergelijkbaar uiterlijk van de behuizing. Bevestig het exacte model en de uitvoering van het apparaat voordat u een schema of handleiding gebruikt.
 
 :::
 
@@ -861,8 +861,8 @@ Als de FAQ het probleem niet oplost, bereid dan vóór contact het volgende voor
 
 - een foto van de regelaar,
 - een foto van het typeplaatje van de verbruiker,
-- de parameters van motoren of actuatoren,
+- de parameters van de motoren of actuatoren,
 - het aansluitschema,
-- een nauwkeurige beschrijving van de gewenste werkwijze.
+- een nauwkeurige beschrijving van de gewenste werking.
 
-Hierdoor kan de selectie van het apparaat of de diagnose van het probleem worden uitgevoerd op basis van de werkelijke parameters van de installatie en niet op basis van veronderstellingen.
+Hierdoor kan de keuze van het apparaat of de diagnose van het probleem worden uitgevoerd op basis van de daadwerkelijke parameters van de installatie, in plaats van op basis van veronderstellingen.

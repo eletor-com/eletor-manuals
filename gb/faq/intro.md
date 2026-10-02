@@ -3,8 +3,8 @@ id: faq
 title: FAQ
 sidebar_label: FAQ
 slug: /faq
-description: Most common questions regarding the selection, configuration, diagnostics,
-  and service of ELETOR devices.
+description: Frequently asked questions about the selection, configuration, diagnostics
+  and servicing of ELETOR devices.
 keywords:
 - ELETOR
 - FAQ
@@ -13,7 +13,7 @@ keywords:
 - fans
 - actuators
 - alarms
-- frequency inverters
+- variable frequency drives
 - service
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -21,467 +21,467 @@ toc_max_heading_level: 3
 
 # Frequently Asked Questions
 
-The FAQ was created on the basis of an anonymized analysis of real conversations with users and customers of ELETOR. The answers have been generalized so that they help in typical cases and do not contain data of specific persons or installations.
+This FAQ was prepared based on an anonymized analysis of actual conversations with users and customers of ELETOR. The answers have been generalized to address typical situations and do not contain data relating to specific individuals or installations.
 
-:::note FAQ scope
+:::note Scope of the FAQ
 
-The answers concern typical cases. Terminal designations, functions, and connection methods may differ between device models and versions. In case of doubt, use the documentation applicable to the specific product.
+The answers address typical situations. Terminal designations, functions and connection methods may differ between device models and versions. If in doubt, consult the documentation for the specific product.
 
 :::
 
 :::warning Safety
 
-Perform work on the electrical installation in accordance with the device documentation and applicable safety rules. Work involving mains voltage should be carried out by a person with appropriate qualifications.
+Perform electrical installation work in accordance with the device documentation and applicable safety rules. Work involving mains voltage should be performed by a suitably qualified person.
 
 :::
 
-## Controller selection and power rating
+## Controller Selection and Power Rating
 
 ### How should a controller be selected for fans?
 
-The basis for selection is primarily the total current of the fans, not only their number.
+Selection is based primarily on the total current drawn by the fans, not solely on their number.
 
 :::tip Prepare the data before selection
 
-The more accurate the data about the motors and the operating method of the installation, the more reliable the controller selection.
+The more accurate the data on the motors and the installation's operating conditions, the more reliable the controller selection.
 
 :::
 
-Before selection, it is worth preparing:
+Before selection, it is advisable to prepare:
 
 - the number of fans,
 - the supply voltage,
 - the rated power or current of each fan,
-- information on whether all fans are to operate continuously with smooth control,
+- information on whether all fans require continuously variable speed control,
 - information on whether the fans can be divided into groups,
-- information about additional devices, e.g. heaters or air inlets.
+- information on additional devices, e.g. heaters or air inlets.
 
-The controller should not be selected exactly at the limit. An appropriate margin relative to the maximum load must be maintained.
+The controller should not be selected to operate exactly at its limit. An appropriate margin relative to the maximum load must be maintained.
 
-### Is it enough to sum the fan power in watts?
+### Is adding up the fan power ratings in watts sufficient?
 
-Power can be used for a preliminary estimate, but the final selection should be based on the rated current of the devices and the nature of the load.
+Power ratings can be used for an initial estimate, but final selection should be based on the rated current of the devices and the nature of the load.
 
-During startup, a motor may draw more current than during normal operation. For this reason, two sets of fans with similar rated power are not always an equivalent load for the controller.
+A motor may draw more current during startup than during normal operation. For this reason, two sets of fans with similar rated power do not always represent equivalent loads for the controller.
 
 ### I have several small fans. Can I connect them in parallel to one output?
 
-Yes, if:
+Yes, provided that:
 
-- they are intended for this method of control,
-- they are to operate together,
-- the sum of the loads does not exceed the permissible output current,
-- the connection method is in accordance with the controller documentation.
+- they are designed for this control method,
+- they are intended to operate together,
+- the total load does not exceed the permissible output current,
+- the connection method complies with the controller documentation.
 
-With a larger number of fans, it is worth considering division into groups or the use of a power extension.
+For a larger number of fans, consider dividing them into groups or using a power expansion module.
 
-### When is a power extension required?
+### When is a power expansion module needed?
 
-A power extension is used when the load exceeds the capability of the controller output or when the installation is to be expanded with a larger number of fans.
+A power expansion module is used when the load exceeds the capacity of the controller output or when the installation is to be expanded with more fans.
 
 The controller then provides the control signal, while the actual load is handled by an additional module.
 
-### Can the installation later be expanded with additional fans?
+### Can additional fans be added to the installation later?
 
-In many installations, yes. The following are most commonly used:
+In many installations, yes. The most commonly used solutions are:
 
-- an additional power extension,
+- an additional power expansion module,
 - an additional ventilation group,
-- a contactor that switches on another group,
-- a frequency inverter in the case of three-phase motors.
+- a contactor to switch on another group,
+- a variable frequency drive for three-phase motors.
 
-It is best to plan the intended expansion already during the initial controller selection.
+It is best to allow for planned expansion when initially selecting the controller.
 
-### Do all fans have to operate with smooth control?
+### Do all fans require continuously variable speed control?
 
-No. Two typical solutions are:
+No. There are two typical solutions:
 
-1. all fans operate with smooth control,
-2. the first group operates with smooth control, and subsequent groups are connected step by step, e.g. via contactors.
+1. all fans operate with continuously variable speed control,
+2. the first group operates with continuously variable speed control, while subsequent groups are switched on in stages, e.g. using contactors.
 
-The second solution makes it possible to handle a larger installation without smooth control of every fan.
+The second solution allows a larger installation to be controlled without continuously variable speed control of every fan.
 
 ### I have 10 fans. Do I need a very large controller?
 
 Not always. Several control methods can be used:
 
 - division into groups,
-- power extensions,
+- power expansion modules,
 - contactors,
-- a frequency inverter.
+- a variable frequency drive.
 
-The final selection depends on the electrical parameters of the fans and on whether all of them are to change speed simultaneously.
+Final selection depends on the electrical parameters of the fans and on whether all of them need to change speed simultaneously.
 
-### Do controller 6 A and 12 A differ only in permissible load?
+### Do the 6 A and 12 A controllers differ only in their permissible load?
 
-It should not be assumed that the only difference is the current value. Individual device versions and generations may differ in equipment or design.
+Do not assume that the current rating is the only difference. Individual device versions and generations may differ in their equipment or construction.
 
-When replacing a device, the exact model and current documentation must be checked.
+When replacing a device, check the exact model and current documentation.
 
 
-## Fans and ventilation control
+## Fans and Ventilation Control
 
-### Does the controller regulate fans smoothly?
+### Does the controller provide continuously variable fan speed control?
 
-In controllers intended for smooth ventilation control, fan speed is changed depending on demand resulting, among other things, from temperature.
+In controllers designed for continuously variable ventilation control, fan speed is adjusted according to demand arising from factors including temperature.
 
-However, it should be verified whether a given motor type is suitable for the applied control method.
+However, check whether the motor type is suitable for the control method used.
 
-### What does set temperature mean?
+### What does the temperature setpoint mean?
 
-The set temperature is the value against which the controller compares the current temperature measurement.
+The temperature setpoint is the value against which the controller compares the current temperature measurement.
 
-On this basis, the controller increases or decreases ventilation intensity in accordance with the other settings, e.g. the control band and the minimum and maximum levels.
+Based on this value, the controller increases or decreases ventilation intensity in accordance with the other settings, e.g. the control band and the minimum and maximum levels.
 
 ### What does the minimum ventilation level mean?
 
 This is the minimum fan control value during automatic operation.
 
-The setting prevents operation below the level at which the fan could operate unstably or provide insufficient air exchange.
+This setting prevents operation below a level at which the fan could operate unstably or provide insufficient air exchange.
 
 ### What does the maximum ventilation level mean?
 
 This is the upper limit of the ventilation control value.
 
-For example, setting a value below 100% may limit the maximum fan speed, if required by the installation.
+For example, setting a value below 100% may limit the maximum fan speed if the installation requires this.
 
 ### What does the ventilation band mean?
 
-The ventilation band defines the temperature range in which the controller moves from the minimum to the maximum ventilation level.
+The ventilation band defines the temperature range over which the controller transitions from the minimum to the maximum ventilation level.
 
-The smaller the band, the faster the control reacts with increased capacity to a change in temperature.
+The narrower the band, the more rapidly the control responds to a temperature change by increasing ventilation capacity.
 
-### After startup, the fan first goes to 100% and only then slows down. Why?
+### After startup, the fan first reaches 100% and only then slows down. Why?
 
-The startup function may be active, whose task is to start the motor temporarily at higher power.
+A startup function may be active, intended to briefly start the motor at a higher power level.
 
-Depending on the controller version, settings related to the following should be checked:
+Depending on the controller version, check the settings relating to:
 
 - the Soft Start function,
-- acceleration time,
-- time of operation at 100%,
-- deceleration time.
+- the acceleration time,
+- the operating time at 100%,
+- the deceleration time.
 
-If the function is not needed in a given installation, the relevant parameters can be changed in accordance with the device manual.
+If the function is not needed in the installation, the relevant parameters can be changed in accordance with the device manual.
 
-### Why can the fan be started temporarily at full power during startup?
+### Why might a fan briefly run at full power during startup?
 
-Such startup may help ensure reliable fan start-up and may help in installations where mechanical elements can offer greater resistance during start.
+This startup method may help ensure reliable fan starting and may be useful in installations where mechanical components offer greater resistance during startup.
 
-However, this is not necessary in every installation.
+However, it is not necessary in every installation.
 
 ### What do acceleration time and deceleration time mean?
 
-**Acceleration time** defines how the control ramps up when the fan is started.
+**Acceleration time** defines how the control value increases during fan startup.
 
-**Deceleration time** defines how the speed is reduced.
+**Deceleration time** defines how the speed decreases.
 
-Both parameters help limit abrupt changes in rotational speed and installation operation.
+Both parameters help limit abrupt changes in speed and installation operation.
 
 ### Why can two identical controllers start fans differently?
 
 The most common cause is different settings.
 
-It is worth comparing above all:
+In particular, compare:
 
-- the set temperature,
+- the temperature setpoint,
 - the ventilation band,
-- minimum and maximum,
-- Soft Start settings,
-- acceleration and deceleration times,
-- the configuration of ventilation groups.
+- the minimum and maximum levels,
+- the Soft Start settings,
+- the acceleration and deceleration times,
+- the ventilation group configuration.
 
-### Can the controller start ventilation periodically regardless of temperature?
+### Can the controller periodically start ventilation independently of temperature?
 
 Depending on the model, a periodic ventilation function is available.
 
-It can start ventilation for a specified time at specified intervals, even when temperature control does not require increased ventilation.
+It can run ventilation for a specified duration at set intervals, even when temperature control does not require increased ventilation.
 
 ### What are ventilation groups used for?
 
-Groups make it possible to increase installation capacity gradually.
+Groups allow the installation's capacity to be increased in stages.
 
 For example:
 
-- group 1 operates with smooth control,
+- group 1 operates with continuously variable speed control,
 - group 2 starts additional fans,
-- the next group starts at even higher demand.
+- the next group starts when demand increases further.
 
-This makes it possible to control a large number of fans without smooth regulation of each of them.
+This allows a large number of fans to be controlled without continuously variable speed control of each one.
 
-### Can an additional fan group be switched on via a contactor?
+### Can an additional group of fans be switched on using a contactor?
 
-Yes. The controller relay output can control the coil of a suitably selected contactor.
+Yes. The controller's relay output can control the coil of a suitably selected contactor.
 
-The fan load should then not be carried directly through a small control contact.
+In this case, the fan load should not be routed directly through the small control contact.
 
 ### What does the fan symbol or yellow indicator on the controller mean?
 
-Depending on the model, the indicators show the current state of outputs and functions.
+Depending on the model, indicators show the current state of outputs and functions.
 
-A yellow indication may mean an active operating function, e.g. ventilation, heating, or the next group in operation.
+A yellow indication may mean that an operating function is active, e.g. ventilation, heating or another group.
 
-The exact meaning should be checked in the manual for the specific model.
+Check the manual for the specific model for the exact meaning.
 
 ### What does the manual mode symbol mean?
 
-Manual mode means that the control value has been forced by the user and is not currently calculated automatically on the basis of temperature.
+Manual mode means that the control value has been overridden by the user and is not currently calculated automatically based on temperature.
 
-After testing, it should be ensured that the controller has been returned to the correct automatic mode.
+After testing, ensure that the controller has been returned to the appropriate automatic mode.
 
 
-## Air inlets and actuators
+## Air Inlets and Actuators
 
 ### Can the controller control air inlets?
 
-Yes, selected controllers can work with air inlet actuators.
+Yes, selected controllers support air inlet drives.
 
 The connection method depends on the actuator type and its control method.
 
-### What types of actuators can be used for inlets?
+### What types of actuators can be used for air inlets?
 
-In technical discussions, the following two solutions appeared most often:
+Two solutions appeared most frequently in the technical conversations:
 
-- an actuator controlled by an analog signal 0–10 V or 2–10 V,
-- a reversing open/close actuator with a feedback signal, e.g. from a potentiometer.
+- an actuator controlled by an analog signal of 0–10 V or 2–10 V,
+- a reversible open/close actuator with a feedback signal, e.g. from a potentiometer.
 
-Before purchase, the compatibility of the specific model with the controller in use should be verified.
+Before purchase, check the compatibility of the specific model with the existing controller.
 
-### Does the actuator supply voltage 24 V or 230 V matter for the 0–10 V signal?
+### Does an actuator supply voltage of 24 V or 230 V affect the 0–10 V signal?
 
 The control signal and the actuator power supply are separate parameters.
 
-An actuator may be supplied with a voltage different from the control signal voltage. Both parameters must comply with the actuator and controller documentation.
+The actuator may be powered by a voltage different from the control signal voltage. Both parameters must comply with the actuator and controller documentation.
 
 ### What does 0–10 V control mean?
 
 The controller sends an analog voltage signal representing the required position or control level.
 
-In a typical application, a lower value means a smaller opening and a higher value a larger one, but the actual characteristic should be checked in the actuator documentation.
+In a typical application, a lower value means a smaller opening and a higher value means a larger opening, but the actual characteristic must be checked in the actuator documentation.
 
-### What is the difference between 0–10 V and 2–10 V?
+### How does 0–10 V differ from 2–10 V?
 
-In both cases, the position is set by an analog signal.
+In both cases, the position is commanded by an analog signal.
 
-In the 2–10 V standard, the lower part of the range is shifted and may allow the device to distinguish the control signal from its absence.
+In the 2–10 V standard, the lower end of the range is offset and may allow the device to distinguish a control signal from its absence.
 
 The controller and actuator must support a compatible range.
 
-### How should an actuator be selected for the number of inlets?
+### How should an actuator be selected for the number of air inlets?
 
-An actuator should not be selected solely on the basis of the number of dampers.
+Do not select an actuator solely on the basis of the number of flaps.
 
-The following must be taken into account:
+Consider:
 
 - the required force or torque,
 - the length and routing of the mechanism,
-- damper resistance,
-- stroke length,
-- operating speed,
-- supply voltage,
-- control type,
-- required feedback.
+- the resistance of the flaps,
+- the stroke length,
+- the operating speed,
+- the supply voltage,
+- the control type,
+- the required feedback.
 
-### Can one actuator operate multiple dampers?
+### Can one actuator operate multiple flaps?
 
-Yes, if the mechanics of the installation allow the dampers to be connected by a common mechanism and the required torque or force does not exceed the actuator capability.
+Yes, provided that the mechanical arrangement of the installation allows the flaps to be connected through a common system and the required torque or force does not exceed the actuator's capacity.
 
-In practice, selection is determined by the resistance of the entire mechanism, not by the number of dampers alone.
+In practice, selection is determined by the resistance of the entire mechanism, not simply the number of flaps.
 
 ### Can several actuators be connected in parallel and controlled by one signal?
 
-In some systems this is possible, but the actuator documentation and the permissible load of the control output must be verified.
+This is possible in some systems, but the actuator documentation and the permissible load of the control output must be verified.
 
-In the case of reversing drives without independent feedback, gradual position drift between individual actuators may also occur.
+For reversible drives without independent feedback, the positions of individual actuators may also gradually drift apart.
 
-### Why can several actuators gradually move to different positions over time?
+### Why can several actuators move to different positions over time?
 
 Even identical motors may operate at slightly different speeds due to:
 
-- different load,
+- different loads,
 - mechanical resistance,
-- motor parameter tolerance,
-- gear differences.
+- motor parameter tolerances,
+- differences in gearboxes.
 
-Therefore, where precise synchronization is required, proper feedback or individual position control is necessary.
+Therefore, where precise synchronization is required, appropriate feedback or individual position control is necessary.
 
-### Can the inlets be controlled proportionally to ventilation?
+### Can air inlets be controlled proportionally to ventilation?
 
-Yes. In appropriately configured systems, the inlet position can be linked to the current ventilation level.
+Yes. In appropriately configured systems, the air inlet position can be linked to the current ventilation level.
 
-As a result, as fan capacity increases, inlet opening is also increased.
+This increases the air inlet opening as fan capacity increases.
 
-### Does actuator 24 V require a separate power supply?
+### Does the 24 V actuator require a separate power supply unit?
 
-If the controller does not have a suitable power output with the required power rating, a separate power supply is required.
+If the controller does not have a suitable power supply output with the required power rating, a separate power supply unit is needed.
 
-Its power rating should be selected according to the actuator current consumption and other devices powered from the same source.
+Its power rating must be selected according to the current drawn by the actuator and other devices powered from the same source.
 
 ### Can an actuator from another manufacturer be used?
 
-Often yes, if its electrical parameters and control method are compatible with the controller outputs.
+Often yes, provided that its electrical parameters and control method are compatible with the controller outputs.
 
 Before connection, check:
 
-- voltage,
-- signal type,
-- wiring diagram,
-- directions of operation,
-- position signal,
-- permissible load.
+- the voltage,
+- the signal type,
+- the wiring diagram,
+- the operating directions,
+- the position signal,
+- the permissible load.
 
 
-## Temperature and humidity sensors
+## Temperature and Humidity Sensors
 
 ### Where should the temperature sensor be connected?
 
-The sensor should be connected to the sensor input provided by the manufacturer, the sensor input indicated in the documentation for the given model.
+Connect the sensor to the sensor input provided by the manufacturer, the sensor input specified in the documentation for the model concerned.
 
-It should not be assumed that terminal designations are identical in all device versions.
+Do not assume that terminal designations are identical in all device versions.
 
-### The temperature sensor shows a different value than the reference thermometer. What should be done?
+### The temperature sensor shows a different value from the reference thermometer. What should I do?
 
-If the controller has a sensor calibration function, the reading can be corrected after comparing it with a reliable reference thermometer.
+If the controller has a sensor calibration function, the reading can be adjusted after comparison with a reliable reference thermometer.
 
-Before changing the calibration, it is worth making sure that:
+Before changing the calibration, ensure that:
 
-- both sensors are located in the same place,
+- both sensors are in the same location,
 - the measurement has stabilized,
-- the sensor is not being heated by the sun or equipment,
-- it is not located directly in the stream of cold or hot air.
+- the sensor is not being heated by sunlight or equipment,
+- it is not directly in a stream of cold or hot air.
 
 ### The humidity sensor shows an incorrect value. Can it be calibrated?
 
-This depends on the controller version, the sensor, and the software.
+This depends on the controller, sensor and software versions.
 
-In some solutions, correction may require an appropriate software function or a compatible sensor type. If the difference is large and repeatable, the device version should be checked and technical support should be contacted.
+In some solutions, adjustment may require an appropriate software function or a compatible sensor type. If the difference is large and repeatable, check the device version and contact technical support.
 
-### Does an incorrect measurement always mean a damaged sensor?
+### Does an incorrect measurement always mean a faulty sensor?
 
 No.
 
 The cause may also be:
 
-- incorrect sensor location,
+- incorrect sensor placement,
 - the cable,
 - the electrical connection,
-- configuration,
-- an incorrect sensor type,
+- the configuration,
+- an unsuitable sensor type,
 - the need for calibration,
 - moisture or corrosion.
 
 
-## Alarms and notifications
+## Alarms and Notifications
 
-### Can a siren be connected directly to the controller alarm output?
+### Can a siren be connected directly to the controller's alarm output?
 
-This should not be assumed.
+Do not assume that this is possible.
 
-The controller alarm output is usually a control output or a relay contact. The siren may require a separate power supply and an alarm control panel.
+The controller's alarm output is usually a control output or a relay contact. The siren may require a separate power supply and an alarm control panel.
 
-### What is an alarm control panel used for?
+### Why is an alarm control panel used?
 
-The control panel can:
+The panel can:
 
 - receive alarm signals from controllers,
-- power the sounder,
-- maintain operation during a power failure,
-- signal an alarm with sound or light,
+- supply power to an alarm signaling device,
+- maintain operation during a power outage,
+- indicate an alarm using sound or light,
 - send GSM notifications in versions equipped with this function.
 
-### Can the control panel report a controller power failure?
+### Can the panel signal a loss of power to the controller?
 
-Yes, if the system has been connected correctly.
+Yes, provided that the system has been connected appropriately.
 
-The solution may detect not only temperature exceedance, but also loss of signal from the controller caused by loss of its power supply.
+The solution can detect not only a temperature threshold being exceeded, but also the loss of the controller signal caused by a loss of its power supply.
 
 ### Where are the minimum and maximum alarm temperatures set?
 
-In a typical configuration, the alarm thresholds are set in the controller serving the given chamber or room.
+In a typical configuration, alarm thresholds are set in the controller serving the relevant chamber or room.
 
 The alarm control panel then receives information that the controller has reported an alarm.
 
-### Does a GSM control panel require a SIM card?
+### Does a GSM panel require a SIM card?
 
-To send calls and messages via the cellular network, an active SIM card or another communication solution provided for in the given model is required.
+To make calls and send messages over the cellular network, an active SIM card or another communication solution provided for in the model concerned is required.
 
 Without an active connection to the cellular network, telephone and SMS functions will not operate.
 
-### Can the alarm send information about which controller the event comes from?
+### Can the alarm send information identifying which controller the event came from?
 
-In a properly configured system, yes.
+Yes, in an appropriately configured system.
 
-The control panel inputs can be assigned to specific rooms or controllers, allowing the message to identify the source of the alarm.
+Panel inputs can be assigned to specific rooms or controllers, allowing the message to identify the alarm source.
 
 ### How many controllers can be connected to one alarm control panel?
 
-This depends on the control panel model.
+This depends on the panel model.
 
-The transcripts included control panels supporting up to eight inputs, however, before performing the installation, the current specification of the specific device should be checked.
+The transcripts mentioned panels supporting up to eight inputs; however, check the current specifications of the specific device before installing the system.
 
 ### What battery is used in the alarm control panel?
 
-In some of the devices discussed in the conversations, a 12 V 7 Ah battery was used.
+Some of the devices discussed in the conversations used an 12 V 7 Ah battery.
 
-Before purchasing a replacement, check the marking on the existing battery and the control panel specification, because other device versions may require a different battery.
+Before purchasing a replacement, check the designation on the existing battery and the panel specifications, as other device versions may require a different battery.
 
-### The control panel sends low voltage messages. What should be checked?
+### The panel sends low-voltage messages. What should I check?
 
-First of all, check:
+First, check:
 
-- the condition of the battery,
+- the battery condition,
 - its age,
 - the battery connections,
 - the presence of mains power,
-- the operation of the control panel charger or power supply.
+- the operation of the panel's charger or power supply unit.
 
-A worn-out battery may cause cyclic low-voltage messages.
+A worn-out battery may cause recurring low-voltage messages.
 
 ### How often should the battery in the alarm control panel be replaced?
 
-There is no single value suitable for all conditions.
+There is no single interval suitable for all conditions.
 
-The battery should be tested periodically, especially in installations where an alarm during a power failure is critically important. Its actual capacity decreases with age.
+The battery should be tested periodically, especially in installations where alarms during a power outage are critical. Its actual capacity decreases with age.
 
-### Is a siren alone sufficient as protection?
+### Is a siren alone sufficient protection?
 
-A siren works only when someone can hear it.
+A siren is effective only when someone can hear it.
 
-In facilities that are periodically left unattended, it is worth using remote notification and battery backup as well.
+For facilities that are temporarily unattended, it is advisable to also use remote notification and battery backup.
 
 
-## Frequency inverters
+## Variable Frequency Drives
 
-### How should a frequency inverter be selected for fans?
+### How should a variable frequency drive be selected for fans?
 
-It is necessary to know:
+The following must be known:
 
 - the supply voltage,
 - the number of phases,
 - the power and current of all motors,
-- their connection method,
-- operating conditions,
+- their connection arrangement,
+- the operating conditions,
 - the required control method.
 
-The frequency inverter should have an appropriate margin relative to the load, especially when several motors operate in parallel.
+The variable frequency drive should have an appropriate margin relative to the load, especially when several motors operate in parallel.
 
-### Should the frequency inverter have exactly the same power as the sum of the motor powers?
+### Should the variable frequency drive have exactly the same power rating as the total motor power?
 
-The frequency inverter should not be selected solely on the basis of a simple sum of power values, and a device operating exactly at the parameter limit should not be chosen.
+A variable frequency drive should not be selected solely by adding up the power ratings and choosing a device that operates exactly at its parameter limits.
 
-The rated currents, the nature of the load, and the frequency inverter manufacturer's recommendations must be taken into account.
+Rated currents, the nature of the load and the drive manufacturer's recommendations must be taken into account.
 
-### A frequency inverter stopped the fans and displayed an error. What should be done?
+### The variable frequency drive stopped the fans and displayed an error. What should I do?
 
-The most important thing is to record the full error code before reset.
+The most important step is to record the full error code before resetting.
 
-:::tip Take a photo of the screen
+:::tip Take a photograph of the screen
 
-If the situation allows, take a photo of the display before reset. The full error code makes diagnosis much easier.
+If the situation allows, photograph the display before resetting. The full error code greatly facilitates diagnosis.
 
 :::
 
-The beginning of the message alone is often not enough to determine the cause. The full code makes it possible to distinguish, among other things:
+The beginning of the message alone is often insufficient to determine the cause. The full code helps distinguish between, among other things:
 
 - overload,
 - overcurrent,
@@ -489,213 +489,213 @@ The beginning of the message alone is often not enough to determine the cause. T
 - incorrect voltage,
 - other drive errors.
 
-### Can a frequency inverter error simply be reset?
+### Can I simply reset the variable frequency drive error?
 
-A reset may restore operation, but it does not remove the cause of the alarm.
+A reset may restore operation, but it does not eliminate the cause of the alarm.
 
-After the event, the error code should be checked and the cause determined before long-term restarting of the installation.
+After the event, check the error code and determine the cause before restarting the installation for prolonged operation.
 
-### A frequency inverter operates in a dusty room. Does it need to be cleaned?
+### The variable frequency drive operates in a dusty room. Does it need cleaning?
 
 Yes.
 
-Dust and deposits on the heatsink or cooling fan may impair heat dissipation and lead to frequency inverter overheating.
+Dust and deposits on the heat sink or cooling fan can impair heat dissipation and cause the variable frequency drive to overheat.
 
-Cleaning should be carried out in accordance with the manufacturer's instructions, after safely disconnecting the power supply.
+Cleaning must be performed in accordance with the manufacturer's instructions, after safely disconnecting the power supply.
 
-### What can cause frequency inverter overheating?
+### What can cause a variable frequency drive to overheat?
 
 The most common causes are:
 
-- contaminated cooling components,
+- dirty cooling components,
 - obstructed airflow,
 - excessively high ambient temperature,
 - overload,
 - cooling fan failure,
 - incorrect installation.
 
-### Can increased mains voltage trigger a frequency inverter alarm?
+### Can elevated mains voltage trigger a variable frequency drive alarm?
 
-Yes. Frequency inverters monitor the supply circuit voltage and may report an error if the permissible level is exceeded.
+Yes. Variable frequency drives monitor the supply circuit voltage and may report an error when the permissible level is exceeded.
 
-If the problem repeats, the installation and power quality should be checked.
+If the problem recurs, check the installation and the power supply quality.
 
 
-## Failures and diagnostics
+## Faults and Diagnostics
 
 ### The controller operates, but the display shows nothing. What could be the cause?
 
-Possible causes include, among others:
+Possible causes include:
 
-- display damage,
-- a contrast adjustment problem in older solutions,
-- connection damage,
+- display failure,
+- a contrast adjustment problem in older designs,
+- a damaged connection,
 - corrosion,
 - main board damage.
 
-If the device has not been used for a long time or has operated in a humid environment, it is also worth checking the board condition.
+If the device has not been used for a long time or has operated in a humid environment, it is also advisable to check the condition of the board.
 
-### After several years of non-use, the controller has a display problem. Why?
+### The controller has a display problem after several years without use. Why?
 
-Prolonged downtime in a humid or aggressive environment may lead to:
+Prolonged inactivity in a humid or aggressive environment may lead to:
 
-- oxidation of connectors,
+- connector oxidation,
 - corrosion,
-- deterioration of contacts,
+- contact deterioration,
 - damage to electronic components.
 
-In such a case, it is worth carrying out a full inspection rather than replacing parts without prior diagnosis.
+In this case, it is advisable to carry out a full inspection rather than replace components without prior diagnosis.
 
-### The controller is blackened after an overvoltage event. Does this mean the board must be replaced?
+### The controller is soot-covered after a voltage surge. Does this mean the board must be replaced?
 
 Not always.
 
-A protective component may be damaged and leave a large amount of residue, even though the rest of the board may be repairable.
+A protective component may fail and leave substantial deposits, even though the rest of the board can be repaired.
 
-However, if the laminate is carbonized, burnt through, or the traces are damaged, repair may be uneconomical or not durable.
+However, if the board laminate is charred or burned, or the tracks are damaged, repair may be uneconomical or may not provide lasting results.
 
-### What can damage several controllers at the same time?
+### What can damage several controllers simultaneously?
 
-If many devices fail at the same time, the power supply installation should be checked.
+If multiple devices fail at the same time, check the power supply installation.
 
-One possible cause is a problem with the neutral conductor, which in a three-phase installation may lead to the appearance of incorrect voltages on single-phase loads.
+One possible cause is a problem with the neutral conductor, which in a three-phase installation can result in incorrect voltages being applied to single-phase loads.
 
-Overvoltage events originating from the grid or a generator are also possible.
+Voltage surges from the mains or a generator are also possible.
 
-### What should be done after a failure related to an overvoltage event?
+### What should I do after a failure caused by a voltage surge?
 
-Before connecting a repaired or new controller, the cause of the problem must be determined.
+Before connecting a repaired or new controller, determine the cause of the problem.
 
 :::danger Do not reconnect the device without checking the installation
 
-If the cause of the failure was incorrect voltage, a damaged neutral conductor, or an overvoltage event, the repaired or new controller may be damaged again.
+If the failure was caused by incorrect voltage, a damaged neutral conductor or a voltage surge, the repaired or new controller may be damaged again.
 
 :::
 
-### What is the surge protection component on the board?
+### What is a surge protection component on the board?
 
-Electronic devices use components that limit overvoltage, e.g. varistors.
+Electronic devices use components that limit voltage surges, e.g. varistors.
 
-Their task is to absorb part of the overvoltage energy and protect the downstream circuits. After a severe event, such a component may be permanently damaged.
+Their purpose is to absorb part of the surge energy and protect downstream circuits. After a severe event, such a component may be permanently damaged.
 
-### Can the device be started after removing the burnt protective component?
+### Can the device be operated after removing a burned-out protective component?
 
-This should not be treated as a normal repair.
+This should not be regarded as a normal repair.
 
-After removal of the protection, the device may lose protection against another overvoltage event. Such actions may be performed only as a deliberate service procedure by a person with appropriate qualifications and after elimination of the root cause of the original failure.
+After removal of the protective component, the device may lose protection against subsequent voltage surges. Such actions may only be performed as a deliberate service procedure by a suitably qualified person and after the cause of the original failure has been eliminated.
 
-### The controller has been flooded or has heavily corroded. Is it worth repairing?
+### The controller has suffered water ingress or severe corrosion. Is it worth repairing?
 
-It depends on the extent of the damage.
+This depends on the extent of the damage.
 
-Superficial corrosion and isolated damage can often be removed. If the corrosion has affected traces, connectors, and many components, the repair may be time-consuming, uncertain, and economically unjustified.
+Surface corrosion and isolated damage can often be remedied. If corrosion has affected tracks, connectors and many components, repair may be time-consuming, unreliable and economically unjustified.
 
 ### Can pressure washing the device damage the controller?
 
 Yes.
 
-Electronics should not be exposed to direct action of water or cleaning agent if the enclosure and mounting method are not designed for this purpose.
+Electronics should not be exposed directly to water or cleaning agents unless the enclosure and installation method are designed for this.
 
-Moisture entering the interior may lead to corrosion and later faults that are difficult to diagnose.
+Moisture entering the device can cause corrosion and subsequent faults that are difficult to diagnose.
 
-### Why can faults after flooding reappear after repair?
+### Why can faults caused by water ingress recur after repair?
 
-Corrosion may also progress in places invisible during the first inspection.
+Corrosion may also progress in areas that are not visible during the initial inspection.
 
-Damaged vias, traces, and connections may work during testing and later lose contact again.
+Damaged vias, tracks and connections may work during testing and later lose contact again.
 
-Therefore, in the case of a heavily corroded board, service may recommend replacement instead of further repairs.
+For this reason, the service department may recommend replacement rather than further repairs for a heavily corroded board.
 
-### Sometimes the device works and sometimes it does not. Where should diagnosis start?
+### The device works intermittently. Where should I start?
 
-Before contacting service, it is worth collecting:
+Before contacting the service department, collect:
 
 - the exact model,
 - a description of the symptom,
-- the moment of occurrence,
+- when it occurs,
 - the values shown on the screen,
 - the alarm or error code,
-- information about recent changes in the installation,
-- a photo of the interior and terminals, if it can be taken safely.
+- information on recent changes to the installation,
+- a photograph of the interior and terminals, if it can be taken safely.
 
-The more accurate the description, the easier the diagnosis.
+The more detailed the description, the easier the diagnosis.
 
 
-## Service and repairs
+## Service and Repairs
 
-### What should be sent to service if the controller is damaged?
+### What should I send to the service department if the controller is faulty?
 
-It is best to send a complete set that makes it possible to reproduce the problem.
+It is best to send a complete set that allows the problem to be reproduced.
 
-A short description should be attached to the shipment:
+Include a brief description with the shipment covering:
 
-- what does not work,
+- what is not working,
 - when the problem occurs,
-- whether the failure is permanent or intermittent,
-- whether an overvoltage event, flooding, or another incident occurred before the failure,
-- the data needed for contact and return of the device.
+- whether the fault is permanent or intermittent,
+- whether a voltage surge, water ingress or another event occurred before the failure,
+- the details needed to contact you and return the device.
 
-:::note Data for a service request
+:::note Details for a service request
 
-Provide contact and shipping details directly to service. Do not publish them in open tickets or public materials.
+Provide contact and shipping details directly to the service department. Do not publish them in open requests or public materials.
 
 :::
 
-### Is it necessary to send the entire controller or only the board?
+### Should I send the entire controller or only the board?
 
-It depends on the fault.
+This depends on the fault.
 
-In the case of problems with the display, buttons, power supply, or ambiguous behavior, it is best to send the entire set required to reproduce the symptom.
+For problems with the display, buttons, power supply or ambiguous behavior, it is best to send the entire set needed to reproduce the symptom.
 
-In the case of a previously agreed repair of a specific module, service may ask for the board only.
+For a previously agreed repair of a specific module, the service department may request only the board.
 
 ### Does ELETOR repair controllers instead of replacing them immediately?
 
-The transcripts indicate that devices are first diagnosed.
+The transcripts indicate that devices are diagnosed first.
 
-If repair is possible and justified, damaged components or modules are replaced. In the event of serious damage, service may propose replacement of the board or the entire device.
+If repair is possible and justified, faulty components or modules are replaced. In the event of serious damage, the service department may propose replacing the board or the entire device.
 
 ### What happens if the damaged board cannot be repaired?
 
-The damaged module may be replaced with a new one, provided that the appropriate part is available and compatible with the device.
+The damaged module can be replaced with a new one, provided that the appropriate part is available and compatible with the device.
 
-In older devices, service should first confirm version compatibility.
+For older devices, the service department should first confirm version compatibility.
 
-### Is it worth buying a new board immediately after an overvoltage event?
+### Is it worth buying a new board immediately after a voltage surge?
 
 Not always.
 
-If the damage concerns a protective component or a small part of the circuit, repair may be justified. It is worth carrying out a diagnosis first.
+If the damage affects a protective component or a small part of the circuit, repair may be justified. It is advisable to carry out a diagnosis first.
 
-### Can service also check the display and buttons?
+### Can the service department also check the display and buttons?
 
-Yes, if the components are supplied together with the device or module.
+Yes, provided that the components are supplied with the device or module.
 
-This is particularly useful when it is not known whether the problem is located on the main board or in the user panel.
+This is particularly useful when it is unclear whether the problem is on the main board or in the user panel.
 
-### Is a heavily corroded controller always worth saving?
+### Is it always worth saving a heavily corroded controller?
 
 No.
 
-If the cost of diagnosis and repair increases while reliability after repair remains uncertain, replacement may be more reasonable.
+If diagnosis and repair costs increase while reliability after repair remains uncertain, replacement may be more reasonable.
 
-This applies in particular to devices on which facility ventilation depends.
+This applies particularly to devices on which the facility's ventilation depends.
 
-### How can service diagnosis be accelerated?
+### How can I speed up service diagnosis?
 
-Attach an accurate description of the symptom instead of only stating that it does not work.
+Include a detailed description of the symptom rather than simply stating "does not work".
 
 The following are also useful:
 
-- photos,
+- photographs,
 - the error code,
 - a description of the installation,
 - the type of connected loads,
-- information about an overvoltage event or power failure,
-- information about flooding or washing of the device.
+- information on a voltage surge or power outage,
+- information on water ingress or washing of the device.
 
 
-## Installation and wiring
+## Installation and Wiring
 
 ### How should devices be connected to relay terminals C and NO?
 
@@ -704,21 +704,21 @@ C and NO are typical relay contact designations:
 - C — common contact,
 - NO — normally open contact.
 
-The method of use depends on the device and the installation diagram. The contact can be used, for example, to control a contactor coil, but its permissible parameters must not be exceeded.
+Their use depends on the device and the installation diagram. The contact can be used, for example, to control a contactor coil, but its permissible ratings must not be exceeded.
 
 :::warning Electrical work
 
-Connections to mains voltage should be made by a person with appropriate qualifications, in accordance with the diagram of the specific device.
+Connections involving mains voltage should be made by a suitably qualified person, in accordance with the diagram for the specific device.
 
 :::
 
-### Can the relay output directly power a large fan?
+### Can a relay output directly supply power to a large fan?
 
-Usually this is not an appropriate use of a small control output.
+This is generally not an appropriate use of a small control output.
 
-For larger loads, a contactor, power relay, or dedicated output module is used.
+For larger loads, use a contactor, power relay or dedicated output module.
 
-### What are terminals A1 and A2 of a contactor used for?
+### What are contactor terminals A1 and A2 used for?
 
 These are the contactor coil terminals.
 
@@ -726,101 +726,101 @@ When the appropriate voltage is applied to the coil, the contactor changes the s
 
 The coil voltage must comply with the installation design and the contactor documentation.
 
-### Can additional apparatus be installed inside the controller enclosure?
+### Can additional electrical devices be installed inside the controller enclosure?
 
-Only if the design of the specific enclosure allows it and if it does not worsen:
+Only if the design of the specific enclosure permits this and it does not impair:
 
 - the degree of protection,
-- insulation,
-- cooling,
-- safety,
-- service access.
+- the insulation,
+- the cooling,
+- the safety,
+- the service access.
 
-Any new openings should be made in a way that preserves the required sealing.
+Any new openings should be made in a way that maintains the required sealing.
 
 ### Are additional fan switches useful?
 
-They can facilitate service and enable independent disconnection of individual fans.
+They can facilitate servicing and allow individual fans to be disconnected independently.
 
-However, the implementation method must take electrical protection into account and must not cause hazardous controller states.
+However, the implementation must take electrical protection into account and must not cause unsafe controller states.
 
 ### Can control cables be routed together with power cables?
 
-Routing sensitive signal cables in parallel and very close to high-power cables should be avoided, especially over long distances.
+Avoid routing sensitive signal cables parallel to and very close to high-power cables, especially over long distances.
 
-Requirements depend on the type of signal and the electromagnetic environment.
+Requirements depend on the signal type and the electromagnetic environment.
 
 ### What cable should be used for network connections and PoE devices?
 
-In the discussed installations, category 5e twisted pair was indicated as the minimum.
+In the installations discussed, category 5e twisted-pair cable was specified as the minimum.
 
-If the cable runs in an environment with an increased level of interference or a risk of electrostatic charges, the use of an appropriately shielded cable and a correct grounding system may be justified.
+If the cable passes through an environment with elevated interference levels or a risk of electrostatic charges, it may be advisable to use appropriately shielded cable and a proper grounding system.
 
-### Is a crossover cable required for PoE?
+### Is a crossover cable needed for PoE?
 
-Standard straight-through connection is used in typical installations.
+Typical installations use a standard straight-through connection.
 
-However, the requirements of the network device and the applied PoE power supply should always be checked.
+However, always check the requirements of the network device and the PoE power supply used.
 
 
-## Operation and maintenance
+## Operation and Maintenance
 
-### How can the risk of controller failures in farm buildings be reduced?
+### How can the risk of controller failures in agricultural buildings be reduced?
 
-The most important thing is to limit the effect of:
+The most important measure is to limit the effects of:
 
 - moisture,
-- ammonia and an aggressive environment,
+- ammonia and aggressive environments,
 - dust,
 - direct washing with water,
-- overvoltage events,
+- voltage surges,
 - incorrect power supply.
 
-It is also worth periodically checking the condition of cables, connections, and enclosures.
+It is also advisable to periodically check the condition of cables, connections and enclosures.
 
 ### Should electronic devices be cleaned regularly?
 
-Yes, especially devices equipped with heatsinks, fans, and ventilation openings.
+Yes, especially devices equipped with heat sinks, fans and ventilation openings.
 
-Accumulated dust worsens cooling.
+Accumulated dust impairs cooling.
 
-Cleaning should be performed after disconnecting the power supply and in accordance with the device instructions.
+Cleaning must be performed after disconnecting the power supply and in accordance with the device manual.
 
-### After several years of operation, is it worth carrying out an inspection of the controller?
+### Is it worth inspecting the controller after several years of operation?
 
-Yes, especially in difficult environmental conditions.
+Yes, especially in harsh environmental conditions.
 
 The inspection may include:
 
-- assessment of connector condition,
+- assessing the condition of connectors,
 - checking for signs of moisture and corrosion,
 - checking cooling components,
 - checking the panel and buttons,
-- sensor testing,
+- testing sensors,
 - checking batteries in alarm systems.
 
-### What is worth recording after a failure occurs?
+### What should be recorded after a failure occurs?
 
-The most useful items are:
+The most useful information is:
 
 - the full message,
 - the error code,
 - the time of the event,
-- temperature,
+- the temperature,
 - the ventilation status,
-- information about a power failure,
-- information about generator operation,
-- a photo of the screen or device.
+- information on a power outage,
+- information on generator operation,
+- a photograph of the screen or device.
 
-The device should not be reset before the code is recorded, if the situation allows this to be done safely.
+Do not reset the device before recording the code if the situation allows this to be done safely.
 
 ### Is it worth having an alarm independent of the ventilation controller?
 
-Yes, especially where a ventilation failure may quickly lead to dangerous conditions.
+Yes, especially where a ventilation failure can quickly lead to dangerous conditions.
 
-An independent control panel with its own battery and remote notification provides an additional layer of protection.
+An independent panel with its own battery and remote notification provides an additional layer of protection.
 
-### What information should be prepared before contacting technical support?
+### What information should I prepare before contacting technical support?
 
 It is best to prepare:
 
@@ -830,17 +830,17 @@ It is best to prepare:
 4. the current settings related to the problem,
 5. the exact symptom,
 6. the full error or alarm code,
-7. photos of the device and rating plates,
-8. information about recent changes in the installation.
+7. photographs of the device and rating plates,
+8. information on recent changes to the installation.
 
-This allows diagnosis to be significantly shortened.
+This can significantly shorten diagnosis.
 
 
-## Important note regarding older devices
+## Important Note on Older Devices
 
-Names, terminal designations, and available functions may differ between versions of devices manufactured in different years.
+Names, terminal designations and available functions may differ between device versions manufactured in different years.
 
-If the device is several or more than a dozen years old, before using instructions from a newer model, confirm:
+If the device is several years old or more than a decade old, confirm the following before applying instructions for a newer model:
 
 - the exact device designation,
 - the board version,
@@ -850,19 +850,19 @@ If the device is several or more than a dozen years old, before using instructio
 
 :::warning Older device versions
 
-Do not assume full compatibility only on the basis of a similar enclosure appearance. Before using a diagram or manual, confirm the exact model and version of the device.
+Do not assume full compatibility solely on the basis of a similar enclosure appearance. Confirm the exact device model and version before using a diagram or manual.
 
 :::
 
 
-## Contact with technical support
+## Contacting Technical Support
 
-If the FAQ does not solve the problem, prepare before contact:
+If the FAQ does not resolve the problem, prepare the following before making contact:
 
-- a photo of the controller,
-- a photo of the load rating plate,
-- motor or actuator parameters,
-- the wiring diagram,
-- an accurate description of the expected method of operation.
+- a photograph of the controller,
+- a photograph of the load's rating plate,
+- the motor or actuator parameters,
+- the connection diagram,
+- a detailed description of the intended operation.
 
-This allows device selection or problem diagnosis to be carried out on the basis of actual installation parameters rather than assumptions.
+This allows device selection or problem diagnosis to be based on the actual installation parameters rather than assumptions.

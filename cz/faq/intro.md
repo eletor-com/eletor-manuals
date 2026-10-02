@@ -3,15 +3,15 @@ id: faq
 title: FAQ
 sidebar_label: FAQ
 slug: /faq
-description: Nejčastější otázky týkající se volby, konfigurace, diagnostiky a servisu
+description: Nejčastější dotazy týkající se výběru, konfigurace, diagnostiky a servisu
   zařízení ELETOR.
 keywords:
 - ELETOR
 - FAQ
-- řídicí jednotky ventilace
+- řídicí jednotky větrání
 - regulátory
 - ventilátory
-- pohony
+- servopohony
 - alarmy
 - frekvenční měniče
 - servis
@@ -19,50 +19,50 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-# Nejčastěji kladené otázky
+# Nejčastější dotazy
 
-FAQ vzniklo na základě anonymizované analýzy skutečných rozhovorů s uživateli a zákazníky ELETOR. Odpovědi byly zobecněny tak, aby pomáhaly v typických případech a neobsahovaly údaje o konkrétních osobách ani instalacích.
+FAQ vzniklo na základě anonymizované analýzy skutečných rozhovorů s uživateli a zákazníky ELETOR. Odpovědi byly zobecněny tak, aby pomáhaly v běžných případech a neobsahovaly údaje o konkrétních osobách ani instalacích.
 
 :::note Rozsah FAQ
 
-Odpovědi se týkají typických případů. Označení svorek, funkce a způsob připojení se mohou lišit mezi modely a verzemi zařízení. V případě pochybností používejte dokumentaci příslušnou pro konkrétní výrobek.
+Odpovědi se týkají běžných případů. Označení svorek, funkce a způsob zapojení se mohou mezi modely a verzemi zařízení lišit. V případě pochybností používejte dokumentaci příslušného konkrétního produktu.
 
 :::
 
-:::warning Bezpečnost
+:::warning B bezpečnost
 
-Práce na elektrické instalaci provádějte v souladu s dokumentací zařízení a platnými bezpečnostními předpisy. Práce na síťovém napětí by měla provádět osoba s odpovídající kvalifikací.
-
-:::
-
-## Volba řídicí jednotky a výkonu
-
-### Jak zvolit řídicí jednotku pro ventilátory?
-
-Základem volby je především celkový proud ventilátorů, nikoli pouze jejich počet.
-
-:::tip Připravte údaje před volbou
-
-Čím přesnější údaje o motorech a způsobu provozu instalace, tím jistější bude volba řídicí jednotky.
+Práce na elektrické instalaci provádějte v souladu s dokumentací zařízení a platnými bezpečnostními pravidly. Práce se síťovým napětím by měla provádět osoba s odpovídající kvalifikací.
 
 :::
 
-Před volbou je vhodné připravit:
+## Výběr řídicí jednotky a výkonu
+
+### Jak vybrat řídicí jednotku pro ventilátory?
+
+Základem výběru je především celkový proud ventilátorů, nikoli pouze jejich počet.
+
+:::tip Připravte si údaje před výběrem
+
+Čím přesnější jsou údaje o motorech a způsobu provozu instalace, tím spolehlivější je výběr řídicí jednotky.
+
+:::
+
+Před výběrem je vhodné připravit:
 
 - počet ventilátorů,
 - napájecí napětí,
-- jmenovitý výkon nebo proud každého ventilátoru,
-- informaci, zda mají všechny ventilátory pracovat plynule,
+- výkon nebo jmenovitý proud každého ventilátoru,
+- informaci, zda mají být všechny ventilátory plynule regulovány,
 - informaci, zda lze ventilátory rozdělit do skupin,
-- informace o dalších zařízeních, např. ohřívačích nebo přívodech vzduchu.
+- informace o dalších zařízeních, např. ohřívačích nebo přívodních otvorech vzduchu.
 
-Řídicí jednotka by se neměla volit přesně „na hraně“. Je nutné zachovat odpovídající rezervu vůči maximálnímu zatížení.
+Řídicí jednotku není vhodné vybírat přesně „na hranici“. Je nutné zachovat odpovídající rezervu vzhledem k maximálnímu zatížení.
 
 ### Stačí sečíst výkon ventilátorů ve wattech?
 
-Pro předběžný odhad lze použít výkon, ale konečná volba by měla vycházet z jmenovitého proudu zařízení a charakteru zatížení.
+Pro předběžný odhad lze použít výkon, ale konečný výběr by měl vycházet ze jmenovitého proudu zařízení a charakteru zátěže.
 
-Motor může při rozběhu odebírat více proudu než při běžném provozu. Z tohoto důvodu nejsou dvě sady ventilátorů s podobným jmenovitým výkonem vždy rovnocenným zatížením pro řídicí jednotku.
+Motor může během rozběhu odebírat více proudu než za běžného provozu. Z tohoto důvodu nemusí dvě sestavy ventilátorů s podobným jmenovitým výkonem vždy představovat rovnocennou zátěž pro řídicí jednotku.
 
 ### Mám několik malých ventilátorů. Mohu je připojit paralelně k jednomu výstupu?
 
@@ -70,36 +70,36 @@ Ano, pokud:
 
 - jsou určeny pro tento způsob řízení,
 - mají pracovat společně,
-- součet zatížení nepřekračuje dovolený proud výstupu,
-- způsob zapojení je v souladu s dokumentací řídicí jednotky.
+- součet zatížení nepřekračuje přípustný proud výstupu,
+- způsob zapojení odpovídá dokumentaci řídicí jednotky.
 
 Při větším počtu ventilátorů je vhodné zvážit rozdělení do skupin nebo použití výkonového rozšíření.
 
 ### Kdy je potřeba výkonové rozšíření?
 
-Výkonové rozšíření se používá tehdy, když zatížení překračuje možnosti výstupu řídicí jednotky nebo když má být instalace rozšířena o větší počet ventilátorů.
+Výkonové rozšíření se používá tehdy, když zátěž překračuje možnosti výstupu řídicí jednotky nebo když má být instalace rozšířena o větší počet ventilátorů.
 
-Řídicí jednotka pak předává řídicí signál, zatímco vlastní zatížení obsluhuje dodatečný modul.
+Řídicí jednotka pak předává řídicí signál, zatímco vlastní zátěž je obsluhována přídavným modulem.
 
 ### Lze instalaci později rozšířit o další ventilátory?
 
-V mnoha instalacích ano. Nejčastěji se používá:
+U mnoha instalací ano. Nejčastěji se používá:
 
-- dodatečné výkonové rozšíření,
-- další ventilační skupina,
+- další výkonové rozšíření,
+- další skupina větrání,
 - stykač spínající další skupinu,
 - frekvenční měnič v případě třífázových motorů.
 
 Plánované rozšíření je nejlepší zohlednit již při prvním výběru řídicí jednotky.
 
-### Musejí všechny ventilátory pracovat plynule?
+### Musí být všechny ventilátory plynule regulovány?
 
-Ne. Typická jsou dvě řešení:
+Ne. Běžná jsou dvě řešení:
 
-1. všechny ventilátory pracují plynule,
-2. první skupina pracuje plynule a další skupiny se připojují postupně, např. pomocí stykačů.
+1. všechny ventilátory jsou plynule regulovány,
+2. první skupina je plynule regulována a další skupiny se připojují postupně, např. pomocí stykačů.
 
-Druhé řešení umožňuje obsloužit větší instalaci bez plynulé regulace každého ventilátoru.
+Druhé řešení umožňuje obsluhovat větší instalaci bez plynulé regulace každého ventilátoru.
 
 ### Mám 10 ventilátorů. Potřebuji velmi velkou řídicí jednotku?
 
@@ -110,69 +110,69 @@ Ne vždy. Lze použít několik způsobů řízení:
 - stykače,
 - frekvenční měnič.
 
-Konečná volba závisí na elektrických parametrech ventilátorů a na tom, zda mají všechny měnit otáčky současně.
+Konečný výběr závisí na elektrických parametrech ventilátorů a na tom, zda mají všechny měnit otáčky současně.
 
-### Liší se řídicí jednotka 6 A a 12 A pouze přípustným zatížením?
+### Liší se řídicí jednotky 6 A a 12 A pouze přípustným zatížením?
 
-Nelze předpokládat, že jediným rozdílem je hodnota proudu. Jednotlivé verze a generace zařízení se mohou lišit výbavou nebo provedením.
+Nelze předpokládat, že jediným rozdílem je hodnota proudu. Jednotlivé verze a generace zařízení se mohou lišit vybavením nebo provedením.
 
 Při výměně zařízení je nutné ověřit přesný model a aktuální dokumentaci.
 
 
-## Ventilátory a řízení ventilace
+## Ventilátory a řízení větrání
 
 ### Reguluje řídicí jednotka ventilátory plynule?
 
-U řídicích jednotek určených pro plynulou regulaci ventilace se rychlost ventilátorů mění podle potřeby vyplývající mimo jiné z teploty.
+U řídicích jednotek určených k plynulé regulaci větrání se rychlost ventilátorů mění v závislosti na požadavcích vyplývajících mimo jiné z teploty.
 
 Je však nutné ověřit, zda je daný typ motoru vhodný pro použitý způsob regulace.
 
-### Co znamená žádaná teplota?
+### Co znamená požadovaná teplota?
 
-Žádaná teplota je hodnota, ke které řídicí jednotka vztahuje aktuální měření teploty.
+Požadovaná teplota je hodnota, se kterou řídicí jednotka porovnává aktuálně naměřenou teplotu.
 
-Na jejím základě řídicí jednotka zvyšuje nebo snižuje intenzitu ventilace podle ostatních nastavení, např. regulačního pásma, minimální a maximální úrovně.
+Na jejím základě řídicí jednotka zvyšuje nebo snižuje intenzitu větrání podle ostatních nastavení, např. regulačního pásma, minimální a maximální úrovně.
 
-### Co znamená minimální úroveň ventilace?
+### Co znamená minimální úroveň větrání?
 
-Je to minimální hodnota řízení ventilátoru při automatickém provozu.
+Jedná se o minimální hodnotu řízení ventilátoru během automatického provozu.
 
 Toto nastavení zabraňuje provozu pod úrovní, při které by ventilátor mohl pracovat nestabilně nebo zajišťovat příliš malou výměnu vzduchu.
 
-### Co znamená maximální úroveň ventilace?
+### Co znamená maximální úroveň větrání?
 
-Je to horní omezení hodnoty řízení ventilace.
+Jedná se o horní omezení hodnoty řízení větrání.
 
 Například nastavení hodnoty pod 100% může omezit maximální otáčky ventilátoru, pokud to instalace vyžaduje.
 
-### Co znamená ventilační pásmo?
+### Co znamená pásmo větrání?
 
-Ventilační pásmo určuje rozsah teplot, ve kterém řídicí jednotka přechází od minimální k maximální úrovni ventilace.
+Pásmo větrání určuje rozsah teplot, ve kterém řídicí jednotka přechází z minimální na maximální úroveň větrání.
 
-Čím menší je pásmo, tím rychleji řízení reaguje zvýšením výkonu na změnu teploty.
+Čím užší je pásmo, tím rychleji řízení reaguje zvýšením výkonu na změnu teploty.
 
-### Ventilátor po spuštění nejprve přejde na 100%, a teprve poté zpomalí. Proč?
+### Ventilátor po spuštění nejprve dosáhne 100% a teprve poté zpomalí. Proč?
 
-Může být aktivní rozběhová funkce, jejímž úkolem je krátkodobě spustit motor s vyšším výkonem.
+Může být aktivní funkce rozběhu, jejímž úkolem je krátkodobé spuštění motoru s vyšším výkonem.
 
-Podle verze řídicí jednotky je třeba zkontrolovat nastavení související s:
+V závislosti na verzi řídicí jednotky je nutné zkontrolovat nastavení související s:
 
 - funkcí Soft Start,
 - dobou rozběhu,
 - dobou provozu při 100%,
 - dobou doběhu.
 
-Pokud funkce není v dané instalaci potřebná, lze příslušné parametry změnit podle návodu k zařízení.
+Pokud funkce není v dané instalaci potřebná, lze příslušné parametry změnit podle návodu zařízení.
 
-### Proč může být ventilátor při startu krátkodobě spuštěn na plný výkon?
+### Proč může být ventilátor při spuštění krátkodobě uveden do chodu s plným výkonem?
 
-Takový rozběh může pomáhat spolehlivému spuštění ventilátoru a v instalacích, kde mohou mechanické prvky při startu klást větší odpor.
+Takový rozběh může pomoci zajistit spolehlivé spuštění ventilátoru i v instalacích, ve kterých mohou mechanické prvky při spuštění klást větší odpor.
 
-Není to však potřeba v každé instalaci.
+Není to však potřebné v každé instalaci.
 
 ### Co znamenají doba rozběhu a doba doběhu?
 
-**Doba rozběhu** určuje způsob nárůstu řízení při spouštění ventilátoru.
+**Doba rozběhu** určuje způsob nárůstu řídicí hodnoty během spouštění ventilátoru.
 
 **Doba doběhu** určuje způsob snižování rychlosti.
 
@@ -180,32 +180,32 @@ Oba parametry umožňují omezit prudké změny otáček a provozu instalace.
 
 ### Proč mohou dvě stejné řídicí jednotky spouštět ventilátory odlišně?
 
-Nejčastější příčinou jsou rozdílná nastavení.
+Nejčastější příčinou jsou odlišná nastavení.
 
-Vyplatí se porovnat především:
+Je vhodné porovnat především:
 
-- žádanou teplotu,
-- ventilační pásmo,
+- požadovanou teplotu,
+- pásmo větrání,
 - minimum a maximum,
 - nastavení Soft Start,
 - doby rozběhu a doběhu,
-- konfiguraci ventilačních skupin.
+- konfiguraci skupin větrání.
 
-### Může řídicí jednotka periodicky spouštět ventilaci nezávisle na teplotě?
+### Může řídicí jednotka pravidelně spouštět větrání nezávisle na teplotě?
 
-V závislosti na modelu je k dispozici funkce periodického provětrávání.
+V závislosti na modelu je dostupná funkce periodického provětrávání.
 
-Ta může spouštět ventilaci na stanovenou dobu v nastavených intervalech, i když regulace podle teploty nevyžaduje zvýšení ventilace.
+Může spouštět větrání na stanovenou dobu v nastavených intervalech, i když teplotní regulace nevyžaduje zvýšení větrání.
 
-### K čemu slouží ventilační skupiny?
+### K čemu slouží skupiny větrání?
 
 Skupiny umožňují postupné zvyšování výkonu instalace.
 
 Například:
 
-- skupina 1 pracuje plynule,
+- skupina 1 je plynule regulována,
 - skupina 2 spouští další ventilátory,
-- další skupina se spouští při ještě vyšší potřebě.
+- další skupina se spouští při ještě vyšších požadavcích.
 
 To umožňuje řídit velký počet ventilátorů bez plynulé regulace každého z nich.
 
@@ -213,111 +213,111 @@ To umožňuje řídit velký počet ventilátorů bez plynulé regulace každéh
 
 Ano. Reléový výstup řídicí jednotky může ovládat cívku vhodně zvoleného stykače.
 
-Zatížení ventilátorů by pak nemělo být vedeno přímo přes malý ovládací kontakt.
+Zátěž ventilátorů by pak neměla být vedena přímo přes malý řídicí kontakt.
 
 ### Co znamená symbol ventilátoru nebo žlutá kontrolka na řídicí jednotce?
 
 V závislosti na modelu kontrolky informují o aktuálním stavu výstupů a funkcí.
 
-Žlutá signalizace může znamenat aktivní provozní funkci, např. chod ventilace, vytápění nebo další skupiny.
+Žlutá signalizace může znamenat aktivní provozní funkci, např. chod větrání, vytápění nebo další skupiny.
 
 Přesný význam je nutné ověřit v návodu daného modelu.
 
 ### Co znamená symbol ručního režimu?
 
-Ruční režim znamená, že hodnota řízení byla vynucena uživatelem a v daném okamžiku není automaticky vypočítávána na základě teploty.
+Ruční režim znamená, že hodnotu řízení vynutil uživatel a v daném okamžiku se nevypočítává automaticky na základě teploty.
 
-Po dokončení testů je nutné se ujistit, že byla řídicí jednotka vrácena do správného automatického režimu.
+Po ukončení zkoušek je nutné se ujistit, že řídicí jednotka byla vrácena do správného automatického režimu.
 
 
-## Přívody vzduchu a pohony
+## Přívodní otvory vzduchu a servopohony
 
-### Může řídicí jednotka ovládat přívody vzduchu?
+### Může řídicí jednotka ovládat přívodní otvory vzduchu?
 
-Ano, vybrané řídicí jednotky umožňují spolupráci s pohony přívodů vzduchu.
+Ano, vybrané řídicí jednotky umožňují spolupráci s pohony přívodních otvorů vzduchu.
 
-Způsob připojení závisí na typu pohonu a způsobu jeho řízení.
+Způsob zapojení závisí na typu servopohonu a způsobu jeho řízení.
 
-### Jaké typy pohonů lze použít pro přívody?
+### Jaké typy servopohonů lze použít pro přívodní otvory?
 
-V technických konzultacích se nejčastěji vyskytovala dvě řešení:
+V technických rozhovorech se nejčastěji objevovala dvě řešení:
 
-- pohon řízený analogovým signálem 0–10 V nebo 2–10 V,
-- reverzní pohon otevřít/zavřít se signálem zpětné vazby, např. z potenciometru.
+- servopohon řízený analogovým signálem 0–10 V nebo 2–10 V,
+- reverzní servopohon otevřít/zavřít se signálem zpětné vazby, např. z potenciometru.
 
-Před nákupem je nutné ověřit kompatibilitu konkrétního modelu se stávající řídicí jednotkou.
+Před nákupem je nutné ověřit kompatibilitu konkrétního modelu s používanou řídicí jednotkou.
 
-### Má napájecí napětí pohonu 24 V nebo 230 V význam pro signál 0–10 V?
+### Má napájecí napětí servopohonu 24 V nebo 230 V význam pro signál 0–10 V?
 
-Řídicí signál a napájení pohonu jsou samostatné parametry.
+Řídicí signál a napájení servopohonu jsou samostatné parametry.
 
-Pohon může být napájen jiným napětím než je napětí řídicího signálu. Oba parametry musí být v souladu s dokumentací pohonu a řídicí jednotky.
+Servopohon může být napájen jiným napětím, než je napětí řídicího signálu. Oba parametry musí odpovídat dokumentaci servopohonu a řídicí jednotky.
 
 ### Co znamená řízení 0–10 V?
 
-Řídicí jednotka vysílá napěťový analogový signál reprezentující požadovanou polohu nebo úroveň řízení.
+Řídicí jednotka vysílá napěťový analogový signál představující požadovanou polohu nebo úroveň řízení.
 
-V typickém použití nižší hodnota znamená menší otevření a vyšší větší, skutečnou charakteristiku je však nutné ověřit v dokumentaci pohonu.
+Při běžném použití znamená nižší hodnota menší otevření a vyšší hodnota větší otevření, skutečnou charakteristiku je však nutné ověřit v dokumentaci servopohonu.
 
 ### Čím se liší 0–10 V od 2–10 V?
 
-V obou případech je poloha zadávána analogovým signálem.
+V obou případech se poloha zadává analogovým signálem.
 
-Ve standardu 2–10 V je dolní část rozsahu posunuta a může zařízení umožnit rozlišit řídicí signál od jeho absence.
+Ve standardu 2–10 V je dolní část rozsahu posunuta a může zařízení umožňovat rozlišit řídicí signál od jeho nepřítomnosti.
 
-Řídicí jednotka a pohon musí podporovat shodný rozsah.
+Řídicí jednotka a servopohon musí podporovat shodný rozsah.
 
-### Jak volit pohon podle počtu přívodů?
+### Jak vybrat servopohon podle počtu přívodních otvorů?
 
-Pohon by se neměl volit pouze podle počtu klap.
+Servopohon není vhodné vybírat pouze na základě počtu klapek.
 
-Je třeba zohlednit:
+Je nutné zohlednit:
 
 - požadovanou sílu nebo moment,
 - délku a způsob vedení mechanismu,
-- odpor klap,
+- odpory klapek,
 - délku zdvihu,
 - rychlost činnosti,
 - napájecí napětí,
 - typ řízení,
 - požadovanou zpětnou vazbu.
 
-### Může jeden pohon obsluhovat více klap?
+### Může jeden servopohon ovládat více klapek?
 
-Ano, pokud mechanika instalace umožňuje propojit klapky společným mechanismem a požadovaný moment nebo síla nepřekračuje možnosti pohonu.
+Ano, pokud mechanické uspořádání instalace umožňuje spojit klapky společným mechanismem a požadovaný moment nebo síla nepřekračuje možnosti servopohonu.
 
-V praxi o volbě rozhoduje odpor celého mechanismu, nikoli samotný počet klap.
+V praxi o výběru rozhodují odpory celého mechanismu, nikoli samotný počet klapek.
 
-### Lze několik pohonů spojit paralelně a řídit jedním signálem?
+### Lze několik servopohonů zapojit paralelně a řídit jedním signálem?
 
-V některých systémech je to možné, je však nutné ověřit dokumentaci pohonů a přípustné zatížení řídicího výstupu.
+V některých systémech je to možné, je však nutné ověřit dokumentaci servopohonů a přípustné zatížení řídicího výstupu.
 
-U reverzních pohonů bez nezávislé zpětné vazby může také dojít k postupnému rozcházení poloh jednotlivých pohonů.
+U reverzních pohonů bez nezávislé zpětné vazby může rovněž docházet k postupnému rozcházení poloh jednotlivých servopohonů.
 
-### Proč se může několik pohonů časem nastavovat do různých poloh?
+### Proč se může několik servopohonů časem nastavovat do různých poloh?
 
-I totožné motory mohou pracovat mírně odlišnou rychlostí z důvodu:
+I stejné motory mohou pracovat s mírně odlišnou rychlostí kvůli:
 
-- různého zatížení,
-- mechanických odporů,
-- tolerance parametrů motoru,
-- rozdílů v převodech.
+- rozdílnému zatížení,
+- mechanickým odporům,
+- tolerancím parametrů motoru,
+- rozdílům v převodovkách.
 
-Proto je při požadované přesné synchronizaci nutná správná zpětná vazba nebo individuální řízení polohy.
+Proto je při požadavku na přesnou synchronizaci nutná vhodná zpětná vazba nebo individuální kontrola polohy.
 
-### Mohou být přívody řízeny proporcionálně k ventilaci?
+### Lze přívodní otvory řídit proporcionálně k větrání?
 
-Ano. Ve vhodně nakonfigurovaných systémech může být poloha přívodů propojena s aktuální úrovní ventilace.
+Ano. V odpovídajícím způsobem nakonfigurovaných systémech může být poloha přívodních otvorů provázána s aktuální úrovní větrání.
 
-Díky tomu se se zvyšováním výkonu ventilátorů zvětšuje také otevření přívodů.
+Díky tomu se se zvyšováním výkonu ventilátorů zvětšuje také otevření přívodních otvorů.
 
-### Vyžaduje pohon 24 V samostatný napájecí zdroj?
+### Vyžaduje servopohon 24 V samostatný napájecí zdroj?
 
-Pokud řídicí jednotka nemá vhodný napájecí výstup s požadovaným výkonem, je potřeba samostatný napájecí zdroj.
+Pokud řídicí jednotka nemá vhodný napájecí výstup s požadovaným výkonem, je zapotřebí samostatný napájecí zdroj.
 
-Jeho výkon je nutné zvolit podle odběru proudu pohonu a dalších zařízení napájených ze stejného zdroje.
+Jeho výkon je nutné zvolit podle proudového odběru servopohonu a dalších zařízení napájených ze stejného zdroje.
 
-### Lze použít pohon jiné značky?
+### Lze použít servopohon jiného výrobce?
 
 Často ano, pokud jeho elektrické parametry a způsob řízení odpovídají výstupům řídicí jednotky.
 
@@ -326,7 +326,7 @@ Před připojením je nutné ověřit:
 - napětí,
 - typ signálu,
 - schéma vodičů,
-- směry chodu,
+- směry pohybu,
 - signál polohy,
 - přípustné zatížení.
 
@@ -335,17 +335,17 @@ Před připojením je nutné ověřit:
 
 ### Kam připojit snímač teploty?
 
-Snímač je nutné připojit ke snímačovému vstupu určenému výrobcem, ke snímačovému vstupu uvedenému v dokumentaci daného modelu.
+Snímač je nutné připojit ke vstupu pro snímač určenému výrobcem, ke vstupu pro snímač uvedenému v dokumentaci daného modelu.
 
-Nelze předpokládat, že označení svorek jsou ve všech verzích zařízení totožná.
+Nelze předpokládat, že označení svorek je stejné u všech verzí zařízení.
 
 ### Snímač teploty ukazuje jinou hodnotu než referenční teploměr. Co dělat?
 
-Pokud má řídicí jednotka funkci kalibrace snímače, lze údaj korigovat po porovnání se spolehlivým referenčním teploměrem.
+Pokud řídicí jednotka disponuje funkcí kalibrace snímače, lze údaj upravit po porovnání se spolehlivým referenčním teploměrem.
 
 Před změnou kalibrace je vhodné se ujistit, že:
 
-- oba snímače se nacházejí na stejném místě,
+- oba snímače jsou na stejném místě,
 - měření se ustálilo,
 - snímač není zahříván sluncem nebo zařízeními,
 - nenachází se přímo v proudu studeného nebo horkého vzduchu.
@@ -356,103 +356,103 @@ Závisí to na verzi řídicí jednotky, snímače a softwaru.
 
 U některých řešení může korekce vyžadovat odpovídající softwarovou funkci nebo kompatibilní typ snímače. Pokud je rozdíl velký a opakovaný, je nutné ověřit verzi zařízení a kontaktovat technickou podporu.
 
-### Znamená chybná hodnota měření vždy poškozený snímač?
+### Znamená chybné měření vždy poškozený snímač?
 
 Ne.
 
 Příčinou může být také:
 
-- nevhodné umístění snímače,
-- vodič,
+- nesprávné umístění snímače,
+- kabel,
 - elektrické připojení,
 - konfigurace,
-- nevhodný typ snímače,
+- nesprávný typ snímače,
 - potřeba kalibrace,
 - vlhkost nebo koroze.
 
 
 ## Alarmy a upozornění
 
-### Lze k alarmovému výstupu řídicí jednotky připojit sirénu přímo?
+### Lze k alarmovému výstupu řídicí jednotky připojit přímo sirénu?
 
 Nelze to předpokládat.
 
-Alarmový výstup řídicí jednotky je obvykle řídicí výstup nebo reléový kontakt. Siréna může vyžadovat samostatné napájení a také ústřednu alarmu.
+Alarmový výstup řídicí jednotky je obvykle řídicí výstup nebo reléový kontakt. Siréna může vyžadovat samostatné napájení a alarmovou ústřednu.
 
-### K čemu se používá ústředna alarmu?
+### Proč se používá alarmová ústředna?
 
 Ústředna může:
 
 - přijímat alarmové signály z řídicích jednotek,
 - napájet signalizátor,
-- udržet činnost při výpadku napájení,
+- udržovat provoz při výpadku napájení,
 - signalizovat alarm zvukem nebo světlem,
-- odesílat GSM upozornění u verzí vybavených touto funkcí.
+- odesílat upozornění GSM ve verzích vybavených touto funkcí.
 
-### Může ústředna alarmovat při výpadku napájení řídicí jednotky?
+### Může ústředna hlásit výpadek napájení řídicí jednotky?
 
-Ano, pokud byl systém správně připojen.
+Ano, pokud byl systém správně zapojen.
 
 Řešení může detekovat nejen překročení teploty, ale také ztrátu signálu z řídicí jednotky způsobenou výpadkem jejího napájení.
 
 ### Kde se nastavuje minimální a maximální teplota alarmu?
 
-V typické konfiguraci se alarmové prahy nastavují v řídicí jednotce obsluhující danou komoru nebo místnost.
+V běžné konfiguraci se prahové hodnoty alarmu nastavují v řídicí jednotce obsluhující danou komoru nebo místnost.
 
-Ústředna alarmu následně přijímá informaci, že řídicí jednotka vyhlásila alarm.
+Alarmová ústředna následně přijímá informaci, že řídicí jednotka vyhlásila alarm.
 
-### Vyžaduje GSM ústředna SIM kartu?
+### Vyžaduje ústředna GSM SIM kartu?
 
-Pro odesílání hovorů a zpráv přes mobilní síť je zapotřebí aktivní SIM karta nebo jiné komunikační řešení určené pro daný model.
+Pro uskutečňování hovorů a odesílání zpráv prostřednictvím mobilní sítě je zapotřebí aktivní SIM karta nebo jiné komunikační řešení určené pro daný model.
 
-Bez aktivního připojení k mobilní síti nebudou telefonní a SMS funkce fungovat.
+Bez aktivního připojení k mobilní síti nebudou telefonní funkce a SMS fungovat.
 
 ### Může alarm odeslat informaci, ze které řídicí jednotky událost pochází?
 
-Ve správně nakonfigurovaném systému ano.
+V odpovídajícím způsobem nakonfigurovaném systému ano.
 
-Vstupy ústředny mohou být přiřazeny ke konkrétním místnostem nebo řídicím jednotkám, takže zpráva umožní určit zdroj alarmu.
+Vstupy ústředny lze přiřadit ke konkrétním místnostem nebo řídicím jednotkám, takže zpráva umožňuje určit zdroj alarmu.
 
-### Kolik řídicích jednotek lze připojit k jedné ústředně alarmu?
+### Kolik řídicích jednotek lze připojit k jedné alarmové ústředně?
 
-Záleží na modelu ústředny.
+Závisí to na modelu ústředny.
 
-V přepisech se vyskytovaly ústředny podporující až osm vstupů, před provedením instalace je však nutné ověřit aktuální specifikaci konkrétního zařízení.
+V přepisech se objevovaly ústředny podporující až osm vstupů, před provedením instalace je však nutné ověřit aktuální specifikaci konkrétního zařízení.
 
-### Jaký akumulátor se používá v ústředně alarmu?
+### Jaký akumulátor se používá v alarmové ústředně?
 
-U části zařízení probíraných v rozhovorech byl použit akumulátor 12 V 7 Ah.
+V některých zařízeních probíraných v rozhovorech byl používán akumulátor 12 V 7 Ah.
 
 Před nákupem náhrady je nutné ověřit označení na stávajícím akumulátoru a specifikaci ústředny, protože jiné verze zařízení mohou vyžadovat jiný akumulátor.
 
-### Ústředna odesílá hlášení o nízkém napětí. Co zkontrolovat?
+### Ústředna odesílá zprávy o nízkém napětí. Co zkontrolovat?
 
-V první řadě je nutné zkontrolovat:
+Nejprve je nutné zkontrolovat:
 
 - stav akumulátoru,
 - jeho stáří,
 - připojení akumulátoru,
 - přítomnost síťového napájení,
-- činnost nabíječky nebo napájecího zdroje ústředny.
+- funkci nabíječky nebo napájecího zdroje ústředny.
 
-Opotřebovaný akumulátor může způsobovat opakovaná hlášení o nízkém napětí.
+Opotřebovaný akumulátor může způsobovat opakované zprávy o nízkém napětí.
 
-### Jak často měnit akumulátor v ústředně alarmu?
+### Jak často měnit akumulátor v alarmové ústředně?
 
 Neexistuje jedna hodnota vhodná pro všechny podmínky.
 
-Akumulátor je nutné periodicky testovat, zejména v instalacích, kde je alarm při výpadku napájení kriticky důležitý. S věkem jeho skutečná kapacita klesá.
+Akumulátor je nutné pravidelně testovat, zejména v instalacích, ve kterých má alarm při výpadku napájení zásadní význam. S přibývajícím stářím jeho skutečná kapacita klesá.
 
-### Stačí samotná siréna jako zabezpečení?
+### Stačí jako zabezpečení samotná siréna?
 
-Siréna funguje jen tehdy, když ji může někdo slyšet.
+Siréna plní svou funkci pouze tehdy, když ji někdo může slyšet.
 
-V objektech, které zůstávají po určitou dobu bez dozoru, je vhodné používat také vzdálené upozornění a akumulátorové zálohování.
+V objektech, které zůstávají dočasně bez dozoru, je vhodné používat také vzdálené upozornění a zálohování akumulátorem.
 
 
 ## Frekvenční měniče
 
-### Jak zvolit frekvenční měnič pro ventilátory?
+### Jak vybrat frekvenční měnič pro ventilátory?
 
 Je nutné znát:
 
@@ -463,25 +463,25 @@ Je nutné znát:
 - provozní podmínky,
 - požadovaný způsob řízení.
 
-Frekvenční měnič by měl mít odpovídající rezervu vůči zatížení, zejména když několik motorů pracuje paralelně.
+Frekvenční měnič by měl mít odpovídající rezervu vzhledem k zátěži, zejména pokud několik motorů pracuje paralelně.
 
-### Má mít frekvenční měnič přesně stejný výkon jako součet výkonů motorů?
+### Měl by mít frekvenční měnič přesně stejný výkon jako součet výkonů motorů?
 
-Frekvenční měnič by se neměl volit pouze na základě prostého součtu výkonů a vybírat jako zařízení pracující přesně na hranici parametrů.
+Frekvenční měnič by se neměl vybírat pouze na základě prostého součtu výkonů a nemělo by se volit zařízení pracující přesně na hranici svých parametrů.
 
-Je nutné zohlednit jmenovité proudy, charakter zatížení a doporučení výrobce frekvenčního měniče.
+Je nutné zohlednit jmenovité proudy, charakter zátěže a doporučení výrobce frekvenčního měniče.
 
 ### Frekvenční měnič zastavil ventilátory a zobrazil chybu. Co dělat?
 
-Nejdůležitější je zaznamenat celý chybový kód před resetem.
+Nejdůležitější je zaznamenat úplný kód chyby před resetováním.
 
-:::tip Vyfoťte obrazovku
+:::tip Vyfotografujte obrazovku
 
-Pokud to situace dovoluje, pořiďte před resetem fotografii displeje. Úplný chybový kód výrazně usnadňuje diagnostiku.
+Pokud to situace umožňuje, před resetováním vyfotografujte displej. Úplný kód chyby výrazně usnadňuje diagnostiku.
 
 :::
 
-Samotný začátek hlášení často k určení příčiny nestačí. Úplný kód umožňuje rozlišit mimo jiné:
+Samotný začátek hlášení často nestačí k určení příčiny. Úplný kód umožňuje rozlišit mimo jiné:
 
 - přetížení,
 - překročení proudu,
@@ -489,34 +489,34 @@ Samotný začátek hlášení často k určení příčiny nestačí. Úplný k�
 - nesprávné napětí,
 - jiné chyby pohonu.
 
-### Lze jednoduše resetovat chybu frekvenčního měniče?
+### Lze chybu frekvenčního měniče jednoduše resetovat?
 
 Reset může obnovit provoz, ale neodstraňuje příčinu alarmu.
 
-Po události je nutné zkontrolovat chybový kód a určit příčinu před opětovným dlouhodobým spuštěním instalace.
+Po události je nutné zkontrolovat kód chyby a určit příčinu před opětovným dlouhodobým spuštěním instalace.
 
-### Frekvenční měnič pracuje v prašném prostoru. Je třeba jej čistit?
+### Frekvenční měnič pracuje v prašné místnosti. Je nutné jej čistit?
 
 Ano.
 
 Prach a usazeniny na chladiči nebo chladicím ventilátoru mohou zhoršovat odvod tepla a vést k přehřívání frekvenčního měniče.
 
-Čištění je nutné provádět podle pokynů výrobce po bezpečném odpojení napájení.
+Čištění je nutné provádět podle návodu výrobce po bezpečném odpojení napájení.
 
 ### Co může způsobovat přehřívání frekvenčního měniče?
 
-Nejčastější příčiny jsou:
+Nejčastějšími příčinami jsou:
 
 - znečištěné chladicí prvky,
 - omezené proudění vzduchu,
 - příliš vysoká okolní teplota,
 - přetížení,
-- porucha chladicího ventilátoru,
+- poškození chladicího ventilátoru,
 - nesprávná montáž.
 
 ### Může zvýšené síťové napětí vyvolat alarm frekvenčního měniče?
 
-Ano. Frekvenční měniče sledují napětí napájecího obvodu a při překročení přípustné úrovně mohou hlásit chybu.
+Ano. Frekvenční měniče sledují napětí napájecího obvodu a mohou hlásit chybu při překročení přípustné úrovně.
 
 Pokud se problém opakuje, je nutné zkontrolovat instalaci a kvalitu napájení.
 
@@ -525,15 +525,15 @@ Pokud se problém opakuje, je nutné zkontrolovat instalaci a kvalitu napájení
 
 ### Řídicí jednotka funguje, ale displej nic nezobrazuje. Co může být příčinou?
 
-Mezi možné příčiny patří mimo jiné:
+Možné příčiny zahrnují mimo jiné:
 
 - poškození displeje,
 - problém s nastavením kontrastu u starších řešení,
-- poškození spojení,
-- koroze,
+- poškození propojení,
+- korozi,
 - poškození hlavní desky.
 
-Pokud zařízení nebylo delší dobu používáno nebo pracovalo ve vlhkém prostředí, je vhodné zkontrolovat také stav desky.
+Pokud zařízení nebylo dlouhou dobu používáno nebo pracovalo ve vlhkém prostředí, je vhodné zkontrolovat také stav desky.
 
 ### Řídicí jednotka má po několika letech nepoužívání problém s displejem. Proč?
 
@@ -542,25 +542,25 @@ Dlouhodobá odstávka ve vlhkém nebo agresivním prostředí může vést k:
 - oxidaci konektorů,
 - korozi,
 - zhoršení kontaktů,
-- poškození elektronických součástí.
+- poškození elektronických součástek.
 
-V takovém případě je vhodné provést kompletní kontrolu, a ne měnit prvky bez předchozí diagnostiky.
+V takovém případě je vhodné provést úplnou prohlídku, nikoli vyměňovat součástky bez předchozí diagnostiky.
 
-### Řídicí jednotka je po přepětí očazená. Znamená to, že je desku nutné vyměnit?
+### Řídicí jednotka je po přepětí očazená. Znamená to, že je nutné vyměnit desku?
 
 Ne vždy.
 
-Ochranný prvek se může poškodit a zanechat mnoho usazenin, přestože zbytek desky lze opravit.
+Ochranný prvek se může poškodit a zanechat velké množství usazenin, přestože zbývající část desky lze opravit.
 
-Pokud je však laminát zuhelnatělý, propálený nebo jsou poškozené vodivé cesty, může být oprava neekonomická nebo netrvalá.
+Pokud je však laminát zuhelnatělý, vypálený nebo jsou poškozené vodivé spoje, oprava může být neekonomická nebo nemusí mít dlouhodobou životnost.
 
 ### Co může poškodit několik řídicích jednotek současně?
 
-Pokud dochází k poruše více zařízení ve stejnou dobu, je nutné zkontrolovat napájecí instalaci.
+Pokud se více zařízení porouchá ve stejnou dobu, je nutné zkontrolovat napájecí instalaci.
 
-Jednou z možných příčin je problém s nulovým vodičem, který může v třífázové instalaci vést ke vzniku nesprávných napětí na jednofázových spotřebičích.
+Jednou z možných příčin je problém s nulovým vodičem, který může v třífázové instalaci způsobit výskyt nesprávných napětí na jednofázových spotřebičích.
 
-Možná jsou také přepětí pocházející ze sítě nebo agregátu.
+Možná jsou také přepětí pocházející ze sítě nebo elektrocentrály.
 
 ### Co dělat po poruše související s přepětím?
 
@@ -568,7 +568,7 @@ Před připojením opravené nebo nové řídicí jednotky je nutné určit př�
 
 :::danger Nepřipojujte zařízení znovu bez kontroly instalace
 
-Pokud byla příčinou poruchy nesprávná napětí, poškozený nulový vodič nebo přepětí, může se opravená nebo nová řídicí jednotka znovu poškodit.
+Pokud příčinou poruchy bylo nesprávné napětí, poškozený nulový vodič nebo přepětí, může být opravená nebo nová řídicí jednotka znovu poškozena.
 
 :::
 
@@ -576,110 +576,110 @@ Pokud byla příčinou poruchy nesprávná napětí, poškozený nulový vodič 
 
 V elektronických zařízeních se používají prvky omezující přepětí, např. varistory.
 
-Jejich úkolem je převzít část energie přepětí a chránit další obvody. Po silné události se takový prvek může trvale poškodit.
+Jejich úkolem je pohltit část energie přepětí a chránit navazující obvody. Po silné události může být takový prvek trvale poškozen.
 
 ### Lze zařízení spustit po odstranění spáleného ochranného prvku?
 
 Nelze to považovat za běžnou opravu.
 
-Po odstranění ochrany může zařízení ztratit ochranu proti dalšímu přepětí. Takové kroky smí být prováděny výhradně jako vědomý servisní postup osobou s odpovídající kvalifikací a po odstranění původní příčiny poruchy.
+Po odstranění ochrany může zařízení ztratit ochranu proti dalšímu přepětí. Takové úkony lze provádět výhradně jako vědomý servisní postup osobou s odpovídající kvalifikací a po odstranění příčiny původní poruchy.
 
-### Řídicí jednotka byla zatečena nebo silně zkorodovala. Má smysl ji opravovat?
+### Řídicí jednotka byla zaplavena nebo silně zkorodovala. Vyplatí se ji opravovat?
 
-Záleží na stupni poškození.
+Závisí to na rozsahu poškození.
 
-Povrchovou korozi a jednotlivá poškození lze často odstranit. Pokud koroze zasáhla vodivé cesty, konektory a mnoho součástí, může být oprava časově náročná, nejistá a ekonomicky neodůvodněná.
+Povrchovou korozi a jednotlivá poškození lze často odstranit. Pokud koroze zasáhla vodivé spoje, konektory a mnoho součástek, může být oprava časově náročná, nejistá a ekonomicky neopodstatněná.
 
 ### Může tlakové mytí zařízení poškodit řídicí jednotku?
 
 Ano.
 
-Elektronika by neměla být vystavena přímému působení vody ani čisticího prostředku, pokud k tomu skříň a způsob montáže nejsou určeny.
+Elektronika by neměla být vystavena přímému působení vody ani čisticího prostředku, pokud k tomu kryt a způsob montáže nejsou určeny.
 
-Vlhkost pronikající dovnitř může vést ke korozi a pozdějším, obtížně diagnostikovatelným závadám.
+Vlhkost pronikající dovnitř může vést ke korozi a pozdějším obtížně diagnostikovatelným poruchám.
 
-### Proč se mohou závady po zatečení po opravě vracet?
+### Proč se mohou poruchy po zaplavení vracet i po opravě?
 
-Koroze může postupovat i v místech, která nejsou při první kontrole viditelná.
+Koroze může postupovat také na místech, která nebyla při první kontrole viditelná.
 
-Poškozené prokovení, vodivé cesty a spoje mohou při testu fungovat a později znovu ztratit kontakt.
+Poškozené prokovy, vodivé spoje a propojení mohou během zkoušky fungovat a později znovu ztratit kontakt.
 
-Proto může servis u silně zkorodované desky doporučit výměnu namísto dalších oprav.
+Proto může servis u silně zkorodované desky doporučit výměnu místo dalších oprav.
 
-### Zařízení někdy funguje a někdy ne. Čím začít?
+### Zařízení někdy funguje a někdy ne. Kde začít?
 
 Před kontaktováním servisu je vhodné shromáždit:
 
 - přesný model,
 - popis příznaku,
 - okamžik výskytu,
-- hodnoty zobrazené na obrazovce,
+- hodnoty zobrazované na obrazovce,
 - kód alarmu nebo chyby,
 - informace o posledních změnách v instalaci,
 - fotografii vnitřku a svorek, pokud ji lze bezpečně pořídit.
 
-Čím přesnější popis, tím snazší diagnostika.
+Čím přesnější je popis, tím snazší je diagnostika.
 
 
 ## Servis a opravy
 
-### Co zaslat do servisu, pokud je řídicí jednotka poškozená?
+### Co poslat do servisu, pokud je řídicí jednotka poškozená?
 
-Nejlépe je zaslat komplet umožňující reprodukovat problém.
+Nejlepší je poslat kompletní sestavu umožňující reprodukovat problém.
 
 K zásilce je nutné přiložit stručný popis:
 
 - co nefunguje,
 - kdy se problém objevuje,
 - zda je porucha trvalá nebo občasná,
-- zda před poruchou došlo k přepětí, zatečení nebo jiné události,
+- zda před poruchou došlo k přepětí, zaplavení nebo jiné události,
 - údaje potřebné pro kontakt a vrácení zařízení.
 
 :::note Údaje pro servisní hlášení
 
-Kontaktní a zasílací údaje předávejte přímo servisu. Nezveřejňujte je v otevřených hlášeních ani ve veřejných materiálech.
+Kontaktní a doručovací údaje předávejte přímo servisu. Nezveřejňujte je ve veřejně přístupných hlášeních ani ve veřejných materiálech.
 
 :::
 
-### Je třeba poslat celou řídicí jednotku, nebo jen desku?
+### Je nutné poslat celou řídicí jednotku, nebo pouze desku?
 
-Záleží na závadě.
+Závisí to na závadě.
 
-Při problémech s displejem, tlačítky, napájením nebo nejednoznačným chováním je nejlepší zaslat celou sestavu potřebnou k reprodukci příznaku.
+Při problémech s displejem, tlačítky, napájením nebo nejednoznačným chováním je nejlepší poslat celou sestavu potřebnou k reprodukci příznaku.
 
 Při předem dohodnuté opravě konkrétního modulu může servis požádat pouze o desku.
 
 ### Opravuje ELETOR řídicí jednotky místo jejich okamžité výměny?
 
-Z přepisů vyplývá, že se zařízení nejprve diagnostikují.
+Z přepisů vyplývá, že zařízení nejprve procházejí diagnostikou.
 
-Pokud je oprava možná a smysluplná, vyměňují se poškozené prvky nebo moduly. V případě vážného poškození může servis navrhnout výměnu desky nebo celého zařízení.
+Pokud je oprava možná a smysluplná, vyměňují se poškozené součástky nebo moduly. V případě závažného poškození může servis navrhnout výměnu desky nebo celého zařízení.
 
 ### Co se stane, pokud poškozenou desku nelze opravit?
 
-Je možná výměna poškozeného modulu za nový, pokud je příslušný díl dostupný a kompatibilní se zařízením.
+Poškozený modul lze vyměnit za nový, pokud je příslušný díl dostupný a kompatibilní se zařízením.
 
-U starších zařízení by měl servis nejprve potvrdit kompatibilitu verze.
+U starších zařízení by měl servis nejprve potvrdit kompatibilitu verzí.
 
-### Má smysl kupovat po přepětí hned novou desku?
+### Vyplatí se po přepětí rovnou koupit novou desku?
 
 Ne vždy.
 
-Pokud se poškození týká ochranného prvku nebo malé části obvodu, může být oprava opodstatněná. Nejprve je vhodné provést diagnostiku.
+Pokud poškození postihuje ochranný prvek nebo malou část obvodu, může být oprava opodstatněná. Nejprve je vhodné provést diagnostiku.
 
 ### Může servis zkontrolovat také displej a tlačítka?
 
-Ano, pokud budou prvky dodány spolu se zařízením nebo modulem.
+Ano, pokud jsou tyto prvky dodány spolu se zařízením nebo modulem.
 
-To je zvláště užitečné tehdy, když není jasné, zda je problém na hlavní desce nebo v uživatelském panelu.
+To je zvláště užitečné tehdy, když není jasné, zda se problém nachází na hlavní desce nebo v uživatelském panelu.
 
-### Má vždy smysl zachraňovat silně zkorodovanou řídicí jednotku?
+### Vyplatí se silně zkorodovanou řídicí jednotku vždy zachraňovat?
 
 Ne.
 
-Pokud náklady na diagnostiku a opravu rostou a spolehlivost po opravě zůstává nejistá, může být rozumnější výměna.
+Pokud náklady na diagnostiku a opravu rostou a spolehlivost po opravě zůstává nejistá, může být výměna rozumnější.
 
-To se týká zejména zařízení, na nichž závisí ventilace objektu.
+To se týká zejména zařízení, na kterých závisí větrání objektu.
 
 ### Jak urychlit servisní diagnostiku?
 
@@ -688,84 +688,84 @@ Přiložte přesný popis příznaku místo pouhého konstatování „nefunguje
 Užitečné jsou také:
 
 - fotografie,
-- chybový kód,
+- kód chyby,
 - popis instalace,
 - typ připojených spotřebičů,
 - informace o přepětí nebo výpadku napájení,
-- informace o zatečení nebo mytí zařízení.
+- informace o zaplavení nebo mytí zařízení.
 
 
 ## Instalace a kabeláž
 
-### Jak připojovat zařízení ke reléovým svorkám C a NO?
+### Jak připojovat zařízení k reléovým svorkám C a NO?
 
-C a NO jsou typická označení reléového kontaktu:
+C a NO jsou běžná označení reléového kontaktu:
 
 - C — společný kontakt,
-- NO — normálně otevřený kontakt.
+- NO — spínací kontakt, v klidovém stavu rozepnutý.
 
-Způsob použití závisí na zařízení a schématu instalace. Kontakt lze použít např. k ovládání cívky stykače, nesmí se však překročit jeho přípustné parametry.
+Způsob použití závisí na zařízení a schématu instalace. Kontakt lze použít např. k ovládání cívky stykače, nesmí však být překročeny jeho přípustné parametry.
 
-:::warning Elektrické práce
+:::warning Elektroinstalační práce
 
-Připojení k síťovému napětí by měla provádět osoba s odpovídající kvalifikací v souladu se schématem konkrétního zařízení.
+Připojení k síťovému napětí by měla provádět osoba s odpovídající kvalifikací podle schématu konkrétního zařízení.
 
 :::
 
-### Může reléový výstup napájet velký ventilátor přímo?
+### Může reléový výstup přímo napájet velký ventilátor?
 
-Obvykle to není vhodné použití malého řídicího výstupu.
+Obvykle se nejedná o vhodné použití malého řídicího výstupu.
 
-Pro větší zatížení se používá stykač, výkonové relé nebo specializovaný výkonový modul.
+Pro větší zátěže se používá stykač, výkonové relé nebo vyhrazený akční modul.
 
 ### K čemu slouží svorky A1 a A2 stykače?
 
-Jsou to svorky cívky stykače.
+Jedná se o svorky cívky stykače.
 
 Po přivedení odpovídajícího napětí na cívku stykač změní stav svých výkonových kontaktů.
 
 Napětí cívky musí odpovídat projektu instalace a dokumentaci stykače.
 
-### Lze uvnitř skříně řídicí jednotky montovat další přístroje?
+### Lze uvnitř krytu řídicí jednotky montovat další přístroje?
 
-Pouze tehdy, pokud to konstrukce konkrétní skříně umožňuje a nezhorší to:
+Pouze tehdy, pokud to konstrukce konkrétního krytu umožňuje a nezhorší se tím:
 
 - stupeň krytí,
-- izolaci,
+- izolace,
 - chlazení,
 - bezpečnost,
 - servisní přístup.
 
 Veškeré nové otvory by měly být provedeny tak, aby byla zachována požadovaná těsnost.
 
-### Jsou dodatečné vypínače ventilátorů užitečné?
+### Jsou přídavné vypínače ventilátorů užitečné?
 
 Mohou usnadnit servis a umožnit nezávislé odpojení jednotlivých ventilátorů.
 
-Způsob provedení však musí zohlednit elektrické ochrany a nesmí způsobovat nebezpečné stavy řídicí jednotky.
+Způsob provedení však musí zohledňovat elektrické ochrany a nesmí způsobovat nebezpečné stavy řídicí jednotky.
 
-### Lze řídicí vodiče vést společně s výkonovými vodiči?
+### Lze řídicí kabely vést společně se silovými kabely?
 
-Je nutné se vyvarovat vedení citlivých signálových vodičů paralelně a velmi blízko vodičům velkých výkonů, zejména na dlouhých úsecích.
+Je nutné vyhýbat se souběžnému vedení citlivých signálových kabelů ve velmi malé vzdálenosti od kabelů přenášejících velký výkon, zejména na dlouhých úsecích.
 
-Požadavky závisí na druhu signálu a elektromagnetickém prostředí.
+Požadavky závisí na typu signálu a elektromagnetickém prostředí.
 
 ### Jaký kabel použít pro síťová připojení a zařízení PoE?
 
 V probíraných instalacích byla jako minimum uváděna kroucená dvojlinka kategorie 5e.
 
-Pokud kabel vede v prostředí se zvýšenou úrovní rušení nebo rizikem elektrostatických nábojů, může být vhodné použít odpovídajícím způsobem stíněný kabel a správný systém uzemnění.
+Pokud kabel vede prostředím se zvýšenou úrovní rušení nebo rizikem elektrostatických nábojů, může být vhodné použít odpovídajícím způsobem stíněný kabel a správný systém uzemnění.
 
 ### Je pro PoE potřeba křížený kabel?
 
-V typických instalacích se používá standardní přímé zapojení.
+V běžných instalacích se používá standardní přímé zapojení.
 
-Je však vždy nutné ověřit požadavky síťového zařízení a použitého PoE napáječe.
+Vždy je však nutné ověřit požadavky síťového zařízení a použitého napájecího zdroje PoE.
 
 
 ## Provoz a údržba
 
-### Jak omezit riziko poruch řídicích jednotek v hospodářských budovách?
+### Jak snížit riziko poruch řídicích jednotek v hospodářských budovách?
 
 Nejdůležitější je omezit vliv:
 
@@ -776,7 +776,7 @@ Nejdůležitější je omezit vliv:
 - přepětí,
 - nesprávného napájení.
 
-Je také vhodné periodicky kontrolovat stav vodičů, spojů a skříní.
+Je také vhodné pravidelně kontrolovat stav kabelů, připojení a krytů.
 
 ### Měla by se elektronická zařízení pravidelně čistit?
 
@@ -784,45 +784,45 @@ Ano, zejména zařízení vybavená chladiči, ventilátory a větracími otvory
 
 Nahromaděný prach zhoršuje chlazení.
 
-Čištění je nutné provádět po odpojení napájení a v souladu s návodem k zařízení.
+Čištění je nutné provádět po odpojení napájení a podle návodu zařízení.
 
-### Má smysl po několika letech provozu provést kontrolu řídicí jednotky?
+### Je vhodné po několika letech provozu provést prohlídku řídicí jednotky?
 
 Ano, zejména v náročných podmínkách prostředí.
 
-Kontrola může zahrnovat:
+Prohlídka může zahrnovat:
 
 - posouzení stavu konektorů,
 - kontrolu stop vlhkosti a koroze,
 - kontrolu chladicích prvků,
 - kontrolu panelu a tlačítek,
-- test snímačů,
+- zkoušku snímačů,
 - kontrolu akumulátorů v alarmových systémech.
 
-### Co je vhodné zaznamenat po vzniku poruchy?
+### Co je vhodné zaznamenat po výskytu poruchy?
 
 Nejužitečnější jsou:
 
-- celé hlášení,
-- chybový kód,
+- úplné hlášení,
+- kód chyby,
 - čas události,
 - teplota,
-- stav ventilace,
+- stav větrání,
 - informace o výpadku napájení,
-- informace o provozu agregátu,
+- informace o provozu elektrocentrály,
 - fotografie obrazovky nebo zařízení.
 
-Zařízení by se nemělo resetovat před zaznamenáním kódu, pokud to situace umožňuje bezpečně provést.
+Zařízení není vhodné resetovat před zaznamenáním kódu, pokud situace umožňuje učinit tak bezpečně.
 
-### Má smysl mít alarm nezávislý na řídicí jednotce ventilace?
+### Je vhodné mít alarm nezávislý na řídicí jednotce větrání?
 
-Ano, zejména tam, kde může porucha ventilace rychle vést k nebezpečným podmínkám.
+Ano, zejména tam, kde porucha větrání může rychle vést k nebezpečným podmínkám.
 
 Nezávislá ústředna s vlastním akumulátorem a vzdáleným upozorňováním poskytuje další vrstvu zabezpečení.
 
 ### Jaké informace připravit před kontaktováním technické podpory?
 
-Nejlépe je připravit:
+Nejlepší je připravit:
 
 1. přesný model zařízení,
 2. popis instalace,
@@ -836,11 +836,11 @@ Nejlépe je připravit:
 To umožňuje výrazně zkrátit diagnostiku.
 
 
-## Důležitá poznámka ke starším zařízením
+## Důležité upozornění týkající se starších zařízení
 
 Názvy, označení svorek a dostupné funkce se mohou lišit mezi verzemi zařízení vyráběnými v různých letech.
 
-Pokud je zařízení několik nebo i více než deset let staré, je před použitím návodu z novějšího modelu nutné potvrdit:
+Pokud je zařízení staré několik nebo více než deset let, je před použitím návodu novějšího modelu nutné ověřit:
 
 - přesné označení zařízení,
 - verzi desky,
@@ -850,7 +850,7 @@ Pokud je zařízení několik nebo i více než deset let staré, je před použ
 
 :::warning Starší verze zařízení
 
-Nepředpokládejte úplnou shodu pouze na základě podobného vzhledu skříně. Před použitím schématu nebo návodu potvrďte přesný model a verzi zařízení.
+Nepředpokládejte úplnou kompatibilitu pouze na základě podobného vzhledu krytu. Před použitím schématu nebo návodu ověřte přesný model a verzi zařízení.
 
 :::
 
@@ -861,8 +861,8 @@ Pokud FAQ problém neřeší, připravte si před kontaktováním:
 
 - fotografii řídicí jednotky,
 - fotografii typového štítku spotřebiče,
-- parametry motorů nebo pohonů,
+- parametry motorů nebo servopohonů,
 - schéma zapojení,
 - přesný popis požadovaného způsobu činnosti.
 
-Díky tomu může být volba zařízení nebo diagnostika problému provedena na základě skutečných parametrů instalace, a ne domněnek.
+Díky tomu lze výběr zařízení nebo diagnostiku problému provést na základě skutečných parametrů instalace, nikoli domněnek.

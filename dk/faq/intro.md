@@ -3,12 +3,12 @@ id: faq
 title: FAQ
 sidebar_label: FAQ
 slug: /faq
-description: De mest almindelige spørgsmål om valg, konfiguration, diagnostik og service
-  af enheder ELETOR.
+description: De hyppigste spørgsmål om valg, konfiguration, diagnosticering og service
+  af enheder fra ELETOR.
 keywords:
 - ELETOR
 - FAQ
-- ventilationsstyringer
+- ventilationsstyreenheder
 - regulatorer
 - ventilatorer
 - aktuatorer
@@ -21,340 +21,340 @@ toc_max_heading_level: 3
 
 # Ofte stillede spørgsmål
 
-FAQ'en er udarbejdet på grundlag af en anonymiseret analyse af faktiske samtaler med brugere og kunder ELETOR. Svarene er generaliseret, så de hjælper i typiske tilfælde og ikke indeholder data om konkrete personer eller installationer.
+FAQ'en er udarbejdet på grundlag af en anonymiseret analyse af faktiske samtaler med brugere og kunder hos ELETOR. Svarene er generaliseret, så de hjælper i typiske situationer og ikke indeholder oplysninger om konkrete personer eller installationer.
 
 :::note FAQ'ens omfang
 
-Svarene vedrører typiske tilfælde. Klemmernes betegnelser, funktioner og tilslutningsmåde kan variere mellem modeller og enhedsversioner. Ved tvivl skal dokumentationen for det konkrete produkt anvendes.
+Svarene vedrører typiske situationer. Klemmebetegnelser, funktioner og tilslutningsmetoder kan variere mellem modeller og versioner af enhederne. Ved tvivl skal dokumentationen for det konkrete produkt anvendes.
 
 :::
 
 :::warning Sikkerhed
 
-Arbejde på den elektriske installation skal udføres i overensstemmelse med enhedens dokumentation og gældende sikkerhedsregler. Arbejde på netspænding bør udføres af en person med de nødvendige kvalifikationer.
+Arbejde på den elektriske installation skal udføres i overensstemmelse med enhedens dokumentation og gældende sikkerhedsregler. Arbejde med netspænding bør udføres af en person med de nødvendige kvalifikationer.
 
 :::
 
-## Valg af styring og effekt
+## Valg af styreenhed og effekt
 
-### Hvordan vælges en styring til ventilatorer?
+### Hvordan vælges en styreenhed til ventilatorer?
 
-Grundlaget for valget er først og fremmest ventilatorernes samlede strøm og ikke kun deres antal.
+Valget baseres først og fremmest på ventilatorernes samlede strøm og ikke udelukkende på deres antal.
 
-:::tip Forbered data før valg
+:::tip Indsaml oplysninger før valget
 
-Jo mere præcise data om motorerne og anlæggets driftsmåde, desto mere sikkert er valget af styring.
+Jo mere præcise oplysningerne om motorerne og installationens driftsmåde er, desto sikrere bliver valget af styreenhed.
 
 :::
 
-Før valg er det en god idé at forberede:
+Før valget bør følgende oplysninger indsamles:
 
-- antallet af ventilatorer,
-- forsyningsspændingen,
-- den nominelle effekt eller strøm for hver ventilator,
+- antal ventilatorer,
+- forsyningsspænding,
+- mærkeeffekt eller mærkestrøm for hver ventilator,
 - oplysning om, hvorvidt alle ventilatorer skal reguleres trinløst,
 - oplysning om, hvorvidt ventilatorerne kan opdeles i grupper,
-- oplysninger om ekstra enheder, f.eks. varmeflader eller luftindtag.
+- oplysninger om yderligere enheder, f.eks. varmeapparater eller luftindtag.
 
-Styringen bør ikke vælges helt “på grænsen”. Der skal være en passende reserve i forhold til den maksimale belastning.
+Styreenheden bør ikke dimensioneres præcis til grænsen. Der skal sikres en passende margin i forhold til den maksimale belastning.
 
-### Er det nok at summere ventilatorernes effekt i watt?
+### Er det tilstrækkeligt at lægge ventilatorernes effekt i watt sammen?
 
-Effekten kan bruges til et foreløbigt skøn, men det endelige valg bør baseres på enhedernes nominelle strøm og belastningens karakter.
+Effekten kan anvendes til et indledende skøn, men det endelige valg bør baseres på enhedernes mærkestrøm og belastningens karakter.
 
-Motoren kan under opstart trække mere strøm end under normal drift. Derfor er to sæt ventilatorer med lignende nominel effekt ikke altid en tilsvarende belastning for styringen.
+En motor kan under opstart trække mere strøm end under normal drift. Derfor udgør to sæt ventilatorer med tilsvarende mærkeeffekt ikke altid en tilsvarende belastning for styreenheden.
 
-### Jeg har flere små ventilatorer. Kan jeg tilslutte dem parallelt til én udgang?
+### Jeg har flere små ventilatorer. Kan de tilsluttes parallelt til én udgang?
 
 Ja, hvis:
 
-- de er beregnet til denne styringsmåde,
-- de skal arbejde sammen,
-- den samlede belastning ikke overskrider udgangens tilladte strøm,
-- tilslutningsmåden er i overensstemmelse med styringens dokumentation.
+- de er beregnet til denne styringsmetode,
+- de skal køre sammen,
+- summen af belastningerne ikke overstiger udgangens tilladte strøm,
+- tilslutningsmetoden er i overensstemmelse med styreenhedens dokumentation.
 
 Ved et større antal ventilatorer bør det overvejes at opdele dem i grupper eller anvende en effektudvidelse.
 
 ### Hvornår er en effektudvidelse nødvendig?
 
-En effektudvidelse anvendes, når belastningen overstiger styringens udgangskapacitet, eller når anlægget skal udbygges med et større antal ventilatorer.
+En effektudvidelse anvendes, når belastningen overstiger kapaciteten for styreenhedens udgang, eller når installationen skal udvides med flere ventilatorer.
 
-Styringen sender da styresignalet, mens den egentlige belastning håndteres af et ekstra modul.
+Styreenheden sender da styresignalet, mens den egentlige belastning håndteres af et ekstra modul.
 
-### Kan anlægget senere udbygges med ekstra ventilatorer?
+### Kan installationen senere udvides med yderligere ventilatorer?
 
-I mange anlæg ja. Oftest anvendes:
+I mange installationer er det muligt. Oftest anvendes:
 
-- ekstra effektudvidelse,
-- ekstra ventilationsgruppe,
-- kontaktor til indkobling af den næste gruppe,
-- frekvensomformer ved trefasede motorer.
+- en ekstra effektudvidelse,
+- en ekstra ventilationsgruppe,
+- en kontaktor, der indkobler den næste gruppe,
+- en frekvensomformer ved trefasede motorer.
 
-Det er bedst at tage højde for den planlagte udbygning allerede ved det første valg af styring.
+Det er bedst at tage højde for den planlagte udvidelse allerede ved det første valg af styreenhed.
 
 ### Skal alle ventilatorer reguleres trinløst?
 
-Nej. To typiske løsninger er:
+Nej. Der er to typiske løsninger:
 
 1. alle ventilatorer reguleres trinløst,
-2. den første gruppe reguleres trinløst, og de næste grupper tilkobles gradvist, f.eks. via kontaktorer.
+2. den første gruppe reguleres trinløst, og de efterfølgende grupper indkobles trinvist, f.eks. via kontaktorer.
 
-Den anden løsning gør det muligt at håndtere et større anlæg uden trinløs regulering af hver enkelt ventilator.
+Den anden løsning gør det muligt at styre en større installation uden trinløs regulering af hver enkelt ventilator.
 
-### Jeg har 10 ventilatorer. Har jeg brug for en meget stor styring?
+### Jeg har 10 ventilatorer. Har jeg brug for en meget stor styreenhed?
 
-Ikke altid. Der kan anvendes flere styringsmåder:
+Ikke altid. Der kan anvendes flere styringsmetoder:
 
 - opdeling i grupper,
 - effektudvidelser,
 - kontaktorer,
-- frekvensomformer.
+- en frekvensomformer.
 
-Det endelige valg afhænger af ventilatorernes elektriske parametre og af, om alle skal ændre omdrejningstal samtidig.
+Det endelige valg afhænger af ventilatorernes elektriske parametre, og af om de alle skal ændre omdrejningstal samtidigt.
 
-### Adskiller styring 6 A og 12 A sig kun ved den tilladte belastning?
+### Er den tilladte belastning den eneste forskel mellem styreenhederne 6 A og 12 A?
 
-Man bør ikke antage, at den eneste forskel er strømværdien. De enkelte versioner og generationer af enheder kan variere med hensyn til udstyr eller udførelse.
+Det bør ikke antages, at strømværdien er den eneste forskel. De enkelte versioner og generationer af enhederne kan have forskelligt udstyr eller forskellig udførelse.
 
-Ved udskiftning af enheden skal den præcise model og den aktuelle dokumentation kontrolleres.
+Ved udskiftning af en enhed skal den præcise model og den aktuelle dokumentation kontrolleres.
 
 
 ## Ventilatorer og ventilationsstyring
 
-### Regulerer styringen ventilatorerne trinløst?
+### Regulerer styreenheden ventilatorerne trinløst?
 
-I styringer beregnet til trinløs regulering af ventilation ændres ventilatorernes hastighed afhængigt af behovet, som bl.a. bestemmes af temperaturen.
+I styreenheder beregnet til trinløs ventilationsregulering ændres ventilatorernes hastighed afhængigt af behovet, som blandt andet bestemmes af temperaturen.
 
 Det skal dog kontrolleres, om den pågældende motortype er egnet til den anvendte reguleringsmetode.
 
-### Hvad betyder setpunktstemperatur?
+### Hvad betyder temperaturens setpunkt?
 
-Setpunktstemperaturen er den værdi, som styringen sammenholder den aktuelle temperaturmåling med.
+Temperaturens setpunkt er den værdi, som styreenheden sammenholder den aktuelle temperaturmåling med.
 
-På dette grundlag øger eller reducerer styringen ventilationsintensiteten i overensstemmelse med de øvrige indstillinger, f.eks. reguleringsbånd, minimums- og maksimumsniveau.
+På dette grundlag øger eller reducerer styreenheden ventilationens intensitet i overensstemmelse med de øvrige indstillinger, f.eks. reguleringsbåndet samt minimums- og maksimumsniveauet.
 
-### Hvad betyder minimumsventilationsniveau?
+### Hvad betyder minimumsniveauet for ventilation?
 
-Det er den minimale styreværdi for ventilatoren under automatisk drift.
+Det er den mindste styreværdi for ventilatoren under automatisk drift.
 
-Indstillingen forhindrer drift under et niveau, hvor ventilatoren kunne arbejde ustabilt eller sikre for lille luftudskiftning.
+Indstillingen forhindrer drift under det niveau, hvor ventilatoren kan køre ustabilt eller give et for lavt luftskifte.
 
-### Hvad betyder maksimumsventilationsniveau?
+### Hvad betyder maksimumsniveauet for ventilation?
 
-Det er den øvre begrænsning af ventilationsstyringens værdi.
+Det er den øvre grænse for ventilationens styreværdi.
 
-For eksempel kan en indstilling under 100% begrænse ventilatorens maksimale omdrejningstal, hvis installationen kræver det.
+Eksempelvis kan indstilling af en værdi under 100% begrænse ventilatorens maksimale omdrejningstal, hvis installationen kræver det.
 
-### Hvad betyder ventilationsbånd?
+### Hvad betyder ventilationsbåndet?
 
-Ventilationsbåndet angiver det temperaturområde, hvor styringen går fra minimums- til maksimumsventilationsniveau.
+Ventilationsbåndet angiver det temperaturområde, hvor styreenheden går fra minimums- til maksimumsniveauet for ventilation.
 
-Jo smallere båndet er, desto hurtigere reagerer styringen med øget ydelse på en temperaturændring.
+Jo smallere båndet er, desto hurtigere reagerer styringen på en temperaturændring ved at øge kapaciteten.
 
-### Ventilatoren går efter opstart først op på 100% og sænker først derefter hastigheden. Hvorfor?
+### Efter opstart går ventilatoren først op på 100% og sænker først hastigheden senere. Hvorfor?
 
-Startfunktionen kan være aktiv, og dens opgave er at starte motoren kortvarigt med højere effekt.
+En opstartsfunktion kan være aktiv, hvis formål er kortvarigt at starte motoren med højere effekt.
 
-Afhængigt af styringsversionen skal indstillingerne relateret til følgende kontrolleres:
+Afhængigt af styreenhedens version skal indstillingerne for følgende kontrolleres:
 
 - Soft Start-funktionen,
-- oprampningstid,
-- driftstid ved 100%,
-- nedrampningstid.
+- opstartstiden,
+- driftstiden ved 100%,
+- nedløbstiden.
 
-Hvis funktionen ikke er nødvendig i det pågældende anlæg, kan de relevante parametre ændres i overensstemmelse med enhedens vejledning.
+Hvis funktionen ikke er nødvendig i den pågældende installation, kan de relevante parametre ændres i overensstemmelse med enhedens vejledning.
 
-### Hvorfor kan ventilatoren ved start kortvarigt blive kørt med fuld effekt?
+### Hvorfor kan ventilatoren ved opstart kortvarigt blive startet med fuld effekt?
 
-En sådan opstart kan hjælpe med sikker igangsætning af ventilatoren samt i anlæg, hvor mekaniske dele kan yde større modstand ved start.
+En sådan opstart kan hjælpe med at sikre en pålidelig start af ventilatoren og være nyttig i installationer, hvor mekaniske dele kan yde større modstand under opstart.
 
-Det er dog ikke nødvendigt i alle anlæg.
+Det er dog ikke nødvendigt i alle installationer.
 
-### Hvad betyder oprampningstid og nedrampningstid?
+### Hvad betyder opstartstid og nedløbstid?
 
-**Oprampningstid** angiver, hvordan styringen øges under opstart af ventilatoren.
+**Opstartstiden** angiver, hvordan styreværdien øges under opstart af ventilatoren.
 
-**Nedrampningstid** angiver, hvordan hastigheden reduceres.
+**Nedløbstiden** angiver, hvordan hastigheden reduceres.
 
-Begge parametre gør det muligt at begrænse pludselige ændringer i omdrejningstal og anlæggets drift.
+Begge parametre gør det muligt at begrænse pludselige ændringer i omdrejningstal og installationens drift.
 
-### Hvorfor kan to identiske styringer starte ventilatorerne forskelligt?
+### Hvorfor kan to identiske styreenheder starte ventilatorerne forskelligt?
 
 Den hyppigste årsag er forskellige indstillinger.
 
-Det er især værd at sammenligne:
+Følgende bør især sammenlignes:
 
-- setpunktstemperaturen,
+- temperaturens setpunkt,
 - ventilationsbåndet,
 - minimum og maksimum,
-- Soft Start-indstillinger,
-- oprampnings- og nedrampningstider,
-- konfigurationen af ventilationsgrupper.
+- Soft Start-indstillingerne,
+- opstarts- og nedløbstiderne,
+- konfigurationen af ventilationsgrupperne.
 
-### Kan styringen periodisk starte ventilationen uafhængigt af temperaturen?
+### Kan styreenheden starte ventilationen periodisk uafhængigt af temperaturen?
 
-Afhængigt af modellen findes der en funktion til periodisk udluftning.
+Afhængigt af modellen er der en funktion til periodisk udluftning.
 
-Den kan starte ventilationen i et bestemt tidsrum med fastsatte intervaller, selv når temperaturreguleringen ikke kræver øget ventilation.
+Den kan starte ventilationen i et bestemt tidsrum med fastlagte intervaller, selv når temperaturreguleringen ikke kræver øget ventilation.
 
 ### Hvad bruges ventilationsgrupper til?
 
-Grupper gør det muligt gradvist at øge anlæggets kapacitet.
+Grupperne gør det muligt at øge installationens kapacitet trinvist.
 
-For eksempel:
+Eksempelvis:
 
 - gruppe 1 reguleres trinløst,
 - gruppe 2 starter yderligere ventilatorer,
-- næste gruppe starter ved endnu større behov.
+- den næste gruppe starter ved et endnu større behov.
 
 Det gør det muligt at styre et stort antal ventilatorer uden trinløs regulering af hver enkelt.
 
-### Kan en ekstra ventilatorgruppe kobles ind via en kontaktor?
+### Kan en ekstra ventilatorgruppe indkobles via en kontaktor?
 
-Ja. Styringens relæudgang kan styre spolen på en korrekt dimensioneret kontaktor.
+Ja. Styreenhedens relæudgang kan styre spolen i en korrekt dimensioneret kontaktor.
 
-Ventilatorbelastningen bør da ikke føres direkte gennem den lille styrekontakt.
+Ventilatorernes belastningsstrøm bør da ikke føres direkte gennem den lille styrekontakt.
 
-### Hvad betyder ventilatorsymbolet eller den gule kontrollampe på styringen?
+### Hvad betyder ventilatorsymbolet eller den gule kontrollampe på styreenheden?
 
-Afhængigt af modellen viser indikatorerne udgangenes og funktionernes aktuelle tilstand.
+Afhængigt af modellen angiver kontrollamperne den aktuelle tilstand for udgange og funktioner.
 
-Gul indikering kan betyde en aktiv driftsfunktion, f.eks. ventilation, opvarmning eller næste gruppe.
+En gul indikation kan betyde, at en driftsfunktion er aktiv, f.eks. ventilation, opvarmning eller en yderligere gruppe.
 
-Den præcise betydning skal kontrolleres i vejledningen for den pågældende model.
+Den præcise betydning skal kontrolleres i vejledningen til den pågældende model.
 
 ### Hvad betyder symbolet for manuel tilstand?
 
-Manuel tilstand betyder, at styreværdien er manuelt fastsat af brugeren og ikke i øjeblikket beregnes automatisk på grundlag af temperaturen.
+Manuel tilstand betyder, at styreværdien er tvangsstyret af brugeren og på det pågældende tidspunkt ikke beregnes automatisk ud fra temperaturen.
 
-Når testene er afsluttet, skal det sikres, at styringen er sat tilbage i korrekt automatisk tilstand.
+Efter afslutning af testene skal det sikres, at styreenheden er sat tilbage i den korrekte automatiske tilstand.
 
 
 ## Luftindtag og aktuatorer
 
-### Kan styringen styre luftindtag?
+### Kan styreenheden styre luftindtag?
 
-Ja, udvalgte styringer kan samarbejde med drev til luftindtag.
+Ja, udvalgte styreenheder kan arbejde sammen med drev til luftindtag.
 
-Tilslutningsmåden afhænger af aktuatorens type og dens styremåde.
+Tilslutningsmetoden afhænger af aktuatortypen og dens styringsmetode.
 
 ### Hvilke typer aktuatorer kan anvendes til luftindtag?
 
-I tekniske samtaler forekom oftest to løsninger:
+I de tekniske samtaler forekom oftest to løsninger:
 
-- aktuator styret med analogt signal 0–10 V eller 2–10 V,
-- reverserende åbn/luk-aktuator med tilbagemeldingssignal, f.eks. fra et potentiometer.
+- en aktuator styret af et analogt signal 0–10 V eller 2–10 V,
+- en reversibel aktuator med åbn/luk-styring og et tilbagekoblingssignal, f.eks. fra et potentiometer.
 
-Før køb skal kompatibiliteten mellem den konkrete model og den eksisterende styring kontrolleres.
+Før køb skal den konkrete models kompatibilitet med den eksisterende styreenhed kontrolleres.
 
 ### Har aktuatorens forsyningsspænding 24 V eller 230 V betydning for signalet 0–10 V?
 
-Styresignalet og aktuatorens forsyning er separate parametre.
+Styresignalet og aktuatorens strømforsyning er separate parametre.
 
-Aktuatoren kan forsynes med en anden spænding end styresignalets spænding. Begge parametre skal være i overensstemmelse med dokumentationen for aktuatoren og styringen.
+Aktuatoren kan forsynes med en anden spænding end styresignalets spænding. Begge parametre skal være i overensstemmelse med aktuatorens og styreenhedens dokumentation.
 
-### Hvad betyder styring 0–10 V?
+### Hvad betyder styring med 0–10 V?
 
-Styringen sender et analogt spændingssignal, der repræsenterer den ønskede position eller styreniveauet.
+Styreenheden sender et analogt spændingssignal, der repræsenterer den ønskede position eller det ønskede styringsniveau.
 
-I typisk anvendelse betyder en lavere værdi mindre åbning og en højere værdi større åbning, men den faktiske karakteristik skal kontrolleres i aktuatorens dokumentation.
+Ved typisk anvendelse betyder en lavere værdi en mindre åbning og en højere værdi en større åbning, men den faktiske karakteristik skal kontrolleres i aktuatorens dokumentation.
 
 ### Hvad er forskellen mellem 0–10 V og 2–10 V?
 
 I begge tilfælde angives positionen med et analogt signal.
 
-I standarden 2–10 V er den nedre del af området forskudt og kan gøre det muligt for enheden at skelne styresignalet fra manglende signal.
+I standarden 2–10 V er den nedre del af området forskudt, hvilket kan gøre det muligt for enheden at skelne mellem et styresignal og fraværet af dette.
 
-Styring og aktuator skal understøtte samme område.
+Styreenheden og aktuatoren skal understøtte et kompatibelt område.
 
-### Hvordan vælges en aktuator i forhold til antallet af luftindtag?
+### Hvordan vælges en aktuator ud fra antallet af luftindtag?
 
-En aktuator bør ikke vælges udelukkende på grundlag af antallet af spjæld.
+Aktuatoren bør ikke vælges udelukkende ud fra antallet af spjæld.
 
 Der skal tages højde for:
 
-- den krævede kraft eller det krævede moment,
-- mekanismens længde og føringsmåde,
+- den nødvendige kraft eller det nødvendige drejningsmoment,
+- mekanismens længde og føring,
 - spjældenes modstand,
-- slaglængde,
-- arbejdshastighed,
-- forsyningsspænding,
-- styretype,
-- krævet feedback.
+- slaglængden,
+- bevægelseshastigheden,
+- forsyningsspændingen,
+- styringstypen,
+- den nødvendige tilbagekobling.
 
-### Kan én aktuator betjene flere spjæld?
+### Kan én aktuator betjene mange spjæld?
 
-Ja, hvis anlæggets mekanik gør det muligt at forbinde spjældene i en fælles mekanisme, og det krævede moment eller den krævede kraft ikke overstiger aktuatorens kapacitet.
+Ja, hvis installationens mekanik gør det muligt at forbinde spjældene med et fælles system, og det nødvendige drejningsmoment eller den nødvendige kraft ikke overstiger aktuatorens kapacitet.
 
-I praksis bestemmes valget af hele mekanismens modstand og ikke kun af antallet af spjæld.
+I praksis bestemmes valget af modstanden i hele mekanismen og ikke alene af antallet af spjæld.
 
-### Kan flere aktuatorer forbindes parallelt og styres med ét signal?
+### Kan flere aktuatorer parallelforbindes og styres med ét signal?
 
-I nogle systemer er det muligt, men dokumentationen for aktuatorerne og den tilladte belastning af styreudgangen skal verificeres.
+I nogle systemer er det muligt, men aktuatorernes dokumentation og styreudgangens tilladte belastning skal kontrolleres.
 
-Ved reverserende drev uden uafhængig feedback kan der også opstå en gradvis positionsafvigelse mellem de enkelte aktuatorer.
+Ved reversible drev uden uafhængig tilbagekobling kan de enkelte aktuatorers positioner desuden gradvist afvige fra hinanden.
 
 ### Hvorfor kan flere aktuatorer med tiden indstille sig i forskellige positioner?
 
-Selv identiske motorer kan arbejde med lidt forskellig hastighed på grund af:
+Selv identiske motorer kan køre med lidt forskellig hastighed på grund af:
 
 - forskellig belastning,
 - mekanisk modstand,
-- tolerance i motorparametre,
-- forskelle i gear.
+- tolerancer i motorparametrene,
+- forskelle i gearene.
 
-Derfor er korrekt feedback eller individuel positionskontrol nødvendig, når der kræves præcis synkronisering.
+Hvis der kræves præcis synkronisering, er passende tilbagekobling eller individuel positionskontrol derfor nødvendig.
 
-### Kan luftindtag styres proportionalt med ventilationen?
+### Kan luftindtagene styres proportionalt med ventilationen?
 
 Ja. I korrekt konfigurerede systemer kan luftindtagenes position være knyttet til det aktuelle ventilationsniveau.
 
-På den måde øges åbningen af luftindtagene også, når ventilatorernes kapacitet stiger.
+Dermed øges luftindtagenes åbning også, når ventilatorernes kapacitet øges.
 
-### Kræver aktuator 24 V en separat strømforsyning?
+### Kræver aktuatoren 24 V en separat strømforsyning?
 
-Hvis styringen ikke har en passende forsyningsudgang med den krævede effekt, er der brug for en separat strømforsyning.
+Hvis styreenheden ikke har en passende forsyningsudgang med den nødvendige effekt, kræves en separat strømforsyning.
 
-Dens effekt skal vælges i forhold til aktuatorens strømforbrug og andre enheder, der forsynes fra samme kilde.
+Dens effekt skal dimensioneres efter strømforbruget for aktuatoren og de øvrige enheder, der forsynes fra samme kilde.
 
 ### Kan der anvendes en aktuator fra en anden producent?
 
-Ofte ja, hvis dens elektriske parametre og styremåde er kompatible med styringens udgange.
+Ofte ja, hvis dens elektriske parametre og styringsmetode er kompatible med styreenhedens udgange.
 
 Før tilslutning skal følgende kontrolleres:
 
 - spænding,
 - signaltype,
 - ledningsdiagram,
-- arbejdsretninger,
+- bevægelsesretninger,
 - positionssignal,
 - tilladt belastning.
 
 
-## Temperatur- og fugtsensorer
+## Temperatur- og fugtighedssensorer
 
-### Hvor tilsluttes temperatursensoren?
+### Hvor skal temperatursensoren tilsluttes?
 
-Sensoren skal tilsluttes den sensorindgang, som producenten har forudset, den sensorindgang som er angivet i dokumentationen for den pågældende model.
+Sensoren skal tilsluttes den sensorindgang, som producenten har beregnet til formålet, den sensorindgang, der er angivet i dokumentationen for den pågældende model.
 
-Man bør ikke antage, at klemmernes betegnelser er identiske i alle enhedsversioner.
+Det bør ikke antages, at klemmebetegnelserne er identiske i alle versioner af enhederne.
 
-### Temperatursensoren viser en anden værdi end referencetermometeret. Hvad skal man gøre?
+### Temperatursensoren viser en anden værdi end referencetermometeret. Hvad skal der gøres?
 
-Hvis styringen har en funktion til sensorkalibrering, kan visningen korrigeres efter sammenligning med et pålideligt referencetermometer.
+Hvis styreenheden har en funktion til sensorkalibrering, kan visningen korrigeres efter sammenligning med et pålideligt referencetermometer.
 
-Før kalibreringen ændres, er det en god idé at sikre sig, at:
+Før kalibreringen ændres, bør det sikres, at:
 
 - begge sensorer befinder sig samme sted,
-- målingen har stabiliseret sig,
+- målingen er stabiliseret,
 - sensoren ikke opvarmes af solen eller enheder,
-- den ikke befinder sig direkte i strømmen af kold eller varm luft.
+- den ikke befinder sig direkte i en strøm af kold eller varm luft.
 
-### Fugtsensoren viser en forkert værdi. Kan den kalibreres?
+### Fugtighedssensoren viser en forkert værdi. Kan den kalibreres?
 
-Det afhænger af styringsversionen, sensoren og softwaren.
+Det afhænger af styreenhedens, sensorens og softwarens version.
 
-I nogle løsninger kan korrektionen kræve en passende softwarefunktion eller en kompatibel sensortype. Hvis forskellen er stor og gentager sig, skal enhedsversionen kontrolleres, og teknisk support kontaktes.
+I nogle løsninger kan korrektion kræve en passende softwarefunktion eller en kompatibel sensortype. Hvis forskellen er stor og gentager sig, skal enhedens version kontrolleres, og teknisk support kontaktes.
 
 ### Betyder en forkert måling altid, at sensoren er defekt?
 
@@ -362,335 +362,335 @@ Nej.
 
 Årsagen kan også være:
 
-- Forkert placering af sensoren,
+- forkert placering af sensoren,
 - kablet,
 - den elektriske forbindelse,
 - konfigurationen,
-- forkert sensortype,
+- en forkert sensortype,
 - behov for kalibrering,
 - fugt eller korrosion.
 
 
-## Alarmer og notifikationer
+## Alarmer og meddelelser
 
-### Kan en sirene tilsluttes direkte til styringens alarmudgang?
+### Kan en sirene tilsluttes direkte til styreenhedens alarmudgang?
 
-Det bør man ikke antage.
+Det bør ikke antages.
 
-Styringens alarmudgang er normalt en styreudgang eller en relækontakt. Sirenen kan kræve separat strømforsyning samt en alarmcentral.
+Styreenhedens alarmudgang er normalt en styreudgang eller en relækontakt. Sirenen kan kræve separat strømforsyning og en alarmcentral.
 
 ### Hvorfor anvendes en alarmcentral?
 
 Centralen kan:
 
-- modtage alarmsignaler fra styringer,
-- forsyne signalgiveren,
+- modtage alarmsignaler fra styreenheder,
+- forsyne en alarmgiver med strøm,
 - opretholde driften ved strømsvigt,
-- signalere alarm med lyd eller lys,
-- sende GSM-notifikationer i versioner, der har denne funktion.
+- signalere en alarm med lyd eller lys,
+- sende GSM-meddelelser i versioner, der har denne funktion.
 
-### Kan centralen alarmere om bortfald af styringens forsyning?
+### Kan centralen udløse en alarm ved strømsvigt i styreenheden?
 
-Ja, hvis systemet er tilsluttet korrekt.
+Ja, hvis systemet er korrekt tilsluttet.
 
-Løsningen kan registrere ikke kun overskridelse af temperaturen, men også tab af signal fra styringen som følge af bortfald af dens forsyning.
+Løsningen kan ikke blot registrere overskridelse af temperaturen, men også tab af signal fra styreenheden som følge af strømsvigt i denne.
 
-### Hvor indstilles alarmens minimums- og maksimumstemperatur?
+### Hvor indstilles den minimale og maksimale alarmtemperatur?
 
-I en typisk konfiguration indstilles alarmgrænserne i den styring, der betjener det pågældende kammer eller rum.
+I en typisk konfiguration indstilles alarmgrænserne i den styreenhed, der betjener det pågældende kammer eller rum.
 
-Alarmcentralen modtager derefter information om, at styringen har meldt alarm.
+Alarmcentralen modtager derefter information om, at styreenheden har udløst en alarm.
 
-### Kræver en GSM-central et SIM-kort?
+### Kræver GSM-centralen et SIM-kort?
 
-For at sende opkald og beskeder via mobilnettet kræves et aktivt SIM-kort eller en anden kommunikationsløsning, som er forudset i den pågældende model.
+For at foretage opkald og sende meddelelser via mobilnettet kræves et aktivt SIM-kort eller en anden kommunikationsløsning, som den pågældende model understøtter.
 
-Uden en aktiv forbindelse til mobilnettet vil telefon- og SMS-funktionerne ikke fungere.
+Uden en aktiv forbindelse til mobilnettet fungerer telefon- og SMS-funktionerne ikke.
 
-### Kan alarmen sende information om, hvilken styring hændelsen kommer fra?
+### Kan alarmen sende information om, hvilken styreenhed hændelsen stammer fra?
 
-I et korrekt konfigureret system ja.
+Ja, i et korrekt konfigureret system.
 
-Centralens indgange kan knyttes til bestemte rum eller styringer, så meddelelsen gør det muligt at identificere alarmens kilde.
+Centralens indgange kan tildeles bestemte rum eller styreenheder, så meddelelsen gør det muligt at identificere alarmens kilde.
 
-### Hvor mange styringer kan tilsluttes én alarmcentral?
+### Hvor mange styreenheder kan tilsluttes én alarmcentral?
 
 Det afhænger af centralens model.
 
-I transskriptionerne forekom centraler med understøttelse af op til otte indgange, men før installationen udføres, skal den aktuelle specifikation for den konkrete enhed kontrolleres.
+I transskriptionerne forekom centraler, der understøtter op til otte indgange, men før installationen udføres, skal den aktuelle specifikation for den konkrete enhed kontrolleres.
 
-### Hvilken akkumulator anvendes i alarmcentralen?
+### Hvilket batteri anvendes i alarmcentralen?
 
-I en del af de enheder, der blev omtalt i samtalerne, blev der anvendt en 12 V 7 Ah akkumulator.
+I nogle af de enheder, der blev omtalt i samtalerne, blev der anvendt et batteri på 12 V 7 Ah.
 
-Før køb af en erstatning skal mærkningen på den eksisterende akkumulator og centralens specifikation kontrolleres, da andre enhedsversioner kan kræve en anden akkumulator.
+Før køb af et erstatningsbatteri skal mærkningen på det eksisterende batteri og centralens specifikation kontrolleres, da andre versioner af enhederne kan kræve et andet batteri.
 
 ### Centralen sender meddelelser om lav spænding. Hvad skal kontrolleres?
 
-Først og fremmest skal følgende kontrolleres:
+Først skal følgende kontrolleres:
 
-- akkumulatorens tilstand,
-- dens alder,
-- akkumulatorforbindelserne,
-- tilstedeværelsen af netforsyning,
+- batteriets tilstand,
+- dets alder,
+- batteriets forbindelser,
+- om netforsyningen er til stede,
 - funktionen af centralens oplader eller strømforsyning.
 
-En slidt akkumulator kan medføre tilbagevendende meddelelser om lav spænding.
+Et slidt batteri kan medføre tilbagevendende meddelelser om lav spænding.
 
-### Hvor ofte skal akkumulatoren i alarmcentralen udskiftes?
+### Hvor ofte skal batteriet i alarmcentralen udskiftes?
 
-Der findes ikke én værdi, der passer til alle forhold.
+Der findes ikke ét interval, der passer til alle forhold.
 
-Akkumulatoren skal testes periodisk, især i installationer hvor alarm under strømsvigt er kritisk. Med alderen falder dens faktiske kapacitet.
+Batteriet skal testes regelmæssigt, især i installationer, hvor alarmen ved strømsvigt er kritisk. Dets faktiske kapacitet falder med alderen.
 
-### Er sirenen alene tilstrækkelig som sikring?
+### Er en sirene alene tilstrækkelig som sikring?
 
-Sirenen virker kun, hvis nogen kan høre den.
+En sirene har kun effekt, når nogen kan høre den.
 
-I anlæg, der i perioder er uden opsyn, bør der også anvendes fjernnotifikation og batteribackup.
+I bygninger, der i perioder er uden opsyn, bør der også anvendes fjernmeddelelser og batteribackup.
 
 
 ## Frekvensomformere
 
 ### Hvordan vælges en frekvensomformer til ventilatorer?
 
-Det er nødvendigt at kende:
+Følgende skal være kendt:
 
 - forsyningsspændingen,
-- antal faser,
+- antallet af faser,
 - effekt og strøm for alle motorer,
-- deres tilslutningsmåde,
+- deres tilslutningsmetode,
 - driftsforholdene,
-- den krævede styremåde.
+- den krævede styringsmetode.
 
-Frekvensomformeren bør have en passende reserve i forhold til belastningen, især når flere motorer arbejder parallelt.
+Frekvensomformeren bør have en passende margin i forhold til belastningen, især når flere motorer kører parallelt.
 
-### Skal frekvensomformeren have nøjagtig samme effekt som summen af motorernes effekt?
+### Skal frekvensomformeren have præcis samme effekt som summen af motorernes effekt?
 
-En frekvensomformer bør ikke vælges udelukkende på grundlag af en simpel summering af effekten, og man bør ikke vælge en enhed, der arbejder præcis på grænsen af sine parametre.
+Frekvensomformeren bør ikke vælges udelukkende ved simpel sammenlægning af effekten, og der bør ikke vælges en enhed, der arbejder præcis ved grænsen for sine parametre.
 
-Der skal tages højde for de nominelle strømme, belastningens karakter og anbefalingerne fra frekvensomformerens producent.
+Der skal tages højde for mærkestrømmene, belastningens karakter og frekvensomformerproducentens anbefalinger.
 
-### Frekvensomformeren stoppede ventilatorerne og viste en fejl. Hvad skal man gøre?
+### Frekvensomformeren har stoppet ventilatorerne og viser en fejl. Hvad skal der gøres?
 
-Det vigtigste er at notere den fulde fejlkode før reset.
+Det vigtigste er at notere hele fejlkoden før nulstilling.
 
-:::tip Tag et billede af displayet
+:::tip Tag et billede af skærmen
 
-Hvis situationen tillader det, skal der tages et billede af displayet før reset. Den fulde fejlkode gør diagnosen væsentligt lettere.
+Hvis situationen tillader det, skal der tages et billede af displayet før nulstilling. Den fulde fejlkode gør diagnosticeringen væsentligt lettere.
 
 :::
 
-Kun begyndelsen af meddelelsen er ofte ikke nok til at fastslå årsagen. Den fulde kode gør det muligt bl.a. at skelne mellem:
+Begyndelsen af meddelelsen alene er ofte ikke tilstrækkelig til at fastslå årsagen. Den fulde kode gør det muligt at skelne mellem blandt andet:
 
 - overbelastning,
 - overstrøm,
 - overophedning,
 - forkert spænding,
-- andre drevfejl.
+- andre fejl i drevet.
 
-### Kan man bare nulstille frekvensomformerens fejl?
+### Kan frekvensomformerens fejl blot nulstilles?
 
-Reset kan genoprette driften, men fjerner ikke årsagen til alarmen.
+En nulstilling kan genoprette driften, men fjerner ikke årsagen til alarmen.
 
-Efter hændelsen skal fejlkoden kontrolleres, og årsagen fastlægges, før anlægget sættes i længerevarende drift igen.
+Efter hændelsen skal fejlkoden kontrolleres og årsagen fastslås, før installationen igen sættes i langvarig drift.
 
 ### Frekvensomformeren arbejder i et støvet rum. Skal den rengøres?
 
 Ja.
 
-Støv og aflejringer på kølepladen eller køleventilatoren kan forringe varmeafledningen og føre til overophedning af frekvensomformeren.
+Støv og aflejringer på køleprofilen eller køleventilatoren kan forringe varmeafledningen og medføre overophedning af frekvensomformeren.
 
-Rengøring skal udføres i overensstemmelse med producentens vejledning efter sikker frakobling af forsyningen.
+Rengøring skal udføres i overensstemmelse med producentens vejledning, efter at strømforsyningen er afbrudt på sikker vis.
 
-### Hvad kan forårsage overophedning af frekvensomformeren?
+### Hvad kan medføre overophedning af frekvensomformeren?
 
 De hyppigste årsager er:
 
-- tilsmudsede køledele,
+- tilsmudsede kølekomponenter,
 - blokeret luftgennemstrømning,
 - for høj omgivelsestemperatur,
 - overbelastning,
-- defekt køleventilator,
+- en defekt køleventilator,
 - forkert montering.
 
-### Kan forhøjet netspænding udløse alarm på frekvensomformeren?
+### Kan forhøjet netspænding udløse en alarm i frekvensomformeren?
 
-Ja. Frekvensomformere overvåger forsyningskredsens spænding og kan melde fejl, når det tilladte niveau overskrides.
+Ja. Frekvensomformere overvåger spændingen i forsyningskredsløbet og kan melde en fejl, hvis det tilladte niveau overskrides.
 
-Hvis problemet gentager sig, skal installationen og forsyningskvaliteten kontrolleres.
+Hvis problemet gentager sig, skal installationen og strømforsyningens kvalitet kontrolleres.
 
 
-## Fejl og diagnostik
+## Fejl og diagnosticering
 
-### Styringen virker, men displayet viser ingenting. Hvad kan årsagen være?
+### Styreenheden fungerer, men displayet viser intet. Hvad kan årsagen være?
 
-Mulige årsager omfatter bl.a.:
+Mulige årsager omfatter blandt andet:
 
-- defekt display,
-- problem med kontrastindstilling i ældre løsninger,
-- defekt forbindelse,
+- et defekt display,
+- et problem med kontrastindstillingen i ældre løsninger,
+- en beskadiget forbindelse,
 - korrosion,
-- defekt hovedkort.
+- et defekt hovedprintkort.
 
-Hvis enheden ikke har været anvendt i lang tid eller har arbejdet i et fugtigt miljø, er det også værd at kontrollere kortets tilstand.
+Hvis enheden ikke har været anvendt i lang tid eller har arbejdet i et fugtigt miljø, bør printkortets tilstand også kontrolleres.
 
-### Styringen har efter flere års manglende brug problemer med displayet. Hvorfor?
+### Efter flere år uden brug har styreenheden problemer med displayet. Hvorfor?
 
-Længere tids stilstand i et fugtigt eller aggressivt miljø kan føre til:
+Langvarig stilstand i et fugtigt eller aggressivt miljø kan medføre:
 
 - oxidation af stikforbindelser,
 - korrosion,
-- forringede kontakter,
+- forringelse af kontakter,
 - skader på elektroniske komponenter.
 
-I så fald er det værd at udføre et fuldt eftersyn frem for at udskifte dele uden forudgående diagnose.
+I så fald bør der udføres et fuldt eftersyn frem for at udskifte komponenter uden forudgående diagnosticering.
 
-### Styringen er sodet efter en overspænding. Betyder det, at kortet skal udskiftes?
+### Styreenheden er tilsodet efter en overspænding. Betyder det, at printkortet skal udskiftes?
 
 Ikke altid.
 
-En beskyttelseskomponent kan blive beskadiget og efterlade meget aflejring, selv om resten af kortet kan repareres.
+En beskyttelseskomponent kan blive beskadiget og efterlade store mængder aflejringer, selv om resten af printkortet kan repareres.
 
-Hvis laminatet derimod er forkullet, brændt, eller banerne er beskadiget, kan reparationen være urentabel eller ikke holdbar.
+Hvis laminatet derimod er forkullet eller brændt igennem, eller printbanerne er beskadiget, kan reparationen være urentabel eller ikke holdbar.
 
-### Hvad kan beskadige flere styringer på én gang?
+### Hvad kan beskadige flere styreenheder samtidigt?
 
-Hvis mange enheder svigter samtidig, skal forsyningsinstallationen kontrolleres.
+Hvis mange enheder svigter på samme tidspunkt, skal forsyningsinstallationen kontrolleres.
 
-En af de mulige årsager er et problem med nullederen, som i en trefaset installation kan føre til, at der opstår forkerte spændinger på enfasede belastninger.
+En mulig årsag er et problem med nullederen, som i en trefaset installation kan medføre forkerte spændinger på enfasede forbrugere.
 
-Der kan også forekomme overspændinger fra nettet eller en generator.
+Overspændinger fra elnettet eller generatoren er også mulige.
 
-### Hvad skal man gøre efter en fejl relateret til overspænding?
+### Hvad skal der gøres efter en fejl forårsaget af overspænding?
 
-Før en repareret eller ny styring tilsluttes, skal årsagen til problemet fastlægges.
+Før en repareret eller ny styreenhed tilsluttes, skal årsagen til problemet fastslås.
 
 :::danger Tilslut ikke enheden igen uden at kontrollere installationen
 
-Hvis årsagen til fejlen var forkert spænding, beskadiget nulleder eller overspænding, kan den reparerede eller nye styring blive beskadiget igen.
+Hvis fejlen skyldtes forkert spænding, en beskadiget nulleder eller overspænding, kan den reparerede eller nye styreenhed blive beskadiget igen.
 
 :::
 
-### Hvad er et overspændingsbeskyttelseselement på kortet?
+### Hvad er en overspændingsbeskyttelseskomponent på printkortet?
 
-I elektroniske enheder anvendes komponenter, der begrænser overspænding, f.eks. varistorer.
+I elektroniske enheder anvendes komponenter, der begrænser overspændinger, f.eks. varistorer.
 
 Deres opgave er at optage en del af overspændingens energi og beskytte de efterfølgende kredsløb. Efter en kraftig hændelse kan en sådan komponent blive permanent beskadiget.
 
-### Kan enheden startes efter fjernelse af den brændte beskyttelseskomponent?
+### Kan enheden startes efter fjernelse af en afbrændt beskyttelseskomponent?
 
 Dette bør ikke betragtes som en normal reparation.
 
-Efter fjernelse af beskyttelsen kan enheden miste beskyttelsen mod en ny overspænding. Sådanne handlinger må kun udføres som en bevidst serviceprocedure af en person med de nødvendige kvalifikationer og efter fjernelse af den oprindelige fejls årsag.
+Efter fjernelse af beskyttelsen kan enheden miste sin beskyttelse mod en ny overspænding. Sådanne indgreb må kun udføres som en bevidst serviceprocedure af en person med de nødvendige kvalifikationer, og efter at årsagen til den oprindelige fejl er fjernet.
 
-### Er det værd at reparere en styring, der har været oversvømmet eller er stærkt korroderet?
+### Styreenheden har været udsat for vandindtrængning eller er kraftigt korroderet. Kan det betale sig at reparere den?
 
 Det afhænger af skadernes omfang.
 
-Overfladisk korrosion og enkelte skader kan ofte udbedres. Hvis korrosionen har angrebet baner, stikforbindelser og mange komponenter, kan reparationen være tidskrævende, usikker og økonomisk ubegrundet.
+Overfladisk korrosion og enkelte skader kan ofte afhjælpes. Hvis korrosionen har angrebet printbaner, stikforbindelser og mange komponenter, kan reparationen være tidskrævende, usikker og økonomisk ubegrundet.
 
-### Kan højtryksvask af enheden beskadige styringen?
+### Kan højtryksrensning af enheden beskadige styreenheden?
 
 Ja.
 
-Elektronik bør ikke udsættes for direkte påvirkning af vand eller rengøringsmiddel, hvis kapslingen og monteringsmåden ikke er beregnet til det.
+Elektronikken bør ikke udsættes direkte for vand eller rengøringsmiddel, hvis kapslingen og monteringsmåden ikke er beregnet til det.
 
-Fugt, der trænger ind, kan føre til korrosion og senere fejl, som er vanskelige at diagnosticere.
+Fugt, der trænger ind, kan medføre korrosion og senere fejl, som er vanskelige at diagnosticere.
 
 ### Hvorfor kan fejl efter vandindtrængning vende tilbage efter reparation?
 
-Korrosion kan også udvikle sig på steder, der ikke er synlige ved den første kontrol.
+Korrosion kan også udvikle sig på steder, som ikke er synlige ved den første kontrol.
 
-Beskadigede vias, baner og forbindelser kan virke under testen og senere igen miste kontakt.
+Beskadigede gennempletteringer, printbaner og forbindelser kan fungere under testen og senere igen miste kontakten.
 
-Derfor kan service anbefale udskiftning i stedet for yderligere reparationer ved et stærkt korroderet kort.
+Ved et kraftigt korroderet printkort kan serviceafdelingen derfor anbefale udskiftning frem for yderligere reparationer.
 
-### Enheden virker nogle gange og andre gange ikke. Hvor skal man begynde?
+### Enheden fungerer nogle gange og andre gange ikke. Hvor skal man begynde?
 
-Det er værd at samle følgende før kontakt med service:
+Før kontakt til serviceafdelingen bør følgende indsamles:
 
 - den præcise model,
-- beskrivelse af symptomet,
-- tidspunktet for forekomsten,
-- værdierne vist på displayet,
+- en beskrivelse af symptomet,
+- tidspunktet for, hvornår det opstår,
+- værdierne, der vises på skærmen,
 - alarm- eller fejlkoden,
 - oplysninger om de seneste ændringer i installationen,
-- et foto af indersiden og klemmerne, hvis det kan gøres sikkert.
+- et billede af indvendige dele og klemmer, hvis det kan tages sikkert.
 
-Jo mere præcis beskrivelsen er, desto lettere er diagnosen.
+Jo mere præcis beskrivelsen er, desto lettere bliver diagnosticeringen.
 
 
 ## Service og reparationer
 
-### Hvad skal sendes til service, hvis styringen er defekt?
+### Hvad skal sendes til serviceafdelingen, hvis styreenheden er defekt?
 
 Det er bedst at sende et komplet sæt, som gør det muligt at genskabe problemet.
 
-Forsendelsen skal vedlægges en kort beskrivelse af:
+Forsendelsen skal ledsages af en kort beskrivelse af:
 
-- hvad der ikke virker,
+- hvad der ikke fungerer,
 - hvornår problemet opstår,
-- om fejlen er permanent eller periodisk,
-- om der før fejlen var overspænding, vandindtrængning eller en anden hændelse,
+- om fejlen er konstant eller periodisk,
+- om der før fejlen forekom overspænding, vandindtrængning eller en anden hændelse,
 - de oplysninger, der er nødvendige for kontakt og returnering af enheden.
 
-:::note Oplysninger til serviceanmodning
+:::note Oplysninger til serviceanmodningen
 
-Kontakt- og forsendelsesoplysninger skal gives direkte til service. Offentliggør dem ikke i åbne henvendelser eller offentlige materialer.
+Kontakt- og forsendelsesoplysninger skal sendes direkte til serviceafdelingen. De må ikke offentliggøres i åbne henvendelser eller offentligt materiale.
 
 :::
 
-### Skal hele styringen sendes eller kun kortet?
+### Skal hele styreenheden sendes eller kun printkortet?
 
 Det afhænger af fejlen.
 
-Ved problemer med display, knapper, forsyning eller tvetydig adfærd er det bedst at sende hele sættet, der er nødvendigt for at genskabe symptomet.
+Ved problemer med display, knapper, strømforsyning eller uklar adfærd er det bedst at sende hele det sæt, der er nødvendigt for at genskabe symptomet.
 
-Ved en på forhånd aftalt reparation af et konkret modul kan service kun bede om kortet.
+Ved en på forhånd aftalt reparation af et bestemt modul kan serviceafdelingen bede om kun at få printkortet.
 
-### Reparerer ELETOR styringer i stedet for straks at udskifte dem?
+### Reparerer ELETOR styreenheder frem for straks at udskifte dem?
 
-Transskriptionerne viser, at enhederne først diagnosticeres.
+Det fremgår af transskriptionerne, at enhederne først diagnosticeres.
 
-Hvis reparation er mulig og giver mening, udskiftes beskadigede komponenter eller moduler. Ved alvorlig skade kan service foreslå udskiftning af kortet eller hele enheden.
+Hvis en reparation er mulig og hensigtsmæssig, udskiftes de beskadigede komponenter eller moduler. Ved alvorlige skader kan serviceafdelingen foreslå udskiftning af printkortet eller hele enheden.
 
-### Hvad sker der, hvis et beskadiget kort ikke kan repareres?
+### Hvad sker der, hvis det beskadigede printkort ikke kan repareres?
 
-Det er muligt at udskifte det beskadigede modul med et nyt, hvis den passende del er tilgængelig og kompatibel med enheden.
+Det beskadigede modul kan udskiftes med et nyt, hvis den relevante del er tilgængelig og kompatibel med enheden.
 
-Ved ældre enheder bør service først bekræfte versionskompatibiliteten.
+Ved ældre enheder bør serviceafdelingen først bekræfte, at versionerne er kompatible.
 
-### Kan det betale sig straks at købe et nyt kort efter en overspænding?
+### Kan det betale sig straks at købe et nyt printkort efter en overspænding?
 
 Ikke altid.
 
-Hvis skaden vedrører et beskyttelseselement eller en mindre del af kredsløbet, kan reparation være berettiget. Det er værd først at udføre en diagnose.
+Hvis skaden vedrører en beskyttelseskomponent eller en mindre del af kredsløbet, kan en reparation være hensigtsmæssig. Der bør først udføres diagnosticering.
 
-### Kan service også kontrollere displayet og knapperne?
+### Kan serviceafdelingen også kontrollere displayet og knapperne?
 
-Ja, hvis elementerne leveres sammen med enheden eller modulet.
+Ja, hvis delene indsendes sammen med enheden eller modulet.
 
-Det er især nyttigt, når det ikke vides, om problemet sidder på hovedkortet eller i brugerpanelet.
+Det er især nyttigt, når det ikke vides, om problemet ligger på hovedprintkortet eller i betjeningspanelet.
 
-### Er det altid værd at forsøge at redde en stærkt korroderet styring?
+### Kan det altid betale sig at redde en kraftigt korroderet styreenhed?
 
 Nej.
 
-Hvis udgifterne til diagnose og reparation stiger, og driftssikkerheden efter reparation fortsat er usikker, kan udskiftning være mere fornuftig.
+Hvis omkostningerne til diagnosticering og reparation stiger, og driftssikkerheden efter reparation fortsat er usikker, kan udskiftning være mere fornuftig.
 
-Det gælder især enheder, som anlæggets ventilation afhænger af.
+Det gælder især enheder, som bygningens ventilation afhænger af.
 
-### Hvordan kan servicediagnosen fremskyndes?
+### Hvordan kan servicediagnosticeringen fremskyndes?
 
-Vedlæg en præcis beskrivelse af symptomet i stedet for blot konstateringen “virker ikke”.
+Vedlæg en præcis beskrivelse af symptomet frem for blot angivelsen »fungerer ikke«.
 
-Følgende er også nyttige:
+Følgende er også nyttigt:
 
-- fotos,
-- fejlkode,
-- beskrivelse af installationen,
-- typen af tilsluttede belastninger,
+- billeder,
+- fejlkoden,
+- en beskrivelse af installationen,
+- typen af tilsluttede forbrugere,
 - oplysning om overspænding eller strømsvigt,
 - oplysning om vandindtrængning eller vask af enheden.
 
@@ -704,49 +704,49 @@ C og NO er typiske betegnelser for en relækontakt:
 - C — fælles kontakt,
 - NO — normalt åben kontakt.
 
-Anvendelsesmåden afhænger af enheden og installationsdiagrammet. Kontakten kan f.eks. bruges til at styre kontaktorens spole, men dens tilladte parametre må ikke overskrides.
+Anvendelsen afhænger af enheden og installationsdiagrammet. Kontakten kan f.eks. anvendes til at styre en kontaktorspole, men dens tilladte parametre må ikke overskrides.
 
-:::warning Elektrisk arbejde
+:::warning Elarbejde
 
 Tilslutninger til netspænding bør udføres af en person med de nødvendige kvalifikationer i overensstemmelse med diagrammet for den konkrete enhed.
 
 :::
 
-### Kan relæudgangen direkte forsyne en stor ventilator?
+### Kan en relæudgang forsyne en stor ventilator direkte?
 
-Normalt er dette ikke korrekt anvendelse af en lille styreudgang.
+Det er normalt ikke en korrekt anvendelse af en lille styreudgang.
 
-Til større belastninger anvendes en kontaktor, et effektrelæ eller et dedikeret effektmodul.
+Til større belastninger anvendes en kontaktor, et effektrelæ eller et dedikeret udgangsmodul.
 
 ### Hvad bruges kontaktorens klemmer A1 og A2 til?
 
 Det er klemmerne til kontaktorens spole.
 
-Når den korrekte spænding tilføres spolen, skifter kontaktoren tilstand på sine effektkontakter.
+Når den korrekte spænding påtrykkes spolen, ændrer kontaktoren tilstanden for sine hovedkontakter.
 
 Spolespændingen skal være i overensstemmelse med installationsprojektet og kontaktorens dokumentation.
 
-### Kan der monteres ekstra apparater inde i styringens kapsling?
+### Kan der monteres yderligere apparater inde i styreenhedens kapsling?
 
-Kun hvis konstruktionen af den konkrete kapsling tillader det, og det ikke forringer:
+Kun hvis den konkrete kapslings konstruktion tillader det, og det ikke forringer:
 
-- beskyttelsesgraden,
+- kapslingsklassen,
 - isoleringen,
 - kølingen,
 - sikkerheden,
 - serviceadgangen.
 
-Alle nye åbninger bør udføres på en måde, der bevarer den krævede tæthed.
+Alle nye huller bør udføres, så den nødvendige tæthed bevares.
 
-### Er ekstra afbrydere til ventilatorer nyttige?
+### Er ekstra afbrydere til ventilatorerne nyttige?
 
-De kan lette service og muliggøre uafhængig frakobling af de enkelte ventilatorer.
+De kan lette servicearbejdet og gøre det muligt at afbryde de enkelte ventilatorer uafhængigt.
 
-Udførelsen skal dog tage højde for elektriske beskyttelser og må ikke skabe farlige tilstande for styringen.
+Udførelsen skal dog tage højde for elektriske beskyttelsesforanstaltninger og må ikke medføre farlige tilstande i styreenheden.
 
-### Kan styreledninger føres sammen med effektledninger?
+### Kan styrekabler føres sammen med effektkabler?
 
-Det bør undgås at føre følsomme signalledninger parallelt og meget tæt på højstrømsledninger, især over lange strækninger.
+Følsomme signalkabler bør ikke føres parallelt med og meget tæt på kabler til høj effekt, især ikke over lange strækninger.
 
 Kravene afhænger af signaltypen og det elektromagnetiske miljø.
 
@@ -754,41 +754,41 @@ Kravene afhænger af signaltypen og det elektromagnetiske miljø.
 
 I de omtalte installationer blev parsnoet kabel i kategori 5e angivet som minimum.
 
-Hvis kablet føres i et miljø med forhøjet niveau af forstyrrelser eller risiko for elektrostatiske ladninger, kan det være berettiget at anvende et passende afskærmet kabel og et korrekt jordingssystem.
+Hvis kablet føres i et miljø med et forhøjet støjniveau eller risiko for elektrostatiske ladninger, kan det være hensigtsmæssigt at anvende et passende skærmet kabel og et korrekt jordingssystem.
 
-### Kræver PoE et krydset kabel?
+### Kræves der et krydset kabel til PoE?
 
-I typiske installationer anvendes en standard lige forbindelse.
+I typiske installationer anvendes en standardforbindelse med lige gennemkobling.
 
-Kravene for netværksenheden og den anvendte PoE-strømforsyning skal dog altid kontrolleres.
+Kravene til netværksenheden og den anvendte PoE-strømforsyning skal dog altid kontrolleres.
 
 
 ## Drift og vedligeholdelse
 
-### Hvordan begrænses risikoen for fejl på styringer i landbrugsbygninger?
+### Hvordan begrænses risikoen for fejl i styreenheder i driftsbygninger?
 
 Det vigtigste er at begrænse påvirkningen fra:
 
 - fugt,
-- ammoniak og aggressivt miljø,
+- ammoniak og aggressive miljøer,
 - støv,
 - direkte vask med vand,
 - overspændinger,
-- forkert forsyning.
+- forkert strømforsyning.
 
-Det er også værd periodisk at kontrollere tilstanden af kabler, forbindelser og kapslinger.
+Tilstanden af kabler, forbindelser og kapslinger bør også kontrolleres regelmæssigt.
 
 ### Bør elektroniske enheder rengøres regelmæssigt?
 
-Ja, især enheder udstyret med køleplader, ventilatorer og ventilationsåbninger.
+Ja, især enheder med køleprofiler, ventilatorer og ventilationsåbninger.
 
-Akkumuleret støv forringer kølingen.
+Ophobet støv forringer kølingen.
 
-Rengøring skal udføres efter frakobling af forsyningen og i overensstemmelse med enhedens vejledning.
+Rengøring skal udføres efter afbrydelse af strømforsyningen og i overensstemmelse med enhedens vejledning.
 
-### Kan det betale sig at udføre et eftersyn af styringen efter nogle års drift?
+### Bør styreenheden efterses efter flere års drift?
 
-Ja, især under vanskelige miljøforhold.
+Ja, især under krævende miljøforhold.
 
 Eftersynet kan omfatte:
 
@@ -797,9 +797,9 @@ Eftersynet kan omfatte:
 - kontrol af kølekomponenter,
 - kontrol af panel og knapper,
 - test af sensorer,
-- kontrol af akkumulatorer i alarmsystemer.
+- kontrol af batterier i alarmsystemer.
 
-### Hvad er værd at notere efter en fejl er opstået?
+### Hvad bør noteres efter en fejl?
 
 Det mest nyttige er:
 
@@ -807,62 +807,62 @@ Det mest nyttige er:
 - fejlkoden,
 - tidspunktet for hændelsen,
 - temperaturen,
-- ventilationsstatus,
+- ventilationens tilstand,
 - oplysning om strømsvigt,
 - oplysning om generatorens drift,
-- et foto af displayet eller enheden.
+- et billede af skærmen eller enheden.
 
-Enheden bør ikke nulstilles, før koden er noteret, hvis situationen gør det muligt at gøre det sikkert.
+Enheden bør ikke nulstilles, før koden er noteret, hvis situationen tillader, at dette gøres sikkert.
 
-### Er det værd at have en alarm uafhængig af ventilationsstyringen?
+### Er det hensigtsmæssigt at have en alarm, som er uafhængig af ventilationsstyreenheden?
 
-Ja, især hvor ventilationssvigt hurtigt kan føre til farlige forhold.
+Ja, især hvor ventilationssvigt hurtigt kan medføre farlige forhold.
 
-En uafhængig central med egen akkumulator og fjernnotifikation giver et ekstra lag af beskyttelse.
+En uafhængig central med eget batteri og fjernmeddelelser giver et ekstra sikkerhedslag.
 
-### Hvilke oplysninger bør forberedes før kontakt med teknisk support?
+### Hvilke oplysninger skal forberedes før kontakt til teknisk support?
 
-Det er bedst at forberede:
+Følgende bør forberedes:
 
-1. den præcise enhedsmodel,
-2. beskrivelse af installationen,
-3. antal og parametre for tilsluttede enheder,
-4. de aktuelle indstillinger relateret til problemet,
+1. enhedens præcise model,
+2. en beskrivelse af installationen,
+3. antal og parametre for de tilsluttede enheder,
+4. de aktuelle indstillinger, der vedrører problemet,
 5. det præcise symptom,
 6. den fulde fejl- eller alarmkode,
-7. fotos af enheden og typeskiltene,
+7. billeder af enheden og typeskiltene,
 8. oplysning om de seneste ændringer i installationen.
 
-Det gør det muligt at forkorte diagnosen betydeligt.
+Det kan forkorte diagnosticeringen betydeligt.
 
 
 ## Vigtig bemærkning om ældre enheder
 
-Navne, klemmebetegnelser og tilgængelige funktioner kan variere mellem enhedsversioner produceret i forskellige år.
+Navne, klemmebetegnelser og tilgængelige funktioner kan variere mellem versioner af enheder, der er produceret i forskellige år.
 
-Hvis enheden er flere eller mange år gammel, skal følgende bekræftes, før instruktioner fra en nyere model anvendes:
+Hvis enheden er flere år eller over ti år gammel, skal følgende bekræftes, før vejledningen til en nyere model anvendes:
 
-- den præcise enhedsbetegnelse,
-- kortversionen,
-- typen af display,
+- enhedens præcise betegnelse,
+- printkortets version,
+- displaytypen,
 - softwareversionen,
 - klemmediagrammet.
 
-:::warning Ældre enhedsversioner
+:::warning Ældre versioner af enheder
 
-Antag ikke fuld kompatibilitet alene på grundlag af kapslingens lignende udseende. Bekræft den præcise model og enhedsversion, før et diagram eller en vejledning bruges.
+Fuld kompatibilitet må ikke antages alene på grundlag af et lignende udseende af kapslingen. Før et diagram eller en vejledning anvendes, skal enhedens præcise model og version bekræftes.
 
 :::
 
 
-## Kontakt med teknisk support
+## Kontakt til teknisk support
 
 Hvis FAQ'en ikke løser problemet, skal følgende forberedes før kontakt:
 
-- et foto af styringen,
-- et foto af forbrugerens typeskilt,
+- et billede af styreenheden,
+- et billede af forbrugerens typeskilt,
 - motorernes eller aktuatorernes parametre,
-- tilslutningsdiagrammet,
-- en præcis beskrivelse af den ønskede driftsmåde.
+- et tilslutningsdiagram,
+- en præcis beskrivelse af den ønskede funktionsmåde.
 
-Takket være dette kan valg af enhed eller diagnose af problemet udføres på grundlag af installationens faktiske parametre og ikke antagelser.
+Dermed kan valg af enhed eller diagnosticering af problemet udføres på grundlag af installationens faktiske parametre frem for antagelser.

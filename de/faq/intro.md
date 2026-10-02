@@ -3,12 +3,12 @@ id: faq
 title: FAQ
 sidebar_label: FAQ
 slug: /faq
-description: Die häufigsten Fragen zur Auswahl, Konfiguration, Diagnose und Wartung
-  von Geräten ELETOR.
+description: Häufige Fragen zur Auswahl, Konfiguration, Diagnose und zum Service von
+  Geräten von ELETOR.
 keywords:
 - ELETOR
 - FAQ
-- Lüftungsregler
+- Lüftungssteuergeräte
 - Regler
 - Ventilatoren
 - Stellantriebe
@@ -21,438 +21,438 @@ toc_max_heading_level: 3
 
 # Häufig gestellte Fragen
 
-Das FAQ wurde auf Grundlage einer anonymisierten Analyse realer Gespräche mit Benutzern und Kunden ELETOR erstellt. Die Antworten wurden verallgemeinert, damit sie in typischen Fällen helfen und keine Daten konkreter Personen oder Anlagen enthalten.
+Die FAQ wurden auf Grundlage einer anonymisierten Analyse tatsächlicher Gespräche mit Nutzern und Kunden von ELETOR erstellt. Die Antworten wurden verallgemeinert, damit sie in typischen Fällen helfen und keine Daten bestimmter Personen oder Anlagen enthalten.
 
-:::note Umfang des FAQ
+:::note Geltungsbereich der FAQ
 
-Die Antworten betreffen typische Fälle. Klemmenbezeichnungen, Funktionen und Anschlussart können sich zwischen Modellen und Geräteversionen unterscheiden. Verwenden Sie im Zweifelsfall die Dokumentation des jeweiligen konkreten Produkts.
+Die Antworten beziehen sich auf typische Fälle. Klemmenbezeichnungen, Funktionen und Anschlussweise können sich je nach Modell und Geräteversion unterscheiden. Verwenden Sie im Zweifelsfall die Dokumentation des jeweiligen Produkts.
 
 :::
 
 :::warning Sicherheit
 
-Arbeiten an der elektrischen Anlage sind gemäß der Gerätedokumentation und den geltenden Sicherheitsregeln auszuführen. Arbeiten an Netzspannung sollten von einer Person mit entsprechender Qualifikation durchgeführt werden.
+Führen Sie Arbeiten an der elektrischen Anlage gemäß der Gerätedokumentation und den geltenden Sicherheitsvorschriften durch. Arbeiten an Netzspannung sollten von einer entsprechend qualifizierten Person durchgeführt werden.
 
 :::
 
-## Auswahl des Reglers und der Leistung
+## Auswahl des Steuergeräts und der Leistung
 
-### Wie wählt man den Regler für Ventilatoren aus?
+### Wie wird das Steuergerät für die Ventilatoren ausgewählt?
 
 Grundlage der Auswahl ist vor allem der Gesamtstrom der Ventilatoren und nicht ausschließlich deren Anzahl.
 
-:::tip Daten vor der Auswahl vorbereiten
+:::tip Bereiten Sie die Daten vor der Auswahl vor
 
-Je genauer die Daten zu den Motoren und zur Betriebsweise der Anlage, desto sicherer die Reglerauswahl.
+Je genauer die Angaben zu den Motoren und zur Betriebsweise der Anlage sind, desto zuverlässiger ist die Auswahl des Steuergeräts.
 
 :::
 
-Vor der Auswahl sollten folgende Daten vorbereitet werden:
+Vor der Auswahl sollten folgende Angaben vorbereitet werden:
 
 - Anzahl der Ventilatoren,
 - Versorgungsspannung,
 - Nennleistung oder Nennstrom jedes Ventilators,
-- Information, ob alle Ventilatoren stufenlos arbeiten sollen,
-- Information, ob die Ventilatoren in Gruppen aufgeteilt werden können,
-- Informationen zu zusätzlichen Geräten, z. B. Heizgeräten oder Lufteinlässen.
+- Angabe, ob alle Ventilatoren stufenlos geregelt werden sollen,
+- Angabe, ob die Ventilatoren in Gruppen aufgeteilt werden können,
+- Angaben zu zusätzlichen Geräten, z. B. Heizgeräten oder Lufteinlässen.
 
-Der Regler sollte nicht exakt „auf Kante“ ausgewählt werden. Es ist eine angemessene Reserve gegenüber der maximalen Last einzuhalten.
+Das Steuergerät darf nicht genau an der Belastungsgrenze ausgelegt werden. Gegenüber der maximalen Belastung ist eine ausreichende Reserve vorzusehen.
 
-### Reicht es aus, die Ventilatorleistungen in Watt zu addieren?
+### Reicht es aus, die Leistung der Ventilatoren in Watt zu addieren?
 
-Für eine vorläufige Abschätzung kann die Leistung verwendet werden, die endgültige Auswahl sollte sich jedoch auf den Nennstrom der Geräte und den Charakter der Last stützen.
+Für eine erste Abschätzung kann die Leistung herangezogen werden. Die endgültige Auswahl sollte jedoch auf dem Nennstrom der Geräte und der Art der Last beruhen.
 
-Der Motor kann beim Anlauf mehr Strom aufnehmen als im Normalbetrieb. Deshalb sind zwei Ventilatorsätze mit ähnlicher Nennleistung nicht immer eine gleichwertige Last für den Regler.
+Ein Motor kann beim Anlaufen mehr Strom aufnehmen als im Normalbetrieb. Aus diesem Grund stellen zwei Ventilatorgruppen mit ähnlicher Nennleistung nicht immer eine gleichwertige Last für das Steuergerät dar.
 
 ### Ich habe mehrere kleine Ventilatoren. Kann ich sie parallel an einen Ausgang anschließen?
 
-Ja, wenn:
+Ja, sofern:
 
 - sie für diese Art der Ansteuerung vorgesehen sind,
-- sie gemeinsam arbeiten sollen,
+- sie gemeinsam betrieben werden sollen,
 - die Summe der Lasten den zulässigen Ausgangsstrom nicht überschreitet,
-- die Anschlussart mit der Dokumentation des Reglers übereinstimmt.
+- die Anschlussweise der Dokumentation des Steuergeräts entspricht.
 
 Bei einer größeren Anzahl von Ventilatoren sollte eine Aufteilung in Gruppen oder der Einsatz einer Leistungserweiterung erwogen werden.
 
 ### Wann ist eine Leistungserweiterung erforderlich?
 
-Eine Leistungserweiterung wird verwendet, wenn die Last die Möglichkeiten des Reglerausgangs übersteigt oder wenn die Anlage um eine größere Anzahl von Ventilatoren erweitert werden soll.
+Eine Leistungserweiterung wird eingesetzt, wenn die Last die Kapazität des Steuergeräteausgangs überschreitet oder wenn die Anlage um weitere Ventilatoren erweitert werden soll.
 
-Der Regler gibt dann das Steuersignal aus, während die eigentliche Last von einem zusätzlichen Modul übernommen wird.
+Das Steuergerät liefert dann das Steuersignal, während die eigentliche Last von einem zusätzlichen Modul versorgt wird.
 
 ### Kann die Anlage später um zusätzliche Ventilatoren erweitert werden?
 
-In vielen Anlagen ja. Am häufigsten verwendet werden:
+Bei vielen Anlagen ist dies möglich. Am häufigsten werden eingesetzt:
 
 - eine zusätzliche Leistungserweiterung,
 - eine zusätzliche Lüftungsgruppe,
 - ein Schütz zum Zuschalten einer weiteren Gruppe,
 - ein Frequenzumrichter bei Drehstrommotoren.
 
-Die geplante Erweiterung sollte bereits bei der ersten Auswahl des Reglers berücksichtigt werden.
+Die geplante Erweiterung sollte möglichst bereits bei der ersten Auswahl des Steuergeräts berücksichtigt werden.
 
-### Müssen alle Ventilatoren stufenlos arbeiten?
+### Müssen alle Ventilatoren stufenlos geregelt werden?
 
-Nein. Typisch sind zwei Lösungen:
+Nein. Zwei Lösungen sind üblich:
 
-1. alle Ventilatoren arbeiten stufenlos,
-2. die erste Gruppe arbeitet stufenlos, und weitere Gruppen werden schrittweise zugeschaltet, z. B. über Schütze.
+1. alle Ventilatoren werden stufenlos geregelt,
+2. die erste Gruppe wird stufenlos geregelt, weitere Gruppen werden schrittweise zugeschaltet, z. B. über Schütze.
 
-Die zweite Lösung ermöglicht die Ansteuerung einer größeren Anlage ohne stufenlose Regelung jedes einzelnen Ventilators.
+Die zweite Lösung ermöglicht die Steuerung einer größeren Anlage, ohne jeden Ventilator stufenlos regeln zu müssen.
 
-### Ich habe 10 Ventilatoren. Benötige ich einen sehr großen Regler?
+### Ich habe 10 Ventilatoren. Benötige ich ein sehr großes Steuergerät?
 
-Nicht immer. Es können mehrere Steuerungsarten eingesetzt werden:
+Nicht immer. Es können mehrere Steuerungsverfahren eingesetzt werden:
 
 - Aufteilung in Gruppen,
 - Leistungserweiterungen,
 - Schütze,
 - Frequenzumrichter.
 
-Die endgültige Auswahl hängt von den elektrischen Parametern der Ventilatoren sowie davon ab, ob alle gleichzeitig ihre Drehzahl ändern sollen.
+Die endgültige Auswahl hängt von den elektrischen Kenndaten der Ventilatoren und davon ab, ob alle ihre Drehzahl gleichzeitig ändern sollen.
 
-### Unterscheiden sich der Regler 6 A und 12 A nur in der zulässigen Belastung?
+### Unterscheiden sich die Steuergeräte 6 A und 12 A nur hinsichtlich der zulässigen Belastung?
 
-Es sollte nicht angenommen werden, dass der einzige Unterschied der Stromwert ist. Einzelne Versionen und Generationen der Geräte können sich in der Ausstattung oder Ausführung unterscheiden.
+Es darf nicht angenommen werden, dass der Stromwert der einzige Unterschied ist. Einzelne Geräteversionen und -generationen können sich hinsichtlich Ausstattung oder Ausführung unterscheiden.
 
-Beim Austausch des Geräts sind das genaue Modell und die aktuelle Dokumentation zu prüfen.
+Beim Austausch eines Geräts müssen das genaue Modell und die aktuelle Dokumentation geprüft werden.
 
 
 ## Ventilatoren und Lüftungssteuerung
 
-### Regelt der Regler die Ventilatoren stufenlos?
+### Regelt das Steuergerät die Ventilatoren stufenlos?
 
-Bei Reglern, die für die stufenlose Lüftungsregelung vorgesehen sind, wird die Ventilatordrehzahl in Abhängigkeit vom Bedarf geändert, der sich u. a. aus der Temperatur ergibt.
+Bei Steuergeräten für die stufenlose Lüftungsregelung wird die Drehzahl der Ventilatoren abhängig vom Bedarf verändert, der sich unter anderem aus der Temperatur ergibt.
 
-Es ist jedoch zu prüfen, ob der jeweilige Motortyp für die verwendete Regelungsart geeignet ist.
+Es muss jedoch geprüft werden, ob der jeweilige Motortyp für das eingesetzte Regelverfahren geeignet ist.
 
 ### Was bedeutet Solltemperatur?
 
-Die Solltemperatur ist der Wert, auf den der Regler die aktuelle Temperaturmessung bezieht.
+Die Solltemperatur ist der Wert, mit dem das Steuergerät den aktuellen Temperaturmesswert vergleicht.
 
-Auf dieser Grundlage erhöht oder verringert der Regler die Lüftungsintensität entsprechend den übrigen Einstellungen, z. B. Regelband, Mindest- und Höchstwert.
+Auf dieser Grundlage erhöht oder verringert das Steuergerät die Lüftungsintensität entsprechend den übrigen Einstellungen, z. B. dem Regelband sowie dem Minimal- und Maximalniveau.
 
-### Was bedeutet minimaler Lüftungsgrad?
+### Was bedeutet minimales Lüftungsniveau?
 
-Dies ist der minimale Wert der Ventilatoransteuerung im Automatikbetrieb.
+Dies ist der minimale Ansteuerwert des Ventilators im Automatikbetrieb.
 
-Diese Einstellung verhindert den Betrieb unterhalb eines Niveaus, bei dem der Ventilator instabil arbeiten oder einen zu geringen Luftaustausch gewährleisten könnte.
+Die Einstellung verhindert den Betrieb unterhalb eines Niveaus, bei dem der Ventilator instabil laufen oder einen zu geringen Luftaustausch gewährleisten könnte.
 
-### Was bedeutet maximaler Lüftungsgrad?
+### Was bedeutet maximales Lüftungsniveau?
 
-Dies ist die obere Begrenzung des Lüftungssteuerwerts.
+Dies ist die obere Begrenzung des Ansteuerwerts der Lüftung.
 
-Beispielsweise kann die Einstellung eines Werts unter 100% die maximale Drehzahl des Ventilators begrenzen, wenn dies von der Anlage gefordert wird.
+Beispielsweise kann eine Einstellung unter 100% die maximale Ventilatordrehzahl begrenzen, wenn die Anlage dies erfordert.
 
 ### Was bedeutet Lüftungsband?
 
-Das Lüftungsband legt den Temperaturbereich fest, in dem der Regler vom minimalen zum maximalen Lüftungsgrad übergeht.
+Das Lüftungsband legt den Temperaturbereich fest, in dem das Steuergerät vom minimalen zum maximalen Lüftungsniveau übergeht.
 
-Je kleiner das Band, desto schneller reagiert die Regelung mit einer Leistungssteigerung auf eine Temperaturänderung.
+Je kleiner das Band, desto schneller reagiert die Steuerung mit einer Leistungssteigerung auf eine Temperaturänderung.
 
-### Der Ventilator geht nach dem Start zunächst auf 100% und wird erst danach langsamer. Warum?
+### Nach dem Start läuft der Ventilator zunächst mit 100% und wird erst danach langsamer. Warum?
 
-Es kann eine Anlauffunktion aktiv sein, deren Aufgabe darin besteht, den Motor kurzzeitig mit höherer Leistung zu starten.
+Möglicherweise ist eine Anlauffunktion aktiviert, die den Motor kurzzeitig mit höherer Leistung starten soll.
 
-Je nach Reglerausführung sind Einstellungen in Bezug auf Folgendes zu prüfen:
+Je nach Steuergeräteversion müssen die Einstellungen für folgende Funktionen geprüft werden:
 
-- die Funktion Soft Start,
-- die Hochlaufzeit,
-- die Betriebszeit bei 100%,
-- die Auslaufzeit.
+- Soft-Start-Funktion,
+- Hochlaufzeit,
+- Betriebsdauer bei 100%,
+- Auslaufzeit.
 
-Wenn die Funktion in der betreffenden Anlage nicht erforderlich ist, können die entsprechenden Parameter gemäß der Geräteanleitung geändert werden.
+Wenn die Funktion in der jeweiligen Anlage nicht benötigt wird, können die entsprechenden Parameter gemäß der Geräteanleitung geändert werden.
 
-### Wozu kann der Ventilator beim Start kurzzeitig mit voller Leistung anlaufen?
+### Warum kann der Ventilator beim Start kurzzeitig mit voller Leistung betrieben werden?
 
-Ein solcher Anlauf kann einen sicheren Start des Ventilators unterstützen sowie in Anlagen hilfreich sein, in denen mechanische Elemente beim Start einen höheren Widerstand verursachen können.
+Ein solcher Anlauf kann einen zuverlässigen Start des Ventilators unterstützen, auch in Anlagen, in denen mechanische Komponenten beim Start einen höheren Widerstand aufweisen können.
 
 Dies ist jedoch nicht in jeder Anlage erforderlich.
 
 ### Was bedeuten Hochlaufzeit und Auslaufzeit?
 
-**Hochlaufzeit** bestimmt, wie die Ansteuerung beim Start des Ventilators ansteigt.
+**Hochlaufzeit** legt fest, wie die Ansteuerung beim Starten des Ventilators erhöht wird.
 
-**Auslaufzeit** bestimmt, wie die Drehzahl verringert wird.
+**Auslaufzeit** legt fest, wie die Drehzahl verringert wird.
 
 Beide Parameter ermöglichen es, abrupte Änderungen der Drehzahl und des Anlagenbetriebs zu begrenzen.
 
-### Warum können zwei identische Regler die Ventilatoren unterschiedlich starten?
+### Warum können zwei identische Steuergeräte die Ventilatoren unterschiedlich starten?
 
 Die häufigste Ursache sind unterschiedliche Einstellungen.
 
-Insbesondere sollten folgende Punkte verglichen werden:
+Vor allem sollten folgende Einstellungen verglichen werden:
 
 - Solltemperatur,
 - Lüftungsband,
 - Minimum und Maximum,
-- Einstellungen für Soft Start,
+- Soft-Start-Einstellungen,
 - Hochlauf- und Auslaufzeiten,
-- die Konfiguration der Lüftungsgruppen.
+- Konfiguration der Lüftungsgruppen.
 
-### Kann der Regler die Lüftung in regelmäßigen Abständen unabhängig von der Temperatur einschalten?
+### Kann das Steuergerät die Lüftung unabhängig von der Temperatur in regelmäßigen Abständen starten?
 
-Je nach Modell ist eine Funktion für periodisches Lüften verfügbar.
+Je nach Modell steht eine Funktion zur periodischen Durchlüftung zur Verfügung.
 
-Sie kann die Lüftung in festgelegten Intervallen für eine bestimmte Zeit einschalten, auch wenn die Temperaturregelung keine Erhöhung der Lüftung erfordert.
+Sie kann die Lüftung in festgelegten Abständen für eine bestimmte Dauer starten, auch wenn die Temperaturregelung keine Erhöhung der Lüftung erfordert.
 
 ### Wozu dienen Lüftungsgruppen?
 
-Gruppen ermöglichen eine schrittweise Erhöhung der Anlagenleistung.
+Die Gruppen ermöglichen eine schrittweise Erhöhung der Anlagenleistung.
 
 Beispielsweise:
 
-- Gruppe 1 arbeitet stufenlos,
+- Gruppe 1 wird stufenlos geregelt,
 - Gruppe 2 schaltet weitere Ventilatoren ein,
-- die nächste Gruppe wird bei noch höherem Bedarf eingeschaltet.
+- die nächste Gruppe startet bei einem noch höheren Bedarf.
 
-Dies ermöglicht die Steuerung einer großen Anzahl von Ventilatoren ohne stufenlose Regelung jedes einzelnen.
+Dadurch lässt sich eine große Anzahl von Ventilatoren steuern, ohne jeden einzelnen stufenlos regeln zu müssen.
 
 ### Kann eine zusätzliche Ventilatorgruppe über ein Schütz zugeschaltet werden?
 
-Ja. Der Relaisausgang des Reglers kann die Spule eines entsprechend ausgewählten Schützes ansteuern.
+Ja. Der Relaisausgang des Steuergeräts kann die Spule eines entsprechend ausgewählten Schützes ansteuern.
 
-Die Ventilatorlast sollte dann nicht direkt über den kleinen Steuerkontakt geführt werden.
+Der Laststrom der Ventilatoren sollte dann nicht direkt über den kleinen Steuerkontakt geführt werden.
 
-### Was bedeutet das Ventilatorsymbol oder die gelbe Kontrollleuchte am Regler?
+### Was bedeutet das Ventilatorsymbol oder die gelbe Kontrollleuchte am Steuergerät?
 
 Je nach Modell informieren die Kontrollleuchten über den aktuellen Zustand der Ausgänge und Funktionen.
 
-Die gelbe Signalisierung kann eine aktive Betriebsfunktion bedeuten, z. B. Lüftung, Heizung oder die nächste Gruppe.
+Die gelbe Anzeige kann eine aktive Betriebsfunktion anzeigen, z. B. den Betrieb der Lüftung, der Heizung oder einer weiteren Gruppe.
 
 Die genaue Bedeutung ist in der Anleitung des jeweiligen Modells nachzulesen.
 
-### Was bedeutet das Symbol des Handbetriebs?
+### Was bedeutet das Symbol für den Handbetrieb?
 
-Handbetrieb bedeutet, dass der Steuerwert vom Benutzer erzwungen wurde und derzeit nicht automatisch auf Grundlage der Temperatur berechnet wird.
+Handbetrieb bedeutet, dass der Ansteuerwert vom Nutzer vorgegeben wurde und momentan nicht automatisch anhand der Temperatur berechnet wird.
 
-Nach Abschluss der Tests ist sicherzustellen, dass der Regler in den korrekten Automatikbetrieb zurückversetzt wurde.
+Nach Abschluss der Tests muss sichergestellt werden, dass das Steuergerät wieder in den korrekten Automatikbetrieb versetzt wurde.
 
 
 ## Lufteinlässe und Stellantriebe
 
-### Kann der Regler Lufteinlässe steuern?
+### Kann das Steuergerät Lufteinlässe steuern?
 
-Ja, ausgewählte Regler ermöglichen die Zusammenarbeit mit Antrieben für Lufteinlässe.
+Ja, ausgewählte Steuergeräte ermöglichen die Zusammenarbeit mit Antrieben für Lufteinlässe.
 
-Die Anschlussart hängt vom Typ des Stellantriebs und von seiner Ansteuerungsart ab.
+Die Anschlussweise hängt vom Typ des Stellantriebs und dessen Ansteuerung ab.
 
 ### Welche Arten von Stellantrieben können für Lufteinlässe verwendet werden?
 
-In technischen Gesprächen traten am häufigsten zwei Lösungen auf:
+In den technischen Gesprächen kamen am häufigsten zwei Lösungen vor:
 
-- Stellantrieb, gesteuert durch ein analoges Signal 0–10 V oder 2–10 V,
-- reversierender Auf/Zu-Stellantrieb mit Rückmeldesignal, z. B. von einem Potentiometer.
+- ein Stellantrieb mit analogem Steuersignal 0–10 V oder 2–10 V,
+- ein reversierbarer Stellantrieb mit Auf/Zu-Ansteuerung und Rückmeldesignal, z. B. von einem Potenziometer.
 
-Vor dem Kauf ist die Kompatibilität des konkreten Modells mit dem vorhandenen Regler zu prüfen.
+Vor dem Kauf muss die Kompatibilität des jeweiligen Modells mit dem vorhandenen Steuergerät geprüft werden.
 
 ### Ist die Versorgungsspannung des Stellantriebs 24 V oder 230 V für das Signal 0–10 V von Bedeutung?
 
-Steuersignal und Versorgung des Stellantriebs sind getrennte Parameter.
+Das Steuersignal und die Spannungsversorgung des Stellantriebs sind getrennte Parameter.
 
-Der Stellantrieb kann mit einer anderen Spannung versorgt werden als der Spannung des Steuersignals. Beide Parameter müssen mit der Dokumentation des Stellantriebs und des Reglers übereinstimmen.
+Der Stellantrieb kann mit einer anderen Spannung versorgt werden als der Spannung des Steuersignals. Beide Parameter müssen der Dokumentation des Stellantriebs und des Steuergeräts entsprechen.
 
-### Was bedeutet Steuerung 0–10 V?
+### Was bedeutet die Ansteuerung 0–10 V?
 
-Der Regler sendet ein analoges Spannungssignal, das die gewünschte Position oder den gewünschten Steuergrad repräsentiert.
+Das Steuergerät sendet ein analoges Spannungssignal, das die gewünschte Position oder den Ansteuerwert darstellt.
 
-In der typischen Anwendung bedeutet ein niedrigerer Wert eine geringere Öffnung und ein höherer Wert eine größere Öffnung, die tatsächliche Kennlinie ist jedoch in der Dokumentation des Stellantriebs zu prüfen.
+In einer typischen Anwendung bedeutet ein niedrigerer Wert eine kleinere Öffnung und ein höherer Wert eine größere Öffnung. Die tatsächliche Kennlinie muss jedoch in der Dokumentation des Stellantriebs geprüft werden.
 
 ### Worin unterscheidet sich 0–10 V von 2–10 V?
 
 In beiden Fällen wird die Position durch ein analoges Signal vorgegeben.
 
-Beim Standard 2–10 V ist der untere Bereich verschoben und kann es dem Gerät ermöglichen, das Steuersignal von dessen Fehlen zu unterscheiden.
+Beim Standard 2–10 V ist der untere Bereich verschoben, wodurch das Gerät ein Steuersignal von dessen Fehlen unterscheiden kann.
 
-Regler und Stellantrieb müssen denselben Bereich unterstützen.
+Steuergerät und Stellantrieb müssen denselben Signalbereich unterstützen.
 
-### Wie ist ein Stellantrieb entsprechend der Anzahl der Einlässe auszuwählen?
+### Wie wird ein Stellantrieb für die Anzahl der Lufteinlässe ausgewählt?
 
-Der Stellantrieb darf nicht ausschließlich auf Grundlage der Anzahl der Klappen ausgewählt werden.
+Ein Stellantrieb darf nicht ausschließlich anhand der Anzahl der Klappen ausgewählt werden.
 
 Zu berücksichtigen sind:
 
 - erforderliche Kraft oder erforderliches Drehmoment,
-- Länge und Führung der Mechanik,
+- Länge und Führung des Mechanismus,
 - Widerstände der Klappen,
 - Hublänge,
-- Arbeitsgeschwindigkeit,
+- Stellgeschwindigkeit,
 - Versorgungsspannung,
-- Steuerungsart,
+- Art der Ansteuerung,
 - erforderliche Rückmeldung.
 
 ### Kann ein Stellantrieb mehrere Klappen betätigen?
 
-Ja, wenn die Mechanik der Anlage es erlaubt, die Klappen über ein gemeinsames System zu verbinden, und das erforderliche Drehmoment bzw. die erforderliche Kraft die Möglichkeiten des Stellantriebs nicht überschreitet.
+Ja, wenn die Mechanik der Anlage eine Verbindung der Klappen über einen gemeinsamen Mechanismus ermöglicht und das erforderliche Drehmoment oder die erforderliche Kraft die Leistungsfähigkeit des Stellantriebs nicht überschreitet.
 
-In der Praxis entscheiden die Widerstände des gesamten Mechanismus über die Auswahl und nicht allein die Anzahl der Klappen.
+In der Praxis sind die Widerstände des gesamten Mechanismus für die Auswahl maßgebend, nicht allein die Anzahl der Klappen.
 
 ### Können mehrere Stellantriebe parallel geschaltet und mit einem Signal angesteuert werden?
 
-In einigen Systemen ist dies möglich, jedoch sind die Dokumentation der Stellantriebe sowie die zulässige Belastung des Steuerausgangs zu prüfen.
+In einigen Systemen ist dies möglich. Die Dokumentation der Stellantriebe und die zulässige Belastung des Steuerausgangs müssen jedoch geprüft werden.
 
-Bei reversierenden Antrieben ohne unabhängige Rückmeldung kann es außerdem zu einem allmählichen Auseinanderlaufen der Positionen der einzelnen Stellantriebe kommen.
+Bei reversierbaren Antrieben ohne unabhängige Rückmeldung können die Positionen der einzelnen Stellantriebe außerdem mit der Zeit auseinanderdriften.
 
-### Warum können mehrere Stellantriebe sich im Laufe der Zeit in unterschiedliche Positionen einstellen?
+### Warum können sich mehrere Stellantriebe mit der Zeit auf unterschiedliche Positionen einstellen?
 
-Selbst identische Motoren können mit leicht unterschiedlicher Geschwindigkeit arbeiten aufgrund von:
+Auch identische Motoren können mit geringfügig unterschiedlicher Geschwindigkeit laufen, bedingt durch:
 
-- unterschiedlicher Belastung,
-- mechanischen Widerständen,
+- unterschiedliche Belastung,
+- mechanische Widerstände,
 - Toleranzen der Motorparameter,
-- Unterschieden im Getriebe.
+- Unterschiede der Getriebe.
 
-Deshalb sind bei erforderlicher genauer Synchronisation eine geeignete Rückmeldung oder eine individuelle Positionskontrolle erforderlich.
+Wenn eine genaue Synchronisierung erforderlich ist, wird daher eine geeignete Rückmeldung oder eine individuelle Positionskontrolle benötigt.
 
-### Können die Einlässe proportional zur Lüftung gesteuert werden?
+### Können die Lufteinlässe proportional zur Lüftung angesteuert werden?
 
-Ja. In entsprechend konfigurierten Systemen kann die Position der Einlässe mit dem aktuellen Lüftungsgrad verknüpft werden.
+Ja. In entsprechend konfigurierten Systemen kann die Position der Lufteinlässe mit dem aktuellen Lüftungsniveau verknüpft werden.
 
-Dadurch wird zusammen mit der steigenden Ventilatorleistung auch die Öffnung der Einlässe vergrößert.
+Dadurch wird mit zunehmender Ventilatorleistung auch die Öffnung der Lufteinlässe vergrößert.
 
 ### Benötigt der Stellantrieb 24 V ein separates Netzteil?
 
-Wenn der Regler keinen geeigneten Versorgungsausgang mit der erforderlichen Leistung besitzt, ist ein separates Netzteil erforderlich.
+Wenn das Steuergerät keinen geeigneten Versorgungsausgang mit der erforderlichen Leistung besitzt, ist ein separates Netzteil erforderlich.
 
-Seine Leistung ist auf die Stromaufnahme des Stellantriebs sowie anderer Geräte auszulegen, die aus derselben Quelle versorgt werden.
+Dessen Leistung muss auf die Stromaufnahme des Stellantriebs und weiterer Geräte abgestimmt werden, die aus derselben Quelle versorgt werden.
 
-### Kann ein Stellantrieb eines anderen Herstellers verwendet werden?
+### Kann ein Stellantrieb eines anderen Herstellers eingesetzt werden?
 
-Häufig ja, wenn seine elektrischen Parameter und die Art der Ansteuerung mit den Ausgängen des Reglers kompatibel sind.
+Häufig ja, wenn seine elektrischen Kenndaten und seine Ansteuerung mit den Ausgängen des Steuergeräts kompatibel sind.
 
-Vor dem Anschluss sind zu prüfen:
+Vor dem Anschluss sind folgende Angaben zu prüfen:
 
 - Spannung,
 - Signaltyp,
 - Verdrahtungsplan,
-- Bewegungsrichtungen,
+- Betätigungsrichtungen,
 - Positionssignal,
 - zulässige Belastung.
 
 
 ## Temperatur- und Feuchtesensoren
 
-### Wo ist der Temperatursensor anzuschließen?
+### Wo wird der Temperatursensor angeschlossen?
 
-Der Sensor ist an den vom Hersteller vorgesehenen Sensoreingang anzuschließen, also an den in der Dokumentation des jeweiligen Modells angegebenen Sensoreingang.
+Der Sensor muss an den vom Hersteller vorgesehenen Sensoreingang angeschlossen werden, den in der Dokumentation des jeweiligen Modells angegebenen Sensoreingang.
 
-Es darf nicht angenommen werden, dass die Klemmenbezeichnungen in allen Geräteversionen identisch sind.
+Es darf nicht angenommen werden, dass die Klemmenbezeichnungen bei allen Geräteversionen identisch sind.
 
-### Der Temperatursensor zeigt einen anderen Wert als ein Referenzthermometer. Was ist zu tun?
+### Der Temperatursensor zeigt einen anderen Wert als das Referenzthermometer an. Was ist zu tun?
 
-Wenn der Regler über eine Funktion zur Sensorkalibrierung verfügt, kann die Anzeige korrigiert werden, nachdem sie mit einem zuverlässigen Referenzthermometer verglichen wurde.
+Wenn das Steuergerät über eine Sensorkalibrierungsfunktion verfügt, kann die Anzeige nach einem Vergleich mit einem zuverlässigen Referenzthermometer korrigiert werden.
 
-Vor der Änderung der Kalibrierung ist sicherzustellen, dass:
+Vor einer Änderung der Kalibrierung sollte sichergestellt werden, dass:
 
 - sich beide Sensoren am selben Ort befinden,
 - sich der Messwert stabilisiert hat,
-- der Sensor nicht durch Sonne oder Geräte erwärmt wird,
-- er sich nicht direkt im Strom kalter oder heißer Luft befindet.
+- der Sensor nicht durch die Sonne oder Geräte erwärmt wird,
+- er sich nicht direkt in einem kalten oder heißen Luftstrom befindet.
 
 ### Der Feuchtesensor zeigt einen falschen Wert an. Kann er kalibriert werden?
 
-Dies hängt von der Version des Reglers, des Sensors und der Software ab.
+Dies hängt von der Version des Steuergeräts, des Sensors und der Software ab.
 
-Bei einigen Lösungen kann die Korrektur eine entsprechende Softwarefunktion oder einen kompatiblen Sensortyp erfordern. Wenn die Abweichung groß und reproduzierbar ist, sind die Geräteversion zu prüfen und der technische Support zu kontaktieren.
+Bei einigen Lösungen kann die Korrektur eine entsprechende Softwarefunktion oder einen kompatiblen Sensortyp erfordern. Wenn die Abweichung groß und reproduzierbar ist, muss die Geräteversion geprüft und der technische Support kontaktiert werden.
 
-### Bedeutet eine fehlerhafte Messung immer einen defekten Sensor?
+### Bedeutet ein falscher Messwert immer, dass der Sensor defekt ist?
 
 Nein.
 
 Die Ursache kann auch sein:
 
-- eine falsche Sensorposition,
-- die Leitung,
-- die elektrische Verbindung,
-- die Konfiguration,
-- ein ungeeigneter Sensortyp,
-- die Notwendigkeit einer Kalibrierung,
+- falsche Platzierung des Sensors,
+- Leitung,
+- elektrische Verbindung,
+- Konfiguration,
+- falscher Sensortyp,
+- erforderliche Kalibrierung,
 - Feuchtigkeit oder Korrosion.
 
 
 ## Alarme und Benachrichtigungen
 
-### Kann an den Alarmausgang des Reglers direkt eine Sirene angeschlossen werden?
+### Kann eine Sirene direkt an den Alarmausgang des Steuergeräts angeschlossen werden?
 
-Davon sollte nicht ausgegangen werden.
+Dies darf nicht vorausgesetzt werden.
 
-Der Alarmausgang des Reglers ist in der Regel ein Steuerausgang oder ein Relaiskontakt. Die Sirene kann eine separate Versorgung sowie eine Alarmzentrale erfordern.
+Der Alarmausgang des Steuergeräts ist in der Regel ein Steuerausgang oder ein Relaiskontakt. Die Sirene kann eine separate Spannungsversorgung und eine Alarmzentrale benötigen.
 
 ### Wozu wird eine Alarmzentrale eingesetzt?
 
 Die Zentrale kann:
 
-- Alarmsignale von Reglern empfangen,
-- den Signalgeber versorgen,
-- den Betrieb bei Netzausfall aufrechterhalten,
+- Alarmsignale von Steuergeräten empfangen,
+- einen Signalgeber mit Spannung versorgen,
+- den Betrieb bei einem Stromausfall aufrechterhalten,
 - einen Alarm akustisch oder optisch signalisieren,
-- GSM-Benachrichtigungen senden, sofern diese Funktion in der jeweiligen Version vorhanden ist.
+- bei Versionen mit entsprechender Funktion GSM-Benachrichtigungen versenden.
 
-### Kann die Zentrale einen Netzausfall des Reglers melden?
+### Kann die Zentrale einen Ausfall der Spannungsversorgung des Steuergeräts melden?
 
 Ja, wenn das System entsprechend angeschlossen wurde.
 
-Die Lösung kann nicht nur eine Temperaturüberschreitung, sondern auch den Signalverlust des Reglers infolge eines Versorgungsausfalls erkennen.
+Die Lösung kann nicht nur eine Temperaturüberschreitung erkennen, sondern auch den Verlust des Signals vom Steuergerät infolge eines Ausfalls seiner Spannungsversorgung.
 
 ### Wo werden die minimale und maximale Alarmtemperatur eingestellt?
 
-In der typischen Konfiguration werden die Alarmschwellen im Regler eingestellt, der die betreffende Kammer oder den betreffenden Raum überwacht.
+In einer typischen Konfiguration werden die Alarmschwellen im Steuergerät eingestellt, das die jeweilige Kammer oder den jeweiligen Raum steuert.
 
-Die Alarmzentrale erhält dann die Information, dass der Regler einen Alarm gemeldet hat.
+Die Alarmzentrale empfängt anschließend die Information, dass das Steuergerät einen Alarm gemeldet hat.
 
 ### Benötigt die GSM-Zentrale eine SIM-Karte?
 
-Für das Senden von Anrufen und Nachrichten über das Mobilfunknetz ist eine aktive SIM-Karte oder eine andere im jeweiligen Modell vorgesehene Kommunikationslösung erforderlich.
+Für Anrufe und Nachrichten über das Mobilfunknetz ist eine aktive SIM-Karte oder eine andere, für das jeweilige Modell vorgesehene Kommunikationslösung erforderlich.
 
-Ohne aktive Verbindung zum Mobilfunknetz funktionieren Telefon- und SMS-Funktionen nicht.
+Ohne aktive Verbindung zum Mobilfunknetz funktionieren die Telefon- und SMS-Funktionen nicht.
 
-### Kann der Alarm Informationen darüber senden, von welchem Regler das Ereignis stammt?
+### Kann das Alarmsystem mitteilen, von welchem Steuergerät das Ereignis stammt?
 
-In einem entsprechend konfigurierten System ja.
+In einem entsprechend konfigurierten System ist dies möglich.
 
-Die Eingänge der Zentrale können bestimmten Räumen oder Reglern zugeordnet werden, sodass die Meldung die Bestimmung der Alarmquelle ermöglicht.
+Die Eingänge der Zentrale können bestimmten Räumen oder Steuergeräten zugeordnet werden, sodass anhand der Meldung die Alarmquelle festgestellt werden kann.
 
-### Wie viele Regler können an eine Alarmzentrale angeschlossen werden?
+### Wie viele Steuergeräte können an eine Alarmzentrale angeschlossen werden?
 
-Das hängt vom Modell der Zentrale ab.
+Dies hängt vom Modell der Zentrale ab.
 
-In den Transkripten kamen Zentralen mit bis zu acht Eingängen vor, vor der Installation ist jedoch die aktuelle Spezifikation des konkreten Geräts zu prüfen.
+In den Transkriptionen wurden Zentralen mit bis zu acht Eingängen erwähnt. Vor der Installation muss jedoch die aktuelle Spezifikation des jeweiligen Geräts geprüft werden.
 
 ### Welcher Akku wird in der Alarmzentrale verwendet?
 
-In einem Teil der in Gesprächen behandelten Geräte wurde ein Akku 12 V 7 Ah verwendet.
+In einigen der in den Gesprächen behandelten Geräte wurde ein Akku mit 12 V 7 Ah verwendet.
 
-Vor dem Kauf eines Ersatzakkus sind die Bezeichnung auf dem vorhandenen Akku sowie die Spezifikation der Zentrale zu prüfen, da andere Geräteversionen einen anderen Akku erfordern können.
+Vor dem Kauf eines Ersatzakkus müssen die Kennzeichnung des vorhandenen Akkus und die Spezifikation der Zentrale geprüft werden, da andere Geräteversionen einen anderen Akku erfordern können.
 
 ### Die Zentrale sendet Meldungen über niedrige Spannung. Was ist zu prüfen?
 
-Zunächst sind zu prüfen:
+Zunächst sollten folgende Punkte geprüft werden:
 
-- der Zustand des Akkus,
-- sein Alter,
-- die Akkuverbindungen,
-- das Vorhandensein der Netzversorgung,
-- die Funktion des Ladegeräts oder Netzteils der Zentrale.
+- Zustand des Akkus,
+- Alter des Akkus,
+- Akkuanschlüsse,
+- Vorhandensein der Netzversorgung,
+- Funktion des Ladegeräts oder des Netzteils der Zentrale.
 
-Ein verbrauchter Akku kann zyklische Meldungen über niedrige Spannung verursachen.
+Ein verschlissener Akku kann wiederkehrende Meldungen über niedrige Spannung verursachen.
 
-### Wie oft ist der Akku in der Alarmzentrale auszutauschen?
+### Wie oft muss der Akku in der Alarmzentrale ausgetauscht werden?
 
-Es gibt keinen einheitlichen Wert, der für alle Bedingungen geeignet ist.
+Es gibt kein einheitliches Intervall, das für alle Bedingungen geeignet ist.
 
-Der Akku ist regelmäßig zu testen, insbesondere in Anlagen, in denen ein Alarm bei Versorgungsausfall von kritischer Bedeutung ist. Mit zunehmendem Alter sinkt seine tatsächliche Kapazität.
+Der Akku muss regelmäßig getestet werden, insbesondere in Anlagen, in denen ein Alarm bei Stromausfall von entscheidender Bedeutung ist. Mit zunehmendem Alter nimmt seine tatsächliche Kapazität ab.
 
-### Reicht die Sirene allein als Absicherung aus?
+### Reicht eine Sirene allein als Schutz aus?
 
-Die Sirene wirkt nur dann, wenn sie jemand hören kann.
+Eine Sirene ist nur wirksam, wenn jemand sie hören kann.
 
-In Objekten, die zeitweise unbeaufsichtigt sind, sollten zusätzlich eine Fernbenachrichtigung und eine Akku-Pufferung eingesetzt werden.
+In zeitweise unbeaufsichtigten Objekten sollten zusätzlich eine Fernbenachrichtigung und eine Akku-Pufferung eingesetzt werden.
 
 
 ## Frequenzumrichter
 
-### Wie ist ein Frequenzumrichter für Ventilatoren auszuwählen?
+### Wie wird ein Frequenzumrichter für Ventilatoren ausgewählt?
 
 Folgende Angaben müssen bekannt sein:
 
@@ -461,238 +461,238 @@ Folgende Angaben müssen bekannt sein:
 - Leistung und Strom aller Motoren,
 - Art ihrer Verschaltung,
 - Betriebsbedingungen,
-- erforderliche Steuerungsart.
+- erforderliche Art der Ansteuerung.
 
-Der Frequenzumrichter sollte eine angemessene Reserve gegenüber der Last haben, insbesondere wenn mehrere Motoren parallel arbeiten.
+Der Frequenzumrichter sollte gegenüber der Last eine ausreichende Reserve aufweisen, insbesondere wenn mehrere Motoren parallel betrieben werden.
 
-### Sollte der Frequenzumrichter genau die gleiche Leistung wie die Summe der Motorleistungen haben?
+### Sollte der Frequenzumrichter genau dieselbe Leistung wie die Summe der Motorleistungen haben?
 
-Ein Frequenzumrichter sollte nicht ausschließlich auf der Grundlage der einfachen Summierung der Leistung ausgewählt werden, und es sollte kein Gerät gewählt werden, das exakt an der Grenze seiner Parameter arbeitet.
+Der Frequenzumrichter sollte nicht ausschließlich anhand einer einfachen Addition der Leistungen ausgewählt werden. Ebenso sollte kein Gerät gewählt werden, das genau an der Grenze seiner Kenndaten arbeitet.
 
-Zu berücksichtigen sind Nennströme, Lastcharakter und die Empfehlungen des Herstellers des Frequenzumrichters.
+Nennströme, Art der Last und Empfehlungen des Frequenzumrichterherstellers müssen berücksichtigt werden.
 
-### Der Frequenzumrichter hat die Ventilatoren gestoppt und einen Fehler angezeigt. Was ist zu tun?
+### Der Frequenzumrichter hat die Ventilatoren angehalten und einen Fehler angezeigt. Was ist zu tun?
 
-Am wichtigsten ist es, vor dem Reset den vollständigen Fehlercode zu notieren.
+Am wichtigsten ist es, den vollständigen Fehlercode vor dem Zurücksetzen zu notieren.
 
-:::tip Machen Sie ein Foto des Bildschirms
+:::tip Fotografieren Sie die Anzeige
 
-Wenn es die Situation zulässt, machen Sie vor dem Reset ein Foto des Displays. Der vollständige Fehlercode erleichtert die Diagnose erheblich.
+Wenn die Situation es erlaubt, fotografieren Sie die Anzeige vor dem Zurücksetzen. Der vollständige Fehlercode erleichtert die Diagnose erheblich.
 
 :::
 
-Der reine Anfang der Meldung reicht oft nicht aus, um die Ursache festzustellen. Der vollständige Code ermöglicht unter anderem die Unterscheidung zwischen:
+Der Anfang der Meldung allein reicht häufig nicht aus, um die Ursache festzustellen. Der vollständige Code ermöglicht unter anderem die Unterscheidung zwischen:
 
-- Überlast,
-- Stromüberschreitung,
+- Überlastung,
+- Überstrom,
 - Überhitzung,
 - unzulässiger Spannung,
 - anderen Antriebsfehlern.
 
 ### Kann der Fehler des Frequenzumrichters einfach zurückgesetzt werden?
 
-Ein Reset kann den Betrieb wiederherstellen, beseitigt jedoch nicht die Ursache des Alarms.
+Das Zurücksetzen kann den Betrieb wiederherstellen, beseitigt aber nicht die Ursache des Alarms.
 
-Nach dem Ereignis sind der Fehlercode zu prüfen und die Ursache zu ermitteln, bevor die Anlage erneut über längere Zeit in Betrieb genommen wird.
+Nach dem Ereignis muss der Fehlercode geprüft und die Ursache festgestellt werden, bevor die Anlage erneut dauerhaft betrieben wird.
 
 ### Der Frequenzumrichter arbeitet in einem staubigen Raum. Muss er gereinigt werden?
 
 Ja.
 
-Staub und Ablagerungen am Kühlkörper oder am Kühlventilator können die Wärmeabfuhr verschlechtern und zu einer Überhitzung des Frequenzumrichters führen.
+Staub und Ablagerungen auf dem Kühlkörper oder dem Kühlventilator können die Wärmeabfuhr beeinträchtigen und zu einer Überhitzung des Frequenzumrichters führen.
 
-Die Reinigung ist gemäß der Anleitung des Herstellers nach sicherer Trennung der Versorgung durchzuführen.
+Die Reinigung muss gemäß der Herstelleranleitung nach sicherer Trennung von der Spannungsversorgung erfolgen.
 
-### Was kann die Überhitzung des Frequenzumrichters verursachen?
+### Was kann eine Überhitzung des Frequenzumrichters verursachen?
 
 Die häufigsten Ursachen sind:
 
-- verschmutzte Kühlelemente,
-- ein behinderter Luftstrom,
+- verschmutzte Kühlkomponenten,
+- behinderter Luftstrom,
 - zu hohe Umgebungstemperatur,
-- Überlast,
-- Schaden am Kühlventilator,
-- fehlerhafte Montage.
+- Überlastung,
+- defekter Kühlventilator,
+- unsachgemäße Montage.
 
-### Kann erhöhte Netzspannung einen Alarm des Frequenzumrichters auslösen?
+### Kann eine erhöhte Netzspannung einen Alarm des Frequenzumrichters auslösen?
 
-Ja. Frequenzumrichter überwachen die Spannung des Versorgungskreises und können bei Überschreitung des zulässigen Niveaus einen Fehler melden.
+Ja. Frequenzumrichter überwachen die Spannung des Versorgungskreises und können bei Überschreitung des zulässigen Werts einen Fehler melden.
 
-Wenn das Problem wiederholt auftritt, sind die Installation und die Versorgungsqualität zu überprüfen.
+Wenn das Problem wiederholt auftritt, müssen die Anlage und die Qualität der Spannungsversorgung überprüft werden.
 
 
 ## Störungen und Diagnose
 
-### Der Regler funktioniert, aber das Display zeigt nichts an. Was kann die Ursache sein?
+### Das Steuergerät funktioniert, aber die Anzeige zeigt nichts an. Was kann die Ursache sein?
 
 Mögliche Ursachen sind unter anderem:
 
-- ein beschädigtes Display,
-- ein Problem mit der Kontrasteinstellung in älteren Lösungen,
+- eine defekte Anzeige,
+- ein Problem mit der Kontrasteinstellung bei älteren Ausführungen,
 - eine beschädigte Verbindung,
 - Korrosion,
-- eine beschädigte Hauptplatine.
+- eine defekte Hauptplatine.
 
-Wenn das Gerät über längere Zeit nicht verwendet wurde oder in einer feuchten Umgebung betrieben wurde, sollte auch der Zustand der Platine geprüft werden.
+Wenn das Gerät längere Zeit nicht verwendet wurde oder in einer feuchten Umgebung betrieben wurde, sollte auch der Zustand der Platine geprüft werden.
 
-### Der Regler hat nach mehreren Jahren ohne Nutzung Probleme mit dem Display. Warum?
+### Nach mehreren Jahren ohne Nutzung hat das Steuergerät ein Problem mit der Anzeige. Warum?
 
-Längerer Stillstand in feuchter oder aggressiver Umgebung kann führen zu:
+Ein längerer Stillstand in einer feuchten oder aggressiven Umgebung kann zu Folgendem führen:
 
-- Oxidation der Steckverbinder,
+- Oxidation der Steckverbindungen,
 - Korrosion,
 - Verschlechterung der Kontakte,
 - Schäden an elektronischen Bauteilen.
 
-In einem solchen Fall sollte eine vollständige Inspektion durchgeführt und nicht ohne vorherige Diagnose Komponenten ausgetauscht werden.
+In diesem Fall sollte eine vollständige Überprüfung durchgeführt werden, statt Bauteile ohne vorherige Diagnose auszutauschen.
 
-### Der Regler ist nach einer Überspannung verrußt. Bedeutet das, dass die Platine ersetzt werden muss?
+### Das Steuergerät ist nach einer Überspannung verrußt. Bedeutet dies, dass die Platine ausgetauscht werden muss?
 
 Nicht immer.
 
-Ein Schutzelement kann beschädigt werden und viel Rückstand hinterlassen, obwohl der übrige Teil der Platine reparierbar ist.
+Ein Schutzbauteil kann beschädigt werden und viele Ablagerungen hinterlassen, obwohl der übrige Teil der Platine repariert werden kann.
 
-Wenn jedoch das Laminat verkohlt, ausgebrannt ist oder Leiterbahnen beschädigt sind, kann eine Reparatur unwirtschaftlich oder nicht dauerhaft sein.
+Wenn das Leiterplattenmaterial jedoch verkohlt oder ausgebrannt ist oder Leiterbahnen beschädigt sind, kann eine Reparatur unwirtschaftlich oder nicht dauerhaft sein.
 
-### Was kann mehrere Regler gleichzeitig beschädigen?
+### Was kann mehrere Steuergeräte gleichzeitig beschädigen?
 
-Wenn mehrere Geräte gleichzeitig ausfallen, ist die Versorgungsinstallation zu prüfen.
+Wenn mehrere Geräte gleichzeitig ausfallen, muss die Versorgungsanlage überprüft werden.
 
-Eine mögliche Ursache ist ein Problem mit dem Neutralleiter, das in einer Drehstrominstallation zum Auftreten unzulässiger Spannungen an einphasigen Verbrauchern führen kann.
+Eine mögliche Ursache ist ein Problem mit dem Neutralleiter, das in einer Drehstromanlage zu unzulässigen Spannungen an einphasigen Verbrauchern führen kann.
 
-Auch Überspannungen aus dem Netz oder von einem Aggregat sind möglich.
+Auch Überspannungen aus dem Netz oder vom Stromaggregat sind möglich.
 
-### Was ist nach einer Störung infolge einer Überspannung zu tun?
+### Was ist nach einem durch Überspannung verursachten Ausfall zu tun?
 
-Vor dem Anschluss eines reparierten oder neuen Reglers ist die Ursache des Problems zu ermitteln.
+Vor dem Anschluss eines reparierten oder neuen Steuergeräts muss die Ursache des Problems festgestellt werden.
 
-:::danger Schließen Sie das Gerät nicht erneut an, ohne die Installation zu prüfen
+:::danger Schließen Sie das Gerät nicht erneut an, ohne die Anlage zu überprüfen
 
-Wenn die Ursache der Störung eine unzulässige Spannung, ein beschädigter Neutralleiter oder eine Überspannung war, kann der reparierte oder neue Regler erneut beschädigt werden.
+Wenn die Ursache des Ausfalls eine unzulässige Spannung, ein beschädigter Neutralleiter oder eine Überspannung war, kann das reparierte oder neue Steuergerät erneut beschädigt werden.
 
 :::
 
-### Was ist ein Überspannungsschutzelement auf der Platine?
+### Was ist ein Überspannungsschutzbauteil auf der Platine?
 
-In elektronischen Geräten werden Elemente zur Begrenzung von Überspannungen eingesetzt, z. B. Varistoren.
+In elektronischen Geräten werden Bauteile zur Begrenzung von Überspannungen eingesetzt, z. B. Varistoren.
 
-Ihre Aufgabe besteht darin, einen Teil der Überspannungsenergie aufzunehmen und nachgeschaltete Schaltungen zu schützen. Nach einem starken Ereignis kann ein solches Element dauerhaft beschädigt sein.
+Ihre Aufgabe ist es, einen Teil der Überspannungsenergie aufzunehmen und nachgeschaltete Schaltungen zu schützen. Nach einem starken Ereignis kann ein solches Bauteil dauerhaft beschädigt sein.
 
-### Kann das Gerät nach dem Entfernen des verbrannten Schutzelements in Betrieb genommen werden?
+### Kann das Gerät nach dem Entfernen eines durchgebrannten Schutzbauteils in Betrieb genommen werden?
 
-Dies sollte nicht als normale Reparatur betrachtet werden.
+Dies darf nicht als normale Reparatur betrachtet werden.
 
-Nach dem Entfernen des Schutzes kann das Gerät den Schutz gegen die nächste Überspannung verlieren. Solche Maßnahmen dürfen ausschließlich als bewusste Serviceprozedur von einer Person mit entsprechender Qualifikation und nach Beseitigung der ursprünglichen Störungsursache durchgeführt werden.
+Nach dem Entfernen des Schutzbauteils kann das Gerät seinen Schutz vor einer weiteren Überspannung verlieren. Solche Maßnahmen dürfen ausschließlich als bewusst durchgeführtes Serviceverfahren von einer entsprechend qualifizierten Person und nach Beseitigung der Ursache des ursprünglichen Ausfalls vorgenommen werden.
 
-### Der Regler wurde überflutet oder ist stark korrodiert. Lohnt sich eine Reparatur?
+### Das Steuergerät wurde mit Flüssigkeit überflutet oder ist stark korrodiert. Lohnt sich eine Reparatur?
 
-Das hängt vom Schadensgrad ab.
+Dies hängt vom Ausmaß der Schäden ab.
 
-Oberflächliche Korrosion und einzelne Schäden können häufig beseitigt werden. Wenn die Korrosion Leiterbahnen, Steckverbinder und viele Bauteile erfasst hat, kann die Reparatur zeitaufwendig, unsicher und wirtschaftlich nicht gerechtfertigt sein.
+Oberflächliche Korrosion und einzelne Schäden können häufig beseitigt werden. Wenn die Korrosion Leiterbahnen, Steckverbindungen und viele Bauteile erfasst hat, kann die Reparatur zeitaufwendig, unsicher und wirtschaftlich nicht gerechtfertigt sein.
 
-### Kann das Reinigen des Geräts mit Hochdruck den Regler beschädigen?
+### Kann eine Hochdruckreinigung des Geräts das Steuergerät beschädigen?
 
 Ja.
 
-Elektronik sollte keiner direkten Einwirkung von Wasser oder Reinigungsmittel ausgesetzt werden, wenn Gehäuse und Montageart dafür nicht vorgesehen sind.
+Die Elektronik darf weder Wasser noch Reinigungsmitteln direkt ausgesetzt werden, wenn Gehäuse und Montageweise nicht dafür vorgesehen sind.
 
-Feuchtigkeit, die ins Innere eindringt, kann zu Korrosion und späteren, schwer zu diagnostizierenden Störungen führen.
+Eindringende Feuchtigkeit kann zu Korrosion und späteren, schwer zu diagnostizierenden Fehlern führen.
 
-### Warum können Störungen nach einer Durchfeuchtung nach der Reparatur erneut auftreten?
+### Warum können Störungen nach einem Flüssigkeitsschaden trotz Reparatur erneut auftreten?
 
-Korrosion kann auch an Stellen fortschreiten, die bei der ersten Kontrolle nicht sichtbar sind.
+Korrosion kann auch an Stellen fortschreiten, die bei der ersten Prüfung nicht sichtbar sind.
 
-Beschädigte Durchkontaktierungen, Leiterbahnen und Verbindungen können beim Test funktionieren und später erneut den Kontakt verlieren.
+Beschädigte Durchkontaktierungen, Leiterbahnen und Verbindungen können während des Tests funktionieren und später erneut den Kontakt verlieren.
 
-Deshalb kann der Service bei einer stark korrodierten Platine eher einen Austausch als weitere Reparaturen empfehlen.
+Deshalb kann der Service bei einer stark korrodierten Platine einen Austausch anstelle weiterer Reparaturen empfehlen.
 
-### Das Gerät funktioniert manchmal und manchmal nicht. Womit sollte begonnen werden?
+### Das Gerät funktioniert nur zeitweise. Womit sollte begonnen werden?
 
-Vor der Kontaktaufnahme mit dem Service sollten folgende Informationen gesammelt werden:
+Vor der Kontaktaufnahme mit dem Service sollten folgende Angaben zusammengestellt werden:
 
-- das genaue Modell,
-- eine Beschreibung des Symptoms,
-- der Zeitpunkt des Auftretens,
-- die auf dem Bildschirm angezeigten Werte,
-- der Alarm- oder Fehlercode,
-- Informationen über die letzten Änderungen in der Anlage,
-- ein Foto des Innenraums und der Klemmen, wenn es sicher angefertigt werden kann.
+- genaues Modell,
+- Beschreibung des Fehlerbilds,
+- Zeitpunkt des Auftretens,
+- auf der Anzeige dargestellte Werte,
+- Alarm- oder Fehlercode,
+- Angaben zu den letzten Änderungen an der Anlage,
+- ein Foto des Innenraums und der Klemmen, sofern es sicher aufgenommen werden kann.
 
 Je genauer die Beschreibung, desto einfacher die Diagnose.
 
 
 ## Service und Reparaturen
 
-### Was sollte an den Service gesendet werden, wenn der Regler defekt ist?
+### Was sollte an den Service gesendet werden, wenn das Steuergerät defekt ist?
 
-Am besten wird ein vollständiger Satz gesendet, mit dem sich das Problem nachvollziehen lässt.
+Am besten wird eine vollständige Zusammenstellung gesendet, mit der sich das Problem reproduzieren lässt.
 
-Der Sendung ist eine kurze Beschreibung beizufügen:
+Der Sendung muss eine kurze Beschreibung mit folgenden Angaben beigefügt werden:
 
 - was nicht funktioniert,
 - wann das Problem auftritt,
-- ob die Störung dauerhaft oder periodisch ist,
-- ob vor der Störung eine Überspannung, eine Durchfeuchtung oder ein anderes Ereignis aufgetreten ist,
-- die für die Kontaktaufnahme und die Rücksendung des Geräts erforderlichen Daten.
+- ob der Fehler dauerhaft oder zeitweise auftritt,
+- ob vor dem Ausfall eine Überspannung, ein Flüssigkeitsschaden oder ein anderes Ereignis aufgetreten ist,
+- die für die Kontaktaufnahme und Rücksendung des Geräts erforderlichen Daten.
 
 :::note Daten für die Serviceanfrage
 
-Kontakt- und Versanddaten sind direkt an den Service zu übermitteln. Veröffentlichen Sie diese nicht in offenen Anfragen oder öffentlichen Materialien.
+Übermitteln Sie Kontakt- und Versanddaten direkt an den Service. Veröffentlichen Sie diese nicht in öffentlich zugänglichen Anfragen oder Materialien.
 
 :::
 
-### Muss der gesamte Regler gesendet werden oder nur die Platine?
+### Muss das gesamte Steuergerät oder nur die Platine eingesendet werden?
 
-Das hängt von der Störung ab.
+Dies hängt vom Fehler ab.
 
-Bei Problemen mit Display, Tasten, Versorgung oder uneindeutigem Verhalten sollte am besten das gesamte Set gesendet werden, das zur Reproduktion des Symptoms erforderlich ist.
+Bei Problemen mit der Anzeige, den Tasten, der Spannungsversorgung oder einem nicht eindeutigen Verhalten sollte die gesamte Zusammenstellung eingesendet werden, die zur Reproduktion des Fehlerbilds erforderlich ist.
 
-Bei einer zuvor abgestimmten Reparatur eines bestimmten Moduls kann der Service nur um die Platine bitten.
+Bei einer zuvor vereinbarten Reparatur eines bestimmten Moduls kann der Service lediglich um die Platine bitten.
 
-### Repariert ELETOR Regler, anstatt sie sofort auszutauschen?
+### Repariert ELETOR Steuergeräte, statt sie sofort auszutauschen?
 
-Aus den Transkripten ergibt sich, dass die Geräte zunächst diagnostiziert werden.
+Aus den Transkriptionen geht hervor, dass die Geräte zunächst diagnostiziert werden.
 
-Wenn eine Reparatur möglich und sinnvoll ist, werden beschädigte Bauteile oder Module ausgetauscht. Bei schwerer Beschädigung kann der Service den Austausch der Platine oder des gesamten Geräts vorschlagen.
+Wenn eine Reparatur möglich und sinnvoll ist, werden beschädigte Bauteile oder Module ausgetauscht. Bei schweren Schäden kann der Service den Austausch der Platine oder des gesamten Geräts vorschlagen.
 
 ### Was geschieht, wenn die beschädigte Platine nicht repariert werden kann?
 
-Ein Austausch des beschädigten Moduls gegen ein neues ist möglich, sofern das entsprechende Teil verfügbar und mit dem Gerät kompatibel ist.
+Das beschädigte Modul kann durch ein neues ersetzt werden, sofern das entsprechende Ersatzteil verfügbar und mit dem Gerät kompatibel ist.
 
-Bei älteren Geräten sollte der Service zunächst die Versionskompatibilität bestätigen.
+Bei älteren Geräten sollte der Service zunächst die Kompatibilität der Versionen bestätigen.
 
-### Lohnt es sich, nach einer Überspannung sofort eine neue Platine zu kaufen?
+### Sollte nach einer Überspannung sofort eine neue Platine gekauft werden?
 
 Nicht immer.
 
-Wenn der Schaden ein Schutzelement oder einen kleinen Teil der Schaltung betrifft, kann eine Reparatur sinnvoll sein. Zunächst sollte eine Diagnose durchgeführt werden.
+Wenn der Schaden ein Schutzbauteil oder einen kleinen Teil der Schaltung betrifft, kann eine Reparatur gerechtfertigt sein. Zunächst sollte eine Diagnose durchgeführt werden.
 
-### Kann der Service auch Display und Tasten prüfen?
+### Kann der Service auch die Anzeige und die Tasten prüfen?
 
-Ja, wenn die Elemente zusammen mit dem Gerät oder Modul geliefert werden.
+Ja, wenn diese Komponenten zusammen mit dem Gerät oder Modul geliefert werden.
 
-Dies ist besonders nützlich, wenn unklar ist, ob sich das Problem auf der Hauptplatine oder im Benutzerpanel befindet.
+Dies ist besonders hilfreich, wenn unklar ist, ob das Problem auf der Hauptplatine oder im Bedienfeld liegt.
 
-### Lohnt es sich immer, einen stark korrodierten Regler zu retten?
+### Lohnt es sich immer, ein stark korrodiertes Steuergerät zu retten?
 
 Nein.
 
-Wenn die Kosten für Diagnose und Reparatur steigen und die Zuverlässigkeit nach der Reparatur unsicher bleibt, kann ein Austausch sinnvoller sein.
+Wenn die Kosten für Diagnose und Reparatur steigen und die Zuverlässigkeit nach der Reparatur ungewiss bleibt, kann ein Austausch sinnvoller sein.
 
 Dies gilt insbesondere für Geräte, von denen die Lüftung des Objekts abhängt.
 
 ### Wie lässt sich die Servicediagnose beschleunigen?
 
-Fügen Sie statt der bloßen Aussage „funktioniert nicht“ eine genaue Beschreibung des Symptoms bei.
+Fügen Sie eine genaue Beschreibung des Fehlerbilds bei, statt lediglich anzugeben, dass das Gerät „nicht funktioniert“.
 
-Hilfreich sind auch:
+Hilfreich sind außerdem:
 
 - Fotos,
-- der Fehlercode,
-- eine Beschreibung der Anlage,
-- der Typ der angeschlossenen Verbraucher,
-- Informationen über Überspannung oder Versorgungsausfall,
-- Informationen über Durchfeuchtung oder Reinigung des Geräts.
+- Fehlercode,
+- Beschreibung der Anlage,
+- Typ der angeschlossenen Verbraucher,
+- Angaben zu Überspannungen oder Stromausfällen,
+- Angaben zu Flüssigkeitsschäden oder zur Reinigung des Geräts.
 
 
 ## Installation und Verkabelung
@@ -702,136 +702,136 @@ Hilfreich sind auch:
 C und NO sind typische Bezeichnungen eines Relaiskontakts:
 
 - C — gemeinsamer Kontakt,
-- NO — normalerweise offener Kontakt.
+- NO — im Ruhezustand offener Kontakt.
 
-Die Art der Nutzung hängt vom Gerät und vom Installationsschema ab. Der Kontakt kann z. B. zur Ansteuerung der Spule eines Schützes verwendet werden, seine zulässigen Parameter dürfen jedoch nicht überschritten werden.
+Die Verwendung hängt vom Gerät und vom Schaltplan der Anlage ab. Der Kontakt kann beispielsweise zur Ansteuerung einer Schützspule verwendet werden. Seine zulässigen Kenndaten dürfen jedoch nicht überschritten werden.
 
-:::warning Elektrische Arbeiten
+:::warning Elektroarbeiten
 
-Anschlüsse an Netzspannung sollten von einer Person mit entsprechender Qualifikation gemäß dem Schaltplan des konkreten Geräts ausgeführt werden.
+Anschlüsse an Netzspannung sollten von einer entsprechend qualifizierten Person gemäß dem Schaltplan des jeweiligen Geräts ausgeführt werden.
 
 :::
 
-### Kann der Relaisausgang direkt einen großen Ventilator versorgen?
+### Kann ein Relaisausgang einen großen Ventilator direkt versorgen?
 
-In der Regel ist dies keine geeignete Anwendung für einen kleinen Steuerausgang.
+Dies ist in der Regel keine geeignete Verwendung eines kleinen Steuerausgangs.
 
-Für größere Lasten werden ein Schütz, ein Leistungsrelais oder ein dediziertes Ausgangsmodul verwendet.
+Für größere Lasten werden ein Schütz, ein Leistungsrelais oder ein spezielles Leistungsmodul eingesetzt.
 
 ### Wozu dienen die Klemmen A1 und A2 des Schützes?
 
-Dies sind die Klemmen der Schützspule.
+Dies sind die Anschlüsse der Schützspule.
 
-Wird die entsprechende Spannung an die Spule angelegt, ändert das Schütz den Zustand seiner Leistungskontakte.
+Wenn die entsprechende Spannung an die Spule angelegt wird, ändert das Schütz den Zustand seiner Leistungskontakte.
 
-Die Spulenspannung muss mit dem Anlagenentwurf und der Dokumentation des Schützes übereinstimmen.
+Die Spulenspannung muss der Anlagenplanung und der Dokumentation des Schützes entsprechen.
 
-### Können zusätzliche Geräte im Inneren des Reglergehäuses montiert werden?
+### Können zusätzliche Schaltgeräte im Gehäuse des Steuergeräts montiert werden?
 
-Nur wenn die Konstruktion des konkreten Gehäuses dies zulässt und dadurch Folgendes nicht beeinträchtigt wird:
+Nur wenn die Konstruktion des jeweiligen Gehäuses dies zulässt und dadurch folgende Eigenschaften nicht beeinträchtigt werden:
 
-- die Schutzart,
-- die Isolierung,
-- die Kühlung,
-- die Sicherheit,
-- der Servicezugang.
+- Schutzart,
+- Isolierung,
+- Kühlung,
+- Sicherheit,
+- Zugänglichkeit für Servicearbeiten.
 
 Alle neuen Öffnungen sollten so ausgeführt werden, dass die erforderliche Dichtheit erhalten bleibt.
 
-### Sind zusätzliche Ventilatorschalter sinnvoll?
+### Sind zusätzliche Ventilatorschalter hilfreich?
 
-Sie können den Service erleichtern und eine unabhängige Trennung einzelner Ventilatoren ermöglichen.
+Sie können Servicearbeiten erleichtern und das unabhängige Abschalten einzelner Ventilatoren ermöglichen.
 
-Die Ausführung muss jedoch elektrische Schutzmaßnahmen berücksichtigen und darf keine gefährlichen Zustände des Reglers verursachen.
+Die Ausführung muss jedoch die elektrischen Schutzmaßnahmen berücksichtigen und darf keine gefährlichen Zustände des Steuergeräts verursachen.
 
 ### Können Steuerleitungen zusammen mit Leistungsleitungen verlegt werden?
 
-Es sollte vermieden werden, empfindliche Signalleitungen parallel und in sehr geringem Abstand zu leistungsstarken Leitungen zu verlegen, insbesondere auf langen Strecken.
+Empfindliche Signalleitungen sollten nicht parallel und in unmittelbarer Nähe zu Leitungen hoher Leistung verlegt werden, insbesondere über längere Strecken.
 
-Die Anforderungen hängen von der Art des Signals und der elektromagnetischen Umgebung ab.
+Die Anforderungen hängen von der Signalart und der elektromagnetischen Umgebung ab.
 
-### Welches Kabel ist für Netzwerkverbindungen und PoE-Geräte zu verwenden?
+### Welche Leitung sollte für Netzwerkverbindungen und PoE-Geräte verwendet werden?
 
-In den besprochenen Installationen wurde mindestens ein verdrilltes Kabel der Kategorie 5e angegeben.
+In den besprochenen Anlagen wurde als Mindestanforderung eine Twisted-Pair-Leitung der Kategorie 5e angegeben.
 
-Wenn das Kabel in einer Umgebung mit erhöhtem Störpegel oder dem Risiko elektrostatischer Aufladungen verläuft, kann der Einsatz eines entsprechend geschirmten Kabels und eines korrekten Erdungssystems sinnvoll sein.
+Wenn die Leitung in einer Umgebung mit erhöhtem Störpegel oder einem Risiko elektrostatischer Aufladungen verläuft, kann der Einsatz einer entsprechend geschirmten Leitung und eines ordnungsgemäßen Erdungssystems sinnvoll sein.
 
 ### Wird für PoE ein Crossover-Kabel benötigt?
 
-In typischen Installationen wird eine standardmäßige gerade Verbindung verwendet.
+In typischen Installationen wird eine standardmäßige, nicht gekreuzte Verbindung verwendet.
 
-Es sind jedoch immer die Anforderungen des Netzwerkgeräts und des verwendeten PoE-Netzteils zu prüfen.
+Die Anforderungen des Netzwerkgeräts und des eingesetzten PoE-Netzteils müssen jedoch immer geprüft werden.
 
 
 ## Betrieb und Wartung
 
-### Wie lässt sich das Ausfallrisiko von Reglern in landwirtschaftlichen Gebäuden begrenzen?
+### Wie lässt sich das Ausfallrisiko von Steuergeräten in Wirtschaftsgebäuden begrenzen?
 
 Am wichtigsten ist die Begrenzung des Einflusses von:
 
 - Feuchtigkeit,
-- Ammoniak und aggressiver Umgebung,
+- Ammoniak und aggressiven Umgebungsbedingungen,
 - Staub,
 - direkter Reinigung mit Wasser,
 - Überspannungen,
-- fehlerhafter Versorgung.
+- fehlerhafter Spannungsversorgung.
 
-Außerdem sollten Zustand von Leitungen, Verbindungen und Gehäusen regelmäßig kontrolliert werden.
+Außerdem sollte der Zustand der Leitungen, Verbindungen und Gehäuse regelmäßig kontrolliert werden.
 
 ### Sollten elektronische Geräte regelmäßig gereinigt werden?
 
 Ja, insbesondere Geräte mit Kühlkörpern, Ventilatoren und Lüftungsöffnungen.
 
-Angesammelter Staub verschlechtert die Kühlung.
+Angesammelter Staub beeinträchtigt die Kühlung.
 
-Die Reinigung ist nach dem Trennen der Versorgung und gemäß der Geräteanleitung durchzuführen.
+Die Reinigung muss nach dem Trennen der Spannungsversorgung und gemäß der Geräteanleitung erfolgen.
 
-### Lohnt sich nach einigen Betriebsjahren eine Inspektion des Reglers?
+### Ist nach mehreren Betriebsjahren eine Überprüfung des Steuergeräts sinnvoll?
 
 Ja, insbesondere unter schwierigen Umgebungsbedingungen.
 
-Die Inspektion kann Folgendes umfassen:
+Die Überprüfung kann Folgendes umfassen:
 
-- Beurteilung des Zustands der Steckverbinder,
-- Kontrolle auf Spuren von Feuchtigkeit und Korrosion,
-- Prüfung der Kühlelemente,
-- Prüfung des Panels und der Tasten,
+- Beurteilung des Zustands der Steckverbindungen,
+- Kontrolle auf Feuchtigkeits- und Korrosionsspuren,
+- Prüfung der Kühlkomponenten,
+- Prüfung des Bedienfelds und der Tasten,
 - Test der Sensoren,
 - Kontrolle der Akkus in Alarmsystemen.
 
-### Was sollte nach dem Auftreten einer Störung notiert werden?
+### Was sollte nach einem Ausfall notiert werden?
 
-Am nützlichsten sind:
+Am hilfreichsten sind:
 
-- die vollständige Meldung,
-- der Fehlercode,
-- die Uhrzeit des Ereignisses,
-- die Temperatur,
-- der Lüftungszustand,
-- Informationen über einen Versorgungsausfall,
-- Informationen über den Betrieb des Aggregats,
-- ein Foto des Bildschirms oder des Geräts.
+- vollständige Meldung,
+- Fehlercode,
+- Uhrzeit des Ereignisses,
+- Temperatur,
+- Zustand der Lüftung,
+- Angabe zu einem Stromausfall,
+- Angabe zum Betrieb des Stromaggregats,
+- Foto der Anzeige oder des Geräts.
 
-Das Gerät sollte vor dem Notieren des Codes nicht zurückgesetzt werden, sofern die Situation dies sicher zulässt.
+Das Gerät sollte nicht zurückgesetzt werden, bevor der Code notiert wurde, sofern die Situation dies sicher zulässt.
 
-### Ist ein vom Lüftungsregler unabhängiger Alarm sinnvoll?
+### Ist ein von der Lüftungssteuerung unabhängiges Alarmsystem sinnvoll?
 
-Ja, insbesondere dort, wo ein Lüftungsausfall schnell zu gefährlichen Bedingungen führen kann.
+Ja, insbesondere dort, wo ein Ausfall der Lüftung schnell zu gefährlichen Bedingungen führen kann.
 
 Eine unabhängige Zentrale mit eigenem Akku und Fernbenachrichtigung bietet eine zusätzliche Schutzebene.
 
 ### Welche Informationen sollten vor der Kontaktaufnahme mit dem technischen Support vorbereitet werden?
 
-Am besten werden folgende Informationen vorbereitet:
+Am besten werden folgende Angaben vorbereitet:
 
-1. das genaue Gerätemodell,
-2. eine Beschreibung der Anlage,
-3. die Anzahl und Parameter der angeschlossenen Geräte,
-4. die aktuellen mit dem Problem verbundenen Einstellungen,
-5. das genaue Symptom,
-6. der vollständige Fehler- oder Alarmcode,
+1. genaues Gerätemodell,
+2. Beschreibung der Anlage,
+3. Anzahl und Kenndaten der angeschlossenen Geräte,
+4. aktuelle Einstellungen im Zusammenhang mit dem Problem,
+5. genaues Fehlerbild,
+6. vollständiger Fehler- oder Alarmcode,
 7. Fotos des Geräts und der Typenschilder,
-8. Informationen über die letzten Änderungen in der Anlage.
+8. Angaben zu den letzten Änderungen an der Anlage.
 
 Dadurch kann die Diagnose erheblich verkürzt werden.
 
@@ -840,29 +840,29 @@ Dadurch kann die Diagnose erheblich verkürzt werden.
 
 Namen, Klemmenbezeichnungen und verfügbare Funktionen können sich zwischen Geräteversionen unterscheiden, die in verschiedenen Jahren hergestellt wurden.
 
-Wenn das Gerät mehrere oder ein Dutzend Jahre alt ist, sind vor der Anwendung einer Anleitung eines neueren Modells folgende Punkte zu bestätigen:
+Wenn das Gerät mehrere Jahre oder über zehn Jahre alt ist, müssen vor der Anwendung einer Anleitung für ein neueres Modell folgende Angaben bestätigt werden:
 
-- die genaue Gerätebezeichnung,
-- die Platinenversion,
-- die Art des Displays,
-- die Softwareversion,
-- das Klemmenbelegungsschema.
+- genaue Gerätebezeichnung,
+- Platinenversion,
+- Anzeigetyp,
+- Softwareversion,
+- Klemmenplan.
 
 :::warning Ältere Geräteversionen
 
-Gehen Sie nicht allein aufgrund eines ähnlichen Aussehens des Gehäuses von vollständiger Kompatibilität aus. Bestätigen Sie vor der Verwendung eines Schemas oder einer Anleitung das genaue Modell und die Version des Geräts.
+Gehen Sie nicht allein aufgrund eines ähnlichen Gehäuseaussehens von vollständiger Kompatibilität aus. Bestätigen Sie vor der Verwendung eines Schaltplans oder einer Anleitung das genaue Modell und die Geräteversion.
 
 :::
 
 
 ## Kontakt mit dem technischen Support
 
-Wenn das FAQ das Problem nicht löst, bereiten Sie vor der Kontaktaufnahme Folgendes vor:
+Wenn die FAQ das Problem nicht lösen, bereiten Sie vor der Kontaktaufnahme Folgendes vor:
 
-- ein Foto des Reglers,
+- ein Foto des Steuergeräts,
 - ein Foto des Typenschilds des Verbrauchers,
-- die Parameter der Motoren oder Stellantriebe,
-- das Anschlussdiagramm,
+- Kenndaten der Motoren oder Stellantriebe,
+- Anschlussplan,
 - eine genaue Beschreibung der gewünschten Funktionsweise.
 
-Dadurch kann die Geräteauswahl oder die Problemdiagnose anhand der tatsächlichen Parameter der Anlage und nicht auf Grundlage von Vermutungen durchgeführt werden.
+Dadurch kann die Auswahl des Geräts oder die Diagnose des Problems auf Grundlage der tatsächlichen Anlagenparameter statt auf Vermutungen erfolgen.

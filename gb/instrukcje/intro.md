@@ -2,44 +2,44 @@
 sidebar_position: 1
 ---
 
-# O nas 
+# About us 
 
-## Kim jesteśmy i czym się zajmujemy?
-Marka ELETOR powstała na początku 2005 roku. Jesteśmy polskim projektantem i producentem urządzeń elektronicznych. Posiadamy własne biuro projektowe, linię montażową oraz opracowane standardy produkcji. Nasza firma wyspecjalizowała się w projektowaniu i produkcji urządzeń kontrolno-pomiarowych dla branży rolnej. Oprócz działalności produkcyjnej, prowadzimy również działalność usługową, serwisową i handlową.
+## Who are we and what do we do?
+The ELETOR brand was established at the beginning of 2005. We are a Polish designer and manufacturer of electronic devices. We have our own design office, assembly line and established production standards. Our company specialises in the design and manufacture of monitoring and measurement devices for the agricultural sector. In addition to manufacturing, we also provide services, repairs and trading activities.
 
-## Działalność projektowa i usługowa
+## Design activities and services
 
-W ramach działalności podstawowej, spółka ELETOR świadczy usługi projektowania układów elektronicznych, według zaleceń zleceniodawcy. Posiadamy własne biuro projektowe, linię montażową, warsztat produkcyjny oraz dostęp do wykwalifikowanej kadry inżynierskiej, zarówno w ramach własnych zasobów ludzkich, jak i zewnętrznych zespołów projektowych.
+As part of its core activities, ELETOR provides electronic circuit design services according to the customer's requirements. We have our own design office, assembly line, production workshop and access to qualified engineering personnel, both within our own workforce and through external design teams.
 
-## Działalność usługowa w zakresie montażu układów elektronicznych
+## Electronic circuit assembly services
 
-W aktywach jednostki znajduje się laboratorium do produkcji prototypowej oraz nisko seryjnej. Posiadamy również dostęp do części i podzespołów elektronicznych od dostawców z całego świata. W ramach tych zasobów, świadczymy usługi montażu SMT i THT, zarówno z materiałów powierzonych, jak i pełnej komplementacji produkcji elektronicznej z materiałów przez nas dostarczonych.
+The company's assets include a laboratory for prototype and small-batch production. We also have access to electronic parts and components from suppliers worldwide. Using these resources, we provide SMT and THT assembly services, using either customer-supplied materials or a complete electronic production package with materials supplied by us.
 
-## Działalność produkcyjna
+## Manufacturing activities
 
-Wieloletnie doświadczenie w produkcji urządzeń elektronicznych dla przemysłu rolnego sprawiło, że nasza jednostka wyspecjalizowała się w produkcji urządzeń kontrolno-pomiarowych do hodowli zwierząt inwentarskich.
+Many years of experience in manufacturing electronic devices for the agricultural industry have led our company to specialise in the manufacture of monitoring and measurement devices for livestock farming.
 
-W ofercie stałej posiadamy wysokiej jakości sterowniki klimatu do płynnej wentylacji pomieszczeń inwentarskich. Dodatkowo, produkujemy szereg urządzeń peryferyjnych, w tym czujniki temperatury (cyfrowe i analogowe), centrale alarmowe (z powiadomieniem świetlnym, akustycznym lub na telefon GSM), sterowniki do automatycznego podawania pasz, zasilacze do alarmowego otwierania klap dolotowych powietrza oraz rozszerzenia mocy do sterowników wentylacji.
+Our standard product range includes high-quality climate controllers for continuously variable ventilation in livestock buildings. In addition, we manufacture a range of peripheral devices, including temperature sensors (digital and analogue), alarm control panels (with visual, audible or GSM telephone notifications), automatic feed delivery controllers, power supplies for emergency opening of air inlet flaps and power expansion units for ventilation controllers.
 
-Produkty z oferty stałej produkowane są pod marką ELETOR. Posiadają wszystkie koniecznie oznaczenia oraz dokumentacje, które umożliwiają handel naszymi produktami w sieciach handlowych na całym świecie oraz swobodny obrót logistyczny.
+Products in our standard range are manufactured under the ELETOR brand. They carry all the necessary markings and documentation that enable our products to be sold through retail networks worldwide and handled freely within logistics operations.
 
-Oprócz produkcji pod własną marką, spółka ELETOR świadczy usługi produkcji swoich wyrobów pod inną marką, w ramach produkcji OEM. Taki sposób produkcji umożliwia odbiorcom hurtowym kreowanie własnego wizerunku, oferując swoim klientom nasze produkty pod swoją marką.
+In addition to manufacturing under its own brand, ELETOR offers manufacturing services for its products under other brands as part of OEM production. This production model enables wholesale customers to develop their own brand identity by offering our products to their customers under their own brand.
 
-## Działalność handlowa
+## Trading activities
 
-W ramach działalności handlowej, spółka ELETOR wprowadziła do oferty szereg produktów komplementarnych z szeroko pojętej automatyki przemysłowej. W ofercie handlowej posiadamy, zarówno produkty wyprodukowane na zlecenie naszej firmy, jak również dostarczone przez inne sprawdzone marki. Wśród produktów handlowych, które zostały wyprodukowane na nasze zlecenie znajdują się przede wszystkim akcesoria metalowe (bloczki linowe, kątowniki, windy ręczne) oraz sygnalizatory akustyczne.
+As part of its trading activities, ELETOR has added a range of complementary products from the broader field of industrial automation to its portfolio. Our trading range includes both products manufactured to our company's order and products supplied by other trusted brands. Products manufactured to our order primarily include metal accessories (pulley blocks, angle brackets, manual winches) and audible signalling devices.
 
-Głównym dostawcą markowych produktów handlowych, które znajdują się w ofercie spółki ELETOR jest szwajcarska firma Belimo. Posiadamy pełną, aktualną ofertę produktów marki Belimo. Oferta Belimo obejmuje trzy główne kategorie produktowe:
+The main supplier of branded trading products in the ELETOR portfolio is the Swiss company Belimo. We offer the complete, current range of Belimo products. The Belimo range comprises three main product categories:
 
-- siłowniki: liniowe, obrotowe, wieloobrotowe i do zaworów,
-- zawory: strefowe, kulowe, z regulatorem lub kryzą, do wody pitnej oraz klapy motylkowe,
-- czujniki: temperatury, kanałowe, zewnętrzne, do pomieszczeń, do rurociągów; wielkości mierzone: temperatura, ciśnienie, wilgotność, CO2, LZO (lotne związki organiczne), natężenie przepływu.
-Na wszystkie urządzenia wyprodukowane w naszym zakładzie udzielamy dwuletniej gwarancji producenta. Spółka ELETOR wszystkie naprawy gwarancyjne wykonuje w swoim zakładzie. Nie posiadamy autoryzowanych punktów serwisowych.
+- actuators: linear, rotary, multi-turn and valve actuators,
+- valves: zone valves, ball valves, valves with a controller or orifice, drinking water valves and butterfly valves,
+- sensors: temperature, duct, outdoor, room and pipe sensors; measured quantities: temperature, pressure, humidity, CO2, VOCs (volatile organic compounds), flow rate.
+We provide a two-year manufacturer's warranty on all devices manufactured at our facility. ELETOR performs all warranty repairs at its own facility. We have no authorised service centres.
 
-Dbamy o środowisko naturalne, nie chcemy, aby nasze urządzenia zaśmiecały planetę, dlatego – już na etapie projektowania – myślimy, aby jak najbardziej wydłużyć okres życia naszego produktu. Dobieramy elementy i materiały najwyższej jakości i sprawności, aby nasze urządzenia działały o wiele dłużej niż wynika to z okresu gwarancyjnego. Ponadto wszystkie elementy mechaniczne i elektroniczne podlegają wymianie serwisowej, niezależnie od wieku urządzenia. Wyjątkiem są sytuacje, gdy dany produkt nie jest już produkowany i nie mamy możliwości zastąpienia elementu z aktualnie posiadanych zasobów magazynowych.
+We care about the natural environment and do not want our devices to litter the planet. Therefore, as early as the design stage, we consider how to extend the service life of our products as much as possible. We select components and materials of the highest quality and efficiency so that our devices operate for much longer than the warranty period. Furthermore, all mechanical and electronic components can be replaced as part of servicing, regardless of the age of the device. Exceptions apply where a product is no longer manufactured and we cannot replace the component using our current stock.
 
-Rezultatem restrykcyjnych metod produkcji jest bardzo niski wskaźnik napraw gwarancyjnych, utrzymujący się od kilkunastu lat w granicach 0,1-0,2%. Ciągle pracujemy nad tym, żeby wskaźnik ten spadł do 0%. Jednak, jak się okazuje, najczęstsze powody usterek naszych urządzeń w czasie gwarancyjnym są poza naszym wpływem. Wynikają głównie z uszkodzeń elementów elektronicznych lub będących następstwem nieprawidłowego transportu.
+Our stringent production methods result in a very low warranty repair rate, which has remained within the range of 0,1-0,2% for over a decade. We are continually working to reduce this rate to 0%. However, the most common causes of faults in our devices during the warranty period prove to be beyond our control. They mainly arise from damage to electronic components or from improper transport.
 
-## Zarząd spółki ELETOR
+## Management Board of ELETOR
 
-Nota prawna: 'ELETOR SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ z siedzibą w Polsce, adres: Zbiczno, ul. Pod Sosno 28, 87-305 Zbiczno wpisana do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy w Toruniu VII Wydział Gospodarczy KRS pod numerem 0000793000, o kapitale zakładowym wynoszącym 100.000 złotych w całości opłaconym, nr NIP: 8741795623, REGON: 383758757, posiada Zarząd w osobach: Karol Zduński - Prezes Zarządu. Katarzyna Zduńska - Członek Zarządu.
+Legal notice: 'ELETOR LIMITED LIABILITY COMPANY with its registered office in Poland, address: Zbiczno, ul. Pod Sosno 28, 87-305 Zbiczno, entered in the Register of Entrepreneurs maintained by the District Court in Toruń, VII Commercial Division of the National Court Register (KRS), under number 0000793000, with fully paid-up share capital of 100.000 Polish zlotys, Tax Identification Number (NIP): 8741795623, National Business Registry Number (REGON): 383758757, has a Management Board comprising: Karol Zduński - President of the Management Board. Katarzyna Zduńska - Member of the Management Board.

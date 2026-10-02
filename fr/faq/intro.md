@@ -3,8 +3,8 @@ id: faq
 title: FAQ
 sidebar_label: FAQ
 slug: /faq
-description: Les questions les plus fréquentes concernant le choix, la configuration,
-  le diagnostic et le service des appareils ELETOR.
+description: Questions les plus fréquentes concernant le choix, la configuration,
+  le diagnostic et le service après-vente des appareils ELETOR.
 keywords:
 - ELETOR
 - FAQ
@@ -14,318 +14,318 @@ keywords:
 - actionneurs
 - alarmes
 - variateurs de fréquence
-- service
+- service après-vente
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
 # Questions fréquemment posées
 
-Cette FAQ a été élaborée à partir d’une analyse anonymisée de conversations réelles avec des utilisateurs et des clients de ELETOR. Les réponses ont été généralisées afin d’aider dans les cas typiques et ne contiennent pas de données concernant des personnes ou des installations spécifiques.
+Cette FAQ a été élaborée à partir d’une analyse anonymisée de conversations réelles avec les utilisateurs et les clients de ELETOR. Les réponses ont été généralisées afin d’apporter une aide dans les cas courants et de ne contenir aucune donnée concernant des personnes ou des installations particulières.
 
-:::note Portée de la FAQ
+:::note Champ d’application de la FAQ
 
-Les réponses concernent des cas typiques. Les repères de bornes, les fonctions et le mode de raccordement peuvent différer selon les modèles et les versions des appareils. En cas de doute, utilisez la documentation appropriée au produit concerné.
+Les réponses concernent les cas courants. Les désignations des bornes, les fonctions et les modalités de raccordement peuvent varier selon les modèles et les versions des appareils. En cas de doute, consultez la documentation correspondant au produit concerné.
 
 :::
 
 :::warning Sécurité
 
-Effectuez les travaux sur l’installation électrique conformément à la documentation de l’appareil et aux règles de sécurité en vigueur. Les travaux sous tension secteur doivent être effectués par une personne disposant des qualifications appropriées.
+Effectuez les travaux sur l’installation électrique conformément à la documentation de l’appareil et aux règles de sécurité en vigueur. Les travaux sous tension secteur doivent être effectués par une personne possédant les qualifications appropriées.
 
 :::
 
 ## Choix du contrôleur et de la puissance
 
-### Comment choisir un contrôleur pour des ventilateurs ?
+### Comment choisir un contrôleur pour les ventilateurs ?
 
-La base du choix est avant tout le courant total des ventilateurs, et non uniquement leur nombre.
+Le choix repose avant tout sur le courant total des ventilateurs, et non uniquement sur leur nombre.
 
-:::tip Réunissez les données avant le choix
+:::tip Préparez les données avant de faire votre choix
 
-Plus les données sur les moteurs et le mode de fonctionnement de l’installation sont précises, plus le choix du contrôleur est fiable.
+Plus les données concernant les moteurs et le mode de fonctionnement de l’installation sont précises, plus le choix du contrôleur est fiable.
 
 :::
 
-Avant le choix, il est utile de préparer :
+Avant de faire votre choix, il est utile de préparer :
 
 - le nombre de ventilateurs,
 - la tension d’alimentation,
 - la puissance ou le courant nominal de chaque ventilateur,
-- l’information indiquant si tous les ventilateurs doivent fonctionner en variation continue,
+- l’information indiquant si tous les ventilateurs doivent fonctionner avec une régulation continue,
 - l’information indiquant si les ventilateurs peuvent être répartis en groupes,
-- des informations sur les appareils supplémentaires, par ex. les aérothermes ou les entrées d’air.
+- les informations sur les appareils supplémentaires, par exemple les appareils de chauffage ou les entrées d’air.
 
-Le contrôleur ne doit pas être choisi exactement « à la limite ». Il convient de conserver une marge appropriée par rapport à la charge maximale.
+Le contrôleur ne doit pas être dimensionné exactement à la limite de ses capacités. Il convient de conserver une marge appropriée par rapport à la charge maximale.
 
-### Est-il suffisant d’additionner la puissance des ventilateurs en watts ?
+### Suffit-il d’additionner la puissance des ventilateurs en watts ?
 
-Pour une estimation préliminaire, il est possible d’utiliser la puissance, mais le choix final doit être fondé sur le courant nominal des appareils ainsi que sur la nature de la charge.
+La puissance peut servir à une estimation préliminaire, mais le choix définitif doit reposer sur le courant nominal des appareils et sur la nature de la charge.
 
-Au démarrage, un moteur peut consommer plus de courant qu’en fonctionnement normal. C’est pourquoi deux ensembles de ventilateurs de puissance nominale similaire ne constituent pas toujours une charge équivalente pour le contrôleur.
+Au démarrage, un moteur peut consommer davantage de courant qu’en fonctionnement normal. C’est pourquoi deux ensembles de ventilateurs présentant une puissance nominale similaire ne constituent pas toujours une charge équivalente pour le contrôleur.
 
-### J’ai plusieurs petits ventilateurs. Puis-je les raccorder en parallèle sur une seule sortie ?
+### J’ai plusieurs petits ventilateurs. Puis-je les raccorder en parallèle à une seule sortie ?
 
-Oui, si :
+Oui, à condition que :
 
-- ils sont prévus pour ce mode de commande,
+- ils soient conçus pour ce mode de commande,
 - ils doivent fonctionner ensemble,
 - la somme des charges ne dépasse pas le courant admissible de la sortie,
-- le mode de raccordement est conforme à la documentation du contrôleur.
+- le raccordement soit conforme à la documentation du contrôleur.
 
-Pour un plus grand nombre de ventilateurs, il convient d’envisager une répartition en groupes ou l’utilisation d’une extension de puissance.
+Lorsque le nombre de ventilateurs est important, il est utile d’envisager leur répartition en groupes ou l’utilisation d’une extension de puissance.
 
 ### Quand une extension de puissance est-elle nécessaire ?
 
-Une extension de puissance est utilisée lorsque la charge dépasse les capacités de la sortie du contrôleur ou lorsque l’installation doit être étendue à un plus grand nombre de ventilateurs.
+Une extension de puissance est utilisée lorsque la charge dépasse les capacités de la sortie du contrôleur ou lorsque l’installation doit être agrandie par l’ajout de ventilateurs.
 
 Le contrôleur transmet alors le signal de commande, tandis que la charge proprement dite est prise en charge par un module supplémentaire.
 
-### L’installation peut-elle être ultérieurement étendue avec des ventilateurs supplémentaires ?
+### Peut-on agrandir ultérieurement l’installation en ajoutant des ventilateurs ?
 
-Dans de nombreuses installations, oui. On utilise le plus souvent :
+Oui, dans de nombreuses installations. Les solutions les plus courantes sont :
 
 - une extension de puissance supplémentaire,
 - un groupe de ventilation supplémentaire,
-- un contacteur enclenchant le groupe suivant,
+- un contacteur mettant en marche un groupe supplémentaire,
 - un variateur de fréquence dans le cas de moteurs triphasés.
 
-Il est préférable de prévoir l’extension envisagée dès le premier choix du contrôleur.
+Il est préférable de prévoir l’extension envisagée dès le choix initial du contrôleur.
 
-### Tous les ventilateurs doivent-ils fonctionner en variation continue ?
+### Tous les ventilateurs doivent-ils fonctionner avec une régulation continue ?
 
-Non. Deux solutions sont typiques :
+Non. Deux solutions sont courantes :
 
-1. tous les ventilateurs fonctionnent en variation continue,
-2. le premier groupe fonctionne en variation continue, et les groupes suivants sont ajoutés progressivement, par ex. au moyen de contacteurs.
+1. tous les ventilateurs fonctionnent avec une régulation continue,
+2. le premier groupe fonctionne avec une régulation continue, tandis que les groupes suivants sont mis en marche par paliers, par exemple au moyen de contacteurs.
 
-La seconde solution permet de gérer une installation plus importante sans régulation continue de chaque ventilateur.
+La deuxième solution permet de gérer une installation plus importante sans régulation continue de chaque ventilateur.
 
-### J’ai 10 ventilateurs. Ai-je besoin d’un très grand contrôleur ?
+### J’ai 10 ventilateurs. Ai-je besoin d’un contrôleur de très grande capacité ?
 
-Pas toujours. Plusieurs modes de commande peuvent être appliqués :
+Pas toujours. Plusieurs modes de commande peuvent être utilisés :
 
-- répartition en groupes,
-- extensions de puissance,
-- contacteurs,
-- variateur de fréquence.
+- la répartition en groupes,
+- les extensions de puissance,
+- les contacteurs,
+- un variateur de fréquence.
 
-Le choix final dépend des paramètres électriques des ventilateurs ainsi que du fait qu’ils doivent tous varier simultanément ou non.
+Le choix définitif dépend des caractéristiques électriques des ventilateurs et de la nécessité ou non de faire varier simultanément la vitesse de tous les ventilateurs.
 
-### Les contrôleurs 6 A et 12 A diffèrent-ils uniquement par la charge admissible ?
+### Les contrôleurs 6 A et 12 A diffèrent-ils uniquement par leur charge admissible ?
 
-Il ne faut pas supposer que la seule différence réside dans la valeur du courant. Les différentes versions et générations d’appareils peuvent différer par leur équipement ou leur mode de réalisation.
+Il ne faut pas supposer que la seule différence est la valeur du courant. Les différentes versions et générations d’appareils peuvent présenter des différences d’équipement ou de conception.
 
-Lors du remplacement d’un appareil, il faut vérifier le modèle exact et la documentation actuelle.
+Lors du remplacement d’un appareil, il convient de vérifier le modèle exact et la documentation actuelle.
 
 
 ## Ventilateurs et commande de la ventilation
 
-### Le contrôleur régule-t-il les ventilateurs en continu ?
+### Le contrôleur assure-t-il une régulation continue des ventilateurs ?
 
-Dans les contrôleurs destinés à la régulation continue de la ventilation, la vitesse des ventilateurs est modifiée en fonction de la demande résultant notamment de la température.
+Dans les contrôleurs conçus pour la régulation continue de la ventilation, la vitesse des ventilateurs varie en fonction des besoins résultant notamment de la température.
 
-Il faut toutefois vérifier si le type de moteur concerné convient au mode de régulation utilisé.
+Il convient toutefois de vérifier que le type de moteur concerné est adapté au mode de régulation utilisé.
 
 ### Que signifie la température de consigne ?
 
 La température de consigne est la valeur à laquelle le contrôleur compare la mesure actuelle de la température.
 
-Sur cette base, le contrôleur augmente ou réduit l’intensité de la ventilation conformément aux autres réglages, par ex. la bande de régulation, le niveau minimal et le niveau maximal.
+Sur cette base, le contrôleur augmente ou diminue l’intensité de la ventilation conformément aux autres réglages, par exemple la bande de régulation et les niveaux minimal et maximal.
 
 ### Que signifie le niveau minimal de ventilation ?
 
 Il s’agit de la valeur minimale de commande du ventilateur en fonctionnement automatique.
 
-Ce réglage évite un fonctionnement en dessous du niveau auquel le ventilateur pourrait fonctionner de manière instable ou assurer un renouvellement d’air insuffisant.
+Ce réglage empêche le fonctionnement en dessous d’un niveau auquel le ventilateur pourrait fonctionner de manière instable ou assurer un renouvellement d’air insuffisant.
 
 ### Que signifie le niveau maximal de ventilation ?
 
 Il s’agit de la limite supérieure de la valeur de commande de la ventilation.
 
-Par exemple, le réglage d’une valeur inférieure à 100% peut limiter la vitesse maximale du ventilateur, si l’installation l’exige.
+Par exemple, le réglage d’une valeur inférieure à 100% peut limiter la vitesse maximale du ventilateur si l’installation l’exige.
 
 ### Que signifie la bande de ventilation ?
 
-La bande de ventilation définit la plage de température dans laquelle le contrôleur passe du niveau minimal au niveau maximal de ventilation.
+La bande de ventilation définit la plage de températures dans laquelle le contrôleur passe du niveau minimal au niveau maximal de ventilation.
 
-Plus la bande est étroite, plus la commande réagit rapidement à une variation de température par une augmentation du débit.
+Plus la bande est étroite, plus la commande réagit rapidement à une variation de température en augmentant le débit.
 
-### Après la mise en marche, le ventilateur passe d’abord à 100%, puis ne ralentit qu’ensuite. Pourquoi ?
+### Après le démarrage, le ventilateur atteint d’abord 100%, puis ralentit. Pourquoi ?
 
-La fonction de démarrage peut être active, son rôle étant de lancer momentanément le moteur à une puissance plus élevée.
+Une fonction de démarrage peut être active ; elle sert à faire démarrer brièvement le moteur à une puissance plus élevée.
 
-Selon la version du contrôleur, il convient de vérifier les réglages liés à :
+Selon la version du contrôleur, il convient de vérifier les réglages liés :
 
-- la fonction Soft Start,
-- la durée d’accélération,
-- la durée de fonctionnement à 100%,
-- la durée de décélération.
+- à la fonction Soft Start,
+- au temps d’accélération,
+- au temps de fonctionnement à 100%,
+- au temps de décélération.
 
-Si la fonction n’est pas nécessaire dans l’installation concernée, les paramètres appropriés peuvent être modifiés conformément à la notice de l’appareil.
+Si cette fonction n’est pas nécessaire dans l’installation concernée, les paramètres correspondants peuvent être modifiés conformément à la notice de l’appareil.
 
-### Pourquoi le ventilateur peut-il être momentanément lancé à pleine puissance au démarrage ?
+### Pourquoi le ventilateur peut-il être brièvement mis en marche à pleine puissance au démarrage ?
 
-Un tel démarrage peut faciliter le démarrage fiable du ventilateur ainsi que dans les installations où les éléments mécaniques peuvent opposer une résistance plus importante au démarrage.
+Ce type de démarrage peut faciliter un démarrage fiable du ventilateur ainsi que le fonctionnement dans les installations où les éléments mécaniques peuvent opposer une résistance plus importante au démarrage.
 
 Cela n’est toutefois pas nécessaire dans toutes les installations.
 
-### Que signifient la durée d’accélération et la durée de décélération ?
+### Que signifient le temps d’accélération et le temps de décélération ?
 
-**La durée d’accélération** définit la manière dont la commande augmente lors du démarrage du ventilateur.
+**Le temps d’accélération** définit la manière dont la commande augmente pendant le démarrage du ventilateur.
 
-**La durée de décélération** définit la manière dont la vitesse diminue.
+**Le temps de décélération** définit la manière dont la vitesse diminue.
 
-Ces deux paramètres permettent de limiter les changements brusques de vitesse de rotation et du fonctionnement de l’installation.
+Ces deux paramètres permettent de limiter les variations brusques de vitesse et de fonctionnement de l’installation.
 
 ### Pourquoi deux contrôleurs identiques peuvent-ils démarrer les ventilateurs différemment ?
 
-La cause la plus fréquente est la différence de réglages.
+La cause la plus fréquente est une différence de réglages.
 
-Il convient de comparer en particulier :
+Il est utile de comparer en priorité :
 
 - la température de consigne,
 - la bande de ventilation,
 - le minimum et le maximum,
-- les réglages Soft Start,
-- les durées d’accélération et de décélération,
+- les réglages de Soft Start,
+- les temps d’accélération et de décélération,
 - la configuration des groupes de ventilation.
 
-### Le contrôleur peut-il déclencher périodiquement la ventilation indépendamment de la température ?
+### Le contrôleur peut-il mettre périodiquement la ventilation en marche indépendamment de la température ?
 
 Selon le modèle, une fonction d’aération périodique est disponible.
 
-Elle peut déclencher la ventilation pendant une durée déterminée à des intervalles définis, même lorsque la régulation de température ne demande pas une augmentation de la ventilation.
+Elle peut mettre la ventilation en marche pendant une durée déterminée, à des intervalles définis, même lorsque la régulation de température ne nécessite pas d’augmentation de la ventilation.
 
 ### À quoi servent les groupes de ventilation ?
 
-Les groupes permettent d’augmenter progressivement la capacité de l’installation.
+Les groupes permettent d’augmenter le débit de l’installation par paliers.
 
 Par exemple :
 
-- le groupe 1 fonctionne en variation continue,
-- le groupe 2 démarre les ventilateurs supplémentaires,
-- le groupe suivant se déclenche lorsque la demande est encore plus élevée.
+- le groupe 1 fonctionne avec une régulation continue,
+- le groupe 2 met en marche des ventilateurs supplémentaires,
+- le groupe suivant se met en marche lorsque les besoins augmentent encore.
 
 Cela permet de commander un grand nombre de ventilateurs sans régulation continue de chacun d’eux.
 
-### Un groupe supplémentaire de ventilateurs peut-il être enclenché par contacteur ?
+### Peut-on mettre en marche un groupe supplémentaire de ventilateurs au moyen d’un contacteur ?
 
-Oui. La sortie relais du contrôleur peut commander la bobine d’un contacteur correctement dimensionné.
+Oui. La sortie à relais du contrôleur peut commander la bobine d’un contacteur correctement dimensionné.
 
-La charge des ventilateurs ne doit alors pas être acheminée directement par un petit contact de commande.
+Dans ce cas, le courant de charge des ventilateurs ne doit pas passer directement par le petit contact de commande.
 
 ### Que signifie le symbole du ventilateur ou le voyant jaune sur le contrôleur ?
 
 Selon le modèle, les voyants indiquent l’état actuel des sorties et des fonctions.
 
-La signalisation jaune peut indiquer une fonction de service active, par ex. le fonctionnement de la ventilation, du chauffage ou d’un groupe supplémentaire.
+Une signalisation jaune peut indiquer une fonction de travail active, par exemple le fonctionnement de la ventilation, du chauffage ou d’un groupe supplémentaire.
 
 La signification exacte doit être vérifiée dans la notice du modèle concerné.
 
 ### Que signifie le symbole du mode manuel ?
 
-Le mode manuel signifie que la valeur de commande a été imposée par l’utilisateur et n’est pas calculée automatiquement à ce moment-là sur la base de la température.
+Le mode manuel signifie que la valeur de commande a été imposée par l’utilisateur et n’est pas, à cet instant, calculée automatiquement à partir de la température.
 
-Après la fin des essais, il faut s’assurer que le contrôleur a été rétabli dans le mode automatique approprié.
+À la fin des essais, il convient de s’assurer que le contrôleur a été rétabli dans le mode automatique approprié.
 
 
 ## Entrées d’air et actionneurs
 
 ### Le contrôleur peut-il commander les entrées d’air ?
 
-Oui, certains contrôleurs permettent de fonctionner avec des entraînements d’entrées d’air.
+Oui, certains contrôleurs permettent de fonctionner avec les motorisations des entrées d’air.
 
-Le mode de raccordement dépend du type d’actionneur et de son mode de commande.
+Le raccordement dépend du type d’actionneur et de son mode de commande.
 
-### Quels types d’actionneurs peuvent être utilisés pour les entrées d’air ?
+### Quels types d’actionneurs peut-on utiliser pour les entrées d’air ?
 
-Dans les échanges techniques, deux solutions étaient les plus fréquentes :
+Deux solutions ont été le plus fréquemment évoquées dans les conversations techniques :
 
-- un actionneur commandé par signal analogique 0–10 V ou 2–10 V,
-- un actionneur réversible ouvrir/fermer avec signal de retour, par ex. à partir d’un potentiomètre.
+- un actionneur commandé par un signal analogique 0–10 V ou 2–10 V,
+- un actionneur réversible ouverture/fermeture avec un signal de retour, par exemple provenant d’un potentiomètre.
 
-Avant l’achat, il faut vérifier la compatibilité du modèle concerné avec le contrôleur utilisé.
+Avant l’achat, il convient de vérifier la compatibilité du modèle concerné avec le contrôleur utilisé.
 
-### La tension d’alimentation de l’actionneur 24 V ou 230 V a-t-elle une importance pour le signal 0–10 V ?
+### La tension d’alimentation de l’actionneur 24 V ou 230 V a-t-elle une incidence sur le signal 0–10 V ?
 
 Le signal de commande et l’alimentation de l’actionneur sont des paramètres distincts.
 
-L’actionneur peut être alimenté par une tension différente de la tension du signal de commande. Les deux paramètres doivent être conformes à la documentation de l’actionneur et du contrôleur.
+L’actionneur peut être alimenté par une tension différente de celle du signal de commande. Les deux paramètres doivent être conformes à la documentation de l’actionneur et du contrôleur.
 
 ### Que signifie la commande 0–10 V ?
 
-Le contrôleur envoie un signal analogique en tension représentant la position ou le niveau de commande demandé.
+Le contrôleur envoie un signal analogique en tension représentant la position souhaitée ou le niveau de commande.
 
-Dans une application typique, une valeur plus faible signifie une ouverture plus faible, et une valeur plus élevée une ouverture plus grande, mais la caractéristique réelle doit être vérifiée dans la documentation de l’actionneur.
+Dans une application courante, une valeur plus basse correspond à une ouverture plus faible, et une valeur plus élevée à une ouverture plus grande, mais la caractéristique réelle doit être vérifiée dans la documentation de l’actionneur.
 
 ### Quelle est la différence entre 0–10 V et 2–10 V ?
 
 Dans les deux cas, la position est définie par un signal analogique.
 
-Dans le standard 2–10 V, la partie basse de la plage est décalée et peut permettre à l’appareil de distinguer le signal de commande de son absence.
+Dans le standard 2–10 V, la partie inférieure de la plage est décalée et peut permettre à l’appareil de distinguer le signal de commande de son absence.
 
 Le contrôleur et l’actionneur doivent prendre en charge une plage compatible.
 
 ### Comment choisir un actionneur en fonction du nombre d’entrées d’air ?
 
-Il ne faut pas choisir un actionneur uniquement sur la base du nombre de volets.
+Il ne faut pas choisir l’actionneur uniquement en fonction du nombre de volets.
 
-Il faut tenir compte de :
+Il faut tenir compte :
 
-- la force ou le couple requis,
-- la longueur et le mode de guidage du mécanisme,
-- les résistances des volets,
-- la longueur de course,
-- la vitesse de fonctionnement,
-- la tension d’alimentation,
-- le type de commande,
-- le retour d’information requis.
+- de la force ou du couple requis,
+- de la longueur et du cheminement du mécanisme,
+- de la résistance des volets,
+- de la longueur de course,
+- de la vitesse de fonctionnement,
+- de la tension d’alimentation,
+- du type de commande,
+- du retour requis.
 
 ### Un seul actionneur peut-il commander plusieurs volets ?
 
-Oui, si la mécanique de l’installation permet de relier les volets par un système commun et si le couple ou la force requis ne dépassent pas les capacités de l’actionneur.
+Oui, si la mécanique de l’installation permet de relier les volets par un système commun et si le couple ou la force requis ne dépasse pas les capacités de l’actionneur.
 
-En pratique, le choix est déterminé par les résistances de l’ensemble du mécanisme, et non par le seul nombre de volets.
+En pratique, le choix dépend de la résistance de l’ensemble du mécanisme, et non du seul nombre de volets.
 
-### Plusieurs actionneurs peuvent-ils être raccordés en parallèle et commandés par un seul signal ?
+### Peut-on raccorder plusieurs actionneurs en parallèle et les commander par un seul signal ?
 
-Dans certains systèmes, cela est possible, mais il faut vérifier la documentation des actionneurs ainsi que la charge admissible de la sortie de commande.
+Cela est possible dans certains systèmes, mais il convient de vérifier la documentation des actionneurs et la charge admissible de la sortie de commande.
 
-Dans le cas d’entraînements réversibles sans retour indépendant, il peut également se produire un décalage progressif de la position des différents actionneurs.
+Dans le cas de motorisations réversibles sans retour indépendant, les positions des différents actionneurs peuvent également se décaler progressivement.
 
-### Pourquoi plusieurs actionneurs peuvent-ils avec le temps se positionner différemment ?
+### Pourquoi plusieurs actionneurs peuvent-ils adopter des positions différentes avec le temps ?
 
-Même des moteurs identiques peuvent fonctionner à une vitesse légèrement différente en raison de :
+Même des moteurs identiques peuvent fonctionner à des vitesses légèrement différentes en raison :
 
-- charges différentes,
-- résistances mécaniques,
-- tolérance des paramètres du moteur,
-- différences de transmission.
+- de charges différentes,
+- de résistances mécaniques,
+- des tolérances des paramètres du moteur,
+- de différences entre les réducteurs.
 
 C’est pourquoi, lorsqu’une synchronisation précise est requise, un retour approprié ou un contrôle individuel de la position est nécessaire.
 
 ### Les entrées d’air peuvent-elles être commandées proportionnellement à la ventilation ?
 
-Oui. Dans des systèmes correctement configurés, la position des entrées d’air peut être liée au niveau actuel de ventilation.
+Oui. Dans les systèmes correctement configurés, la position des entrées d’air peut être liée au niveau actuel de ventilation.
 
-Ainsi, à mesure que la capacité des ventilateurs augmente, l’ouverture des entrées d’air augmente également.
+Ainsi, l’ouverture des entrées d’air augmente également lorsque le débit des ventilateurs augmente.
 
 ### L’actionneur 24 V nécessite-t-il une alimentation séparée ?
 
-Si le contrôleur ne dispose pas d’une sortie d’alimentation appropriée de la puissance requise, une alimentation séparée est nécessaire.
+Si le contrôleur ne dispose pas d’une sortie d’alimentation appropriée offrant la puissance requise, une alimentation séparée est nécessaire.
 
-Sa puissance doit être choisie en fonction de la consommation de courant de l’actionneur ainsi que des autres appareils alimentés par la même source.
+Sa puissance doit être dimensionnée en fonction du courant consommé par l’actionneur et par les autres appareils alimentés à partir de la même source.
 
 ### Peut-on utiliser un actionneur d’une autre marque ?
 
-Souvent oui, si ses paramètres électriques et son mode de commande sont compatibles avec les sorties du contrôleur.
+Souvent oui, si ses caractéristiques électriques et son mode de commande sont compatibles avec les sorties du contrôleur.
 
-Avant le raccordement, il faut vérifier :
+Avant le raccordement, il convient de vérifier :
 
 - la tension,
 - le type de signal,
-- le schéma des conducteurs,
+- le schéma de câblage,
 - les sens de fonctionnement,
 - le signal de position,
 - la charge admissible.
@@ -335,11 +335,11 @@ Avant le raccordement, il faut vérifier :
 
 ### Où raccorder le capteur de température ?
 
-Le capteur doit être raccordé à l’entrée capteur prévue par le fabricant, à l’entrée capteur indiquée dans la documentation du modèle concerné.
+Le capteur doit être raccordé à l’entrée pour capteur prévue par le fabricant, à l’entrée pour capteur indiquée dans la documentation du modèle concerné.
 
-Il ne faut pas supposer que les repères de bornes sont identiques dans toutes les versions des appareils.
+Il ne faut pas supposer que les désignations des bornes sont identiques dans toutes les versions des appareils.
 
-### Le capteur de température indique une valeur différente de celle d’un thermomètre de référence. Que faire ?
+### Le capteur de température indique une valeur différente de celle du thermomètre de référence. Que faire ?
 
 Si le contrôleur dispose d’une fonction d’étalonnage du capteur, l’indication peut être corrigée après comparaison avec un thermomètre de référence fiable.
 
@@ -354,16 +354,16 @@ Avant de modifier l’étalonnage, il est utile de s’assurer que :
 
 Cela dépend de la version du contrôleur, du capteur et du logiciel.
 
-Dans certaines solutions, la correction peut nécessiter une fonction logicielle appropriée ou un type de capteur compatible. Si l’écart est important et répétitif, il faut vérifier la version de l’appareil et contacter le support technique.
+Dans certaines solutions, la correction peut nécessiter une fonction logicielle appropriée ou un type de capteur compatible. Si l’écart est important et répétable, il convient de vérifier la version de l’appareil et de contacter l’assistance technique.
 
-### Une mesure erronée signifie-t-elle toujours que le capteur est endommagé ?
+### Une mesure incorrecte signifie-t-elle toujours que le capteur est défectueux ?
 
 Non.
 
 La cause peut également être :
 
-- un emplacement incorrect du capteur,
-- le conducteur,
+- un emplacement inapproprié du capteur,
+- le câble,
 - le raccordement électrique,
 - la configuration,
 - un type de capteur inadapté,
@@ -377,82 +377,82 @@ La cause peut également être :
 
 Il ne faut pas le supposer.
 
-La sortie d’alarme du contrôleur est généralement une sortie de commande ou un contact relais. La sirène peut nécessiter une alimentation séparée ainsi qu’une centrale d’alarme.
+La sortie d’alarme du contrôleur est généralement une sortie de commande ou un contact de relais. La sirène peut nécessiter une alimentation séparée et une centrale d’alarme.
 
-### À quoi sert une centrale d’alarme ?
+### Pourquoi utilise-t-on une centrale d’alarme ?
 
 La centrale peut :
 
 - recevoir les signaux d’alarme des contrôleurs,
 - alimenter le dispositif de signalisation,
-- maintenir le fonctionnement en cas de coupure d’alimentation,
-- signaler l’alarme par un son ou une lumière,
+- maintenir le fonctionnement pendant une coupure d’alimentation,
+- signaler une alarme par un signal sonore ou lumineux,
 - envoyer des notifications GSM dans les versions disposant de cette fonction.
 
 ### La centrale peut-elle signaler une coupure d’alimentation du contrôleur ?
 
 Oui, si le système a été correctement raccordé.
 
-La solution peut détecter non seulement un dépassement de température, mais aussi une perte de signal du contrôleur provoquée par l’absence de son alimentation.
+La solution peut détecter non seulement un dépassement de température, mais aussi la perte du signal du contrôleur causée par une coupure de son alimentation.
 
 ### Où règle-t-on les températures minimale et maximale d’alarme ?
 
-Dans une configuration typique, les seuils d’alarme sont réglés dans le contrôleur qui gère la chambre ou le local concerné.
+Dans une configuration courante, les seuils d’alarme sont réglés dans le contrôleur qui gère la chambre ou le local concerné.
 
 La centrale d’alarme reçoit ensuite l’information indiquant que le contrôleur a signalé une alarme.
 
-### Une centrale GSM nécessite-t-elle une carte SIM ?
+### La centrale GSM nécessite-t-elle une carte SIM ?
 
-Pour l’envoi d’appels et de messages via le réseau mobile, une carte SIM active ou une autre solution de communication prévue dans le modèle concerné est nécessaire.
+Pour émettre des appels et envoyer des messages via le réseau mobile, une carte SIM active ou une autre solution de communication prévue dans le modèle concerné est nécessaire.
 
 Sans connexion active au réseau mobile, les fonctions téléphoniques et SMS ne fonctionneront pas.
 
-### L’alarme peut-elle envoyer l’information indiquant de quel contrôleur provient l’événement ?
+### Le système d’alarme peut-il indiquer de quel contrôleur provient l’événement ?
 
-Dans un système correctement configuré, oui.
+Oui, dans un système correctement configuré.
 
-Les entrées de la centrale peuvent être attribuées à des locaux ou à des contrôleurs spécifiques, ce qui permet au message d’identifier la source de l’alarme.
+Les entrées de la centrale peuvent être attribuées à des locaux ou à des contrôleurs précis, ce qui permet au message d’identifier la source de l’alarme.
 
 ### Combien de contrôleurs peut-on raccorder à une seule centrale d’alarme ?
 
 Cela dépend du modèle de la centrale.
 
-Dans les transcriptions, il y avait des centrales prenant en charge jusqu’à huit entrées, mais avant de réaliser l’installation, il faut vérifier la spécification actuelle de l’appareil concerné.
+Les transcriptions mentionnaient des centrales prenant en charge jusqu’à huit entrées ; toutefois, avant de réaliser l’installation, il convient de vérifier les spécifications actuelles de l’appareil concerné.
 
 ### Quel accumulateur est utilisé dans la centrale d’alarme ?
 
-Dans une partie des appareils évoqués dans les échanges, un accumulateur 12 V 7 Ah était utilisé.
+Certains appareils évoqués dans les conversations utilisaient un accumulateur 12 V 7 Ah.
 
-Avant d’acheter un remplacement, il faut vérifier le marquage sur l’accumulateur existant ainsi que la spécification de la centrale, car d’autres versions d’appareils peuvent nécessiter un autre accumulateur.
+Avant d’acheter un accumulateur de remplacement, il convient de vérifier le marquage de l’accumulateur existant et les spécifications de la centrale, car d’autres versions des appareils peuvent nécessiter un accumulateur différent.
 
-### La centrale envoie des messages de basse tension. Que faut-il vérifier ?
+### La centrale envoie des messages de tension faible. Que vérifier ?
 
-En premier lieu, il faut vérifier :
+Il convient de vérifier en premier lieu :
 
 - l’état de l’accumulateur,
 - son âge,
-- les raccordements de l’accumulateur,
+- les connexions de l’accumulateur,
 - la présence de l’alimentation secteur,
 - le fonctionnement du chargeur ou de l’alimentation de la centrale.
 
-Un accumulateur usé peut provoquer des messages cycliques de basse tension.
+Un accumulateur usé peut provoquer des messages cycliques de tension faible.
 
-### À quelle fréquence faut-il remplacer l’accumulateur dans une centrale d’alarme ?
+### À quelle fréquence faut-il remplacer l’accumulateur de la centrale d’alarme ?
 
-Il n’existe pas de valeur unique adaptée à toutes les conditions.
+Il n’existe pas de périodicité unique adaptée à toutes les conditions.
 
-L’accumulateur doit être testé périodiquement, en particulier dans les installations où l’alarme en cas de coupure d’alimentation a une importance critique. Avec l’âge, sa capacité réelle diminue.
+L’accumulateur doit être testé périodiquement, en particulier dans les installations où l’alarme en cas de coupure d’alimentation est critique. Sa capacité réelle diminue avec l’âge.
 
-### La sirène seule suffit-elle comme protection ?
+### Une sirène seule suffit-elle comme protection ?
 
-La sirène n’agit que si quelqu’un peut l’entendre.
+La sirène n’est efficace que si quelqu’un peut l’entendre.
 
-Dans les sites laissés temporairement sans surveillance, il est utile d’utiliser également une notification à distance ainsi qu’une alimentation secourue par accumulateur.
+Dans les bâtiments temporairement laissés sans surveillance, il est utile de prévoir également une notification à distance et une alimentation de secours par accumulateur.
 
 
 ## Variateurs de fréquence
 
-### Comment choisir un variateur de fréquence pour des ventilateurs ?
+### Comment choisir un variateur de fréquence pour les ventilateurs ?
 
 Il faut connaître :
 
@@ -467,11 +467,11 @@ Le variateur de fréquence doit disposer d’une marge appropriée par rapport �
 
 ### Le variateur de fréquence doit-il avoir exactement la même puissance que la somme des puissances des moteurs ?
 
-Il ne faut pas choisir le variateur de fréquence uniquement sur la base d’une simple addition des puissances ni sélectionner un appareil fonctionnant exactement à la limite de ses paramètres.
+Il ne faut pas dimensionner le variateur de fréquence uniquement à partir d’une simple addition des puissances, ni choisir un appareil fonctionnant exactement à la limite de ses caractéristiques.
 
-Il faut tenir compte des courants nominaux, de la nature de la charge et des recommandations du fabricant du variateur de fréquence.
+Il convient de tenir compte des courants nominaux, de la nature de la charge et des recommandations du fabricant du variateur de fréquence.
 
-### Le variateur de fréquence a arrêté les ventilateurs et a affiché une erreur. Que faire ?
+### Le variateur de fréquence a arrêté les ventilateurs et affiché une erreur. Que faire ?
 
 Le plus important est de noter le code d’erreur complet avant la réinitialisation.
 
@@ -481,29 +481,29 @@ Si la situation le permet, prenez une photo de l’afficheur avant la réinitial
 
 :::
 
-Le début du message seul ne suffit souvent pas à déterminer la cause. Le code complet permet notamment de distinguer :
+Le début du message ne suffit souvent pas à déterminer la cause. Le code complet permet notamment de distinguer :
 
 - une surcharge,
-- un dépassement de courant,
+- une surintensité,
 - une surchauffe,
 - une tension incorrecte,
 - d’autres erreurs de l’entraînement.
 
 ### Peut-on simplement réinitialiser l’erreur du variateur de fréquence ?
 
-La réinitialisation peut rétablir le fonctionnement, mais elle n’élimine pas la cause de l’alarme.
+La réinitialisation peut rétablir le fonctionnement, mais elle ne supprime pas la cause de l’alarme.
 
-Après l’événement, il faut vérifier le code d’erreur et déterminer la cause avant de redémarrer l’installation pour un fonctionnement prolongé.
+Après l’événement, il convient de vérifier le code d’erreur et d’en déterminer la cause avant de remettre l’installation en marche pour une durée prolongée.
 
 ### Le variateur de fréquence fonctionne dans un local poussiéreux. Faut-il le nettoyer ?
 
 Oui.
 
-La poussière et les dépôts sur le radiateur ou le ventilateur de refroidissement peuvent dégrader l’évacuation de la chaleur et entraîner une surchauffe du variateur de fréquence.
+La poussière et les dépôts sur le dissipateur thermique ou sur le ventilateur de refroidissement peuvent réduire la dissipation de chaleur et provoquer une surchauffe du variateur de fréquence.
 
-Le nettoyage doit être effectué conformément aux instructions du fabricant, après une mise hors tension en toute sécurité.
+Le nettoyage doit être effectué conformément à la notice du fabricant, après avoir déconnecté l’alimentation en toute sécurité.
 
-### Qu’est-ce qui peut provoquer la surchauffe d’un variateur de fréquence ?
+### Quelles peuvent être les causes d’une surchauffe du variateur de fréquence ?
 
 Les causes les plus fréquentes sont :
 
@@ -511,295 +511,295 @@ Les causes les plus fréquentes sont :
 - une circulation d’air obstruée,
 - une température ambiante trop élevée,
 - une surcharge,
-- une défaillance du ventilateur de refroidissement,
+- un ventilateur de refroidissement défectueux,
 - un montage incorrect.
 
 ### Une tension secteur élevée peut-elle déclencher une alarme du variateur de fréquence ?
 
-Oui. Les variateurs de fréquence surveillent la tension du circuit d’alimentation et peuvent signaler une erreur en cas de dépassement du niveau admissible.
+Oui. Les variateurs de fréquence surveillent la tension du circuit d’alimentation et peuvent signaler une erreur lorsque le niveau admissible est dépassé.
 
-Si le problème se répète, il faut contrôler l’installation et la qualité de l’alimentation.
+Si le problème se répète, il convient de contrôler l’installation et la qualité de l’alimentation.
 
 
 ## Pannes et diagnostic
 
-### Le contrôleur fonctionne, mais l’afficheur n’affiche rien. Quelle peut être la cause ?
+### Le contrôleur fonctionne, mais l’afficheur n’affiche rien. Quelle peut en être la cause ?
 
 Les causes possibles comprennent notamment :
 
 - une défaillance de l’afficheur,
 - un problème de réglage du contraste dans les solutions plus anciennes,
-- une défaillance du raccordement,
+- une connexion endommagée,
 - de la corrosion,
 - une défaillance de la carte principale.
 
-Si l’appareil n’a pas été utilisé pendant une longue période ou a fonctionné dans un environnement humide, il est également utile de vérifier l’état de la carte.
+Si l’appareil n’a pas été utilisé pendant longtemps ou a fonctionné dans un environnement humide, il est également utile de vérifier l’état de la carte.
 
-### Après plusieurs années sans utilisation, le contrôleur a un problème d’afficheur. Pourquoi ?
+### Le contrôleur présente un problème d’affichage après plusieurs années sans utilisation. Pourquoi ?
 
-Un arrêt prolongé dans un environnement humide ou agressif peut entraîner :
+Une période d’arrêt prolongée dans un environnement humide ou agressif peut entraîner :
 
 - l’oxydation des connecteurs,
 - de la corrosion,
 - une dégradation des contacts,
 - des dommages aux composants électroniques.
 
-Dans ce cas, il est utile d’effectuer une inspection complète plutôt que de remplacer des éléments sans diagnostic préalable.
+Dans ce cas, il est utile de procéder à une inspection complète plutôt que de remplacer des composants sans diagnostic préalable.
 
 ### Le contrôleur est noirci après une surtension. Cela signifie-t-il que la carte doit être remplacée ?
 
 Pas toujours.
 
-Un élément de protection peut être endommagé et laisser beaucoup de dépôts, alors même que le reste de la carte peut être réparable.
+Un composant de protection peut être endommagé et laisser de nombreux dépôts, alors que le reste de la carte peut encore être réparé.
 
-Toutefois, si le stratifié est carbonisé, brûlé ou si les pistes sont endommagées, la réparation peut être non rentable ou peu durable.
+Toutefois, si le stratifié est carbonisé ou brûlé, ou si les pistes sont endommagées, la réparation peut ne pas être rentable ou durable.
 
-### Qu’est-ce qui peut endommager plusieurs contrôleurs en même temps ?
+### Qu’est-ce qui peut endommager plusieurs contrôleurs simultanément ?
 
-Si plusieurs appareils tombent en panne au même moment, il faut vérifier l’installation d’alimentation.
+Si plusieurs appareils tombent en panne en même temps, il convient de vérifier l’installation d’alimentation.
 
-L’une des causes possibles est un problème de conducteur neutre qui, dans une installation triphasée, peut entraîner l’apparition de tensions incorrectes sur les récepteurs monophasés.
+L’une des causes possibles est un problème du conducteur neutre qui, dans une installation triphasée, peut provoquer des tensions incorrectes aux bornes des récepteurs monophasés.
 
-Des surtensions provenant du réseau ou d’un groupe électrogène sont également possibles.
+Des surtensions provenant du réseau ou du groupe électrogène sont également possibles.
 
 ### Que faire après une panne liée à une surtension ?
 
-Avant de raccorder un contrôleur réparé ou neuf, il faut déterminer la cause du problème.
+Avant de raccorder un contrôleur réparé ou neuf, il convient de déterminer la cause du problème.
 
-:::danger Ne reconnectez pas l’appareil sans avoir vérifié l’installation
+:::danger Ne raccordez pas de nouveau l’appareil sans vérifier l’installation
 
-Si la cause de la panne était une tension incorrecte, un conducteur neutre endommagé ou une surtension, le contrôleur réparé ou neuf peut être de nouveau endommagé.
+Si la panne a été causée par une tension incorrecte, un conducteur neutre endommagé ou une surtension, le contrôleur réparé ou neuf peut être de nouveau endommagé.
 
 :::
 
-### Qu’est-ce qu’un élément de protection contre les surtensions sur la carte ?
+### Qu’est-ce qu’un composant de protection contre les surtensions sur la carte ?
 
-Dans les appareils électroniques, on utilise des éléments limitant les surtensions, par ex. des varistances.
+Les appareils électroniques utilisent des composants limitant les surtensions, par exemple des varistances.
 
-Leur rôle est d’absorber une partie de l’énergie de la surtension et de protéger les circuits situés en aval. Après un événement important, un tel élément peut subir une défaillance permanente.
+Leur rôle est d’absorber une partie de l’énergie de la surtension et de protéger les circuits en aval. Après un événement important, un tel composant peut subir des dommages permanents.
 
-### Peut-on mettre l’appareil en marche après avoir retiré l’élément de protection brûlé ?
+### Peut-on mettre l’appareil en marche après avoir retiré le composant de protection brûlé ?
 
-Il ne faut pas considérer cela comme une réparation normale.
+Cela ne doit pas être considéré comme une réparation normale.
 
-Après retrait de la protection, l’appareil peut perdre sa protection contre une nouvelle surtension. De telles actions ne peuvent être effectuées qu’en tant que procédure de service délibérée, par une personne disposant des qualifications appropriées et après élimination de la cause initiale de la panne.
+Après le retrait de la protection, l’appareil peut perdre sa protection contre une nouvelle surtension. De telles opérations ne peuvent être effectuées que dans le cadre d’une procédure de maintenance délibérée, par une personne possédant les qualifications appropriées et après élimination de la cause de la panne initiale.
 
-### Le contrôleur a été inondé ou a fortement corrodé. Vaut-il la peine de le réparer ?
+### Le contrôleur a subi une infiltration d’eau ou une forte corrosion. Vaut-il la peine de le réparer ?
 
-Cela dépend du degré des dommages.
+Cela dépend de l’étendue des dommages.
 
-La corrosion superficielle et les dommages isolés peuvent souvent être éliminés. Si la corrosion a touché les pistes, les connecteurs et de nombreux composants, la réparation peut être longue, incertaine et économiquement injustifiée.
+La corrosion superficielle et les dommages isolés peuvent souvent être éliminés. Si la corrosion a atteint les pistes, les connecteurs et de nombreux composants, la réparation peut être longue, incertaine et économiquement injustifiée.
 
 ### Le lavage sous pression de l’appareil peut-il endommager le contrôleur ?
 
 Oui.
 
-L’électronique ne doit pas être exposée directement à l’eau ni au produit de nettoyage si le boîtier et le mode de montage ne sont pas prévus à cet effet.
+L’électronique ne doit pas être exposée directement à l’eau ou à un produit de nettoyage si le boîtier et le mode de montage ne sont pas prévus à cet effet.
 
-L’humidité pénétrant à l’intérieur peut provoquer de la corrosion et des pannes ultérieures difficiles à diagnostiquer.
+L’humidité pénétrant à l’intérieur peut provoquer de la corrosion et des défauts ultérieurs difficiles à diagnostiquer.
 
-### Pourquoi les défauts après inondation peuvent-ils réapparaître après réparation ?
+### Pourquoi les défauts consécutifs à une infiltration d’eau peuvent-ils réapparaître après la réparation ?
 
-La corrosion peut également progresser dans des endroits non visibles lors de la première inspection.
+La corrosion peut également progresser dans des endroits non visibles lors du premier contrôle.
 
-Les vias, pistes et raccordements endommagés peuvent fonctionner pendant l’essai, puis perdre à nouveau le contact par la suite.
+Les vias, pistes et connexions endommagés peuvent fonctionner pendant l’essai, puis perdre de nouveau le contact.
 
-C’est pourquoi, sur une carte fortement corrodée, le service peut recommander un remplacement plutôt que de nouvelles réparations.
+C’est pourquoi, dans le cas d’une carte fortement corrodée, le service après-vente peut recommander un remplacement plutôt que de nouvelles réparations.
 
-### L’appareil fonctionne par moments, puis plus du tout. Par quoi commencer ?
+### L’appareil fonctionne de manière intermittente. Par quoi commencer ?
 
-Avant de contacter le service, il est utile de rassembler :
+Avant de contacter le service après-vente, il est utile de réunir :
 
 - le modèle exact,
-- la description du symptôme,
-- le moment d’apparition,
+- une description du symptôme,
+- le moment de son apparition,
 - les valeurs affichées à l’écran,
 - le code d’alarme ou d’erreur,
-- des informations sur les dernières modifications de l’installation,
+- les informations sur les dernières modifications de l’installation,
 - une photo de l’intérieur et des bornes, si elle peut être prise en toute sécurité.
 
 Plus la description est précise, plus le diagnostic est facile.
 
 
-## Service et réparations
+## Service après-vente et réparations
 
-### Que faut-il envoyer au service si le contrôleur est endommagé ?
+### Que faut-il envoyer au service après-vente si le contrôleur est défectueux ?
 
-Il est préférable d’envoyer un ensemble complet permettant de reproduire le problème.
+Il est préférable d’envoyer un ensemble permettant de reproduire le problème.
 
-Le colis doit être accompagné d’une brève description :
+Il convient de joindre à l’envoi une brève description indiquant :
 
-- de ce qui ne fonctionne pas,
-- du moment où le problème apparaît,
-- du caractère permanent ou intermittent de la panne,
-- de la survenue ou non, avant la panne, d’une surtension, d’une inondation ou d’un autre événement,
-- des données nécessaires pour le contact et le retour de l’appareil.
+- ce qui ne fonctionne pas,
+- quand le problème apparaît,
+- si la panne est permanente ou intermittente,
+- si une surtension, une infiltration d’eau ou un autre événement a précédé la panne,
+- les coordonnées nécessaires pour vous contacter et retourner l’appareil.
 
-:::note Données pour la demande de service
+:::note Données pour la demande d’intervention
 
-Transmettez les coordonnées de contact et d’expédition directement au service. Ne les publiez pas dans des demandes ouvertes ni dans des documents publics.
+Transmettez directement au service après-vente les coordonnées de contact et d’expédition. Ne les publiez pas dans des demandes accessibles à tous ni dans des documents publics.
 
 :::
 
-### Faut-il envoyer le contrôleur complet ou seulement la carte ?
+### Faut-il envoyer le contrôleur complet ou uniquement la carte ?
 
-Cela dépend de la panne.
+Cela dépend du défaut.
 
-En cas de problèmes d’afficheur, de boutons, d’alimentation ou de comportement ambigu, il est préférable d’envoyer l’ensemble complet nécessaire pour reproduire le symptôme.
+En cas de problèmes d’affichage, de boutons, d’alimentation ou de comportement ambigu, il est préférable d’envoyer l’ensemble nécessaire pour reproduire le symptôme.
 
-Dans le cas d’une réparation préalablement convenue d’un module spécifique, le service peut ne demander que la carte.
+Dans le cadre d’une réparation préalablement convenue d’un module précis, le service après-vente peut demander uniquement la carte.
 
-### Est-ce que ELETOR répare les contrôleurs au lieu de les remplacer immédiatement ?
+### ELETOR répare-t-il les contrôleurs plutôt que de les remplacer immédiatement ?
 
-Il ressort des transcriptions que les appareils sont d’abord diagnostiqués.
+Les transcriptions indiquent que les appareils font d’abord l’objet d’un diagnostic.
 
-Si la réparation est possible et pertinente, les composants ou modules endommagés sont remplacés. En cas de dommage grave, le service peut proposer le remplacement de la carte ou de l’appareil complet.
+Si la réparation est possible et pertinente, les composants ou modules défectueux sont remplacés. En cas de dommages importants, le service après-vente peut proposer le remplacement de la carte ou de l’appareil complet.
 
 ### Que se passe-t-il si la carte endommagée ne peut pas être réparée ?
 
-Il est possible de remplacer le module endommagé par un neuf, à condition que la pièce appropriée soit disponible et compatible avec l’appareil.
+Le module endommagé peut être remplacé par un neuf, à condition que la pièce appropriée soit disponible et compatible avec l’appareil.
 
-Pour les appareils plus anciens, le service doit d’abord confirmer la compatibilité des versions.
+Pour les appareils plus anciens, le service après-vente doit d’abord confirmer la compatibilité des versions.
 
-### Vaut-il la peine d’acheter immédiatement une nouvelle carte après une surtension ?
+### Vaut-il la peine d’acheter immédiatement une carte neuve après une surtension ?
 
 Pas toujours.
 
-Si le dommage concerne un élément de protection ou une petite partie du circuit, une réparation peut être justifiée. Il est préférable d’effectuer d’abord un diagnostic.
+Si les dommages concernent un composant de protection ou une petite partie du circuit, la réparation peut être justifiée. Il est utile de procéder d’abord à un diagnostic.
 
-### Le service peut-il également vérifier l’afficheur et les boutons ?
+### Le service après-vente peut-il également vérifier l’afficheur et les boutons ?
 
 Oui, si ces éléments sont fournis avec l’appareil ou le module.
 
-Cela est particulièrement utile lorsqu’on ne sait pas si le problème se situe sur la carte principale ou sur le panneau utilisateur.
+Cela est particulièrement utile lorsqu’on ne sait pas si le problème se situe sur la carte principale ou dans le panneau utilisateur.
 
-### Faut-il toujours essayer de sauver un contrôleur fortement corrodé ?
+### Vaut-il toujours la peine de récupérer un contrôleur fortement corrodé ?
 
 Non.
 
-Si le coût du diagnostic et de la réparation augmente alors que la fiabilité après réparation reste incertaine, un remplacement peut être plus raisonnable.
+Si le coût du diagnostic et de la réparation augmente et que la fiabilité après réparation reste incertaine, le remplacement peut être plus judicieux.
 
-Cela concerne en particulier les appareils dont dépend la ventilation du site.
+Cela concerne particulièrement les appareils dont dépend la ventilation du bâtiment.
 
-### Comment accélérer le diagnostic de service ?
+### Comment accélérer le diagnostic du service après-vente ?
 
-Joignez une description précise du symptôme au lieu de la simple indication « ne fonctionne pas ».
+Joignez une description précise du symptôme plutôt que la simple mention « ne fonctionne pas ».
 
-Sont également utiles :
+Les éléments suivants sont également utiles :
 
 - des photos,
 - le code d’erreur,
 - une description de l’installation,
-- le type des récepteurs raccordés,
+- le type de récepteurs raccordés,
 - une information sur une surtension ou une coupure d’alimentation,
-- une information sur une inondation ou le lavage de l’appareil.
+- une information sur une infiltration d’eau ou un lavage de l’appareil.
 
 
 ## Installation et câblage
 
-### Comment raccorder des appareils aux bornes relais C et NO ?
+### Comment raccorder les appareils aux bornes de relais C et NO ?
 
-C et NO sont des désignations typiques d’un contact de relais :
+C et NO sont des désignations courantes des contacts de relais :
 
 - C — contact commun,
 - NO — contact normalement ouvert.
 
-Le mode d’utilisation dépend de l’appareil et du schéma de l’installation. Le contact peut être utilisé, par ex., pour commander la bobine d’un contacteur, mais ses paramètres admissibles ne doivent pas être dépassés.
+Le mode d’utilisation dépend de l’appareil et du schéma de l’installation. Le contact peut être utilisé, par exemple, pour commander la bobine d’un contacteur, mais ses caractéristiques admissibles ne doivent pas être dépassées.
 
 :::warning Travaux électriques
 
-Les raccordements à la tension secteur doivent être effectués par une personne disposant des qualifications appropriées, conformément au schéma de l’appareil concerné.
+Les raccordements à la tension secteur doivent être effectués par une personne possédant les qualifications appropriées, conformément au schéma de l’appareil concerné.
 
 :::
 
-### La sortie relais peut-elle alimenter directement un grand ventilateur ?
+### Une sortie à relais peut-elle alimenter directement un gros ventilateur ?
 
-En règle générale, ce n’est pas une utilisation appropriée d’une petite sortie de commande.
+Il ne s’agit généralement pas d’une utilisation appropriée d’une petite sortie de commande.
 
-Pour des charges plus importantes, on utilise un contacteur, un relais de puissance ou un module de sortie dédié.
+Pour les charges plus importantes, on utilise un contacteur, un relais de puissance ou un module de commande de puissance dédié.
 
-### À quoi servent les bornes A1 et A2 d’un contacteur ?
+### À quoi servent les bornes A1 et A2 du contacteur ?
 
-Ce sont les bornes de la bobine du contacteur.
+Il s’agit des bornes de la bobine du contacteur.
 
 Lorsque la tension appropriée est appliquée à la bobine, le contacteur change l’état de ses contacts de puissance.
 
-La tension de la bobine doit être conforme au projet de l’installation et à la documentation du contacteur.
+La tension de la bobine doit être conforme à la conception de l’installation et à la documentation du contacteur.
 
-### Peut-on monter des appareils supplémentaires à l’intérieur du boîtier du contrôleur ?
+### Peut-on installer des appareillages supplémentaires à l’intérieur du boîtier du contrôleur ?
 
 Uniquement si la conception du boîtier concerné le permet et si cela ne dégrade pas :
 
-- le degré de protection,
+- l’indice de protection,
 - l’isolation,
 - le refroidissement,
 - la sécurité,
-- l’accès pour le service.
+- l’accès pour la maintenance.
 
 Toute nouvelle ouverture doit être réalisée de manière à préserver l’étanchéité requise.
 
 ### Des interrupteurs supplémentaires pour les ventilateurs sont-ils utiles ?
 
-Ils peuvent faciliter le service et permettre la coupure indépendante de certains ventilateurs.
+Ils peuvent faciliter la maintenance et permettre de déconnecter indépendamment chaque ventilateur.
 
-Le mode de réalisation doit toutefois tenir compte des protections électriques et ne doit pas provoquer d’états dangereux du contrôleur.
+La réalisation doit toutefois tenir compte des protections électriques et ne doit pas provoquer d’états dangereux du contrôleur.
 
-### Les conducteurs de commande peuvent-ils être posés avec les conducteurs de puissance ?
+### Peut-on acheminer les câbles de commande avec les câbles de puissance ?
 
-Il faut éviter de poser des conducteurs de signal sensibles en parallèle et très près de conducteurs de forte puissance, surtout sur de longues distances.
+Il convient d’éviter d’acheminer les câbles de signal sensibles parallèlement et très près des câbles de forte puissance, en particulier sur de longues distances.
 
 Les exigences dépendent du type de signal et de l’environnement électromagnétique.
 
-### Quel câble utiliser pour les liaisons réseau et les appareils PoE ?
+### Quel câble utiliser pour les connexions réseau et les appareils PoE ?
 
-Dans les installations évoquées, on indiquait comme minimum une paire torsadée de catégorie 5e.
+Dans les installations évoquées, un câble à paires torsadées de catégorie 5e était indiqué comme minimum.
 
-Si le câble passe dans un environnement à niveau élevé de perturbations ou à risque de charges électrostatiques, l’utilisation d’un câble correctement blindé et d’un système de mise à la terre approprié peut être justifiée.
+Si le câble traverse un environnement présentant un niveau élevé de perturbations ou un risque de charges électrostatiques, l’utilisation d’un câble correctement blindé et d’un système de mise à la terre approprié peut être justifiée.
 
 ### Un câble croisé est-il nécessaire pour le PoE ?
 
-Dans les installations typiques, on utilise une liaison droite standard.
+Dans les installations courantes, on utilise une liaison droite standard.
 
-Il faut toutefois toujours vérifier les exigences de l’appareil réseau et de l’alimentation PoE utilisée.
+Il convient toutefois de toujours vérifier les exigences de l’appareil réseau et de l’alimentation PoE utilisée.
 
 
-## Exploitation et maintenance
+## Exploitation et entretien
 
-### Comment limiter le risque de panne des contrôleurs dans les bâtiments d’élevage ?
+### Comment réduire le risque de panne des contrôleurs dans les bâtiments agricoles ?
 
-Le plus important est de limiter l’influence de :
+Le plus important est de limiter l’influence :
 
-- l’humidité,
-- l’ammoniac et de l’environnement agressif,
-- la poussière,
-- le lavage direct à l’eau,
-- les surtensions,
-- une alimentation incorrecte.
+- de l’humidité,
+- de l’ammoniac et de l’environnement agressif,
+- de la poussière,
+- du lavage direct à l’eau,
+- des surtensions,
+- d’une alimentation incorrecte.
 
-Il est également utile de contrôler périodiquement l’état des conducteurs, des raccordements et des boîtiers.
+Il est également utile de contrôler périodiquement l’état des câbles, des connexions et des boîtiers.
 
 ### Les appareils électroniques doivent-ils être nettoyés régulièrement ?
 
-Oui, en particulier les appareils équipés de radiateurs, de ventilateurs et d’ouvertures de ventilation.
+Oui, en particulier les appareils équipés de dissipateurs thermiques, de ventilateurs et d’ouvertures de ventilation.
 
-La poussière accumulée dégrade le refroidissement.
+La poussière accumulée réduit l’efficacité du refroidissement.
 
-Le nettoyage doit être effectué après coupure de l’alimentation et conformément à la notice de l’appareil.
+Le nettoyage doit être effectué après déconnexion de l’alimentation et conformément à la notice de l’appareil.
 
-### Après quelques années de fonctionnement, vaut-il la peine d’effectuer une inspection du contrôleur ?
+### Vaut-il la peine de procéder à une inspection du contrôleur après plusieurs années de fonctionnement ?
 
 Oui, en particulier dans des conditions environnementales difficiles.
 
-L’inspection peut inclure :
+L’inspection peut comprendre :
 
 - l’évaluation de l’état des connecteurs,
 - le contrôle des traces d’humidité et de corrosion,
 - la vérification des éléments de refroidissement,
 - la vérification du panneau et des boutons,
 - le test des capteurs,
-- le contrôle des accumulateurs dans les systèmes d’alarme.
+- le contrôle des accumulateurs des systèmes d’alarme.
 
-### Que vaut-il la peine de noter après la survenue d’une panne ?
+### Que faut-il noter après une panne ?
 
 Les éléments les plus utiles sont :
 
@@ -808,39 +808,39 @@ Les éléments les plus utiles sont :
 - l’heure de l’événement,
 - la température,
 - l’état de la ventilation,
-- l’information relative à une coupure d’alimentation,
-- l’information sur le fonctionnement du groupe électrogène,
+- une information sur une coupure d’alimentation,
+- une information sur le fonctionnement du groupe électrogène,
 - une photo de l’écran ou de l’appareil.
 
-Il ne faut pas réinitialiser l’appareil avant d’avoir noté le code, si la situation permet de le faire en toute sécurité.
+Il ne faut pas réinitialiser l’appareil avant d’avoir noté le code si la situation permet de le faire en toute sécurité.
 
-### Vaut-il la peine d’avoir une alarme indépendante du contrôleur de ventilation ?
+### Vaut-il la peine de disposer d’une alarme indépendante du contrôleur de ventilation ?
 
-Oui, en particulier là où une défaillance de la ventilation peut rapidement conduire à des conditions dangereuses.
+Oui, en particulier lorsque la panne de ventilation peut rapidement entraîner des conditions dangereuses.
 
-Une centrale indépendante avec son propre accumulateur et une notification à distance offre une couche de protection supplémentaire.
+Une centrale indépendante dotée de son propre accumulateur et de notifications à distance apporte un niveau de protection supplémentaire.
 
-### Quelles informations préparer avant de contacter le support technique ?
+### Quelles informations préparer avant de contacter l’assistance technique ?
 
 Il est préférable de préparer :
 
 1. le modèle exact de l’appareil,
 2. une description de l’installation,
-3. le nombre et les paramètres des appareils raccordés,
+3. le nombre et les caractéristiques des appareils raccordés,
 4. les réglages actuels liés au problème,
-5. le symptôme exact,
-6. le code complet d’erreur ou d’alarme,
+5. le symptôme précis,
+6. le code d’erreur ou d’alarme complet,
 7. des photos de l’appareil et des plaques signalétiques,
 8. une information sur les dernières modifications de l’installation.
 
-Cela permet de raccourcir considérablement le diagnostic.
+Cela permet de réduire considérablement le temps nécessaire au diagnostic.
 
 
 ## Remarque importante concernant les appareils plus anciens
 
-Les noms, les repères de bornes et les fonctions disponibles peuvent différer selon les versions des appareils fabriquées au cours d’années différentes.
+Les noms, les désignations des bornes et les fonctions disponibles peuvent varier entre les versions d’appareils fabriquées au cours d’années différentes.
 
-Si l’appareil a plusieurs années ou une dizaine d’années, avant d’utiliser la notice d’un modèle plus récent, il faut confirmer :
+Si l’appareil a plusieurs années ou plus d’une dizaine d’années, il convient de confirmer les éléments suivants avant d’appliquer la notice d’un modèle plus récent :
 
 - la désignation exacte de l’appareil,
 - la version de la carte,
@@ -848,21 +848,21 @@ Si l’appareil a plusieurs années ou une dizaine d’années, avant d’utilis
 - la version du logiciel,
 - le schéma des bornes.
 
-:::warning Anciennes versions des appareils
+:::warning Versions plus anciennes des appareils
 
-Ne supposez pas une compatibilité totale uniquement sur la base d’un aspect similaire du boîtier. Avant d’utiliser un schéma ou une notice, confirmez le modèle exact et la version de l’appareil.
+Ne supposez pas une compatibilité totale sur la seule base d’un aspect similaire du boîtier. Avant d’utiliser un schéma ou une notice, confirmez le modèle exact et la version de l’appareil.
 
 :::
 
 
-## Contact avec le support technique
+## Contact avec l’assistance technique
 
-Si la FAQ ne résout pas le problème, préparez avant le contact :
+Si la FAQ ne résout pas le problème, préparez les éléments suivants avant de prendre contact :
 
 - une photo du contrôleur,
 - une photo de la plaque signalétique du récepteur,
-- les paramètres des moteurs ou des actionneurs,
+- les caractéristiques des moteurs ou des actionneurs,
 - le schéma de raccordement,
-- une description précise du mode de fonctionnement attendu.
+- une description précise du mode de fonctionnement souhaité.
 
-Cela permet de choisir l’appareil ou de diagnostiquer le problème sur la base des paramètres réels de l’installation, et non d’hypothèses.
+Ainsi, le choix de l’appareil ou le diagnostic du problème peut être effectué sur la base des caractéristiques réelles de l’installation, et non de suppositions.

@@ -1,235 +1,243 @@
 ---
 sidebar_position: 2
-
-title: Instrukcja SC-S
-description: Sterownik klimatu do pomieszczeń inwentarskich o dopuszczalnym prądzie wyjściowym do 5A
-keywords: [eletor sc-s, sterownik wentylacji, sterownik klimatu, sterownik wentylacji chlewni, sterownik mikroklimatu, sterownik na chlewnie, wentylacjia chlewni, sterownik na ochowalnie]
+title: Manual SC-S
+description: Climate controller for livestock rooms with a permissible output current
+  of up to 5A
+keywords:
+- eletor sc-s
+- ventilation controller
+- climate controller
+- pig house ventilation controller
+- microclimate controller
+- pig house controller
+- pig house ventilation
+- rearing house controller
 ---
 
 
-# Sterownik SC-S
+# Controller SC-S
 
-Mikroprocesorowy sterownik klimatu należący do rodziny SPEED CONTROL. Niezawodny, prosty w montażu oraz eksploatacji sterownik, z oprogramowaniem w języku polskim, angielskim, rosyjskim i niemieckim. Program sterownika umożliwia intuicyjne zadawanie parametrów: temperatur, przewietrzania, dogrzewania, poziomów min./max. wentylacji i alarmów.
+A microprocessor-based climate controller belonging to the SPEED CONTROL family. A reliable controller, easy to install and operate, with software in Polish, English, Russian and German. The controller software allows intuitive setting of parameters: temperatures, intermittent ventilation, supplementary heating, min./max. ventilation levels and alarms.
 
-**Parametry i cechy:**  
-- Wentylacja I grupy:
-  - max. prąd wyjścia płynnej regulacji 6A,
-  - zabezpieczenie termiczne układu,
-  - łagodny rozruch wentylacji,
-  - kalibracja minimalnych obrotów
-- Wentylacja II grupy, separowany styk do 3A (1 z opcji)
-- Dogrzewanie, separowany styk do 3A (1 z opcji)
-- Wyjścia alarmowe NO i NC:
-  - sygnalizacja zaniku zasilania,
-  - sygnalizacja przekroczonego progu temperatury min. lub max.
-- 1 wejście analogowe do pomiaru temperatury
-- 2 wyjścia 0-10V
-- Moc pobierana przez układ < 3W
-- Hermetyczna obudowa IP56
-- Napięcie zasilania 230VAC 50Hz
+**Parameters and features:**  
+- Group I ventilation:
+  - max. current of the continuously variable control output 6A,
+  - thermal protection of the system,
+  - ventilation soft start,
+  - minimum speed calibration
+- Group II ventilation, isolated contact rated up to 3A (1 optional)
+- Supplementary heating, isolated contact rated up to 3A (1 optional)
+- Alarm outputs NO and NC:
+  - power failure indication,
+  - indication of temperature exceeding the min. or max. threshold
+- 1 analog input for temperature measurement
+- 2 outputs 0-10V
+- Power consumption of the system < 3W
+- Sealed enclosure IP56
+- Supply voltage 230VAC 50Hz
 
-## Instalacja sterownika  
+## Controller installation  
 :::danger 
-W trakcie instalowania urządzenia dopływ energii elektrycznej należy bezwzględnie odłączyć, ponieważ napięcie na niektórych podzespołach jest niebezpieczne dla życia i zdrowia.  
-Zaleca się powierzenie instalacji wykwalifikowanej osobie.
+The electrical power supply must be disconnected when installing the device, as the voltage present on some components poses a danger to life and health.  
+It is recommended that installation be entrusted to a qualified person.
 :::
 
-### Wybór miejsca montażu  
+### Selecting the installation location  
 
-Miejsce montażu należy wybierać racjonalnie uwzględniając względy łatwego dostępu do przyrządu osobom powołanym, a niedostępnym dla zwierząt oraz dzieci. Należy uwzględnić także warunki klimatyczne, tzn. urządzenie powinno pracować w zakresie temperatur -10°C do 40°C, w miejscu nienasłonecznionym. Wokoło urządzenia powinien być swobodny przepływ powietrza. W skład urządzenia wchodzi czujnik temperatury. Obowiązuje kilka zasad montażu czujnika temperatury:  
-- zujnik nie powinien być montowany w miejscu bez cyrkulacji powietrza lub bezpośrednio nasłonecznionym
-- czujnik nie powinien być montowany na ścianie nośnej (zewnętrznej) budynku,
-- unikać bliskości urządzeń emitujących ciepło, takich jak grzejniki, lampy,
-- nie należy umieszczać czujnika bezpośrednio przy drzwiach oraz otworach wentylacyjnych,
-- nie należy umieszczać czujnika w miejscach dostępnych dla zwierząt,
-- zalecane jest ułożenie przewodu łączącego czujnik z dala od przewodów zasilających.
+The installation location must be selected carefully, ensuring that the instrument is easily accessible to authorized persons, but inaccessible to animals and children. Climatic conditions must also be taken into account, i.e. the device should operate within a temperature range of -10°C to 40°C, in a location not exposed to direct sunlight. Air must be able to flow freely around the device. The device includes a temperature sensor. Several rules apply to temperature sensor installation:  
+- the sensor should not be installed in a location without air circulation or exposed to direct sunlight
+- the sensor should not be installed on a load-bearing (external) wall of the building,
+- avoid proximity to heat-emitting devices, such as heaters and lamps,
+- the sensor must not be placed directly next to doors or ventilation openings,
+- the sensor must not be placed in locations accessible to animals,
+- it is recommended that the sensor connection cable be routed away from power cables.
 
-### Montaż  
+### Installation  
 
-Urządzenie może pracować w trudnych warunkach klimatycznych. Prawidłowo zamontowany sterownik i czujnik temperatury jest odporny na działanie środowiska.
-Podczas montażu trzeba zwrócić uwagę na następujące rzeczy:  
-- przed skręceniem należy sprawdzić uszczelkę pokrywy,
-- pokrywa musi być dokręcona na wszystkie śruby,
-- stosowane przewody do połączenia sterownika powinny być okrągłe,
-- po połączeniu przewodu należy dokręcić dławice tak, aby przewód został uszczelniony i unieruchomiony, zalecane jest użycie silikonu,
-- niewykorzystane wyprowadzenia (dławice) należy zaślepić,
-- sterownik (spodnią cześć obudowy) mocujemy do płaskiej ściany 4 kołkami rozporowymi.
+The device can operate in harsh climatic conditions. When correctly installed, the controller and temperature sensor are resistant to environmental effects.
+During installation, attention must be paid to the following:  
+- check the cover gasket before fastening the cover,
+- the cover must be secured with all screws,
+- the cables used to connect the controller should be round,
+- after connecting the cable, tighten the cable glands so that the cable is sealed and secured in place; the use of silicone is recommended,
+- unused cable entries (glands) must be plugged,
+- secure the controller (the lower part of the enclosure) to a flat wall using 4 wall plugs.
 
-## Połączenie elektryczne  
+## Electrical connection  
 
 :::danger 
-Przed podłączeniem układu należy się upewnić, czy zasilanie jest wyłączone!
+Before connecting the system, make sure that the power supply is switched off!
 :::
 
-Przed przystąpieniem do połączenia sterownika należy odkręcić i zdjąć pokrywę. Wprowadzamy przewody przez gumowe dławice i możemy przystąpić do ich łączenia. Zaciski sterownika przestawione są na poniższym rysunku.
+Before connecting the controller, unscrew and remove the cover. Feed the cables through the rubber cable glands, then connect them. The controller terminals are shown in the figure below.
 
-![Połączenie](./img/Sc-s2.png)
+![Connection](./img/Sc-s2.png)
 
-**Złącze AC 230V** łączymy z zasilaniem (rozdzielnią). Wymagane jest zastosowanie wyłącznika nadprądowego 1P-B6 oraz ograniczników przepięć typu T1 T2. Dobrą praktyką przy łączeniu kilku urządzeń jest pogrupowanie sterowników na różnych „fazach” (L1, L2, L3), celem równomiernego obciążenia linii zasilającej.  
-**Złącze FAN** należy połączyć bezpośrednio z wentylatorem, w przypadku sterowania kilkoma wentylatorami sumaryczne obciążenie nie może przekraczać 6A, każdy wentylator musi być osobno zabezpieczony. Nie należy wyprowadzać PE oraz N z zasilania (rozdzielni), koniecznie należy je połączyć z wyprowadzeniami sterownika.  
-**Złącze FUNCTION** wyjście przekaźnikowe separowane, maksymalny prąd styku to 6A (wymagany zewnętrzny wyłącznik nadprądowy 1P-B6 w przypadku sterowania bezpośredniego obciążeniem),
-wykorzystane może być jako:  
-- **Dogrzewanie** – styk załącza się przy spodku temperatury mierzonej poniżej nastawy.  
-- **Wentylacja 2 grupy lub układów zraszania** – styk załącza się, gdy temperatura mierzona jest wyższa od sumy temperatury zadanej i pasma wentylacji.  styk załącza się, gdy temperatura mierzona jest wyższa od sumy temperatury zadanej i pasma wentylacji.  
+**Connect the AC terminal 230V** to the power supply (distribution board). An 1P-B6 overcurrent circuit breaker and type T1 T2 surge protection devices are required. When connecting several devices, it is good practice to group the controllers on different “phases” (L1, L2, L3) to distribute the load evenly across the supply line.  
+**The FAN terminal** must be connected directly to the fan; when controlling several fans, the total load must not exceed 6A, and each fan must be protected separately. Do not run PE and N from the power supply (distribution board); they must be connected to the controller terminals.  
+**The FUNCTION terminal** is an isolated relay output; the maximum contact current is 6A (an external 1P-B6 overcurrent circuit breaker is required when controlling a load directly),
+and it can be used for:  
+- **Supplementary heating** – the contact closes when the measured temperature drops below the setpoint.  
+- **Group 2 ventilation or sprinkler systems** – the contact closes when the measured temperature is higher than the sum of the temperature setpoint and the ventilation band.  the contact closes when the measured temperature is higher than the sum of the temperature setpoint and the ventilation band.  
 
-Poniższy rysunek przedstawia sposób połączenia wentylatora 2 grupy lub nagrzewnicy.  
+The figure below shows how to connect a group 2 fan or a heater.  
 
-![Druga grupa](./img/2grupa.png)
+![Second group](./img/2grupa.png)
 
-**Złącze ALARM** to separowane wyjścia NC, C i NO służące do połączenia z centralką alarmową. Alarm załącza się w następujących przypadkach:  
-- temperatura jest za niska lub za wysoka,
-- uległ uszkodzeniu sterownik lub czujnik temperatury,
-- zanikło napięcie zasilające sterownik;
-- wystąpiła nieprawidłowa praca sterownika (np. przegrzanie sterownika)  
+**The ALARM terminal** provides isolated NC, C and NO outputs for connection to an alarm control panel. The alarm is activated in the following cases:  
+- the temperature is too low or too high,
+- the controller or temperature sensor is damaged,
+- the controller supply voltage has failed;
+- the controller has malfunctioned (e.g. controller overheating)  
 
 ![Alarm](./img/alarmsc-s.png)  
 
-**Złącze V1 0-10V** służy do połączenia modułów rozszerzających moc lub wentylatorów z wbudowanym układem regulacji prędkości. Napięcie na tym zacisku jest proporcjonalne do poziomu wentylacji.  
-**Złącze V2 0-10V** służy do połączenia siłownika otwierającego klapy dolotowe powietrza.  
-**Złącze SENSOR** łączymy z 1 czujnikiem temperatury TS3 lub TS5, biegunowość nie ma znaczenia.  Dobrą praktyką jest oddalenie przewodów pomiarowych od przewodów zasilających.  
-**Złącze RS-485** wykorzystywane być może do budowy systemów wentylacyjnych oraz komunikacji z komputerem PC.  
+**The V1 0-10V** terminal is used to connect power expansion modules or fans with built-in speed control. The voltage at this terminal is proportional to the ventilation level.  
+**The V2 0-10V** terminal is used to connect an actuator that opens the air inlet flaps.  
+**Connect the SENSOR terminal** to an 1 temperature sensor TS3 or TS5; polarity does not matter.  It is good practice to keep measurement cables away from power cables.  
+**The RS-485** terminal can be used to build ventilation systems and communicate with a PC.  
 
-## Zasada działania  
+## Operating principle  
 
-Głównym zadaniem sterownika jest utrzymanie temperatury w pomieszczeniu hodowlanym na poziomie ustalonym przez hodowcę. Należy pamiętać, że sterownik jest jedynie narzędziem, które ma pomóc w zapewnieniu optymalnych warunków klimatycznych w pomieszczeniu hodowlanym. Nadrzędną jednak rolę w tym procesie pełni hodowca, który powinien dostosowywać ustawienia urządzenia do zmieniających się warunków klimatycznych panujących na dworze, a przede wszystkim do wymagań zwierząt w budynku inwentarskim oraz monitorować stan pracy urządzenia za pomocą centralki alarmowej.  
+The controller's primary task is to maintain the temperature in the livestock room at the level set by the livestock farmer. It must be remembered that the controller is only a tool intended to help provide optimal climatic conditions in the livestock room. However, the livestock farmer plays the primary role in this process and should adjust the device settings to changing outdoor climatic conditions and, above all, to the requirements of the animals in the livestock building, and monitor the device's operating status using an alarm control panel.  
 
-### Pierwsze uruchomienie sterownika  
+### Initial controller start-up  
 
 :::danger
-Przy pierwszym uruchomieniu sterownika należy bezwzględnie dokonać ustawienia pasma zabronionego pracy silnika.
+During initial controller start-up, the forbidden motor operating band must be set.
 :::
 
-Sterownik współpracuje z wentylatorami opartymi o jednofazowy silnik asynchroniczny o maksymalnym sumarycznym poborze prądu 5A. Użytkownik po podłączeniu wybranych przez siebie wentylatorów musi dostosować je do współpracy ze sterownikiem. Innymi słowy konieczne jest ustawienie minimalnego poziomu pracy (obrotów) wentylatora. Funkcja ta nosi nazwę **„Pasmo Zabronione”** i ustawiana jest przez użytkownika jednorazowo z poziomu **„Ustawień zaawansowanych”**. Aby czynność tę wykonać prawidłowo wskazana jest pomoc drugiej osoby, która mogłaby stale obserwować zachowanie wentylatora podczas, gdy inna osoba będzie ustawiała wartość **„Pasma Zabronionego”**. Brak ustawienia pasma zabronionego może prowadzić do nieprawidłowej pracy urządzenia. Wartość **„Pasma zabronionego”** można uznać za prawidłową w momencie, gdy ciśnienie wytworzone przez wentylator zacznie minimalnie unosić klapy komina wentylacyjnego. Czynność ustawiania **„Pasma zabronionego”** należy wykonać powtórnie, gdy zmieniany jest wentylator podłączony do sterownika.  
+The controller works with fans based on single-phase asynchronous motors with a maximum total current consumption of 5A. After connecting the selected fans, the user must adapt them to operate with the controller. In other words, the minimum fan operating level (speed) must be set. This function is called **“Forbidden Band”** and is set once by the user under **“Advanced Settings”**. To perform this procedure correctly, assistance from a second person is recommended, so that one person can continuously observe the fan's behavior while the other sets the **“Forbidden Band”** value. Failure to set the forbidden band may lead to incorrect device operation. The **“Forbidden Band”** value can be considered correct when the pressure generated by the fan begins to lift the ventilation shaft flaps slightly. The **“Forbidden Band”** setting procedure must be repeated whenever the fan connected to the controller is changed.  
 
-### Okresowe przewietrzanie  
+### Periodic intermittent ventilation  
 
-Przewietrzanie jest funkcją wykonywaną przez sterownik, która zostaje uruchomiona w momencie, gdy temperatura w pomieszczeniu spadnie poniżej temperatury zadanej. Funkcja ta zapewnia zwierzętom cykliczny dopływ świeżego powietrza. Przewietrzanie definiują 3 parametry:
-- **„Czas pracy”** - określa na ile sekund ma zostać załączony wentylator,
-- **„Czas przerwy”** - określa czas w sekundach postoju wentylatora,
-- **„Poziom przewietrzania”** - określa moc wentylacji w „Czasie pracy”.  
+Intermittent ventilation is a function performed by the controller that is activated when the room temperature drops below the temperature setpoint. This function provides the animals with a periodic supply of fresh air. Intermittent ventilation is defined by 3 parameters:
+- **“Run Time”** - specifies the number of seconds for which the fan is to be switched on,
+- **“Pause Time”** - specifies the fan's idle time in seconds,
+- **“Intermittent Ventilation Level”** - specifies the ventilation power during the “Run Time”.  
 
-Przykładowe ustawienie **60s/120s** oznacza, że wentylator załączany jest na 60s z przerwą między kolejnymi włączeniami 120s. 
+An example setting of **60s/120s** means that the fan is switched on for 60s with a pause of 120s between successive activations. 
 
-Wszystkie wymienione wyżej parametry ustawiane są przez użytkownika. Należy pamiętać o kilku zasadach podczas ustawiania parametrów przewietrzania:
-- przewietrzenie włączane jest tylko i wyłącznie w sytuacji, gdy temperatura w chlewni spadnie poniżej temperatury zadanej,
-- podstawową funkcją przewietrzania jest zapewnienie zwierzętom cyklicznego dopływu świeżego powietrza, a nie utrzymywanie zadanej temperatury w pomieszczeniu,
-- zaleca się, aby przewietrzać pomieszczenia krótko, ale często,
-- należy wystrzegać się długich okresów przewietrzania, ponieważ może prowadzić to do zbyt dużych wahań temperatury,
-- bezwzględnie należy dostosowywać ustawiane parametry do zachowania zwierząt i warunków panujących zarówno wewnątrz jak i na zewnątrz pomieszczenia,
-- istnieje możliwość wyłączenia funkcji przewietrzania; w tej sytuacji zarówno w trybie procentowym jak i czasowym należy ustawić wartości zerowe w miejscu odpowiadającym wartości czasu przewietrzania, np.: 0/120s  
+All the parameters listed above are set by the user. Several rules must be observed when setting intermittent ventilation parameters:
+- intermittent ventilation is activated only when the temperature in the pig house drops below the temperature setpoint,
+- the primary function of intermittent ventilation is to provide the animals with a periodic supply of fresh air, not to maintain the room temperature setpoint,
+- it is recommended to ventilate rooms briefly but frequently,
+- long intermittent ventilation periods should be avoided, as they may cause excessive temperature fluctuations,
+- the parameters must be adjusted to the behavior of the animals and the conditions both inside and outside the room,
+- the intermittent ventilation function can be disabled; in this case, in both percentage and time modes, zero values must be set in the field corresponding to the intermittent ventilation time value, e.g.: 0/120s  
 
-### Płynna wentylacja  
+### Continuously variable ventilation  
 
-Sterownik płynnie reguluje wentylację od „Obroty minimalne” do **„Obroty maksymalne”** w zakresie od **„Temperatury zadanej”** do sumy **„Temperatur zadanej”** i **„Pasma wentylacji”**. Powyżej tego przedziału zostaje załączona 2 grupy wentylacji.  
+The controller continuously adjusts ventilation from “Minimum Speed” to **“Maximum Speed”** within the range from the **“Temperature Setpoint”** to the sum of the **“Temperature Setpoint”** and the **“Ventilation Band”**. Above this range, ventilation group 2 is activated.  
 
-![wentylacja](./img/wentylacjia.png)  
+![ventilation](./img/wentylacjia.png)  
 
-Powyżej tego przedziału zostaje załączona 2 grupy wentylacji, W przypadku, gdy temperatura w pomieszczeniu spadnie poniżej **„Temperatury zadanej”**, sterownik okresowo przewietrza pomieszczenie, przy dalszym spadku zostaje załączone dogrzewanie. Wszystko uzależnione jest od ustawień wprowadzonych przez użytkownika. W programie sterownika uwzględniono również współpracę z centralką alarmową, która może być aktywowana w sytuacji, gdy temperatura w chlewni odbiega od zadanych parametrów.  
+Above this range, ventilation group 2 is activated, If the room temperature drops below the **“Temperature Setpoint”**, the controller periodically ventilates the room; if the temperature drops further, supplementary heating is activated. Everything depends on the settings entered by the user. The controller software also supports operation with an alarm control panel, which can be activated when the temperature in the pig house deviates from the set parameters.  
 
-## Programowanie sterownika  
+## Controller programming  
 
-Sterownik posiada pewien zbiór domyślnych ustawień, które są wpisywane do nieulotnej pamięci w dwóch przypadkach:  
-1. Pierwsze uruchomienie urządzenia,  
-2. Błąd w pamięci danych.  
-W przypadku braku lub zaniku zasilania sterownik nie traci wcześniej wprowadzonych i zapisanych ustawień użytkownika.  
+The controller has a set of default settings that are written to non-volatile memory in two cases:  
+1. Initial device start-up,  
+2. Data memory error.  
+In the event of a lack or loss of power, the controller retains the user settings previously entered and saved.  
 
-### Korzystanie z menu  
+### Using the menu  
 
-Sterownik wyposażony jest w szereg funkcji, które pozwalają dostosować go do danej aplikacji. Funkcje te pogrupowane są w menu, do którego dostęp uzyskuje się przez naciśniecie jednego z klawiszy **(„ Strzałka Prawo”, „Strzałka Lewo”)**. Zmiany parametrów dokonuje się za pomocą klawiszy **„+” i „-”**, edytowany parametr zostanie automatycznie zapisany w nieulotnej pamięci po upływie **30s** od ostatnio wciśniętego przycisku.  
+The controller is equipped with a range of functions that allow it to be adapted to a given application. These functions are grouped in a menu accessed by pressing one of the **(“ Right Arrow”, “Left Arrow”)** keys. Parameters are changed using the **“+” and “-”** keys; the edited parameter is automatically saved in non-volatile memory **30s** after the last button press.  
 
-### Funkcje menu podstawowego  
+### Basic menu functions  
 
-| MENU                       | Opis | 
+| MENU                       | Description | 
 |:---:                       |:---|
-|Temperatura  <br />20,8°C W16% A  |**„Tryb informacyjny”** - normalnej pracy. Na wyświetlaczu znajduje się wskazanie aktualnej temperatury oraz gdy uruchomiony jest wentylator wartość poziomu wentylacji. Znaczenie dodatkowych symboli: A-oznacza załączony alarm, D  - oznacza załączone ogrzewanie, W - oznacza dodatkową wentylację| 
-|Temp. zadana  <br />20,0°C        |**„Temperatura zadana”** – wartość temperatury określającej początek procesu płynnej wentylacji.   | 
-|Przewietrzanie  <br />20s / 200s  |**„Przewietrzanie”** – ustawiane są dwa wartości czasów 1 „Czas pracy”, 2 „Czas przerwy” pomiędzy kolejnymi cyklicznymi załączeniami wentylacji.| 
-|Poziom przewie.  <br />20%        |**„Poziom przewietrzania”** - poziom wentylacji w czasie pracy przewietrzania   | 
-|Alarm minimum  <br />12,0°C       |**„Alarm minimum”** - określa bezwzględną minimalną temperaturę, przy której zostanie załączony alarm. 
-|Alarm maximum  <br />28,0°C       |**"Alarm maximum"** - określa bezwzględną maksymalną temperaturę, przy której zostanie załączony alarm.  | 
-|Dogrzewanie  <br />12,0°C         |W zależności od konfiguracji realizowane są funkcje: **„Dogrzewania”** - styk załącza się, jeśli temperatura spadnie poniżej wskazania. | 
-|Wentylacja 2 stopnia  <br />25,0  |**„Wentylacja 2 stopnia”** - styk załącza się gdy temperatura mierzona przekracza sumę temperatury zadanej i pasma wentylacji. | 
-|Pasmo wentylacji  <br />5,0°C     |**„Pasmo wentylacji”** - określa szybkość reakcji sterownika (zmiany poziomu wentylacji od minimum 1 do maksimum 1) na wzrastającą temperaturę. | 
-|Obroty minimalne  <br />1%        |**„Obrotów minimalnych”** – jest to stan, w którym urządzenie pozostaje przez czas nieokreślony, podając na wyjście napięcie o zadanej wartości. Służy do kalibracji urządzenia z silnikiem i mechanizmem klap.   | 
-|Obroty maxymalne  <br />100%      |**„Obrotów maksymalnych”** – jest to stan, w którym urządzenie pozostaje przez czas nieokreślony, podając na wyjście napięcie o zadanej wartości. Służy do ograniczenia mocy przeznaczanej na wentylację| 
+|Temperature  <br />20,8°C W16% A  |**“Information Mode”** - normal operation. The display shows the current temperature and, when the fan is running, the ventilation level. Meaning of additional symbols: A-indicates an active alarm, D  - indicates active heating, W - indicates additional ventilation| 
+|Temp. setpoint  <br />20,0°C        |**“Temperature Setpoint”** – the temperature value defining the start of the continuously variable ventilation process.   | 
+|Intermittent ventilation  <br />20s / 200s  |**“Intermittent Ventilation”** – two time values are set: 1 “Run Time”, 2 “Pause Time” between successive periodic ventilation activations.| 
+|Intermittent vent. level  <br />20%        |**“Intermittent Ventilation Level”** - the ventilation level during intermittent ventilation operation   | 
+|Minimum alarm  <br />12,0°C       |**“Minimum Alarm”** - specifies the absolute minimum temperature at which the alarm is activated. 
+|Maximum alarm  <br />28,0°C       |**"Maximum Alarm"** - specifies the absolute maximum temperature at which the alarm is activated.  | 
+|Supplementary heating  <br />12,0°C         |Depending on the configuration, the following functions are performed: **“Supplementary Heating”** - the contact closes if the temperature drops below the indicated value. | 
+|Stage 2 ventilation  <br />25,0  |**“Stage 2 Ventilation”** - the contact closes when the measured temperature exceeds the sum of the temperature setpoint and the ventilation band. | 
+|Ventilation band  <br />5,0°C     |**“Ventilation Band”** - specifies the controller's response rate (changes in the ventilation level from minimum 1 to maximum 1) to rising temperature. | 
+|Minimum speed  <br />1%        |**“Minimum Speed”** – a state in which the device remains indefinitely, supplying a voltage of the set value to the output. Used to calibrate the device with the motor and flap mechanism.   | 
+|Maximum speed  <br />100%      |**“Maximum Speed”** – a state in which the device remains indefinitely, supplying a voltage of the set value to the output. Used to limit the power allocated to ventilation| 
 
-### Menu zaawansowanego  
+### Advanced menu  
 
-Menu zaawansowane przeznaczone jest głównie dla instalatorów, pozwala dopasować sterownik do instalacji oraz wentylatora. Przejście do ustawień zaawansowanych dokonuje się przez przyciśniecie i przytrzymanie dwóch klawiszy menu, przez czas około 10s.  
+The advanced menu is intended primarily for installers and allows the controller to be adapted to the installation and fan. Advanced settings are accessed by pressing and holding the two menu keys for approximately 10s.  
 
-| MENU                                 | Opis| 
+| MENU                                 | Description| 
 |:---:                                 |:--- |
-|Brak ustawien  <br />zaawansowanych   |Komunikat ten świadczy to że sterownik nie został skalibrowany z wentylacją i jego działanie może być nieprawidłowe Konieczne jest wejście do menu zaawansowanego i przeprowadzenie ustawień „Pasma zabronionego”.|
-|Ustawienia <br />Zaawansowane         |Sygnalizacja wejścia w ustawienia zaawansowane. | 
-|Oprogramowanie Ver:  <br />1907       |Informacja o wersji oprogramowania.| 
-|Pasmo zabronione  <br />1000 us       |Kalibracja minimalnych obrotów wentylatorów dołączonych bezpośrednio do sterownika, parametr ten odpowiada poziomowi wentylacji „1%”|  
-|Funkcja stykow  <br />Dogrzewanie     |Wybór funkcji styków:  <br />• Dogrzewanie (domyślne)<br />• 2 grupa wentylacji | 
-|Przewietrzanie  <br />Czasowe         |Wybór rodzaju przewietrzania: <br />• Czasowe (domyślne) <br />• Procentowe| 
-|Zakres V1  <br />od 2,0 do 10,0       |Regulacja zakresu zmian napięcia na wyjściu V1 0÷10V. Nastawy dotyczą minimalnej i maksymalnej wartości napięcia. Regulację stosuje się w celu dopasowania sterownika do rozszerzenia mocy lub falownika.| 
-|Inwersja V1  <br />Nie                |Aktywacja powoduje odwrócenie charakterystyki wyjścia V1. Napięcie będzie spadało wraz ze wzrostem poziomu wentylacji w zadanym przez min.-max. przedziale. Sygnał na wyjściu V1 będzie typu 10-0V.| 
-|Odciecie V1  <br />Nie                |Aktywacja powoduje podawaniem na wyjście  V1 0-10V poziomu 0V a nie ustawionej wartości minimalnej, gdy poziom wentylacji wyniesie 0%.| 
-|Zakres V2  <br />od 2,0 do 10,0       |Regulacja zakresu zmian napięcia na wyjściu V2 0÷10V. Nastawy dotyczą minimalnej i maksymalnej wartości napięcia. Regulację stosuje się w celu kalibracji układu klap.|
-|Inwersja V2  <br />Nie      	       |Aktywacja powoduje odwrócenie charakterystyki wyjścia V2. Napięcie będzie spadało wraz ze wzrostem poziomu wentylacji w zadanym przez min.-max. przedziale. Sygnał na wyjściu V2 będzie typu 10-0V.|
-|Kalibracja temp  <br />21,0°C -> 22,0°C|Kalibracja czujnika temperatury umożliwia przeskalowanie odczytanej wartości.|
-|Softstart  <br />50%      	           |Określenie poziomu wentylacji przy każdym starcie wentylatora, na wskazaną wartość rozpędzany jest wentylator po czym przechodzi do zadanego poziomu.| 
-|Jezyk  <br />Polski    	           |Wybór języka menu: polski, angielski, niemiecki, rosyjski|
-|Wyjscie                               |Wyjście z menu zaawansowanego za pomocą klawisza „+”, wprowadzone zmiany zostaną zapisane w nieulotnej pamięci.|
+|No advanced  <br />settings   |This message indicates that the controller has not been calibrated with the ventilation system and may operate incorrectly. It is necessary to enter the advanced menu and configure the “Forbidden Band” settings.|
+|Advanced <br />Settings         |Indication of entry into advanced settings. | 
+|Software Ver:  <br />1907       |Software version information.| 
+|Forbidden band  <br />1000 us       |Calibration of the minimum speed of fans connected directly to the controller; this parameter corresponds to ventilation level “1%”|  
+|Contact function  <br />Supplementary heating     |Selection of contact function:  <br />• Supplementary heating (default)<br />• Group 2 ventilation | 
+|Intermittent ventilation  <br />Time-based         |Selection of intermittent ventilation type: <br />• Time-based (default) <br />• Percentage-based| 
+|Range V1  <br />from 2,0 to 10,0       |Adjustment of the voltage variation range at output V1 0÷10V. The settings apply to the minimum and maximum voltage values. The adjustment is used to adapt the controller to a power expansion module or frequency inverter.| 
+|Inversion V1  <br />No                |Activation reverses the characteristic of output V1. The voltage decreases as the ventilation level increases within the range defined by min.-max. The signal at output V1 will be of type 10-0V.| 
+|Cutoff V1  <br />No                |Activation causes output  V1 0-10V to provide level 0V instead of the set minimum value when the ventilation level is 0%.| 
+|Range V2  <br />from 2,0 to 10,0       |Adjustment of the voltage variation range at output V2 0÷10V. The settings apply to the minimum and maximum voltage values. The adjustment is used to calibrate the flap system.|
+|Inversion V2  <br />No      	       |Activation reverses the characteristic of output V2. The voltage decreases as the ventilation level increases within the range defined by min.-max. The signal at output V2 will be of type 10-0V.|
+|Temp. calibration  <br />21,0°C -> 22,0°C|Temperature sensor calibration allows the measured value to be rescaled.|
+|Soft start  <br />50%      	           |Specifies the ventilation level at each fan start; the fan accelerates to the indicated value, then transitions to the set level.| 
+|Language  <br />Polish    	           |Menu language selection: Polish, English, German, Russian|
+|Exit                               |Exit the advanced menu using the “+” key; the changes made will be saved in non-volatile memory.|
 
-### Komunikaty błędów i ostrzeżeń  
+### Error and warning messages  
 
-Komunikaty błędów służą do poinformowania użytkownika o nieprawidłowościach w pracy sterownika. Poniżej zamieszczone są możliwe komunikaty błędów.  
+Error messages inform the user of irregularities in controller operation. Possible error messages are listed below.  
 
-|BŁĄD                                    | OPIS |
+|ERROR                                    | DESCRIPTION |
 |:---:                                   |:--- |
-|Alarm  <br />Przeciazeniowy 	         |Alarm przeciążeniowy, aktywowany przy 75°C. Urządzenie wstrzymuje pracę do czasu ostygnięcia.|
-|CZUJNIK ROZWARTY!  <br />Sprawdz czujnik|Czujnik rozwarty, sygnalizuje uszkodzenie czujnika lub przewodu połączeniowego.|
-|CZUJNIK ZWARTY!  <br />Sprawdz czujnik  |Czujnik zwarty, sygnalizuje uszkodzenie czujnika lub przewodu połączeniowego.|
-|Zanik  <br />Zasilania                  |Zanik zasilani, zbyt niskiej wartości napięcie zasilania, zła częstotliwość lub mocno odkształcone napięcie zasilania.| 
+|Overload  <br />Alarm 	         |Overload alarm, activated at 75°C. The device suspends operation until it cools down.|
+|SENSOR OPEN CIRCUIT!  <br />Check sensor|Open-circuit sensor; indicates damage to the sensor or connection cable.|
+|SENSOR SHORT CIRCUIT!  <br />Check sensor  |Short-circuit sensor; indicates damage to the sensor or connection cable.|
+|Power  <br />Failure                  |Power failure, supply voltage too low, incorrect frequency or severely distorted supply voltage.| 
 
-## Uwagi i ostrzeżenia  
+## Notes and warnings  
 
 :::danger 
-W trakcie instalowania urządzenia dopływ energii elektrycznej należy bezwzględnie odłączyć, ponieważ napięcie na niektórych podzespołach jest niebezpieczne dla życia i zdrowia. Zaleca się powierzenie instalacji wykwalifikowanej osobie.
+The electrical power supply must be disconnected when installing the device, as the voltage present on some components poses a danger to life and health. It is recommended that installation be entrusted to a qualified person.
 :::
 
-- Aby uniknąć problemów z eksploatacją urządzenia wymagane jest zapoznanie się z instrukcją przed przystąpieniem do instalacji oraz użytkowania.  
-- Nie wolno ingerować w konstrukcję, bądź przeprowadzać samodzielnych napraw. Dotyczy to w szczególności dokonywania zmian elementów i podzespołów.  
-- Czynności konserwacyjne bądź serwisowe powinien wykonywać uprawniony personel (instalator bądź serwis firmowy). W budynkach inwentarskich z wentylacją wymuszoną wymagany jest system alarmowy. Producent urządzenia nie odpowiada za szkody spowodowane nieprawidłową instalacją, nieprawidłowym zaprogramowaniem funkcji, następstwami zdarzeń losowych oraz zewnętrznymi czynnikami.  
-- Sterownik wentylacji wymaga ustawienia parametrów zgodnie z warunkami panującymi w pomieszczeniu hodowlanym. Ustawienia te są sprawą indywidualną zależną od decyzji hodowcy. Producent urządzenia zastrzega sobie prawo do zmian w konstrukcji urządzenia oraz oprogramowania.  
+- To avoid problems with device operation, the manual must be read before installation and use.  
+- The construction must not be modified, nor may repairs be performed independently. This applies in particular to modifications of parts and components.  
+- Maintenance or servicing must be performed by authorized personnel (an installer or the manufacturer's service department). An alarm system is required in livestock buildings with forced ventilation. The device manufacturer is not liable for damage caused by incorrect installation, incorrect programming of functions, the consequences of unforeseen events or external factors.  
+- The ventilation controller requires its parameters to be set in accordance with the conditions in the livestock room. These settings are individual and depend on the livestock farmer's decisions. The device manufacturer reserves the right to make changes to the device construction and software.  
 
 
 :::caution
-![alt](./img/trash.svg) Po zakończeniu użytkowania produktu nie należy wyrzucać go razem z niesortowanymi odpadami komunalnymi, lecz zutylizować w sposób zgodny z obowiązującymi przepisami (dyrektywy WEEE Unii Europejskiej 2012/19/UE). <br />Produkt został wykonany zgodnie z wymogami RoHS (dyrektywą Unii Europejskiej 2011/65/UE).
+![alt](./img/trash.svg) At the end of the product's service life, do not dispose of it with unsorted municipal waste; instead, dispose of it in accordance with applicable regulations (European Union WEEE Directive 2012/19/EU). <br />The product has been manufactured in accordance with RoHS requirements (European Union Directive 2011/65/EU).
 :::
 
 <!-- \newpage -->
-## Dane techniczne sterownika  
+## Controller technical specifications  
 
-|Parametr                        |	OPIS      |
+|Parameter                        |	DESCRIPTION      |
 |:-----------                    |:---------- |
-|Napięcie zasilania|	230VAC 50Hz|
-|Maksymalny prąd wyjścia płynnej regulacji FAN|	6A|
-|Zakres regulacji napięcia wyjściowego|	70V ÷ (Uz-5)V|
-|Maksymalny prąd wyjścia (styku) ALARM|	3A|
-|Maksymalny prąd wyjścia (styku) FUNCTION|	3A|
-|Zakres temperatury pracy|	-20 +40oC|
-|Zakres pomiarowy temperatury|	0 +50°C|
-|Rozdzielczość pomiaru temperatur|	0,1°C|
-|Wykrywanie uszkodzeń czujnika temperatury|	TAK|
-|Maksymalna liczba czujników analogowych|	1|
-|Dokładność pomiaru temperatury – wejście analogowe|	1°C|
-|Zależność pomiaru od rezystancji przewodów – wejście analogowe|	15,8Ω/°C|
-|Wytrzymałość na przepięcia (max E)|	210J|
-|Zabezpieczenie przeciążeniowe|	75°C|
-|Wymiary urządzenia|	20x15x8 [cm]|
-|Klasa szczelności obudowy|	IP56|
+|Supply voltage|	230VAC 50Hz|
+|Maximum current of the FAN continuously variable control output|	6A|
+|Output voltage control range|	70V ÷ (Uz-5)V|
+|Maximum ALARM output (contact) current|	3A|
+|Maximum FUNCTION output (contact) current|	3A|
+|Operating temperature range|	-20 +40oC|
+|Temperature measurement range|	0 +50°C|
+|Temperature measurement resolution|	0,1°C|
+|Temperature sensor fault detection|	YES|
+|Maximum number of analog sensors|	1|
+|Temperature measurement accuracy – analog input|	1°C|
+|Measurement dependence on cable resistance – analog input|	15,8Ω/°C|
+|Surge withstand capability (max E)|	210J|
+|Overload protection|	75°C|
+|Device dimensions|	20x15x8 [cm]|
+|Enclosure ingress protection rating|	IP56|
   
 
 
 :::info
-Sterownik SPEED CONTROL SERVOMOTOR zawiera w zestawie:
-- 1 czujnik temperatury + akcesoria,
-- 4 kołki rozporowe,
-- 1 bezpiecznik 10A.
+The SPEED CONTROL SERVOMOTOR controller package includes:
+- 1 temperature sensor + accessories,
+- 4 wall plugs,
+- 1 fuse 10A.
 :::
 
